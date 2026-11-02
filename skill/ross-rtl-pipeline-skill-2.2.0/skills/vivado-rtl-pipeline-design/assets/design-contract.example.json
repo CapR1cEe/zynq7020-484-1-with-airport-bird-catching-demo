@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "function": "four signed 8x8 products per accepted token, exact 18-bit sum",
+  "target_part": null,
+  "target_frequency_mhz": 200,
+  "required_ii_cycles": 1,
+  "maximum_latency_cycles": null,
+  "interface": "single-clock ready/valid, tag carried with data, reset flushes pending tokens",
+  "numerics": {
+    "input_signed": true,
+    "input_width": 8,
+    "output_width": 18,
+    "rounding": "none",
+    "overflow": "none in exact sum width"
+  },
+  "resource_caps": {
+    "DSP": 4,
+    "BRAM_18K": 0
+  },
+  "candidates": [
+    {
+      "name": "four parallel pipelined multipliers",
+      "operators": [
+        {
+          "name": "signed multiply",
+          "operations_per_token": 4,
+          "instances": 4,
+          "operator_ii_cycles": 1,
+          "estimated_resources_per_instance": {
+            "DSP": 1
+          }
+        }
+      ],
+      "recurrences": [],
+      "transfers": [
+        {
+          "name": "input payload, tag excluded",
+          "bytes_per_token": 8,
+          "effective_bytes_per_cycle": 8
+        }
+      ],
+      "estimated_fixed_resources": {
+        "BRAM_18K": 0
+      }
+    },
+    {
+      "name": "two reused multipliers, cannot meet requested II=1",
+      "operators": [
+        {
+          "name": "shared signed multiply pool",
+          "operations_per_token": 4,
+          "instances": 2,
+          "operator_ii_cycles": 1,
+          "estimated_resources_per_instance": {
+            "DSP": 1
+          }
+        }
+      ],
+      "recurrences": [],
+      "transfers": [
+        {
+          "name": "input payload, tag excluded",
+          "bytes_per_token": 8,
+          "effective_bytes_per_cycle": 8
+        }
+      ],
+      "estimated_fixed_resources": {
+        "BRAM_18K": 0
+      }
+    }
+  ],
+  "assumptions": [
+    "DSP count is an illustrative mapping estimate; the provided RTL does not force DSP inference.",
+    "LUT/FF/control and tag bandwidth are not estimated here; extend the ledger for a real design.",
+    "200 MHz is a planning input only; set the actual part, timing constraints and latency limit before implementation."
+  ],
+  "rtl_style": {
+    "preserve_existing_annotations": true,
+    "comment_language": "Follow project conventions; retain existing Chinese notes",
+    "structure": "Semantic stage names and visible registers; named generate only for repeated topology",
+    "annotate": [
+      "numeric range and casts",
+      "handshake and metadata alignment",
+      "reset/flush semantics",
+      "resource assumptions and remaining timing paths"
+    ]
+  }
+}

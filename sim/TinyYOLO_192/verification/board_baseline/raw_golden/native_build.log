@@ -1,0 +1,5 @@
+make: Entering directory '/dev/shm/ty192_validation_20261025_run01/native_sources/linux'
+make: Warning: File 'Makefile' has modification time 337682137 s in the future
+gcc -std=c11 -D_POSIX_C_SOURCE=200809L -DTINYYOLO_LINUX -O3  -ffp-contract=off -fno-strict-aliasing -Wall -Wextra -Werror -Wno-misleading-indentation ../software/source/integrated_network.c -o tinyyolo_linux -lm
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Leaving directory '/dev/shm/ty192_validation_20261025_run01/native_sources/linux'

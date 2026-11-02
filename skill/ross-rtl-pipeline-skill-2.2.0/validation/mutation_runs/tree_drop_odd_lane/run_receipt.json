@@ -1,0 +1,9 @@
+{
+  "mode": "simulate",
+  "backend": "xsim",
+  "results": [],
+  "implementation_frequency": "not_measured_by_this_runner",
+  "tool_version": "Vivado Simulator v2025.2",
+  "status": "failed",
+  "error": "tree: simulation ended without the bench PASS receipt"
+}

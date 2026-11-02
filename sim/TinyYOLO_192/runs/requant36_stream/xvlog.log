@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/runs/requant36_stream/tinyyolo_dsp_mul.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dsp_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/runs/requant36_stream/tinyyolo_requant36_stream.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_requant36_stream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/runs/requant36_stream/tb_requant36_stream.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_requant36_stream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/AMDDesigntools/2025.2/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

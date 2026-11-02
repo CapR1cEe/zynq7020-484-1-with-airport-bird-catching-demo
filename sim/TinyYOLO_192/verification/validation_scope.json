@@ -1,0 +1,15 @@
+{
+  "status": "USER_SELECTED_VALIDATION_SCOPE",
+  "mode": "clockfix_package_before_board_reconnect",
+  "clock_mhz": 240,
+  "timing_closure_required": true,
+  "minimum_setup_margin_target_ns": 0.0,
+  "cascaded_bufg_allowed": false,
+  "inference_board_validation_required": true,
+  "board_validation_required_before_package": false,
+  "final_firmware_board_tested": false,
+  "camera_deferred_by_user": true,
+  "camera_tested_on_final_firmware": false,
+  "physical_target_tracking_accepted": false,
+  "physical_servo_tested": false
+}

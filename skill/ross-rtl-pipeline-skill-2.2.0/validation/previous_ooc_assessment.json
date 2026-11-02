@@ -1,0 +1,40 @@
+{
+  "status": "timing_fail",
+  "context": "ooc",
+  "signoff": false,
+  "metrics": {
+    "wns_ns": 0.041,
+    "tns_ns": 0.0,
+    "whs_ns": -0.48,
+    "ths_ns": -4.932,
+    "wpws_ns": 2.0,
+    "tpws_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "hold_failing_endpoints": 11,
+    "pulse_failing_endpoints": 0
+  },
+  "check_timing": {
+    "no_clock": 0,
+    "constant_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 0,
+    "no_output_delay": 0,
+    "multiple_clock": 0,
+    "loops": 0,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0
+  },
+  "failures": [
+    "whs_ns is negative: -0.48",
+    "ths_ns is negative: -4.932",
+    "hold_failing_endpoints: 11"
+  ],
+  "incomplete_reasons": [
+    "Integrated clock/IO context not established"
+  ],
+  "remaining_review": [
+    "Clock/CDC relationships, DRC, methodology, exceptions and constraint intent",
+    "Physical IO/clock context, path details and application/board behavior"
+  ],
+  "design_state": "Routed"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_XSA_BIT_CONFIGURATION_IDENTITY",
+  "xsa_member": "final_192.bit",
+  "configuration_bytes": 4045564,
+  "configuration_sha256": "5eea330a8a493d78bce11759601be53372ea6796e642bdeb10cadcb925fb3c04",
+  "supplied_bit_sha256": "2d8bd35bada1e084579a9aa1fcf1d0b1d800fa9c757ddf1ea4d09db588ee46de",
+  "embedded_bit_sha256": "a19aa5bedda30f1da1267f6eca0b6066a32845bdc959d102483e939ff06e70a9",
+  "full_files_identical": false,
+  "supplied_headers": {
+    "a": "Tiny_Yolo_wrapper;UserID=0XFFFFFFFF;Version=2025.2;SW_CRC=34fbbc07",
+    "b": "7z020clg484",
+    "c": "2026/10/28",
+    "d": "14:33:26"
+  },
+  "embedded_headers": {
+    "a": "Tiny_Yolo_wrapper;UserID=0XFFFFFFFF;Version=2025.2;SW_CRC=34fbbc07",
+    "b": "7z020clg484",
+    "c": "2026/10/28",
+    "d": "14:30:57"
+  },
+  "allowed_header_differences": [
+    "c: generation date",
+    "d: generation time"
+  ]
+}

@@ -1,0 +1,22 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesigntools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe -L unisims_ver -L secureip tb_head_config glbl -s tb_head_config 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'terms' remains unconnected for this instance [W:/verification/control_guards/tb_head_config.sv:14]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.tinyyolo_le33
+Compiling module work.tinyyolo_shift56_jam
+Compiling module work.tinyyolo_fp64_add
+Compiling module work.tinyyolo_shift56_jam(RESULT_WIDT...
+Compiling module work.tinyyolo_fp64_to_fp32
+Compiling module work.tinyyolo_counter32
+Compiling module work.tinyyolo_head_exact
+Compiling module work.tb_head_config
+Compiling module work.glbl
+Built simulation snapshot tb_head_config

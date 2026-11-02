@@ -1,0 +1,150 @@
+{
+  "status": "PREPARED_AUDITED_192_BOARD_KIT",
+  "candidate_root": "<workspace>/candidate_192",
+  "candidate_manifest_sha256": "d61e51d1c2f5f18d8c636a01cd6e60b7d2dda86ada5a9c170e5965583c2f76f1",
+  "candidate_manifest_files": 71,
+  "input_size": 192,
+  "positions": 180,
+  "hardware": {
+    "build_id": "0x47325502",
+    "pl_MHz": 240,
+    "fclk_MHz": 100,
+    "bit_sha256": "f29fa8bd3bcae4a02d3a9eee387d4a9dc7f4f55519128c121820bba8b65aa9d7",
+    "xsa_sha256": "c4c5af2a9c278cc1db8ce310fae340cd8fc50f5d8e2980c283ceac4eee3668d0"
+  },
+  "offline_implementation": {
+    "status": "PASS_OFFLINE_IMPLEMENTED",
+    "build_id": "0x47325502",
+    "clock_MHz": 240,
+    "setup_slack_ns": 0.017,
+    "hold_slack_ns": 0.006,
+    "pulse_width_slack_ns": 0.833,
+    "setup_failing_endpoints": 0,
+    "hold_failing_endpoints": 0,
+    "pulse_failing_endpoints": 0,
+    "timing_checks": 12,
+    "timing_check_violations": 0,
+    "serious_DRC": 0,
+    "serious_methodology": 0,
+    "fully_routed": true,
+    "route_errors": 0,
+    "blackboxes": 0,
+    "hardware_access": false,
+    "board_revalidated": false
+  },
+  "input_check": {
+    "status": "PASS_FLOAT32_INPUT_CONTRACT_ONLY",
+    "board_tested": false,
+    "input_contract": {
+      "dtype": "float32_le",
+      "layout": "CHW",
+      "shape": [
+        3,
+        192,
+        192
+      ],
+      "elements": 110592,
+      "bytes_per_element": 4,
+      "normalized_range": [
+        0.0,
+        1.0
+      ],
+      "quantization": {
+        "dtype": "int8",
+        "scale": 0.003921568859368563,
+        "zero_point": -128,
+        "rounding": "nearest_even"
+      }
+    },
+    "frames": {
+      "bird": {
+        "bytes": 442368,
+        "sha256": "e3b40a13985360b9aa152b3b12635d4cdf6ec2e2b47385730a4af04896b3a194",
+        "quantized_bytes": 110592,
+        "quantized_sha256": "44e29ecc95bbd76f9ba16e71042643bbe8864a87f028ce7baa17ed2746c79412"
+      },
+      "random": {
+        "bytes": 442368,
+        "sha256": "769a1806c6b4f5b78aca82a0b4e9b11b13770ec728972c513bc8b0e471e84d48",
+        "quantized_bytes": 110592,
+        "quantized_sha256": "f1259e8282efb40ed916eec6899bdc447095c33767cdb743ecd9abd488d8721d"
+      }
+    }
+  },
+  "expected_sha256": "c53209e8a4813d614583b70b76de525fdec4f0612e59cb9ab2b274a5e1d3740f",
+  "archive": {
+    "path": "<workspace>/board_192_kit.tgz",
+    "bytes": 324453,
+    "sha256": "3194c004a30a1fbc71cc237e11554fb792ba1b37b3444d21ff77eda368339409"
+  },
+  "reused_kernel_module": {
+    "bytes": 15364,
+    "sha256": "1071a744db6f2c40bb0d201dc876fab7c04c8cbed7f0c1b5ed8b9b2edf64a82d"
+  },
+  "parameter_transport_delta": {
+    "baseline_sha256": "b026cb0991a719b784ea6ae5630b5ccf2b97a45c415f228038a8854590ef3c81",
+    "target_sha256": "dc66425157588a3de922edcd26454e72f80da2047edf0c5dcbeb0c552a04d4d0",
+    "prefix_bytes": 12210842,
+    "target_bytes": 12213056,
+    "tail_bytes": 2214
+  },
+  "reused_native_files": {
+    "tinyyolo_linux": {
+      "bytes": 33368,
+      "sha256": "600a145c356a9d082df5f2b08eacde28f5303d5d5d0c4f158457a018a0889ed3"
+    },
+    "tinyyolo_dma.ko": {
+      "bytes": 15364,
+      "sha256": "1071a744db6f2c40bb0d201dc876fab7c04c8cbed7f0c1b5ed8b9b2edf64a82d"
+    },
+    "camera_capture": {
+      "bytes": 13188,
+      "sha256": "304c9fdf6d80d3b45167199f38b9f3353afa59d09caf1632caa53ba205d08b86"
+    },
+    "camera_stream": {
+      "bytes": 17836,
+      "sha256": "6d2c711a99a4e606cc7ea0944f9656ebcc3c6e17257e3854d9ff6e821fdc7850"
+    },
+    "libtinyyolo_tracker.so": {
+      "bytes": 12128,
+      "sha256": "5d0ffd06448f9a0b120e609277e7efd5e9f6257247068b1aa724344e80dfc243"
+    }
+  },
+  "source_files": {
+    "bird.bin": "e3b40a13985360b9aa152b3b12635d4cdf6ec2e2b47385730a4af04896b3a194",
+    "board_input_contract.py": "39efc666365601df4bf3b69055369d711bbdbed0a053ef761be82866554f4e57",
+    "build_native.sh": "d2762a1808db79ca690664b7b213f05dfb996666d00228489cb1c1f430c88eea",
+    "camera_infer.py": "a9ffa8081e85a066bb2bf9ec98b0f630f5795c631abc15873c07a23729c239c4",
+    "camera_session.py": "f92bd07abc61d99a03d562d553844e0b5404feb8413084ec04c09db7c370d5a5",
+    "expected.json": "c53209e8a4813d614583b70b76de525fdec4f0612e59cb9ab2b274a5e1d3740f",
+    "linux_board_validate.py": "fbfaaf5fe31f2f191a14d87a4ad6dd2e33edbaf2433c4d151d7441f24da55a1d",
+    "model_config.json": "66fcbbb2e9a1d5d591bb9be4f7609efecdd7c3b8107e9b73bab7971395e0e831",
+    "pan_tilt.json": "d9b5c12023d7617a4634a05e0de0fecb5b191bebc9ba21d6a51d5b172b9dfba3",
+    "parameters.bin": "dc66425157588a3de922edcd26454e72f80da2047edf0c5dcbeb0c552a04d4d0",
+    "parameters.delta.json": "272a453534c11c1fb1f060730e5a1a8c86a57d454509c2247ffe905919e1f989",
+    "parameters.tail.bin": "90f574070b4648d4ca6ae722dffcc3a6a45014d27ee3b4e42816274efc52ca65",
+    "random.bin": "769a1806c6b4f5b78aca82a0b4e9b11b13770ec728972c513bc8b0e471e84d48",
+    "reconstruct_parameters.py": "00978536920d30d6009dc82068e0f624e78db63f847f29fd0dabc6b65972b19f",
+    "target_control.py": "aaef05aa3801a68e7dedd0952f376ea794f64a5269e32168b77ea813892b0dfe",
+    "tinyyolo_session.py": "b36a88a38f717eb18e0320031c7850959966182dea76c2d1380e7b35b2635c4a",
+    "native_sources/linux/camera_capture.c": "239d658c0028595a1dda88294da4a435e8761af35c6b5943cf21e632e3886cfa",
+    "native_sources/linux/camera_stream.c": "db671db7b35e2e302695ef4206d4310c256c9abb6d0a1f47643cca299f6dd44d",
+    "native_sources/linux/Makefile": "2a06bc72e9efeb8cee7a7acab2317ad8c07ad7256ac08b1ed753d1930568e47d",
+    "native_sources/linux/runtime_main.inc": "ca5454ac607e0fbfd23382cde94c496e9c0065fc899858a1332d18d69017be20",
+    "native_sources/linux/runtime_pl.inc": "a1971bb45d6c96f546b685bb9a8b340b4c7806e368026ba4fc4d5d66c8144e2c",
+    "native_sources/linux/tinyyolo_dma.c": "5b7d087640d2958bf8ec0eadbb950443c08bde844823d2dd814d0c05dc1e90f5",
+    "native_sources/linux/tinyyolo_hot_cache.h": "8103c7cc80b9c365b687b20ff684c6a08bc9b8db563b528010016392649d3b23",
+    "native_sources/linux/tinyyolo_input.h": "25e82958fdef77d3e7b17474702f4acb156e1fc9ef9677a1db13c2422ff4f1c9",
+    "native_sources/linux/tinyyolo_uapi.h": "3ec6c0f64dae6fc572b78007df85786012f7880f6eea096458f03e34e18f2711",
+    "native_sources/linux/tinyyolo_validate.h": "9fc236a3a679ca5ebd13152a33060c25195143856c55ec15a12e033847d03950",
+    "native_sources/linux/tracker_core.c": "9875c7e764038cefeb8f8918022f1a666adc0488d5affa40a3811fde515dbb3a",
+    "native_sources/software/source/g225_pl_driver.inc": "c160c161a41d4a6b68ca5a4db2317cfe889763e36a5e40a33c78c6e88ffabdd1",
+    "native_sources/software/source/g230_head_driver.inc": "f2dd5c7f2c5deed925774824582b9aa064dac262fc15bcc87b4ddafd8c7fbeab",
+    "native_sources/software/source/integrated_network.c": "e98e99b9e10beec112c38facf6fc85042919648dfad1a92325973b8cb24e85cb",
+    "native_sources/software/source/network_config.h": "965e05883527ff745e8e89b643b16bd3be4d61d9596cc5df31003fd54efbd3a6",
+    "native_sources/software/source/tinyyolo_integer_ops.h": "5c3fcbf6a18645d4cd434762f2e027cab74197a7e8e00ba290b6109182f0e013"
+  },
+  "board_tested": false,
+  "baseline_parameters_sha256": "b026cb0991a719b784ea6ae5630b5ccf2b97a45c415f228038a8854590ef3c81",
+  "note": "Candidate and baseline share build ID; exact bitstream SHA256 and graph geometry distinguish them."
+}

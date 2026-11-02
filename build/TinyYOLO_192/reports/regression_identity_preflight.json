@@ -1,0 +1,32 @@
+{
+  "status": "PASS_CURRENT_SOURCE_REGRESSION_IDENTITIES",
+  "checks": [
+    {
+      "receipt": "runs/split_dot_pairs_20261028_125848/result.json",
+      "status": "PASS_SPLIT_DOT_PAIRS",
+      "source_identity": "PASS"
+    },
+    {
+      "receipt": "runs/clean_clock_20261028_hp0/result.json",
+      "status": "PASS_QUALIFIED_DSP_INTEGRATION",
+      "source_identity": "PASS"
+    },
+    {
+      "receipt": "runs/requant36_stream/result.json",
+      "status": "PASS_REQUANT36_STREAM",
+      "source_identity": "PASS"
+    },
+    {
+      "receipt": "verification/tracking_final_run04/result.json",
+      "status": "PASS_OFFLINE_TRACKING_CAMERA_PIPELINE",
+      "source_identity": "PASS"
+    },
+    {
+      "receipt": "verification/arm_tracking03/result.json",
+      "status": "PASS_OFFLINE_TRACKING_CAMERA_PIPELINE",
+      "source_identity": "PASS"
+    }
+  ],
+  "simulations_repeated": false,
+  "board_tested": false
+}

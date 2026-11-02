@@ -1,0 +1,25 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Oct 28 13:58:28 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/head/xsim_script.tcl
+# xsim {head} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+HEAD_TOP_CASE_PASS head=17 frame=bird outputs=9 zero_skipped=391
+HEAD_TOP_CASE_PASS head=17 frame=random outputs=9 zero_skipped=520
+HEAD_TOP_CASE_PASS head=17 frame=bird_repeat outputs=9 zero_skipped=391
+HEAD_TOP_CASE_PASS head=21 frame=bird outputs=36 zero_skipped=1502
+HEAD_TOP_CASE_PASS head=21 frame=random outputs=36 zero_skipped=1631
+HEAD_TOP_CASE_PASS head=21 frame=bird_repeat outputs=36 zero_skipped=1502
+HEAD_TOP_PASS cases=6 outputs=135 all_bits_equal=1
+$finish called at time : 6165492530 ps : File "V:/runs/clean_clock_20261028_hp0/head/tb_head_top.sv" Line 159
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:03:41 . Memory (MB): peak = 232.531 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 28228 KB (Peak: 28228 KB), Simulation CPU Usage: 219452 ms
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 14:02:11 2026...

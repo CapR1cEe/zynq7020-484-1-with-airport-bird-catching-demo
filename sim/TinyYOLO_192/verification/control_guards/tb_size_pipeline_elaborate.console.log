@@ -1,0 +1,42 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesigntools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe -L unisims_ver -L secureip tb_size_pipeline glbl -s tb_size_pipeline 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 's_bresp' remains unconnected for this instance [W:/verification/control_guards/tb_size_pipeline.sv:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.tinyyolo_le33
+Compiling module work.tinyyolo_shift56_jam
+Compiling module work.tinyyolo_fp64_add
+Compiling module work.tinyyolo_shift56_jam(RESULT_WIDT...
+Compiling module work.tinyyolo_fp64_to_fp32
+Compiling module work.tinyyolo_counter32
+Compiling module work.tinyyolo_head_exact
+Compiling module work.tinyyolo_counter64
+Compiling module work.tinyyolo_lut_mul(AW=9,BW=10)
+Compiling module work.tinyyolo_lut_mul
+Compiling module work.tinyyolo_lut_mul(AW=11,BW=9)
+Compiling module work.tinyyolo_lut_mul(AW=6,BW=9)
+Compiling module unisims_ver.DSP48E1(ADREG=0,ALUMODEREG=0,CAR...
+Compiling module work.tinyyolo_dsp_mul(INPUT_REG=1)
+Compiling module work.tinyyolo_pipe_add(WIDTH=17)
+Compiling module work.tinyyolo_pipe_add(WIDTH=17,LOW_W...
+Compiling module work.tinyyolo_pipe_add_default
+Compiling module work.tinyyolo_pipe_add(WIDTH=19)
+Compiling module work.tinyyolo_pipe_add(WIDTH=20)
+Compiling module work.tinyyolo_pipe_add(WIDTH=21)
+Compiling module work.tinyyolo_dot24_pair_default
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module work.tinyyolo_dsp_accum32(TERM_WIDTH=...
+Compiling module work.tinyyolo_requant36_stream(TAG_BI...
+Compiling module work.tinyyolo_counter32_load
+Compiling module unisims_ver.LUT6(INIT=64'b010101010101010101...
+Compiling module work.tinyyolo_allconv_control_default
+Compiling module work.tb_size_pipeline
+Compiling module work.glbl
+Built simulation snapshot tb_size_pipeline

@@ -1,0 +1,957 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Oct 31 19:25:33 2026
+| Host         : <REDACTED_HOST>
+| Command      : report_timing -delay_type min -max_paths 20 -path_type full_clock_expanded -file <VALIDATION_DIR>/ooc/elastic_buffer/reports/hold_paths.rpt
+| Design       : elastic_buffer
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (VIOLATED) :        -0.582ns  (arrival time - required time)
+  Source:                 s_data[0]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_0_5/RAMA/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[0] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_0_5/DIA0
+    SLICE_X22Y34         RAMD32                                       r  slots_reg_0_1_0_5/RAMA/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_0_5/WCLK
+    SLICE_X22Y34         RAMD32                                       r  slots_reg_0_1_0_5/RAMA/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y34         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.348     1.506    slots_reg_0_1_0_5/RAMA
+  -------------------------------------------------------------------
+                         required time                         -1.506    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.582    
+
+Slack (VIOLATED) :        -0.582ns  (arrival time - required time)
+  Source:                 s_data[12]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_12_17/RAMA/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[12] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_12_17/DIA0
+    SLICE_X22Y36         RAMD32                                       r  slots_reg_0_1_12_17/RAMA/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_12_17/WCLK
+    SLICE_X22Y36         RAMD32                                       r  slots_reg_0_1_12_17/RAMA/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y36         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.348     1.506    slots_reg_0_1_12_17/RAMA
+  -------------------------------------------------------------------
+                         required time                         -1.506    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.582    
+
+Slack (VIOLATED) :        -0.582ns  (arrival time - required time)
+  Source:                 s_data[18]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_18_23/RAMA/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[18] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_18_23/DIA0
+    SLICE_X26Y35         RAMD32                                       r  slots_reg_0_1_18_23/RAMA/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_18_23/WCLK
+    SLICE_X26Y35         RAMD32                                       r  slots_reg_0_1_18_23/RAMA/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y35         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.348     1.506    slots_reg_0_1_18_23/RAMA
+  -------------------------------------------------------------------
+                         required time                         -1.506    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.582    
+
+Slack (VIOLATED) :        -0.582ns  (arrival time - required time)
+  Source:                 s_data[24]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_24_29/RAMA/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[24] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_24_29/DIA0
+    SLICE_X22Y33         RAMD32                                       r  slots_reg_0_1_24_29/RAMA/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_24_29/WCLK
+    SLICE_X22Y33         RAMD32                                       r  slots_reg_0_1_24_29/RAMA/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y33         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.348     1.506    slots_reg_0_1_24_29/RAMA
+  -------------------------------------------------------------------
+                         required time                         -1.506    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.582    
+
+Slack (VIOLATED) :        -0.582ns  (arrival time - required time)
+  Source:                 s_data[30]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_30_35/RAMA/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[30] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_30_35/DIA0
+    SLICE_X26Y34         RAMD32                                       r  slots_reg_0_1_30_35/RAMA/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_30_35/WCLK
+    SLICE_X26Y34         RAMD32                                       r  slots_reg_0_1_30_35/RAMA/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y34         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.348     1.506    slots_reg_0_1_30_35/RAMA
+  -------------------------------------------------------------------
+                         required time                         -1.506    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.582    
+
+Slack (VIOLATED) :        -0.582ns  (arrival time - required time)
+  Source:                 s_tag[4]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_36_40/RAMA/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_tag[4] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_36_40/DIA0
+    SLICE_X22Y35         RAMD32                                       r  slots_reg_0_1_36_40/RAMA/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_36_40/WCLK
+    SLICE_X22Y35         RAMD32                                       r  slots_reg_0_1_36_40/RAMA/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y35         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.348     1.506    slots_reg_0_1_36_40/RAMA
+  -------------------------------------------------------------------
+                         required time                         -1.506    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.582    
+
+Slack (VIOLATED) :        -0.582ns  (arrival time - required time)
+  Source:                 s_data[6]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_6_11/RAMA/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[6] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_6_11/DIA0
+    SLICE_X26Y36         RAMD32                                       r  slots_reg_0_1_6_11/RAMA/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_6_11/WCLK
+    SLICE_X26Y36         RAMD32                                       r  slots_reg_0_1_6_11/RAMA/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y36         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.348     1.506    slots_reg_0_1_6_11/RAMA
+  -------------------------------------------------------------------
+                         required time                         -1.506    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.582    
+
+Slack (VIOLATED) :        -0.581ns  (arrival time - required time)
+  Source:                 s_data[2]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_0_5/RAMB/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[2] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_0_5/DIB0
+    SLICE_X22Y34         RAMD32                                       r  slots_reg_0_1_0_5/RAMB/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_0_5/WCLK
+    SLICE_X22Y34         RAMD32                                       r  slots_reg_0_1_0_5/RAMB/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y34         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.347     1.505    slots_reg_0_1_0_5/RAMB
+  -------------------------------------------------------------------
+                         required time                         -1.505    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.581    
+
+Slack (VIOLATED) :        -0.581ns  (arrival time - required time)
+  Source:                 s_data[14]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_12_17/RAMB/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[14] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_12_17/DIB0
+    SLICE_X22Y36         RAMD32                                       r  slots_reg_0_1_12_17/RAMB/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_12_17/WCLK
+    SLICE_X22Y36         RAMD32                                       r  slots_reg_0_1_12_17/RAMB/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y36         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.347     1.505    slots_reg_0_1_12_17/RAMB
+  -------------------------------------------------------------------
+                         required time                         -1.505    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.581    
+
+Slack (VIOLATED) :        -0.581ns  (arrival time - required time)
+  Source:                 s_data[20]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_18_23/RAMB/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[20] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_18_23/DIB0
+    SLICE_X26Y35         RAMD32                                       r  slots_reg_0_1_18_23/RAMB/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_18_23/WCLK
+    SLICE_X26Y35         RAMD32                                       r  slots_reg_0_1_18_23/RAMB/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y35         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.347     1.505    slots_reg_0_1_18_23/RAMB
+  -------------------------------------------------------------------
+                         required time                         -1.505    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.581    
+
+Slack (VIOLATED) :        -0.581ns  (arrival time - required time)
+  Source:                 s_data[26]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_24_29/RAMB/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[26] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_24_29/DIB0
+    SLICE_X22Y33         RAMD32                                       r  slots_reg_0_1_24_29/RAMB/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_24_29/WCLK
+    SLICE_X22Y33         RAMD32                                       r  slots_reg_0_1_24_29/RAMB/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y33         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.347     1.505    slots_reg_0_1_24_29/RAMB
+  -------------------------------------------------------------------
+                         required time                         -1.505    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.581    
+
+Slack (VIOLATED) :        -0.581ns  (arrival time - required time)
+  Source:                 s_tag[0]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_30_35/RAMB/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_tag[0] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_30_35/DIB0
+    SLICE_X26Y34         RAMD32                                       r  slots_reg_0_1_30_35/RAMB/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_30_35/WCLK
+    SLICE_X26Y34         RAMD32                                       r  slots_reg_0_1_30_35/RAMB/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y34         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.347     1.505    slots_reg_0_1_30_35/RAMB
+  -------------------------------------------------------------------
+                         required time                         -1.505    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.581    
+
+Slack (VIOLATED) :        -0.581ns  (arrival time - required time)
+  Source:                 s_tag[6]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_36_40/RAMB/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_tag[6] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_36_40/DIB0
+    SLICE_X22Y35         RAMD32                                       r  slots_reg_0_1_36_40/RAMB/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_36_40/WCLK
+    SLICE_X22Y35         RAMD32                                       r  slots_reg_0_1_36_40/RAMB/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y35         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.347     1.505    slots_reg_0_1_36_40/RAMB
+  -------------------------------------------------------------------
+                         required time                         -1.505    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.581    
+
+Slack (VIOLATED) :        -0.581ns  (arrival time - required time)
+  Source:                 s_data[8]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_6_11/RAMB/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[8] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_6_11/DIB0
+    SLICE_X26Y36         RAMD32                                       r  slots_reg_0_1_6_11/RAMB/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_6_11/WCLK
+    SLICE_X26Y36         RAMD32                                       r  slots_reg_0_1_6_11/RAMB/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y36         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.347     1.505    slots_reg_0_1_6_11/RAMB
+  -------------------------------------------------------------------
+                         required time                         -1.505    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.581    
+
+Slack (VIOLATED) :        -0.579ns  (arrival time - required time)
+  Source:                 s_data[4]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_0_5/RAMC/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[4] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_0_5/DIC0
+    SLICE_X22Y34         RAMD32                                       r  slots_reg_0_1_0_5/RAMC/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_0_5/WCLK
+    SLICE_X22Y34         RAMD32                                       r  slots_reg_0_1_0_5/RAMC/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y34         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.345     1.503    slots_reg_0_1_0_5/RAMC
+  -------------------------------------------------------------------
+                         required time                         -1.503    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.579    
+
+Slack (VIOLATED) :        -0.579ns  (arrival time - required time)
+  Source:                 s_data[16]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_12_17/RAMC/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[16] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_12_17/DIC0
+    SLICE_X22Y36         RAMD32                                       r  slots_reg_0_1_12_17/RAMC/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_12_17/WCLK
+    SLICE_X22Y36         RAMD32                                       r  slots_reg_0_1_12_17/RAMC/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y36         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.345     1.503    slots_reg_0_1_12_17/RAMC
+  -------------------------------------------------------------------
+                         required time                         -1.503    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.579    
+
+Slack (VIOLATED) :        -0.579ns  (arrival time - required time)
+  Source:                 s_data[22]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_18_23/RAMC/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[22] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_18_23/DIC0
+    SLICE_X26Y35         RAMD32                                       r  slots_reg_0_1_18_23/RAMC/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_18_23/WCLK
+    SLICE_X26Y35         RAMD32                                       r  slots_reg_0_1_18_23/RAMC/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y35         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.345     1.503    slots_reg_0_1_18_23/RAMC
+  -------------------------------------------------------------------
+                         required time                         -1.503    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.579    
+
+Slack (VIOLATED) :        -0.579ns  (arrival time - required time)
+  Source:                 s_data[28]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_24_29/RAMC/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_data[28] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_24_29/DIC0
+    SLICE_X22Y33         RAMD32                                       r  slots_reg_0_1_24_29/RAMC/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_24_29/WCLK
+    SLICE_X22Y33         RAMD32                                       r  slots_reg_0_1_24_29/RAMC/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y33         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.345     1.503    slots_reg_0_1_24_29/RAMC
+  -------------------------------------------------------------------
+                         required time                         -1.503    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.579    
+
+Slack (VIOLATED) :        -0.579ns  (arrival time - required time)
+  Source:                 s_tag[2]
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_30_35/RAMC/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_tag[2] (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_30_35/DIC0
+    SLICE_X26Y34         RAMD32                                       r  slots_reg_0_1_30_35/RAMC/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_30_35/WCLK
+    SLICE_X26Y34         RAMD32                                       r  slots_reg_0_1_30_35/RAMC/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X26Y34         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.345     1.503    slots_reg_0_1_30_35/RAMC
+  -------------------------------------------------------------------
+                         required time                         -1.503    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.579    
+
+Slack (VIOLATED) :        -0.579ns  (arrival time - required time)
+  Source:                 s_last
+                            (input port clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            slots_reg_0_1_36_40/RAMC/I
+                            (rising edge-triggered cell RAMD32 clocked by bench_clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             bench_clk
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (bench_clk rise@0.000ns - bench_clk rise@0.000ns)
+  Data Path Delay:        0.924ns  (logic 0.000ns (0.000%)  route 0.924ns (100.000%))
+  Logic Levels:           0  
+  Input Delay:            0.000ns
+  Clock Path Skew:        0.973ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.973ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.185ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.150ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                         input delay                  0.000     0.000    
+                                                      0.000     0.000 r  s_last (IN)
+                         net (fo=0)                   0.924     0.924    slots_reg_0_1_36_40/DIC0
+    SLICE_X22Y35         RAMD32                                       r  slots_reg_0_1_36_40/RAMC/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock bench_clk rise edge)
+                                                      0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=59, unset)           0.973     0.973    slots_reg_0_1_36_40/WCLK
+    SLICE_X22Y35         RAMD32                                       r  slots_reg_0_1_36_40/RAMC/CLK
+                         clock pessimism              0.000     0.973    
+                         clock uncertainty            0.185     1.158    
+    SLICE_X22Y35         RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.345     1.503    slots_reg_0_1_36_40/RAMC
+  -------------------------------------------------------------------
+                         required time                         -1.503    
+                         arrival time                           0.924    
+  -------------------------------------------------------------------
+                         slack                                 -0.579    
+
+
+
+

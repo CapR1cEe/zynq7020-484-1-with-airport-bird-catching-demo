@@ -1,0 +1,47 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Oct 31 19:24:52 2026
+| Host         : <REDACTED_HOST>
+| Command      : report_clocks -file <VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/clocks.rpt
+| Design       : four_lane_mac_stream
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock      Period(ns)  Waveform(ns)   Attributes  Sources
+bench_clk  5.000       {0.000 2.500}  P           {clk}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+From Clock  To Clock   Setup(ns)  Hold(ns)  Edges
+bench_clk   bench_clk  0.150      0.150     rf -> rf
+
+
+====================================================
+User Jitter
+====================================================
+
+

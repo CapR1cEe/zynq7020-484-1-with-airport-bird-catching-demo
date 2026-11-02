@@ -1,0 +1,12 @@
+{
+  "suite": "head",
+  "status": "PASS",
+  "backend": "qualified_cycle_exact_DSP_model",
+  "elapsed_seconds": 234.141,
+  "pass_marker": [
+    "HEAD_TOP_PASS cases=6 outputs=135 all_bits_equal=1"
+  ],
+  "behavioral_clock_MHz": 240,
+  "onehot_assertion": true,
+  "generated_bench_sha256": "be365235a3fae1069d0de09a386c34b715636733e48ef61a9d89573442629dcd"
+}

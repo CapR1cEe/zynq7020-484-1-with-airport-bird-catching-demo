@@ -1,0 +1,79 @@
+
+root@localhost:~# 
+root@localhost:~# : > /tmp/cal2250_20261031T1212155490_prepare.sh.b64
+root@localhost:~# printf '%s' 'c2V0IC1ldQpwcmludGYgJ1xuQ0FMSUJSQVRJT05fUVVJRVNDR V9CRUdJTlxuJwpib290X2lkPSQoY2F0IC9wcm9jL3N5cy9rZXJuZWwvcmFuZG9tL2Jvb3RfaWQpCnRlc 3QgIiQoY2F0IC9zeXMvY2xhc3MvZ3Bpby9ncGlvY2hpcDAvbGFi' >> /tmp/cal2250_20261031T12 12155490_prepare.sh.b64
+root@localhost:~# printf '%s' 'ZWwpIiA9ICd6eW5xX2dwaW8nCnRlc3QgIiQoY2F0IC9zeXMvY 2xhc3MvZ3Bpby9ncGlvY2hpcDAvbmdwaW8pIiA9IDExOApmb3IgcGluIGluICQoc2VxIDU0IDY5KTsgZ G8KICAgIGlmIHRlc3QgLWQgIi9zeXMvY2xhc3MvZ3Bpby9ncGlv' >> /tmp/cal2250_20261031T12 12155490_prepare.sh.b64
+root@localhost:~# printf '%s' 'JHBpbiI7IHRoZW4KICAgICAgICBwcmludGYgJ0dQSU8gJXMga XMgYWxyZWFkeSBleHBvcnRlZFxuJyAiJHBpbiIKICAgICAgICBleGl0IDEKICAgIGZpCmRvbmUKY29tb WFuZCAtdiBmdXNlciA+L2Rldi9udWxsCmlmIHRlc3QgLWUgL2Rl' >> /tmp/cal2250_20261031T12 12155490_prepare.sh.b64
+root@localhost:~# printf '%s' 'di90aW55eW9sbzAgJiYgZnVzZXIgL2Rldi90aW55eW9sbzA7I HRoZW4KICAgIHByaW50ZiAnSW5mZXJlbmNlIGRldmljZSBpcyBpbiB1c2VcbicKICAgIGV4aXQgMQpma QppZiBsc21vZCB8IGF3ayAne3ByaW50ICQxfScgfCBncmVwIC1x' >> /tmp/cal2250_20261031T12 12155490_prepare.sh.b64
+root@localhost:~# printf '%s' 'eCB0aW55eW9sb19kbWE7IHRoZW4KICAgIHJtbW9kIHRpbnl5b 2xvX2RtYQpmaQp0ZXN0ICEgLWUgL2Rldi90aW55eW9sbzAKdGVzdCAiJChjYXQgL3Byb2Mvc3lzL2tlc m5lbC9yYW5kb20vYm9vdF9pZCkiID0gIiRib290X2lkIgpwcmlu' >> /tmp/cal2250_20261031T12 12155490_prepare.sh.b64
+root@localhost:~# printf '%s' 'dGYgJyVzJyAiJGJvb3RfaWQiID4gL3RtcC9zZXJ2b19taWNyb 3Rlc3RfcmV0ZXN0X2Jvb3RfaWQKcHJpbnRmICdDQUxJQlJBVElPTl9EUklWRVJfUVVJRVNDRURcbicK'  >> /tmp/cal2250_20261031T1212155490_prepare.sh.b64
+root@localhost:~# base64 -d /tmp/cal2250_20261031T1212155490_prepare.sh.b64 > /t mp/cal2250_20261031T1212155490_prepare.sh; printf '\nUPLOAD_RC=%s\n' $?
+
+UPLOAD_RC=0
+root@localhost:~# : > /tmp/cal2250_20261031T1212155490_run.py.b64
+root@localhost:~# printf '%s' 'IiIiT25lIGJvdW5kZWQgSDE5IGNhbGlicmF0aW9uIHJlcXVlc 3Q7IEgyMCBpcyBkaXNhYmxlZCBpbiBoYXJkd2FyZS4iIiIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltc G9ydCByZQppbXBvcnQgc3lzCmltcG9ydCB0aW1lCgp3aWR0aCA9' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'IGludChzeXMuYXJndlsxXSkKdG9rZW4gPSBzeXMuYXJndlsyX QppZiBub3QgMjAwMCA8PSB3aWR0aCA8PSAyNTAwIG9yIG5vdCByZS5mdWxsbWF0Y2gocidbQS1aYS16M C05X10rJywgdG9rZW4pOgogICAgcmFpc2UgVmFsdWVFcnJvcign' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'SW52YWxpZCBwdWxzZSB3aWR0aCBvciB0ZXN0IHRva2VuJykKZ 3Bpb19yb290ID0gJy9zeXMvY2xhc3MvZ3BpbycKY3JlYXRlZCA9IFtdCm91dHB1dHMgPSAoNTQsIDU1K SArIHR1cGxlKHJhbmdlKDU4LCA3MCkpCgpkZWYgd3JpdGUocGF0' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'aCwgdmFsdWUpOgogICAgd2l0aCBvcGVuKHBhdGgsICd3JykgY XMgc3RyZWFtOgogICAgICAgIHN0cmVhbS53cml0ZShzdHIodmFsdWUpKQoKZGVmIHJlYWRfdmFsdWUob nVtYmVyKToKICAgIHdpdGggb3BlbignJXMvZ3BpbyVkL3ZhbHVl' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'JyAlIChncGlvX3Jvb3QsIG51bWJlcikpIGFzIHN0cmVhbToKI CAgICAgICByZXR1cm4gaW50KHN0cmVhbS5yZWFkKCkuc3RyaXAoKSkKCmRlZiBzZXRfdmFsdWUobnVtY mVyLCB2YWx1ZSk6CiAgICB3cml0ZSgnJXMvZ3BpbyVkL3ZhbHVl' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'JyAlIChncGlvX3Jvb3QsIG51bWJlciksIHZhbHVlKQoKZGVmI HN0YXRlKCk6CiAgICBmb3IgdW51c2VkIGluIHJhbmdlKDUpOgogICAgICAgIGJlZm9yZSA9IHJlYWRfd mFsdWUoNTcpCiAgICAgICAgYnVzeSA9IHJlYWRfdmFsdWUoNTYp' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'CiAgICAgICAgYWZ0ZXIgPSByZWFkX3ZhbHVlKDU3KQogICAgI CAgIGlmIGJlZm9yZSA9PSBhZnRlcjoKICAgICAgICAgICAgcmV0dXJuIGJ1c3ksIGFmdGVyCiAgICByY WlzZSBSdW50aW1lRXJyb3IoJ1Vuc3RhYmxlIHN0YXR1cyBzbmFw' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'c2hvdCcpCgpkZWYgc3RvcCgpOgogICAgZm9yIG51bWJlciBpb iAoNTQsIDU1KToKICAgICAgICBpZiBudW1iZXIgaW4gY3JlYXRlZDoKICAgICAgICAgICAgc2V0X3Zhb HVlKG51bWJlciwgMCkKCnRyeToKICAgIGZvciBudW1iZXIgaW4g' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'cmFuZ2UoNTQsIDcwKToKICAgICAgICBpZiBvcy5wYXRoLmV4a XN0cygnJXMvZ3BpbyVkJyAlIChncGlvX3Jvb3QsIG51bWJlcikpOgogICAgICAgICAgICByYWlzZSBSd W50aW1lRXJyb3IoJ0dQSU8gJWQgYWxyZWFkeSBvd25lZCcgJSBu' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'dW1iZXIpCiAgICBmb3IgbnVtYmVyIGluIHJhbmdlKDU0LCA3M Ck6CiAgICAgICAgd3JpdGUoZ3Bpb19yb290ICsgJy9leHBvcnQnLCBudW1iZXIpCiAgICAgICAgY3JlY XRlZC5hcHBlbmQobnVtYmVyKQogICAgICAgIHdyaXRlKCclcy9n' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'cGlvJWQvZGlyZWN0aW9uJyAlIChncGlvX3Jvb3QsIG51bWJlc iksICdsb3cnIGlmIG51bWJlciBpbiBvdXRwdXRzIGVsc2UgJ2luJykKICAgIGZvciBiaXQgaW4gcmFuZ 2UoMTIpOgogICAgICAgIHNldF92YWx1ZSg1OCArIGJpdCwgKHdp' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'ZHRoID4+IGJpdCkgJiAxKQogICAgdGltZS5zbGVlcCgwLjA1K QogICAgaWYgc3RhdGUoKSAhPSAoMCwgMCk6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdGUEdBI GlzIG5vdCBpZGxlJykKICAgIHByaW50KCdDQUxJQlJBVElPTl9T' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'VEFSVCB3aWR0aF91cz0lZCBwdWxzZXM9MTUwIGZyYW1lX3VzP TIwMDAwIHRvdGFsX21zPTMwMDAnICUgd2lkdGgsIGZsdXNoPVRydWUpCiAgICBtYXJrZXIgPSBvcy5vc GVuKCcvdG1wLycgKyB0b2tlbiArICdfZmlyZWQnLCBvcy5PX0NS' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'RUFUIHwgb3MuT19FWENMIHwgb3MuT19XUk9OTFksIDBvNjAwK QogICAgb3MuY2xvc2UobWFya2VyKQogICAgc3RhcnQgPSB0aW1lLm1vbm90b25pYygpCiAgICBzZXRfd mFsdWUoNTUsIDEpCiAgICB0cmFuc2l0aW9ucyA9IFtdCiAgICBw' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'cmV2aW91cyA9IE5vbmUKICAgIHNhd19idXN5ID0gRmFsc2UKI CAgIGRvbmUgPSBGYWxzZQogICAgd2hpbGUgdGltZS5tb25vdG9uaWMoKSAtIHN0YXJ0IDwgNC4wOgogI CAgICAgIGN1cnJlbnQgPSBzdGF0ZSgpCiAgICAgICAgZWxhcHNl' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'ZCA9IHRpbWUubW9ub3RvbmljKCkgLSBzdGFydAogICAgICAgI GlmIGN1cnJlbnQgIT0gcHJldmlvdXM6CiAgICAgICAgICAgIHRyYW5zaXRpb25zLmFwcGVuZChkaWN0K GVsYXBzZWRfcz1yb3VuZChlbGFwc2VkLCA2KSwgYnVzeT1jdXJy' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'ZW50WzBdLCBjb21wbGV0ZWQ9Y3VycmVudFsxXSkpCiAgICAgI CAgICAgIHByZXZpb3VzID0gY3VycmVudAogICAgICAgIGlmIGN1cnJlbnQgPT0gKDEsIDApOgogICAgI CAgICAgICBzYXdfYnVzeSA9IFRydWUKICAgICAgICBlbGlmIGN1' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'cnJlbnQgPT0gKDAsIDEpOgogICAgICAgICAgICBkb25lID0gV HJ1ZQogICAgICAgICAgICBicmVhawogICAgICAgIGVsaWYgY3VycmVudCA9PSAoMSwgMSk6CiAgICAgI CAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcignSW52YWxpZCBGUEdB' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'IHN0YXR1cycpCiAgICAgICAgdGltZS5zbGVlcCgwLjAwMSkKI CAgIGlmIG5vdCBkb25lIG9yIG5vdCBzYXdfYnVzeSBvciBlbGFwc2VkIDwgMi45OgogICAgICAgIHJha XNlIFJ1bnRpbWVFcnJvcignVGhyZWUtc2Vjb25kIGNvbXBsZXRp' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'b24gbm90IGNvbmZpcm1lZDsgbm8gYXV0b21hdGljIHJldHJ5J ykKICAgIHN0b3AoKQogICAgdGltZS5zbGVlcCgwLjAyKQogICAgaWYgc3RhdGUoKSAhPSAoMCwgMCk6C iAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdGUEdBIGRpZCBu' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'b3QgcmV0dXJuIHRvIGlkbGUnKQogICAgcHJpbnQoanNvbi5kd W1wcyhkaWN0KGF4aXM9J3RpbHQnLCBiYWxsPSdIMTknLCB3aWR0aF91cz13aWR0aCwgY29tbWFuZGVkX 3B1bHNlcz0xNTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAg' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'ZXhwZWN0ZWRfZnJhbWVfbXM9MjAsIGV4cGVjdGVkX3RvdGFsX 21zPTMwMDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgYnVzeV9vYnNlcnZlZD1zYXdfYnVzeSwgc mVxdWVzdF9jb21wbGV0aW9uX29ic2VydmVkPWRvbmUsCiAgICAg' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'ICAgICAgICAgICAgICAgICAgICAgY29tcGxldGlvbl9zYW1wb GVfZWxhcHNlZF9zPXJvdW5kKGVsYXBzZWQsIDYpLAogICAgICAgICAgICAgICAgICAgICAgICAgIHBoe XNpY2FsX3Bpbl93YXZlZm9ybV9tZWFzdXJlZD1GYWxzZSwgcGh5' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'c2ljYWxfbW90aW9uX2NvbmZpcm1lZD1Ob25lLAogICAgICAgI CAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb25zPXRyYW5zaXRpb25zKSwgc29ydF9rZXlzPVRydWUpK QogICAgcHJpbnQoJ0NBTElCUkFUSU9OX1NFUVVFTkNFX1BBU1Mg' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'd2lkdGhfdXM9JWQgcHVsc2VzPTE1MCBkdXJhdGlvbl9tcz0zM DAwJyAlIHdpZHRoKQpmaW5hbGx5OgogICAgdHJ5OgogICAgICAgIHN0b3AoKQogICAgICAgIHRpbWUuc 2xlZXAoMC4wMSkKICAgIGZpbmFsbHk6CiAgICAgICAgZm9yIG51' >> /tmp/cal2250_20261031T12 12155490_run.py.b64
+root@localhost:~# printf '%s' 'bWJlciBpbiByZXZlcnNlZChjcmVhdGVkKToKICAgICAgICAgI CAgd3JpdGUoZ3Bpb19yb290ICsgJy91bmV4cG9ydCcsIG51bWJlcikK' >> /tmp/cal2250_2026103 1T1212155490_run.py.b64
+root@localhost:~# base64 -d /tmp/cal2250_20261031T1212155490_run.py.b64 > /tmp/c al2250_20261031T1212155490_run.py; printf '\nUPLOAD_RC=%s\n' $?
+
+UPLOAD_RC=0
+root@localhost:~# : > /tmp/cal2250_20261031T1212155490_restore.sh.b64
+root@localhost:~# printf '%s' 'c2V0IC1ldQp0ZXN0IC1zIC90bXAvc2Vydm9fbWljcm90ZXN0X 3JldGVzdF9ib290X2lkCnRlc3QgIiQoY2F0IC9wcm9jL3N5cy9rZXJuZWwvcmFuZG9tL2Jvb3RfaWQpI iA9ICIkKGNhdCAvdG1wL3NlcnZvX21pY3JvdGVzdF9yZXRlc3Rf' >> /tmp/cal2250_20261031T12 12155490_restore.sh.b64
+root@localhost:~# printf '%s' 'Ym9vdF9pZCkiCm1vZHByb2JlIHRpbnl5b2xvX2RtYQp0ZXN0I C1jIC9kZXYvdGlueXlvbG8wCnB5dGhvbjMgLSA8PCdQWScKaW1wb3J0IG9zLCBmY250bCwgc3RydWN0L CBqc29uCmZkID0gb3Mub3BlbignL2Rldi90aW55eW9sbzAnLCBv' >> /tmp/cal2250_20261031T12 12155490_restore.sh.b64
+root@localhost:~# printf '%s' 'cy5PX1JEV1IpCnRyeToKICAgIGluZm8gPSBieXRlYXJyYXkoM zIpCiAgICBmY250bC5pb2N0bChmZCwgMHg4MDIwNTkyOCwgaW5mbywgVHJ1ZSkKICAgIHZhbHVlcyA9I HN0cnVjdC51bnBhY2soJzw4SScsIGluZm8pCiAgICBpZiB2YWx1' >> /tmp/cal2250_20261031T12 12155490_restore.sh.b64
+root@localhost:~# printf '%s' 'ZXNbOjNdICE9ICgyLCAweDQ3MzI1NTAyLCAyNDAwMDAwMDApI G9yIGFicyh2YWx1ZXNbM10tMTAwMDAwMDAwKSA+IDEwMDAwIG9yIHZhbHVlc1s1XSAhPSAwOgogICAgI CAgIHJhaXNlIFZhbHVlRXJyb3IoJ1VuZXhwZWN0ZWQgYWNjZWxl' >> /tmp/cal2250_20261031T12 12155490_restore.sh.b64
+root@localhost:~# printf '%s' 'cmF0b3IgaWRlbnRpdHksIGNsb2NrcyBvciBmYXVsdCBzdGF0Z ScpCiAgICBwcmludChqc29uLmR1bXBzKGRpY3QoemlwKCgnYWJpJywnYnVpbGRfaWQnLCdwbF9oeicsJ 2ZjbGtfaHonLCdkbWFfYnl0ZXMnLCdmYXVsdGVkJywnb2NtX2J5' >> /tmp/cal2250_20261031T12 12155490_restore.sh.b64
+root@localhost:~# printf '%s' 'dGVzJywnb2NtX2ZsYWdzJyksIHZhbHVlcykpLCBzb3J0X2tle XM9VHJ1ZSkpCmZpbmFsbHk6CiAgICBvcy5jbG9zZShmZCkKUFkKcHJpbnRmICdib290X2lkPSc7IGNhd CAvcHJvYy9zeXMva2VybmVsL3JhbmRvbS9ib290X2lkCnByaW50' >> /tmp/cal2250_20261031T12 12155490_restore.sh.b64
+root@localhost:~# printf '%s' 'ZiAnU0VSVk9fT1JJR0lOQUxfSU5GRVJFTkNFX1JFU1RPUkVEX G4nCg==' >> /tmp/cal2250_20261031T1212155490_restore.sh.b64
+root@localhost:~# base64 -d /tmp/cal2250_20261031T1212155490_restore.sh.b64 > /t mp/cal2250_20261031T1212155490_restore.sh; printf '\nUPLOAD_RC=%s\n' $?
+
+UPLOAD_RC=0
+root@localhost:~# sh /tmp/cal2250_20261031T1212155490_prepare.sh; printf '\nPREP ARE_RC=%s\n' $?
+
+CALIBRATION_QUIESCE_BEGIN
+CALIBRATION_DRIVER_QUIESCED
+
+PREPARE_RC=0
+root@localhost:~# [ 1744.219615] sysrq: SysRq : HELP : loglevel(0-9) reboot(b) crash(c) terminate-all-tasks(e) memory-full-oom-kill(f) kill-all-tasks(i) thaw-filesystems(j) sak(k) show-backtrace-all-active-cpus(l) show-memory-usage(m) nice-all-RT-tasks(n) poweroff(o) show-registers(p) show-all-timers(q) unraw(r) sync(s) show-task-states(t) unmount(u) show-blocked-tasks(w) 
+
+root@localhost:~# 
+root@localhost:~# test "$(cat /proc/sys/kernel/random/boot_id)" = "$(cat /tmp/se rvo_microtest_retest_boot_id)" && test ! -e /dev/tinyyolo0 && python3 /tmp/cal22 50_20261031T1212155490_run.py 2250 cal2250_20261031T1212155490; printf '\nTEST_R C=%s\n' $?
+CALIBRATION_START width_us=2250 pulses=150 frame_us=20000 total_ms=3000
+{"axis": "tilt", "ball": "H19", "busy_observed": true, "commanded_pulses": 150, "completion_sample_elapsed_s": 3.002666, "expected_frame_ms": 20, "expected_total_ms": 3000, "physical_motion_confirmed": null, "physical_pin_waveform_measured": false, "request_completion_observed": true, "transitions": [{"busy": 1, "completed": 0, "elapsed_s": 0.001712}, {"busy": 0, "completed": 1, "elapsed_s": 3.002666}], "width_us": 2250}
+CALIBRATION_SEQUENCE_PASS width_us=2250 pulses=150 duration_ms=3000
+
+TEST_RC=0
+root@localhost:~# [ 1750.904729] sysrq: SysRq : HELP : loglevel(0-9) reboot(b) crash(c) terminate-all-tasks(e) memory-full-oom-kill(f) kill-all-tasks(i) thaw-filesystems(j) sak(k) show-backtrace-all-active-cpus(l) show-memory-usage(m) nice-all-RT-tasks(n) poweroff(o) show-registers(p) show-all-timers(q) unraw(r) sync(s) show-task-states(t) unmount(u) show-blocked-tasks(w) 
+^C
+
+root@localhost:~# 
+root@localhost:~# sh /tmp/cal2250_20261031T1212155490_restore.sh && (for pin in  $(seq 54 69); do test ! -d /sys/class/gpio/gpio$pin || exit 1; done); printf '\n RESTORE_RC=%s\n' $?
+{"abi": 2, "build_id": 1194480898, "dma_bytes": 33554432, "faulted": 0, "fclk_hz": 99999999, "ocm_bytes": 32768, "ocm_flags": 1, "pl_hz": 240000000}
+boot_id=e8fb58ee-2f07-4b6c-953a-09d202c73a4e
+SERVO_ORIGINAL_INFERENCE_RESTORED
+
+RESTORE_RC=0
+root@localhost:~# 

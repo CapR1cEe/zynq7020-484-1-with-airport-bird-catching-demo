@@ -1,0 +1,15 @@
+["<VIVADO_INSTALL>\\bin\\xelab.bat", "tb_round_sat_stream", "--snapshot", "ross_example", "--debug", "typical", "--generic_top", "IN_WIDTH=8", "--generic_top", "OUT_WIDTH=8", "--generic_top", "FRACTION_BITS=0"]
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe tb_round_sat_stream --snapshot ross_example --debug typical --generic_top IN_WIDTH=8 --generic_top OUT_WIDTH=8 --generic_top FRACTION_BITS=0 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.round_sat_stream(OUT_WIDTH=8,FRA...
+Compiling module work.tb_round_sat_stream(OUT_WIDTH=8,...
+Built simulation snapshot ross_example

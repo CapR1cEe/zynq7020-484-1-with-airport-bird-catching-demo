@@ -1,0 +1,559 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Oct 28 14:15:55 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/parallel/xsim_script.tcl
+# xsim {parallel} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PARALLEL_CASE_PASS case=30 options=0 cycles=6332 ci=3 co=7 h=2 w=5 k=1 outputs=70
+PARALLEL_PHASE case=30 options=0 phase=0 cycles=83
+PARALLEL_PHASE case=30 options=0 phase=1 cycles=2395
+PARALLEL_PHASE case=30 options=0 phase=2 cycles=272
+PARALLEL_PHASE case=30 options=0 phase=3 cycles=384
+PARALLEL_PHASE case=30 options=0 phase=4 cycles=520
+PARALLEL_PHASE case=30 options=0 phase=5 cycles=459
+PARALLEL_PHASE case=30 options=0 phase=6 cycles=2087
+PARALLEL_PHASE case=30 options=0 phase=7 cycles=132
+PARALLEL_CASE_PASS case=31 options=0 cycles=32563 ci=17 co=8 h=4 w=6 k=3 outputs=192
+PARALLEL_PHASE case=31 options=0 phase=0 cycles=83
+PARALLEL_PHASE case=31 options=0 phase=1 cycles=2454
+PARALLEL_PHASE case=31 options=0 phase=2 cycles=2185
+PARALLEL_PHASE case=31 options=0 phase=3 cycles=14673
+PARALLEL_PHASE case=31 options=0 phase=4 cycles=1488
+PARALLEL_PHASE case=31 options=0 phase=5 cycles=1217
+PARALLEL_PHASE case=31 options=0 phase=6 cycles=5641
+PARALLEL_PHASE case=31 options=0 phase=7 cycles=4822
+PARALLEL_CASE_PASS case=32 options=0 cycles=33867 ci=17 co=9 h=4 w=6 k=3 outputs=216
+PARALLEL_PHASE case=32 options=0 phase=0 cycles=83
+PARALLEL_PHASE case=32 options=0 phase=1 cycles=2526
+PARALLEL_PHASE case=32 options=0 phase=2 cycles=2464
+PARALLEL_PHASE case=32 options=0 phase=3 cycles=14675
+PARALLEL_PHASE case=32 options=0 phase=4 cycles=1584
+PARALLEL_PHASE case=32 options=0 phase=5 cycles=1339
+PARALLEL_PHASE case=32 options=0 phase=6 cycles=6350
+PARALLEL_PHASE case=32 options=0 phase=7 cycles=4846
+PARALLEL_CASE_PASS case=33 options=0 cycles=61037 ci=64 co=31 h=2 w=4 k=3 outputs=248
+PARALLEL_PHASE case=33 options=0 phase=0 cycles=83
+PARALLEL_PHASE case=33 options=0 phase=1 cycles=3913
+PARALLEL_PHASE case=33 options=0 phase=2 cycles=29080
+PARALLEL_PHASE case=33 options=0 phase=3 cycles=12676
+PARALLEL_PHASE case=33 options=0 phase=4 cycles=1744
+PARALLEL_PHASE case=33 options=0 phase=5 cycles=1410
+PARALLEL_PHASE case=33 options=0 phase=6 cycles=7241
+PARALLEL_PHASE case=33 options=0 phase=7 cycles=4890
+PARALLEL_CASE_PASS case=34 options=0 cycles=69562 ci=129 co=32 h=1 w=1 k=3 outputs=32
+PARALLEL_PHASE case=34 options=0 phase=0 cycles=83
+PARALLEL_PHASE case=34 options=0 phase=1 cycles=4015
+PARALLEL_PHASE case=34 options=0 phase=2 cycles=61304
+PARALLEL_PHASE case=34 options=0 phase=3 cycles=2483
+PARALLEL_PHASE case=34 options=0 phase=4 cycles=272
+PARALLEL_PHASE case=34 options=0 phase=5 cycles=183
+PARALLEL_PHASE case=34 options=0 phase=6 cycles=943
+PARALLEL_PHASE case=34 options=0 phase=7 cycles=279
+PARALLEL_CASE_PASS case=35 options=0 cycles=81290 ci=64 co=33 h=2 w=4 k=3 outputs=264
+PARALLEL_PHASE case=35 options=0 phase=0 cycles=115
+PARALLEL_PHASE case=35 options=0 phase=1 cycles=4027
+PARALLEL_PHASE case=35 options=0 phase=2 cycles=30964
+PARALLEL_PHASE case=35 options=0 phase=3 cycles=25161
+PARALLEL_PHASE case=35 options=0 phase=4 cycles=2184
+PARALLEL_PHASE case=35 options=0 phase=5 cycles=1588
+PARALLEL_PHASE case=35 options=0 phase=6 cycles=7711
+PARALLEL_PHASE case=35 options=0 phase=7 cycles=9540
+PARALLEL_CASE_PASS case=36 options=0 cycles=56066 ci=64 co=65 h=2 w=4 k=1 outputs=520
+PARALLEL_PHASE case=36 options=0 phase=0 cycles=147
+PARALLEL_PHASE case=36 options=0 phase=1 cycles=6117
+PARALLEL_PHASE case=36 options=0 phase=2 cycles=7614
+PARALLEL_PHASE case=36 options=0 phase=3 cycles=18703
+PARALLEL_PHASE case=36 options=0 phase=4 cycles=3120
+PARALLEL_PHASE case=36 options=0 phase=5 cycles=3043
+PARALLEL_PHASE case=36 options=0 phase=6 cycles=15172
+PARALLEL_PHASE case=36 options=0 phase=7 cycles=2150
+PARALLEL_CASE_PASS case=37 options=0 cycles=73900 ci=512 co=8 h=1 w=1 k=3 outputs=8
+PARALLEL_PHASE case=37 options=0 phase=0 cycles=83
+PARALLEL_PHASE case=37 options=0 phase=1 cycles=2456
+PARALLEL_PHASE case=37 options=0 phase=2 cycles=60055
+PARALLEL_PHASE case=37 options=0 phase=3 cycles=9797
+PARALLEL_PHASE case=37 options=0 phase=4 cycles=247
+PARALLEL_PHASE case=37 options=0 phase=5 cycles=52
+PARALLEL_PHASE case=37 options=0 phase=6 cycles=237
+PARALLEL_PHASE case=37 options=0 phase=7 cycles=973
+PARALLEL_CASE_PASS case=38 options=0 cycles=64064 ci=1024 co=32 h=1 w=1 k=1 outputs=32
+PARALLEL_PHASE case=38 options=0 phase=0 cycles=83
+PARALLEL_PHASE case=38 options=0 phase=1 cycles=3987
+PARALLEL_PHASE case=38 options=0 phase=2 cycles=53800
+PARALLEL_PHASE case=38 options=0 phase=3 cycles=2866
+PARALLEL_PHASE case=38 options=0 phase=4 cycles=260
+PARALLEL_PHASE case=38 options=0 phase=5 cycles=181
+PARALLEL_PHASE case=38 options=0 phase=6 cycles=929
+PARALLEL_PHASE case=38 options=0 phase=7 cycles=1958
+PARALLEL_CASE_PASS case=39 options=0 cycles=85686 ci=17 co=33 h=4 w=6 k=3 outputs=792
+PARALLEL_PHASE case=39 options=0 phase=0 cycles=115
+PARALLEL_PHASE case=39 options=0 phase=1 cycles=4078
+PARALLEL_PHASE case=39 options=0 phase=2 cycles=9029
+PARALLEL_PHASE case=39 options=0 phase=3 cycles=29182
+PARALLEL_PHASE case=39 options=0 phase=4 cycles=5328
+PARALLEL_PHASE case=39 options=0 phase=5 cycles=4732
+PARALLEL_PHASE case=39 options=0 phase=6 cycles=23146
+PARALLEL_PHASE case=39 options=0 phase=7 cycles=10076
+PARALLEL_CASE_PASS case=40 options=0 cycles=191697 ci=64 co=64 h=4 w=4 k=3 outputs=1024
+PARALLEL_PHASE case=40 options=0 phase=0 cycles=115
+PARALLEL_PHASE case=40 options=0 phase=1 cycles=6068
+PARALLEL_PHASE case=40 options=0 phase=2 cycles=60050
+PARALLEL_PHASE case=40 options=0 phase=3 cycles=59006
+PARALLEL_PHASE case=40 options=0 phase=4 cycles=7104
+PARALLEL_PHASE case=40 options=0 phase=5 cycles=5823
+PARALLEL_PHASE case=40 options=0 phase=6 cycles=29847
+PARALLEL_PHASE case=40 options=0 phase=7 cycles=23684
+PARALLEL_CASE_PASS case=41 options=0 cycles=32903 ci=64 co=33 h=2 w=4 k=1 outputs=264
+PARALLEL_PHASE case=41 options=0 phase=0 cycles=115
+PARALLEL_PHASE case=41 options=0 phase=1 cycles=4082
+PARALLEL_PHASE case=41 options=0 phase=2 cycles=3875
+PARALLEL_PHASE case=41 options=0 phase=3 cycles=12525
+PARALLEL_PHASE case=41 options=0 phase=4 cycles=1680
+PARALLEL_PHASE case=41 options=0 phase=5 cycles=1584
+PARALLEL_PHASE case=41 options=0 phase=6 cycles=7694
+PARALLEL_PHASE case=41 options=0 phase=7 cycles=1348
+PARALLEL_CASE_PASS case=30 options=48 cycles=11472 ci=3 co=7 h=2 w=5 k=1 outputs=70
+PARALLEL_PHASE case=30 options=48 phase=0 cycles=8275
+PARALLEL_PHASE case=30 options=48 phase=1 cycles=429
+PARALLEL_PHASE case=30 options=48 phase=2 cycles=278
+PARALLEL_PHASE case=30 options=48 phase=3 cycles=215
+PARALLEL_PHASE case=30 options=48 phase=4 cycles=520
+PARALLEL_PHASE case=30 options=48 phase=5 cycles=463
+PARALLEL_PHASE case=30 options=48 phase=6 cycles=1190
+PARALLEL_PHASE case=30 options=48 phase=7 cycles=102
+PARALLEL_CASE_PASS case=31 options=48 cycles=29650 ci=17 co=8 h=4 w=6 k=3 outputs=192
+PARALLEL_PHASE case=31 options=48 phase=0 cycles=8275
+PARALLEL_PHASE case=31 options=48 phase=1 cycles=495
+PARALLEL_PHASE case=31 options=48 phase=2 cycles=2177
+PARALLEL_PHASE case=31 options=48 phase=3 cycles=12676
+PARALLEL_PHASE case=31 options=48 phase=4 cycles=1488
+PARALLEL_PHASE case=31 options=48 phase=5 cycles=1223
+PARALLEL_PHASE case=31 options=48 phase=6 cycles=3050
+PARALLEL_PHASE case=31 options=48 phase=7 cycles=266
+PARALLEL_CASE_PASS case=32 options=48 cycles=30582 ci=17 co=9 h=4 w=6 k=3 outputs=216
+PARALLEL_PHASE case=32 options=48 phase=0 cycles=8275
+PARALLEL_PHASE case=32 options=48 phase=1 cycles=553
+PARALLEL_PHASE case=32 options=48 phase=2 cycles=2449
+PARALLEL_PHASE case=32 options=48 phase=3 cycles=12674
+PARALLEL_PHASE case=32 options=48 phase=4 cycles=1584
+PARALLEL_PHASE case=32 options=48 phase=5 cycles=1337
+PARALLEL_PHASE case=32 options=48 phase=6 cycles=3420
+PARALLEL_PHASE case=32 options=48 phase=7 cycles=290
+PARALLEL_CASE_PASS case=33 options=48 cycles=60548 ci=64 co=31 h=2 w=4 k=3 outputs=248
+PARALLEL_PHASE case=33 options=48 phase=0 cycles=8275
+PARALLEL_PHASE case=33 options=48 phase=1 cycles=1977
+PARALLEL_PHASE case=33 options=48 phase=2 cycles=29080
+PARALLEL_PHASE case=33 options=48 phase=3 cycles=13823
+PARALLEL_PHASE case=33 options=48 phase=4 cycles=1744
+PARALLEL_PHASE case=33 options=48 phase=5 cycles=1422
+PARALLEL_PHASE case=33 options=48 phase=6 cycles=3945
+PARALLEL_PHASE case=33 options=48 phase=7 cycles=282
+PARALLEL_CASE_PASS case=34 options=48 cycles=75805 ci=129 co=32 h=1 w=1 k=3 outputs=32
+PARALLEL_PHASE case=34 options=48 phase=0 cycles=8275
+PARALLEL_PHASE case=34 options=48 phase=1 cycles=2027
+PARALLEL_PHASE case=34 options=48 phase=2 cycles=61303
+PARALLEL_PHASE case=34 options=48 phase=3 cycles=2766
+PARALLEL_PHASE case=34 options=48 phase=4 cycles=272
+PARALLEL_PHASE case=34 options=48 phase=5 cycles=180
+PARALLEL_PHASE case=34 options=48 phase=6 cycles=944
+PARALLEL_PHASE case=34 options=48 phase=7 cycles=38
+PARALLEL_CASE_PASS case=35 options=48 cycles=76412 ci=64 co=33 h=2 w=4 k=3 outputs=264
+PARALLEL_PHASE case=35 options=48 phase=0 cycles=8307
+PARALLEL_PHASE case=35 options=48 phase=1 cycles=2074
+PARALLEL_PHASE case=35 options=48 phase=2 cycles=30949
+PARALLEL_PHASE case=35 options=48 phase=3 cycles=26815
+PARALLEL_PHASE case=35 options=48 phase=4 cycles=2184
+PARALLEL_PHASE case=35 options=48 phase=5 cycles=1580
+PARALLEL_PHASE case=35 options=48 phase=6 cycles=4179
+PARALLEL_PHASE case=35 options=48 phase=7 cycles=324
+PARALLEL_CASE_PASS case=36 options=48 cycles=43705 ci=64 co=65 h=2 w=4 k=1 outputs=520
+PARALLEL_PHASE case=36 options=48 phase=0 cycles=8339
+PARALLEL_PHASE case=36 options=48 phase=1 cycles=4130
+PARALLEL_PHASE case=36 options=48 phase=2 cycles=7622
+PARALLEL_PHASE case=36 options=48 phase=3 cycles=8580
+PARALLEL_PHASE case=36 options=48 phase=4 cycles=3120
+PARALLEL_PHASE case=36 options=48 phase=5 cycles=3046
+PARALLEL_PHASE case=36 options=48 phase=6 cycles=8254
+PARALLEL_PHASE case=36 options=48 phase=7 cycles=614
+PARALLEL_CASE_PASS case=37 options=48 cycles=80232 ci=512 co=8 h=1 w=1 k=3 outputs=8
+PARALLEL_PHASE case=37 options=48 phase=0 cycles=8275
+PARALLEL_PHASE case=37 options=48 phase=1 cycles=489
+PARALLEL_PHASE case=37 options=48 phase=2 cycles=60045
+PARALLEL_PHASE case=37 options=48 phase=3 cycles=10870
+PARALLEL_PHASE case=37 options=48 phase=4 cycles=247
+PARALLEL_PHASE case=37 options=48 phase=5 cycles=51
+PARALLEL_PHASE case=37 options=48 phase=6 cycles=242
+PARALLEL_PHASE case=37 options=48 phase=7 cycles=13
+PARALLEL_CASE_PASS case=38 options=48 cycles=70549 ci=1024 co=32 h=1 w=1 k=1 outputs=32
+PARALLEL_PHASE case=38 options=48 phase=0 cycles=8275
+PARALLEL_PHASE case=38 options=48 phase=1 cycles=2028
+PARALLEL_PHASE case=38 options=48 phase=2 cycles=53793
+PARALLEL_PHASE case=38 options=48 phase=3 cycles=5035
+PARALLEL_PHASE case=38 options=48 phase=4 cycles=260
+PARALLEL_PHASE case=38 options=48 phase=5 cycles=182
+PARALLEL_PHASE case=38 options=48 phase=6 cycles=938
+PARALLEL_PHASE case=38 options=48 phase=7 cycles=38
+PARALLEL_CASE_PASS case=39 options=48 cycles=67690 ci=17 co=33 h=4 w=6 k=3 outputs=792
+PARALLEL_PHASE case=39 options=48 phase=0 cycles=8307
+PARALLEL_PHASE case=39 options=48 phase=1 cycles=2108
+PARALLEL_PHASE case=39 options=48 phase=2 cycles=9024
+PARALLEL_PHASE case=39 options=48 phase=3 cycles=24661
+PARALLEL_PHASE case=39 options=48 phase=4 cycles=5328
+PARALLEL_PHASE case=39 options=48 phase=5 cycles=4757
+PARALLEL_PHASE case=39 options=48 phase=6 cycles=12541
+PARALLEL_PHASE case=39 options=48 phase=7 cycles=964
+PARALLEL_CASE_PASS case=40 options=48 cycles=161012 ci=64 co=64 h=4 w=4 k=3 outputs=1024
+PARALLEL_PHASE case=40 options=48 phase=0 cycles=8307
+PARALLEL_PHASE case=40 options=48 phase=1 cycles=4019
+PARALLEL_PHASE case=40 options=48 phase=2 cycles=60071
+PARALLEL_PHASE case=40 options=48 phase=3 cycles=58238
+PARALLEL_PHASE case=40 options=48 phase=4 cycles=7104
+PARALLEL_PHASE case=40 options=48 phase=5 cycles=5829
+PARALLEL_PHASE case=40 options=48 phase=6 cycles=16288
+PARALLEL_PHASE case=40 options=48 phase=7 cycles=1156
+PARALLEL_CASE_PASS case=41 options=48 cycles=28029 ci=64 co=33 h=2 w=4 k=1 outputs=264
+PARALLEL_PHASE case=41 options=48 phase=0 cycles=8307
+PARALLEL_PHASE case=41 options=48 phase=1 cycles=2067
+PARALLEL_PHASE case=41 options=48 phase=2 cycles=3873
+PARALLEL_PHASE case=41 options=48 phase=3 cycles=6003
+PARALLEL_PHASE case=41 options=48 phase=4 cycles=1680
+PARALLEL_PHASE case=41 options=48 phase=5 cycles=1587
+PARALLEL_PHASE case=41 options=48 phase=6 cycles=4188
+PARALLEL_PHASE case=41 options=48 phase=7 cycles=324
+PARALLEL_CASE_PASS case=30 options=56 cycles=11462 ci=3 co=7 h=2 w=5 k=1 outputs=70
+PARALLEL_PHASE case=30 options=56 phase=0 cycles=8275
+PARALLEL_PHASE case=30 options=56 phase=1 cycles=431
+PARALLEL_PHASE case=30 options=56 phase=2 cycles=276
+PARALLEL_PHASE case=30 options=56 phase=3 cycles=213
+PARALLEL_PHASE case=30 options=56 phase=4 cycles=520
+PARALLEL_PHASE case=30 options=56 phase=5 cycles=462
+PARALLEL_PHASE case=30 options=56 phase=6 cycles=1183
+PARALLEL_PHASE case=30 options=56 phase=7 cycles=102
+PARALLEL_CASE_PASS case=31 options=56 cycles=29654 ci=17 co=8 h=4 w=6 k=3 outputs=192
+PARALLEL_PHASE case=31 options=56 phase=0 cycles=8275
+PARALLEL_PHASE case=31 options=56 phase=1 cycles=489
+PARALLEL_PHASE case=31 options=56 phase=2 cycles=2187
+PARALLEL_PHASE case=31 options=56 phase=3 cycles=12676
+PARALLEL_PHASE case=31 options=56 phase=4 cycles=1488
+PARALLEL_PHASE case=31 options=56 phase=5 cycles=1223
+PARALLEL_PHASE case=31 options=56 phase=6 cycles=3050
+PARALLEL_PHASE case=31 options=56 phase=7 cycles=266
+PARALLEL_CASE_PASS case=32 options=56 cycles=30591 ci=17 co=9 h=4 w=6 k=3 outputs=216
+PARALLEL_PHASE case=32 options=56 phase=0 cycles=8275
+PARALLEL_PHASE case=32 options=56 phase=1 cycles=555
+PARALLEL_PHASE case=32 options=56 phase=2 cycles=2456
+PARALLEL_PHASE case=32 options=56 phase=3 cycles=12674
+PARALLEL_PHASE case=32 options=56 phase=4 cycles=1584
+PARALLEL_PHASE case=32 options=56 phase=5 cycles=1337
+PARALLEL_PHASE case=32 options=56 phase=6 cycles=3420
+PARALLEL_PHASE case=32 options=56 phase=7 cycles=290
+PARALLEL_CASE_PASS case=33 options=56 cycles=60547 ci=64 co=31 h=2 w=4 k=3 outputs=248
+PARALLEL_PHASE case=33 options=56 phase=0 cycles=8275
+PARALLEL_PHASE case=33 options=56 phase=1 cycles=1976
+PARALLEL_PHASE case=33 options=56 phase=2 cycles=29080
+PARALLEL_PHASE case=33 options=56 phase=3 cycles=13823
+PARALLEL_PHASE case=33 options=56 phase=4 cycles=1744
+PARALLEL_PHASE case=33 options=56 phase=5 cycles=1422
+PARALLEL_PHASE case=33 options=56 phase=6 cycles=3945
+PARALLEL_PHASE case=33 options=56 phase=7 cycles=282
+PARALLEL_CASE_PASS case=34 options=56 cycles=75807 ci=129 co=32 h=1 w=1 k=3 outputs=32
+PARALLEL_PHASE case=34 options=56 phase=0 cycles=8275
+PARALLEL_PHASE case=34 options=56 phase=1 cycles=2029
+PARALLEL_PHASE case=34 options=56 phase=2 cycles=61303
+PARALLEL_PHASE case=34 options=56 phase=3 cycles=2766
+PARALLEL_PHASE case=34 options=56 phase=4 cycles=272
+PARALLEL_PHASE case=34 options=56 phase=5 cycles=180
+PARALLEL_PHASE case=34 options=56 phase=6 cycles=944
+PARALLEL_PHASE case=34 options=56 phase=7 cycles=38
+PARALLEL_CASE_PASS case=35 options=56 cycles=76409 ci=64 co=33 h=2 w=4 k=3 outputs=264
+PARALLEL_PHASE case=35 options=56 phase=0 cycles=8307
+PARALLEL_PHASE case=35 options=56 phase=1 cycles=2071
+PARALLEL_PHASE case=35 options=56 phase=2 cycles=30949
+PARALLEL_PHASE case=35 options=56 phase=3 cycles=26815
+PARALLEL_PHASE case=35 options=56 phase=4 cycles=2184
+PARALLEL_PHASE case=35 options=56 phase=5 cycles=1580
+PARALLEL_PHASE case=35 options=56 phase=6 cycles=4179
+PARALLEL_PHASE case=35 options=56 phase=7 cycles=324
+PARALLEL_CASE_PASS case=36 options=56 cycles=43662 ci=64 co=65 h=2 w=4 k=1 outputs=520
+PARALLEL_PHASE case=36 options=56 phase=0 cycles=8339
+PARALLEL_PHASE case=36 options=56 phase=1 cycles=4103
+PARALLEL_PHASE case=36 options=56 phase=2 cycles=7619
+PARALLEL_PHASE case=36 options=56 phase=3 cycles=8574
+PARALLEL_PHASE case=36 options=56 phase=4 cycles=3120
+PARALLEL_PHASE case=36 options=56 phase=5 cycles=3045
+PARALLEL_PHASE case=36 options=56 phase=6 cycles=8248
+PARALLEL_PHASE case=36 options=56 phase=7 cycles=614
+PARALLEL_CASE_PASS case=37 options=56 cycles=80253 ci=512 co=8 h=1 w=1 k=3 outputs=8
+PARALLEL_PHASE case=37 options=56 phase=0 cycles=8275
+PARALLEL_PHASE case=37 options=56 phase=1 cycles=499
+PARALLEL_PHASE case=37 options=56 phase=2 cycles=60051
+PARALLEL_PHASE case=37 options=56 phase=3 cycles=10874
+PARALLEL_PHASE case=37 options=56 phase=4 cycles=247
+PARALLEL_PHASE case=37 options=56 phase=5 cycles=52
+PARALLEL_PHASE case=37 options=56 phase=6 cycles=242
+PARALLEL_PHASE case=37 options=56 phase=7 cycles=13
+PARALLEL_CASE_PASS case=38 options=56 cycles=70569 ci=1024 co=32 h=1 w=1 k=1 outputs=32
+PARALLEL_PHASE case=38 options=56 phase=0 cycles=8275
+PARALLEL_PHASE case=38 options=56 phase=1 cycles=2042
+PARALLEL_PHASE case=38 options=56 phase=2 cycles=53799
+PARALLEL_PHASE case=38 options=56 phase=3 cycles=5036
+PARALLEL_PHASE case=38 options=56 phase=4 cycles=260
+PARALLEL_PHASE case=38 options=56 phase=5 cycles=179
+PARALLEL_PHASE case=38 options=56 phase=6 cycles=940
+PARALLEL_PHASE case=38 options=56 phase=7 cycles=38
+PARALLEL_CASE_PASS case=39 options=56 cycles=67732 ci=17 co=33 h=4 w=6 k=3 outputs=792
+PARALLEL_PHASE case=39 options=56 phase=0 cycles=8307
+PARALLEL_PHASE case=39 options=56 phase=1 cycles=2074
+PARALLEL_PHASE case=39 options=56 phase=2 cycles=9035
+PARALLEL_PHASE case=39 options=56 phase=3 cycles=24661
+PARALLEL_PHASE case=39 options=56 phase=4 cycles=5328
+PARALLEL_PHASE case=39 options=56 phase=5 cycles=4770
+PARALLEL_PHASE case=39 options=56 phase=6 cycles=12593
+PARALLEL_PHASE case=39 options=56 phase=7 cycles=964
+PARALLEL_CASE_PASS case=40 options=56 cycles=160980 ci=64 co=64 h=4 w=4 k=3 outputs=1024
+PARALLEL_PHASE case=40 options=56 phase=0 cycles=8307
+PARALLEL_PHASE case=40 options=56 phase=1 cycles=4013
+PARALLEL_PHASE case=40 options=56 phase=2 cycles=60046
+PARALLEL_PHASE case=40 options=56 phase=3 cycles=58242
+PARALLEL_PHASE case=40 options=56 phase=4 cycles=7104
+PARALLEL_PHASE case=40 options=56 phase=5 cycles=5827
+PARALLEL_PHASE case=40 options=56 phase=6 cycles=16285
+PARALLEL_PHASE case=40 options=56 phase=7 cycles=1156
+PARALLEL_CASE_PASS case=41 options=56 cycles=27431 ci=64 co=33 h=2 w=4 k=1 outputs=264
+PARALLEL_PHASE case=41 options=56 phase=0 cycles=8307
+PARALLEL_PHASE case=41 options=56 phase=1 cycles=2107
+PARALLEL_PHASE case=41 options=56 phase=2 cycles=3876
+PARALLEL_PHASE case=41 options=56 phase=3 cycles=5990
+PARALLEL_PHASE case=41 options=56 phase=4 cycles=1056
+PARALLEL_PHASE case=41 options=56 phase=5 cycles=1579
+PARALLEL_PHASE case=41 options=56 phase=6 cycles=4192
+PARALLEL_PHASE case=41 options=56 phase=7 cycles=324
+PARALLEL_CASE_PASS case=31 options=98 cycles=30232 ci=17 co=8 h=4 w=6 k=3 outputs=192
+PARALLEL_PHASE case=31 options=98 phase=0 cycles=88
+PARALLEL_PHASE case=31 options=98 phase=1 cycles=3042
+PARALLEL_PHASE case=31 options=98 phase=2 cycles=2193
+PARALLEL_PHASE case=31 options=98 phase=3 cycles=14673
+PARALLEL_PHASE case=31 options=98 phase=4 cycles=1488
+PARALLEL_PHASE case=31 options=98 phase=5 cycles=1077
+PARALLEL_PHASE case=31 options=98 phase=6 cycles=2849
+PARALLEL_PHASE case=31 options=98 phase=7 cycles=4822
+PARALLEL_CASE_PASS case=32 options=98 cycles=31178 ci=17 co=9 h=4 w=6 k=3 outputs=216
+PARALLEL_PHASE case=32 options=98 phase=0 cycles=88
+PARALLEL_PHASE case=32 options=98 phase=1 cycles=3113
+PARALLEL_PHASE case=32 options=98 phase=2 cycles=2464
+PARALLEL_PHASE case=32 options=98 phase=3 cycles=14675
+PARALLEL_PHASE case=32 options=98 phase=4 cycles=1584
+PARALLEL_PHASE case=32 options=98 phase=5 cycles=1185
+PARALLEL_PHASE case=32 options=98 phase=6 cycles=3223
+PARALLEL_PHASE case=32 options=98 phase=7 cycles=4846
+PARALLEL_CASE_PASS case=33 options=98 cycles=58159 ci=64 co=31 h=2 w=4 k=3 outputs=248
+PARALLEL_PHASE case=33 options=98 phase=0 cycles=88
+PARALLEL_PHASE case=33 options=98 phase=1 cycles=4522
+PARALLEL_PHASE case=33 options=98 phase=2 cycles=29080
+PARALLEL_PHASE case=33 options=98 phase=3 cycles=12676
+PARALLEL_PHASE case=33 options=98 phase=4 cycles=1744
+PARALLEL_PHASE case=33 options=98 phase=5 cycles=1229
+PARALLEL_PHASE case=33 options=98 phase=6 cycles=3930
+PARALLEL_PHASE case=33 options=98 phase=7 cycles=4890
+PARALLEL_CASE_PASS case=35 options=98 cycles=78214 ci=64 co=33 h=2 w=4 k=3 outputs=264
+PARALLEL_PHASE case=35 options=98 phase=0 cycles=120
+PARALLEL_PHASE case=35 options=98 phase=1 cycles=4677
+PARALLEL_PHASE case=35 options=98 phase=2 cycles=30949
+PARALLEL_PHASE case=35 options=98 phase=3 cycles=25156
+PARALLEL_PHASE case=35 options=98 phase=4 cycles=2184
+PARALLEL_PHASE case=35 options=98 phase=5 cycles=1383
+PARALLEL_PHASE case=35 options=98 phase=6 cycles=4205
+PARALLEL_PHASE case=35 options=98 phase=7 cycles=9540
+PARALLEL_CASE_PASS case=36 options=98 cycles=49407 ci=64 co=65 h=2 w=4 k=1 outputs=520
+PARALLEL_PHASE case=36 options=98 phase=0 cycles=152
+PARALLEL_PHASE case=36 options=98 phase=1 cycles=6744
+PARALLEL_PHASE case=36 options=98 phase=2 cycles=7616
+PARALLEL_PHASE case=36 options=98 phase=3 cycles=18699
+PARALLEL_PHASE case=36 options=98 phase=4 cycles=3120
+PARALLEL_PHASE case=36 options=98 phase=5 cycles=2657
+PARALLEL_PHASE case=36 options=98 phase=6 cycles=8269
+PARALLEL_PHASE case=36 options=98 phase=7 cycles=2150
+PARALLEL_CASE_PASS case=39 options=98 cycles=74323 ci=17 co=33 h=4 w=6 k=3 outputs=792
+PARALLEL_PHASE case=39 options=98 phase=0 cycles=120
+PARALLEL_PHASE case=39 options=98 phase=1 cycles=4626
+PARALLEL_PHASE case=39 options=98 phase=2 cycles=9020
+PARALLEL_PHASE case=39 options=98 phase=3 cycles=29182
+PARALLEL_PHASE case=39 options=98 phase=4 cycles=5328
+PARALLEL_PHASE case=39 options=98 phase=5 cycles=4145
+PARALLEL_PHASE case=39 options=98 phase=6 cycles=11826
+PARALLEL_PHASE case=39 options=98 phase=7 cycles=10076
+PARALLEL_CASE_PASS case=40 options=98 cycles=176946 ci=64 co=64 h=4 w=4 k=3 outputs=1024
+PARALLEL_PHASE case=40 options=98 phase=0 cycles=120
+PARALLEL_PHASE case=40 options=98 phase=1 cycles=6662
+PARALLEL_PHASE case=40 options=98 phase=2 cycles=60057
+PARALLEL_PHASE case=40 options=98 phase=3 cycles=58998
+PARALLEL_PHASE case=40 options=98 phase=4 cycles=7104
+PARALLEL_PHASE case=40 options=98 phase=5 cycles=5051
+PARALLEL_PHASE case=40 options=98 phase=6 cycles=15270
+PARALLEL_PHASE case=40 options=98 phase=7 cycles=23684
+PARALLEL_CASE_PASS case=41 options=98 cycles=29762 ci=64 co=33 h=2 w=4 k=1 outputs=264
+PARALLEL_PHASE case=41 options=98 phase=0 cycles=120
+PARALLEL_PHASE case=41 options=98 phase=1 cycles=4642
+PARALLEL_PHASE case=41 options=98 phase=2 cycles=3874
+PARALLEL_PHASE case=41 options=98 phase=3 cycles=12526
+PARALLEL_PHASE case=41 options=98 phase=4 cycles=1680
+PARALLEL_PHASE case=41 options=98 phase=5 cycles=1382
+PARALLEL_PHASE case=41 options=98 phase=6 cycles=4190
+PARALLEL_PHASE case=41 options=98 phase=7 cycles=1348
+PARALLEL_CASE_PASS case=31 options=114 cycles=29902 ci=17 co=8 h=4 w=6 k=3 outputs=192
+PARALLEL_PHASE case=31 options=114 phase=0 cycles=8280
+PARALLEL_PHASE case=31 options=114 phase=1 cycles=1061
+PARALLEL_PHASE case=31 options=114 phase=2 cycles=2179
+PARALLEL_PHASE case=31 options=114 phase=3 cycles=12671
+PARALLEL_PHASE case=31 options=114 phase=4 cycles=1488
+PARALLEL_PHASE case=31 options=114 phase=5 cycles=1072
+PARALLEL_PHASE case=31 options=114 phase=6 cycles=2885
+PARALLEL_PHASE case=31 options=114 phase=7 cycles=266
+PARALLEL_CASE_PASS case=32 options=114 cycles=30800 ci=17 co=9 h=4 w=6 k=3 outputs=216
+PARALLEL_PHASE case=32 options=114 phase=0 cycles=8280
+PARALLEL_PHASE case=32 options=114 phase=1 cycles=1126
+PARALLEL_PHASE case=32 options=114 phase=2 cycles=2458
+PARALLEL_PHASE case=32 options=114 phase=3 cycles=12670
+PARALLEL_PHASE case=32 options=114 phase=4 cycles=1584
+PARALLEL_PHASE case=32 options=114 phase=5 cycles=1179
+PARALLEL_PHASE case=32 options=114 phase=6 cycles=3213
+PARALLEL_PHASE case=32 options=114 phase=7 cycles=290
+PARALLEL_CASE_PASS case=33 options=114 cycles=60953 ci=64 co=31 h=2 w=4 k=3 outputs=248
+PARALLEL_PHASE case=33 options=114 phase=0 cycles=8280
+PARALLEL_PHASE case=33 options=114 phase=1 cycles=2566
+PARALLEL_PHASE case=33 options=114 phase=2 cycles=29088
+PARALLEL_PHASE case=33 options=114 phase=3 cycles=13823
+PARALLEL_PHASE case=33 options=114 phase=4 cycles=1744
+PARALLEL_PHASE case=33 options=114 phase=5 cycles=1235
+PARALLEL_PHASE case=33 options=114 phase=6 cycles=3935
+PARALLEL_PHASE case=33 options=114 phase=7 cycles=282
+PARALLEL_CASE_PASS case=35 options=114 cycles=76833 ci=64 co=33 h=2 w=4 k=3 outputs=264
+PARALLEL_PHASE case=35 options=114 phase=0 cycles=8312
+PARALLEL_PHASE case=35 options=114 phase=1 cycles=2662
+PARALLEL_PHASE case=35 options=114 phase=2 cycles=30950
+PARALLEL_PHASE case=35 options=114 phase=3 cycles=26813
+PARALLEL_PHASE case=35 options=114 phase=4 cycles=2184
+PARALLEL_PHASE case=35 options=114 phase=5 cycles=1384
+PARALLEL_PHASE case=35 options=114 phase=6 cycles=4204
+PARALLEL_PHASE case=35 options=114 phase=7 cycles=324
+PARALLEL_CASE_PASS case=36 options=114 cycles=43906 ci=64 co=65 h=2 w=4 k=1 outputs=520
+PARALLEL_PHASE case=36 options=114 phase=0 cycles=8344
+PARALLEL_PHASE case=36 options=114 phase=1 cycles=4670
+PARALLEL_PHASE case=36 options=114 phase=2 cycles=7617
+PARALLEL_PHASE case=36 options=114 phase=3 cycles=8574
+PARALLEL_PHASE case=36 options=114 phase=4 cycles=3120
+PARALLEL_PHASE case=36 options=114 phase=5 cycles=2653
+PARALLEL_PHASE case=36 options=114 phase=6 cycles=8314
+PARALLEL_PHASE case=36 options=114 phase=7 cycles=614
+PARALLEL_CASE_PASS case=39 options=114 cycles=67011 ci=17 co=33 h=4 w=6 k=3 outputs=792
+PARALLEL_PHASE case=39 options=114 phase=0 cycles=8312
+PARALLEL_PHASE case=39 options=114 phase=1 cycles=2690
+PARALLEL_PHASE case=39 options=114 phase=2 cycles=9043
+PARALLEL_PHASE case=39 options=114 phase=3 cycles=24672
+PARALLEL_PHASE case=39 options=114 phase=4 cycles=5328
+PARALLEL_PHASE case=39 options=114 phase=5 cycles=4172
+PARALLEL_PHASE case=39 options=114 phase=6 cycles=11830
+PARALLEL_PHASE case=39 options=114 phase=7 cycles=964
+PARALLEL_CASE_PASS case=40 options=114 cycles=159885 ci=64 co=64 h=4 w=4 k=3 outputs=1024
+PARALLEL_PHASE case=40 options=114 phase=0 cycles=8312
+PARALLEL_PHASE case=40 options=114 phase=1 cycles=4651
+PARALLEL_PHASE case=40 options=114 phase=2 cycles=60057
+PARALLEL_PHASE case=40 options=114 phase=3 cycles=58243
+PARALLEL_PHASE case=40 options=114 phase=4 cycles=7104
+PARALLEL_PHASE case=40 options=114 phase=5 cycles=5049
+PARALLEL_PHASE case=40 options=114 phase=6 cycles=15313
+PARALLEL_PHASE case=40 options=114 phase=7 cycles=1156
+PARALLEL_CASE_PASS case=41 options=114 cycles=28478 ci=64 co=33 h=2 w=4 k=1 outputs=264
+PARALLEL_PHASE case=41 options=114 phase=0 cycles=8312
+PARALLEL_PHASE case=41 options=114 phase=1 cycles=2674
+PARALLEL_PHASE case=41 options=114 phase=2 cycles=3880
+PARALLEL_PHASE case=41 options=114 phase=3 cycles=5990
+PARALLEL_PHASE case=41 options=114 phase=4 cycles=1680
+PARALLEL_PHASE case=41 options=114 phase=5 cycles=1388
+PARALLEL_PHASE case=41 options=114 phase=6 cycles=4230
+PARALLEL_PHASE case=41 options=114 phase=7 cycles=324
+PARALLEL_CASE_PASS case=31 options=122 cycles=29886 ci=17 co=8 h=4 w=6 k=3 outputs=192
+PARALLEL_PHASE case=31 options=122 phase=0 cycles=8280
+PARALLEL_PHASE case=31 options=122 phase=1 cycles=1066
+PARALLEL_PHASE case=31 options=122 phase=2 cycles=2183
+PARALLEL_PHASE case=31 options=122 phase=3 cycles=12663
+PARALLEL_PHASE case=31 options=122 phase=4 cycles=1488
+PARALLEL_PHASE case=31 options=122 phase=5 cycles=1074
+PARALLEL_PHASE case=31 options=122 phase=6 cycles=2866
+PARALLEL_PHASE case=31 options=122 phase=7 cycles=266
+PARALLEL_CASE_PASS case=32 options=122 cycles=30809 ci=17 co=9 h=4 w=6 k=3 outputs=216
+PARALLEL_PHASE case=32 options=122 phase=0 cycles=8280
+PARALLEL_PHASE case=32 options=122 phase=1 cycles=1136
+PARALLEL_PHASE case=32 options=122 phase=2 cycles=2470
+PARALLEL_PHASE case=32 options=122 phase=3 cycles=12660
+PARALLEL_PHASE case=32 options=122 phase=4 cycles=1584
+PARALLEL_PHASE case=32 options=122 phase=5 cycles=1180
+PARALLEL_PHASE case=32 options=122 phase=6 cycles=3209
+PARALLEL_PHASE case=32 options=122 phase=7 cycles=290
+PARALLEL_CASE_PASS case=33 options=122 cycles=60896 ci=64 co=31 h=2 w=4 k=3 outputs=248
+PARALLEL_PHASE case=33 options=122 phase=0 cycles=8280
+PARALLEL_PHASE case=33 options=122 phase=1 cycles=2523
+PARALLEL_PHASE case=33 options=122 phase=2 cycles=29080
+PARALLEL_PHASE case=33 options=122 phase=3 cycles=13823
+PARALLEL_PHASE case=33 options=122 phase=4 cycles=1744
+PARALLEL_PHASE case=33 options=122 phase=5 cycles=1230
+PARALLEL_PHASE case=33 options=122 phase=6 cycles=3934
+PARALLEL_PHASE case=33 options=122 phase=7 cycles=282
+PARALLEL_CASE_PASS case=35 options=122 cycles=76809 ci=64 co=33 h=2 w=4 k=3 outputs=264
+PARALLEL_PHASE case=35 options=122 phase=0 cycles=8312
+PARALLEL_PHASE case=35 options=122 phase=1 cycles=2660
+PARALLEL_PHASE case=35 options=122 phase=2 cycles=30956
+PARALLEL_PHASE case=35 options=122 phase=3 cycles=26815
+PARALLEL_PHASE case=35 options=122 phase=4 cycles=2184
+PARALLEL_PHASE case=35 options=122 phase=5 cycles=1390
+PARALLEL_PHASE case=35 options=122 phase=6 cycles=4168
+PARALLEL_PHASE case=35 options=122 phase=7 cycles=324
+PARALLEL_CASE_PASS case=36 options=122 cycles=43957 ci=64 co=65 h=2 w=4 k=1 outputs=520
+PARALLEL_PHASE case=36 options=122 phase=0 cycles=8344
+PARALLEL_PHASE case=36 options=122 phase=1 cycles=4741
+PARALLEL_PHASE case=36 options=122 phase=2 cycles=7624
+PARALLEL_PHASE case=36 options=122 phase=3 cycles=8580
+PARALLEL_PHASE case=36 options=122 phase=4 cycles=3120
+PARALLEL_PHASE case=36 options=122 phase=5 cycles=2647
+PARALLEL_PHASE case=36 options=122 phase=6 cycles=8287
+PARALLEL_PHASE case=36 options=122 phase=7 cycles=614
+PARALLEL_CASE_PASS case=39 options=122 cycles=66920 ci=17 co=33 h=4 w=6 k=3 outputs=792
+PARALLEL_PHASE case=39 options=122 phase=0 cycles=8312
+PARALLEL_PHASE case=39 options=122 phase=1 cycles=2667
+PARALLEL_PHASE case=39 options=122 phase=2 cycles=9019
+PARALLEL_PHASE case=39 options=122 phase=3 cycles=24659
+PARALLEL_PHASE case=39 options=122 phase=4 cycles=5328
+PARALLEL_PHASE case=39 options=122 phase=5 cycles=4154
+PARALLEL_PHASE case=39 options=122 phase=6 cycles=11817
+PARALLEL_PHASE case=39 options=122 phase=7 cycles=964
+PARALLEL_CASE_PASS case=40 options=122 cycles=159881 ci=64 co=64 h=4 w=4 k=3 outputs=1024
+PARALLEL_PHASE case=40 options=122 phase=0 cycles=8312
+PARALLEL_PHASE case=40 options=122 phase=1 cycles=4647
+PARALLEL_PHASE case=40 options=122 phase=2 cycles=60057
+PARALLEL_PHASE case=40 options=122 phase=3 cycles=58243
+PARALLEL_PHASE case=40 options=122 phase=4 cycles=7104
+PARALLEL_PHASE case=40 options=122 phase=5 cycles=5049
+PARALLEL_PHASE case=40 options=122 phase=6 cycles=15313
+PARALLEL_PHASE case=40 options=122 phase=7 cycles=1156
+PARALLEL_CASE_PASS case=41 options=122 cycles=27829 ci=64 co=33 h=2 w=4 k=1 outputs=264
+PARALLEL_PHASE case=41 options=122 phase=0 cycles=8312
+PARALLEL_PHASE case=41 options=122 phase=1 cycles=2679
+PARALLEL_PHASE case=41 options=122 phase=2 cycles=3879
+PARALLEL_PHASE case=41 options=122 phase=3 cycles=5990
+PARALLEL_PHASE case=41 options=122 phase=4 cycles=1056
+PARALLEL_PHASE case=41 options=122 phase=5 cycles=1388
+PARALLEL_PHASE case=41 options=122 phase=6 cycles=4201
+PARALLEL_PHASE case=41 options=122 phase=7 cycles=324
+PARALLEL_PASS cases=60 outputs=21546
+$finish called at time : 15873076568 ps : File "V:/runs/clean_clock_20261028_hp0/parallel/tb_parallel.sv" Line 262
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:07:41 . Memory (MB): peak = 232.883 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 25492 KB (Peak: 25492 KB), Simulation CPU Usage: 456827 ms
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 14:23:38 2026...

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Oct 28 13:59:08 2026
+# Process ID         : 17596
+# Current directory  : W:/verification/control_guards
+# Command line       : xsim.exe -log tb_size_pipeline.log -mode tcl -source {xsim.dir/tb_size_pipeline/xsim_script.tcl}
+# Log file           : W:/verification/control_guards/tb_size_pipeline.log
+# Journal file       : W:/verification/control_guards\xsim.jou
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 19082 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_size_pipeline/xsim_script.tcl
+# xsim {tb_size_pipeline} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SIZE_PIPELINE_PASS cases=7 full_plane=173056 signed_boundary=131072 hardware_access=0
+$finish called at time : 4016024 ps : File "W:/verification/control_guards/tb_size_pipeline.sv" Line 68
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 13:59:10 2026...

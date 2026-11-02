@@ -1,0 +1,54 @@
+printf '\nTY_2b178a4ce5c141a5abbf71513554c21c_BEGIN\n'; bash - c "$(printf '%s' 'c2V0IC1ldQpwcmludGYgJzMxOTRjMDA0YTMwYTFmYmM3MWNjMjM3ZTExNTU0Zm I3OTJiYTFiMzdiMzQ0NGQyMWZmNzdlZGEzNjgzMzk0MDkgIC9kZXYvc2htL3R5MTkyX2tpdF8yMDI2MT AyNV9ydW4wMS50Z3pcbicgfCBzaGEyNTZzdW0gLWMgLQpwcmludGYgJzEwNzFhNzQ0ZGI2ZjJjNDBiYj BkMjAxZGM4NzZmYWI3YzA0YzhjYmVkN2YwYzFiNWVkOGI5YjJlZGY2NGE4MmQgIC9vcHQvdGlueXlvbG 8vdGlueXlvbG9fZG1hLmtvXG4nIHwgc2hhMjU2c3VtIC1jIC0KcHJpbnRmICcxMDcxYTc0NGRiNmYyYz QwYmIwZDIwMWRjODc2ZmFiN2MwNGM4Y2JlZDdmMGMxYjVlZDhiOWIyZWRmNjRhODJkICAvbGliL21vZH VsZXMvNC40LjMwLXhpbGxpbnV4LTIuMC9leHRyYS90aW55eW9sb19kbWEua29cbicgfCBzaGEyNTZzdW 0gLWMgLQpwcmludGYgJzZkMmM3MTFhOTlhNGU2MDZjYzdlYTA5NDRmOTY1NmViY2MzYzZlMTcyNTdlMz g1NGQ5ZmY2ZTgyMWZkYzc4NTAgIC9vcHQvdGlueXlvbG8vY2FtZXJhX3N0cmVhbVxuJyB8IHNoYTI1Nn N1bSAtYyAtCnByaW50ZiAnMzA0YzlmZGY2ZDgwZDNiNDUxNjcxOTlmMzhiOWYzMzUzYWZhNTlkMDljYW YxNjMyY2FhNTNiYTIwNWQwOGI4NiAgL29wdC90aW55eW9sby9jYW1lcmFfY2FwdHVyZVxuJyB8IHNoYT I1NnN1bSAtYyAtCnByaW50ZiAnNWQwZmZkMDY0NDhmOWEwYjEyMGU2MDkyNzdlN2VmZDVlOWY2MjU3Mj Q3MDY4YjFhYTcyNDM0NGU4MGRmYzI0MyAgL29wdC90aW55eW9sby9saWJ0aW55eW9sb190cmFja2VyLn NvXG4nIHwgc2hhMjU2c3VtIC1jIC0KbWtkaXIgL2Rldi9zaG0vdHkxOTJfdmFsaWRhdGlvbl8yMDI2MT AyNV9ydW4wMQpjZCAvZGV2L3NobS90eTE5Ml92YWxpZGF0aW9uXzIwMjYxMDI1X3J1bjAxCnRhciB4em YgL2Rldi9zaG0vdHkxOTJfa2l0XzIwMjYxMDI1X3J1bjAxLnRnegpzaCBidWlsZF9uYXRpdmUuc2gKY2 F0IGNvbXBpbGVyLnR4dCBrZXJuZWwudHh0IHJ1bnRpbWVfc2hhMjU2LnR4dCBjYW1lcmFfc2VsZnRlc3 QubG9nCnByaW50ZiAnXG5UWV9CT0FSRF8xOTJfU1RBR0VEXG4nCg==' | base64 -d)"; ty_consol e_rc=$?; printf '\nTY_2b178a4ce5c141a5abbf71513554c21c_END:%s\n' "$ty_console_rc "
+
+TY_2b178a4ce5c141a5abbf71513554c21c_BEGIN
+/dev/shm/ty192_kit_20261025_run01.tgz: OK
+/opt/tinyyolo/tinyyolo_dma.ko: OK
+/lib/modules/4.4.30-xillinux-2.0/extra/tinyyolo_dma.ko: OK
+/opt/tinyyolo/camera_stream: OK
+/opt/tinyyolo/camera_capture: OK
+/opt/tinyyolo/libtinyyolo_tracker.so: OK
+tar: bird.bin: time stamp 2026-10-25 06:48:06.121374 is 337702299.059933221 s in the future
+tar: board_input_contract.py: time stamp 2026-10-25 01:09:22 is 337681974.937780148 s in the future
+tar: build_native.sh: time stamp 2026-10-25 08:05:46.372566 is 337706959.309738373 s in the future
+tar: camera_infer.py: time stamp 2026-10-25 01:09:22 is 337681974.936659456 s in the future
+tar: camera_session.py: time stamp 2026-10-25 01:09:22 is 337681974.936299672 s in the future
+tar: expected.json: time stamp 2026-10-25 08:05:46.004795 is 337706958.940614734 s in the future
+tar: linux_board_validate.py: time stamp 2026-10-25 01:09:22 is 337681974.935530562 s in the future
+tar: model_config.json: time stamp 2026-10-25 06:48:06.1021276 is 337702299.036958679 s in the future
+tar: native_sources/linux/camera_capture.c: time stamp 2026-10-25 01:09:22 is 337681974.934448594 s in the future
+tar: native_sources/linux/camera_stream.c: time stamp 2026-10-25 01:09:22 is 337681974.934141515 s in the future
+tar: native_sources/linux/Makefile: time stamp 2026-10-25 01:12:08 is 337682140.933874165 s ioe stamp 2026-10-25 01:30:30 is 337683242.933580459 s in the future
+tar: native_sources/linux/runtime_pl.inc: time stamp 2026-10-25 01:09:22 is 337681974.933310943 s in the future
+tar: native_sources/linux/tinyyolo_dma.c: time stamp 2026-10-25 01:09:22 is 337681974.932958113 s in the future
+tar: native_sources/linux/tinyyolo_hot_cache.h: time stamp 2026-10-25 01:09:22 is 337681974.932705376 s in the future
+tar: native_sources/linux/tinyyolo_input.h: time stamp 2026-10-25 01:09:22 is 337681974.932302047 s in the future
+tar: native_sources/linux/tinyyolo_uapi.h: time stamp 2026-10-25 01:09:22 is 337681974.932025667 s in the future
+tar: native_sources/linux/tinyyolo_validate.h: time stamp 2026-10-25 01:10:00 is 337682012.931754711 s in the future
+tar: native_sources/linux/tracker_core.c: time stamp 2026-10-25 01:09:22 is 337681974.931477967 s in the future
+tar: native_sources/software/source/g225_pl_driver.inc: time stamp 2026-10-25 01:09:22 is 337681974.931089014 s in the future
+tar: native_sources/software/source/g230_head_driver.inc: time stamp 2026-10-25 01:09:22 is 337681974.930774477 s in the future
+tar: native_sources/software/source/integrated_network.c: time stamp 2026-10-25 01:09:22 is 337681974.930382671 s in the future
+tar: native_sources/software/source/network_config.h: time stamp 2026-10-25 06:48:06.0815587 is 337702299.011619693 s in the future
+tar: native_sources/software/source/tinyyolo_integer_ops.h: time stamp 2026-10-25 01:09:22 is 337681974.929046658 s in the future
+tar: pan_tilt.json: time stamp 2026-10-25 01:09:22 is 337681974.928777091 s in the future
+tar: parameters.delta.json: time stamp 2026-10-25 08:05:46.3499017 is 337706959.278450396 s in the future
+tar: parameters.tail.bin: time stamp 2026-10-25 08:05:46.3381932 is 337706959.266514935 s in the future
+tar: random.bin: time stamp 2026-10-25 07:01:36.3506942 is 337703109.252712339 s in the future
+tar: reconstruct_parameters.py: time stamp 2026-10-25 08:05:46.3499017 is 337706959.251382966 s in the future
+tar: SHA256SUMS.txt: time stamp 2026-10-25 08:05:46.390676 is 337706959.291891884 s in the future
+tar: target_control.py: time stamp 2026-10-25 01:09:22 is 337681974.900933633 s in the future
+tar: tinyyolo_session.py: time stamp 2026-10-25 01:09:22 is 337681974.900617169 s in the future
+TY_PARAMETERS_RECONSTRUCTED_SHA256=dc66425157588a3de922edcd26454e72f80da2047edf0c5dcbeb0c552a04d4d0
+TY_NATIVE_BUILD_PASS input_size=192 positions=180
+gcc (Ubuntu/Linaro 5.3.1-14ubuntu2) 5.3.1 20160413
+Linux localhost.localdomain 4.4.30-xillinux-2.0 #1 SMP PREEMPT Tue Oct 3 12:03:35 IDT 2023 armv7l armv7l armv7l GNU/Linux
+902a6c7b2a24938f313de8daa10e1427ea24ae8fc292988a310d47e5e3d516bf  tinyyolo_linux
+6d2c711a99a4e606cc7ea0944f9656ebcc3c6e17257e3854d9ff6e821fdc7850  camera_stream
+304c9fdf6d80d3b45167199f38b9f3353afa59d09caf1632caa53ba205d08b86  camera_capture
+5d0ffd06448f9a0b120e609277e7efd5e9f6257247068b1aa724344e80dfc243  libtinyyolo_tracker.so
+CAMERA_OFFLINE_SELFTEST_PASS RGB_NCHW_float32=1 letterbox=1 NMS=1
+
+TY_BOARD_192_STAGED
+
+TY_2b178a4ce5c141a5abbf71513554c21c_END:0
+root@localhost:~# 

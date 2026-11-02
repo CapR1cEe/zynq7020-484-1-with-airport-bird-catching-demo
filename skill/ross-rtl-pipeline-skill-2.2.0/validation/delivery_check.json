@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "version": "2.2.0",
+  "extracted_package": "Final candidate ZIP extracted into an independent empty directory",
+  "reproduction": "Shipped reproducer ran all 12 Python tests and all five default XSim benches",
+  "simulation": {
+    "mode": "simulate",
+    "backend": "xsim",
+    "results": [
+      {
+        "example": "mac",
+        "status": "passed",
+        "parameters": {
+          "DATA_WIDTH": 8
+        },
+        "mac_width": 8
+      },
+      {
+        "example": "elastic",
+        "status": "passed",
+        "parameters": {},
+        "mac_width": null
+      },
+      {
+        "example": "tree",
+        "status": "passed",
+        "parameters": {
+          "INPUTS": 5,
+          "DATA_WIDTH": 8
+        },
+        "mac_width": null
+      },
+      {
+        "example": "fork",
+        "status": "passed",
+        "parameters": {},
+        "mac_width": null
+      },
+      {
+        "example": "round",
+        "status": "passed",
+        "parameters": {
+          "IN_WIDTH": 8,
+          "OUT_WIDTH": 4,
+          "FRACTION_BITS": 3
+        },
+        "mac_width": null
+      }
+    ],
+    "implementation_frequency": "not_measured_by_this_runner",
+    "tool_version": "Vivado Simulator v2025.2",
+    "status": "passed"
+  },
+  "rtl_lint": {
+    "mode": "lint",
+    "backend": "verilator",
+    "results": [
+      {
+        "example": "mac",
+        "status": "passed",
+        "parameters": {
+          "DATA_WIDTH": 8
+        },
+        "mac_width": 8
+      },
+      {
+        "example": "elastic",
+        "status": "passed",
+        "parameters": {},
+        "mac_width": null
+      },
+      {
+        "example": "tree",
+        "status": "passed",
+        "parameters": {
+          "INPUTS": 5,
+          "DATA_WIDTH": 8
+        },
+        "mac_width": null
+      },
+      {
+        "example": "fork",
+        "status": "passed",
+        "parameters": {},
+        "mac_width": null
+      },
+      {
+        "example": "round",
+        "status": "passed",
+        "parameters": {
+          "IN_WIDTH": 8,
+          "OUT_WIDTH": 4,
+          "FRACTION_BITS": 3
+        },
+        "mac_width": null
+      }
+    ],
+    "implementation_frequency": "not_measured_by_this_runner",
+    "tool_version": "Verilator 5.048 2026-04-26 rev vUNKNOWN-built20260428",
+    "status": "passed"
+  },
+  "integrity_before": {
+    "status": "passed",
+    "files": 226,
+    "hashes_verified": 225,
+    "archive_verified": true
+  },
+  "integrity_after": {
+    "status": "passed",
+    "files": 226,
+    "hashes_verified": 225,
+    "archive_verified": true
+  },
+  "tested_archive_sha256": "2555d19cad67dec9694c45c974cb7062672557f057a3651ef161622f3793db29",
+  "tested_skill_hashes": {
+    "SKILL.md": "00383d8c97c9a550f56b695185fd88b49dba8d5e97a1b2700f85ba48d7300b9b",
+    "assets/design-contract.example.json": "780f792516834f73d0bd991e659239fb52413a6d5f29c3efcd4d4a47a084094e",
+    "assets/evidence.example.json": "10ad3fee17a9d1105b1ceaeb2e20b5c658da5916df5e68072f7ba484d0111e9e",
+    "assets/iteration-ledger.example.csv": "4328044bb770be44f6fb8a800e2846abdadea7e2ffa4553a998eb72eeae2cb5f",
+    "assets/stage-table.example.csv": "bde4ef9eafaf837e2de066337235beed63fcb86d2044e7c3d3b43620692fa52c",
+    "references/architecture-and-timing.md": "5f3b16c022757fc66f80614824e6484d025afb3afc0756cd8d08a79a1d5e0a84",
+    "references/case-studies-2026-11-01.md": "4037aabc30c9cf9bf54fbad7027d106d61f64a8f9b0b8a6d90d242c4638e2acd",
+    "references/community-case-studies.md": "c96efa58e074ec878062954b2b4bf4214a50e5aa8c8a5578d2f6291045889e11",
+    "references/pipeline-patterns.md": "a83c675d3767ca350694905c0043e67a8a8815b6d5dc9c8bc923e4aa3393dc5e",
+    "references/readable-rtl.md": "13641edcbe9c4bc9f770ce4609d96331e97a802a5050f2c16c73fd82d0998dd1",
+    "references/research-notes.md": "d53dbd092a5f18f61d3ddf11a780147c87d45fdab770d546ad9625c3768bf09f",
+    "references/timing-closure.md": "da4ee5e727765f6e0a6996e6ecb1e6d48513e381cc32e58bd1745030c2bdb279",
+    "references/verification-and-mcp.md": "b2d12fc4fcc52b6fbd776ff9e1ebd079f4926ed0f4dd272e2a3b84dc6d8f2fe8",
+    "scripts/assess_timing.py": "14cd149bc04afc5222018affc4287f5180340f656055c6f03c3ecca67e863383",
+    "scripts/characterize_tree.tcl": "3cd3d76a2f36d42c9fef5c2550ae0ec484ea63e4c94fb7c7ff5739294497cdc6",
+    "scripts/collect_reports.tcl": "397e408e3cb6608a6e8a1558cbb2979a751981aef93572f5f0f5ce3f564becc8",
+    "scripts/resource_plan.py": "80ddf19603cfa7b27be5ac39b7b6dff7f03072bfbea9b7ee4720f08c17ef4258",
+    "scripts/run_examples.py": "039991b70fe1e4e501f1a4836516cc56068cf15198433418fb98de247748b171",
+    "scripts/test_assess_timing.py": "f716ad326d9c926b86f44c97c78a94f450716749e17581f9f680956a0c1151d4",
+    "scripts/test_resource_plan.py": "83d0aaf210d2fd1d5b6bd380661221eb26037e177be1c007f8eb1ba5625053e4",
+    "assets/bench/registered_tree_benchmark.sv": "f523195554bb6ec14e8c6280aa48f02475588e12ab232200e7c7b030097b9848",
+    "assets/rtl/elastic_buffer.sv": "2f545dd8a616bb4f3c755634624323e6e9430ac0f7ac9728a1339b5a59a725e2",
+    "assets/rtl/four_lane_mac_stream.sv": "ad53a5ab5cb3351d06b1fb0dc17072fb81bc1eec3fe48ec19d2766c878e726c2",
+    "assets/rtl/round_sat_stream.sv": "216fd3fd7cf846a394373598941cb8ce4d0a3c014188cbd659cea36262b39315",
+    "assets/rtl/signed_sum_tree_stream.sv": "89dae3a305258152e0197ca3fb1b9fcfcaa600ba3dc843181e59e8885b58c4ee",
+    "assets/rtl/stream_fork2.sv": "688c1e71247a0a720844371ccd96386bd75d1f232ee3bab503b42837bbe387c4",
+    "assets/tb/tb_elastic_buffer.sv": "d4d6e9a40e1e3b865058c1a714ec87d73eca64217e87a82d18b90113c3938004",
+    "assets/tb/tb_four_lane_mac_stream.sv": "03c3377da9ab6d32abc89e266ddfe7c357a185e924dd92719136fffc125c492c",
+    "assets/tb/tb_round_sat_stream.sv": "125f8e363af8afa8eebdb0f281464805d38534d72754fd7625afdb3ddab4b8e4",
+    "assets/tb/tb_signed_sum_tree_stream.sv": "99f4b11ea2e8bc1afe72744cc8e2797fbcc417703301386a359b8204e02ae233",
+    "assets/tb/tb_stream_fork2.sv": "787db7d815e83bb88f0be95114342a0722294ea291b6f543437ea8fa8a48c959"
+  },
+  "artifact_only_update": "Extraction receipt/console logs are added after execution; tested RTL/scripts/documentation are unchanged.",
+  "implementation_frequency": "Not measured by reproduction; earlier complete 200 MHz signoff remains incomplete."
+}

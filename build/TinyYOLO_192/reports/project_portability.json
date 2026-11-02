@@ -1,0 +1,17 @@
+{
+  "status": "PASS_PROJECT_PORTABILITY",
+  "source_count": 74,
+  "part": "xc7z020clg484-1",
+  "top": "Tiny_Yolo_wrapper",
+  "all_active_sources_local": true,
+  "pre_opt_hook_in_utils": true,
+  "post_place_hook_in_utils": true,
+  "cleanup_dependency_local": true,
+  "clock_topology_checked": true,
+  "cascaded_bufg": false,
+  "synthesis": "synth_design Complete!",
+  "implementation": "write_bitstream Complete!",
+  "verified_project_root": "<project>",
+  "checked_utc": "2026-10-28T06:39:22.331737+00:00",
+  "vivado_exit_code": 0
+}

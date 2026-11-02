@@ -1,0 +1,337 @@
+{
+  "status": "BOARD_VERIFIED_FPS_BELOW_TARGET",
+  "audit_time": "2026-10-25T16:21:49.133892+08:00",
+  "board_tested": true,
+  "functional_validation_passed": true,
+  "camera_tested": true,
+  "camera_short_sequence_passed": true,
+  "minimum_detection_5fps_pass": false,
+  "stretch_detection_15fps_pass": false,
+  "input_size": 192,
+  "positions": 180,
+  "mac_lanes": 24,
+  "hardware": {
+    "build_id": "0x47325502",
+    "pl_MHz": 240,
+    "fclk_MHz": 100,
+    "bit_sha256": "f29fa8bd3bcae4a02d3a9eee387d4a9dc7f4f55519128c121820bba8b65aa9d7",
+    "xsa_sha256": "c4c5af2a9c278cc1db8ce310fae340cd8fc50f5d8e2980c283ceac4eee3668d0"
+  },
+  "runtime_sha256": {
+    "tinyyolo_linux": "902a6c7b2a24938f313de8daa10e1427ea24ae8fc292988a310d47e5e3d516bf",
+    "parameters.bin": "dc66425157588a3de922edcd26454e72f80da2047edf0c5dcbeb0c552a04d4d0",
+    "camera_stream": "6d2c711a99a4e606cc7ea0944f9656ebcc3c6e17257e3854d9ff6e821fdc7850",
+    "camera_capture": "304c9fdf6d80d3b45167199f38b9f3353afa59d09caf1632caa53ba205d08b86",
+    "libtinyyolo_tracker.so": "5d0ffd06448f9a0b120e609277e7efd5e9f6257247068b1aa724344e80dfc243"
+  },
+  "post_device": {
+    "fclk_hz": 99999999,
+    "dma_bytes": 33554432,
+    "abi": 2,
+    "ocm_flags": 1,
+    "faulted": 0,
+    "build_id": 1194480898,
+    "pl_hz": 240000000,
+    "ocm_bytes": 32768
+  },
+  "golden": {
+    "step_hash_comparisons": 150,
+    "convolution_hash_comparisons": 72,
+    "trace_cases": 3,
+    "production_repetitions": 8,
+    "production_outputs_equal": true,
+    "production_elapsed_ms": [
+      749,
+      725,
+      725,
+      725,
+      725,
+      725,
+      725,
+      725
+    ],
+    "warm_frame_ms": {
+      "mean": 725,
+      "median": 725,
+      "minimum": 725,
+      "maximum": 725,
+      "samples": 7
+    },
+    "cpu_lookup_cache": "cached_ram",
+    "cpu_lookup_cache_bytes": 9616
+  },
+  "detection": {
+    "capture_frames": 120,
+    "completed_detections": 120,
+    "duration_seconds": 101.185070871,
+    "detection_fps": 1.1859457029287157,
+    "tracking_output_fps": 0.0,
+    "startup_ms": 653.5947749999877,
+    "full_camera_mean_ms": 843.2089239249999,
+    "overlay_saved": false,
+    "source_sha256": {
+      "summary.json": "c66ae07a6f5a6ec9b7eb1d82fa41b3df792a90b403dece2eec3a1706b80a3ca0",
+      "frames.jsonl": "e047f38ad43853f310dec6aef88896bd134bf761177366cdea6a27235afd8a4a",
+      "sequence.runtime.log": "1d5cbf914d73f425db338e1aef8518bc126b8e75985fd99f46e0bcef26258fb5"
+    },
+    "actual_capture_dimensions": [
+      [
+        640,
+        480
+      ]
+    ],
+    "requested_capture_dimensions": [
+      320,
+      240
+    ],
+    "actual_fourcc": [
+      "YUYV"
+    ],
+    "total_boxes": 0,
+    "per_frame_outputs_saved": false,
+    "per_frame_layer_metrics_saved": false,
+    "network_ms": {
+      "mean": 693.1083333333333,
+      "median": 693.0,
+      "minimum": 692,
+      "maximum": 695,
+      "samples": 120
+    },
+    "frame_total_ms": {
+      "mean": 843.0015456750018,
+      "median": 834.4556575000297,
+      "minimum": 830.9834679999994,
+      "maximum": 1598.6625140000115,
+      "samples": 120
+    },
+    "capture_ms": {
+      "mean": 70.41507740000459,
+      "median": 64.29893049994462,
+      "minimum": 61.37973400007013,
+      "maximum": 814.982142999952,
+      "samples": 120
+    },
+    "preprocess_ms": {
+      "mean": 60.86900053333769,
+      "median": 58.39083550000623,
+      "minimum": 57.69337000003816,
+      "maximum": 66.48529799997505,
+      "samples": 120
+    },
+    "runtime_process_ms": {
+      "mean": 695.0197690249922,
+      "median": 695.1718729999925,
+      "minimum": 693.7421860000086,
+      "maximum": 701.5213089999861,
+      "samples": 120
+    },
+    "decode_nms_ms": {
+      "mean": 8.442175141672692,
+      "median": 8.364156000027378,
+      "minimum": 8.208609000007527,
+      "maximum": 8.93127300003016,
+      "samples": 120
+    }
+  },
+  "bottleneck": {
+    "source": "golden production frame 2, 24 per-layer PL counters",
+    "pl_cycles": 150916848,
+    "pl_milliseconds": 628.8202,
+    "layers_by_cycles": [
+      {
+        "layer": 6,
+        "cycles": 28705904,
+        "milliseconds": 119.60793333333334,
+        "percent_of_pl_cycles": 19.02100685272727
+      },
+      {
+        "layer": 12,
+        "cycles": 17542942,
+        "milliseconds": 73.09559166666666,
+        "percent_of_pl_cycles": 11.624243570207616
+      },
+      {
+        "layer": 0,
+        "cycles": 12506870,
+        "milliseconds": 52.111958333333334,
+        "percent_of_pl_cycles": 8.287258954679467
+      },
+      {
+        "layer": 16,
+        "cycles": 11932200,
+        "milliseconds": 49.7175,
+        "percent_of_pl_cycles": 7.906473106302883
+      },
+      {
+        "layer": 20,
+        "cycles": 11932092,
+        "milliseconds": 49.71705,
+        "percent_of_pl_cycles": 7.906401543716312
+      },
+      {
+        "layer": 1,
+        "cycles": 9681667,
+        "milliseconds": 40.34027916666667,
+        "percent_of_pl_cycles": 6.415232711459757
+      },
+      {
+        "layer": 2,
+        "cycles": 7467087,
+        "milliseconds": 31.1128625,
+        "percent_of_pl_cycles": 4.947815369162759
+      },
+      {
+        "layer": 5,
+        "cycles": 7406546,
+        "milliseconds": 30.86060833333333,
+        "percent_of_pl_cycles": 4.907699901074
+      },
+      {
+        "layer": 9,
+        "cycles": 7403642,
+        "milliseconds": 30.848508333333335,
+        "percent_of_pl_cycles": 4.9057756626350955
+      },
+      {
+        "layer": 11,
+        "cycles": 7210084,
+        "milliseconds": 30.042016666666665,
+        "percent_of_pl_cycles": 4.777520929936199
+      },
+      {
+        "layer": 3,
+        "cycles": 6367321,
+        "milliseconds": 26.530504166666667,
+        "percent_of_pl_cycles": 4.219092224878696
+      },
+      {
+        "layer": 4,
+        "cycles": 6321921,
+        "milliseconds": 26.3413375,
+        "percent_of_pl_cycles": 4.189009433857246
+      },
+      {
+        "layer": 14,
+        "cycles": 3715139,
+        "milliseconds": 15.479745833333334,
+        "percent_of_pl_cycles": 2.4617125584282014
+      },
+      {
+        "layer": 15,
+        "cycles": 3044362,
+        "milliseconds": 12.684841666666667,
+        "percent_of_pl_cycles": 2.0172446220186098
+      },
+      {
+        "layer": 21,
+        "cycles": 2710837,
+        "milliseconds": 11.295154166666666,
+        "percent_of_pl_cycles": 1.7962454397404324
+      },
+      {
+        "layer": 7,
+        "cycles": 2338681,
+        "milliseconds": 9.744504166666667,
+        "percent_of_pl_cycles": 1.549648717815787
+      },
+      {
+        "layer": 10,
+        "cycles": 1836405,
+        "milliseconds": 7.6516875,
+        "percent_of_pl_cycles": 1.216832331404112
+      },
+      {
+        "layer": 19,
+        "cycles": 899275,
+        "milliseconds": 3.7469791666666667,
+        "percent_of_pl_cycles": 0.5958744910972432
+      },
+      {
+        "layer": 17,
+        "cycles": 681167,
+        "milliseconds": 2.8381958333333333,
+        "percent_of_pl_cycles": 0.45135252228432443
+      },
+      {
+        "layer": 8,
+        "cycles": 389803,
+        "milliseconds": 1.6241791666666667,
+        "percent_of_pl_cycles": 0.2582899160470142
+      },
+      {
+        "layer": 22,
+        "cycles": 306667,
+        "milliseconds": 1.2777791666666667,
+        "percent_of_pl_cycles": 0.20320262718447446
+      },
+      {
+        "layer": 13,
+        "cycles": 283084,
+        "milliseconds": 1.1795166666666668,
+        "percent_of_pl_cycles": 0.1875761412668783
+      },
+      {
+        "layer": 23,
+        "cycles": 134467,
+        "milliseconds": 0.5602791666666667,
+        "percent_of_pl_cycles": 0.08910005859650608
+      },
+      {
+        "layer": 18,
+        "cycles": 98685,
+        "milliseconds": 0.4111875,
+        "percent_of_pl_cycles": 0.06539031347911534
+      }
+    ]
+  },
+  "deployment": {
+    "mode": "temporary JTAG and tmpfs",
+    "board_directory": "/dev/shm/ty192_validation_20261025_run01",
+    "persistent_deployment_changed": false,
+    "startup_files_changed": false,
+    "serial_port": "COM5",
+    "final_baud": 115200,
+    "active_inference_processes": []
+  },
+  "accuracy_map": null,
+  "thermal_qualified": false,
+  "power_measured": false,
+  "tracking_tested": false,
+  "physical_pan_tilt_tested": false,
+  "clock_note": "Board RTC is 2016; host audit date and monotonic duration are used.",
+  "provenance": {
+    "candidate_manifest_files": 71,
+    "candidate_manifest_sha256": "d61e51d1c2f5f18d8c636a01cd6e60b7d2dda86ada5a9c170e5965583c2f76f1",
+    "offline_implementation": {
+      "status": "PASS_OFFLINE_IMPLEMENTED",
+      "build_id": "0x47325502",
+      "clock_MHz": 240,
+      "setup_slack_ns": 0.017,
+      "hold_slack_ns": 0.006,
+      "pulse_width_slack_ns": 0.833,
+      "setup_failing_endpoints": 0,
+      "hold_failing_endpoints": 0,
+      "pulse_failing_endpoints": 0,
+      "timing_checks": 12,
+      "timing_check_violations": 0,
+      "serious_DRC": 0,
+      "serious_methodology": 0,
+      "fully_routed": true,
+      "route_errors": 0,
+      "blackboxes": 0,
+      "hardware_access": false,
+      "board_revalidated": false
+    },
+    "source_sha256": {
+      "04_preparation.json": "388315f61aafa58d72516466bf1d1e5b2a10e4a7bc150b4ca3de70314c26dac3",
+      "expected_192.json": "c53209e8a4813d614583b70b76de525fdec4f0612e59cb9ab2b274a5e1d3740f",
+      "initial_evidence.tgz": "48dd621093cf99e144dcb750864c01a20da33a62dc7571820fba42ae389fba77",
+      "camera_evidence.tgz": "4f758287903a32fa632bb99ed443a82e4042b4814f7ce9d35b2410ba380f9749",
+      "raw_golden/result.json": "a9a45c216671c01e7e4701ff1e7fbf8292e063fd90a7eb6368c0b9c5d981af65",
+      "raw_camera/post_device.json": "ddaa90a7a4d4b0f085bf4953ac24c0bcf560222f73ec4b2d95c717a8cf03dd3f",
+      "provenance/reference_manifest.json": "36f586c9c7e45ce4088ba314c1feabcd73bbeea29aed72a172a2452291f4488e",
+      "provenance/qualify_fast_board.py": "8041069bf7b946f88d842650afada0d26e861f541674fcc9ceeb3bf42ab510bd"
+    },
+    "audit_generator_sha256": "7ffed852bd81d116c2eabbd9e042459b3c1cdaed182a77c44f6c30f0422b4f0a"
+  }
+}

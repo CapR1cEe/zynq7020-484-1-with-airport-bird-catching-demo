@@ -1,0 +1,378 @@
+{
+    "schema":  "tinyyolo-artifact-manifest-v1",
+    "candidate":  "TinyYOLO G227 192x192 offline candidate",
+    "device":  "xc7z020clg484-1",
+    "input_size":  192,
+    "build_id":  "0x47325502",
+    "clock_MHz":  240,
+    "implementation_status":  "PASS_OFFLINE_IMPLEMENTED",
+    "board_revalidated":  false,
+    "accuracy_measured":  false,
+    "artifact_root":  "candidate_192",
+    "generated_utc":  "2026-10-25T07:56:28Z",
+    "file_count":  71,
+    "files":  [
+                  {
+                      "path":  "linux/tinyyolo_uapi.h",
+                      "size_bytes":  1498,
+                      "sha256":  "3ec6c0f64dae6fc572b78007df85786012f7880f6eea096458f03e34e18f2711"
+                  },
+                  {
+                      "path":  "model/network.onnx",
+                      "size_bytes":  12282145,
+                      "sha256":  "ab300d0a2e2fc3be714410c06a2751f4b68b9c66a49f8f39a11b47fc0c57d9a6"
+                  },
+                  {
+                      "path":  "model/parameter_manifest.json",
+                      "size_bytes":  37054,
+                      "sha256":  "f21f38ab99d6fc551117bb6345c53d057275eaea0261c06d5c252f42defb53ac"
+                  },
+                  {
+                      "path":  "model/parameters.bin",
+                      "size_bytes":  12213056,
+                      "sha256":  "dc66425157588a3de922edcd26454e72f80da2047edf0c5dcbeb0c552a04d4d0"
+                  },
+                  {
+                      "path":  "model/runtime_config.json",
+                      "size_bytes":  532,
+                      "sha256":  "66fcbbb2e9a1d5d591bb9be4f7609efecdd7c3b8107e9b73bab7971395e0e831"
+                  },
+                  {
+                      "path":  "reports/192_bram_cache_optimization.md",
+                      "size_bytes":  3138,
+                      "sha256":  "c0ba555b104c48dd3c4228bbf3cd6de4090da3973bb0bad67b2491bdda3eef37"
+                  },
+                  {
+                      "path":  "reports/192_rebuild.md",
+                      "size_bytes":  2836,
+                      "sha256":  "e5169f29cd6e33e006d4681da91fb03c0d4a22a971883c63c0bfc219328c6ee5"
+                  },
+                  {
+                      "path":  "scripts/replay_192_local_cache_256.py",
+                      "size_bytes":  2314,
+                      "sha256":  "6605c7a742fd86195b31e880bb975b0054d001b95a00f5b32983e5efaea2502b"
+                  },
+                  {
+                      "path":  "software/source/g225_pl_driver.inc",
+                      "size_bytes":  10394,
+                      "sha256":  "c160c161a41d4a6b68ca5a4db2317cfe889763e36a5e40a33c78c6e88ffabdd1"
+                  },
+                  {
+                      "path":  "software/source/integrated_network.c",
+                      "size_bytes":  22326,
+                      "sha256":  "e98e99b9e10beec112c38facf6fc85042919648dfad1a92325973b8cb24e85cb"
+                  },
+                  {
+                      "path":  "software/source/network_config.h",
+                      "size_bytes":  9330,
+                      "sha256":  "965e05883527ff745e8e89b643b16bd3be4d61d9596cc5df31003fd54efbd3a6"
+                  },
+                  {
+                      "path":  "software/source/tinyyolo_integer_ops.h",
+                      "size_bytes":  2499,
+                      "sha256":  "5c3fcbf6a18645d4cd434762f2e027cab74197a7e8e00ba290b6109182f0e013"
+                  },
+                  {
+                      "path":  "verification/fast_model_24layers/result.json",
+                      "size_bytes":  12433,
+                      "sha256":  "9e58d1587b5165d01bd9b9be684f62d3c6f00ae7526e0ab12e2e785752c128da"
+                  },
+                  {
+                      "path":  "verification/model_rebuild/local_cache_replay.json",
+                      "size_bytes":  10640,
+                      "sha256":  "b5e10430b674625ec7a1268d37f589d3a502dc887cfb7da92dbc3afbc999f16e"
+                  },
+                  {
+                      "path":  "verification/model_rebuild/local_cache_replay_256.json",
+                      "size_bytes":  13518,
+                      "sha256":  "b7ee79157da1c8556f3c630487cdcc13969195273526216b05021823f86affc6"
+                  },
+                  {
+                      "path":  "verification/model_rebuild/result.json",
+                      "size_bytes":  4701,
+                      "sha256":  "52a1c759deba12b3f6b43332676234b72fe6b2ed2d5408a997c62dddae8acf9e"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/DSP48E1_lint_blackbox_stub.v",
+                      "size_bytes":  887,
+                      "sha256":  "f6b60c6a30da1a6b704a94eaa31b2556e44f9a3959bf96b8ee3444aad7ce2a4c"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/lint_baseline.log",
+                      "size_bytes":  6999,
+                      "sha256":  "127bb95af25a034b971ecefd823ed83656b3b2edb658ba6fd03ad444a1d0856d"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/lint_localized.log",
+                      "size_bytes":  7305,
+                      "sha256":  "a22a654ce48569ec94985383d1c4469545616e3d2547aa59cc04adca62ec7851"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/lint_report.json",
+                      "size_bytes":  2030,
+                      "sha256":  "a8d43481f79225d6027dc66e38492047234730c0db15a5f8d6cd75220a3b4751"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/preserve_local_read_address.patch",
+                      "size_bytes":  460,
+                      "sha256":  "3b166320bfa0a77637923b525ea40b2b921a5b037882ac9595e956efc251b372"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/README.md",
+                      "size_bytes":  950,
+                      "sha256":  "9a73d6d4508542251229c9676d792903c7f85585f086d4be937672fe348c8501"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/result.md",
+                      "size_bytes":  1201,
+                      "sha256":  "6304ceca3b89ee5f37eab035712fbefae86da66c0f436b4735932ff5397db065"
+                  },
+                  {
+                      "path":  "verification/rtl_experiments/address_register_localization/tinyyolo_allconv_control_localized.v",
+                      "size_bytes":  98525,
+                      "sha256":  "8a2cc749125145daec69f850e55008098fed634034587e220ec122ac4e2dd1f4"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/bus_skew.rpt",
+                      "size_bytes":  93346,
+                      "sha256":  "9eb91901e58e453f7885600467952f1e82dd5d8f0f1042ee265896eb26e28917"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/cdc.rpt",
+                      "size_bytes":  9451,
+                      "sha256":  "7d352b3ccbd75391b004d0a0d4c29c1fd7464049f0c2feb2a757c4c87487671e"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/check_timing.rpt",
+                      "size_bytes":  3206,
+                      "sha256":  "8effe21721d10e3838d57211cefafec61bf13bd52323c248a7928b0187c40455"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/clock_config.txt",
+                      "size_bytes":  17791,
+                      "sha256":  "e1f1ada27c20c9316e98b0b5b17ec0557056991e996e74834f2477549854e0bd"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/clocks.rpt",
+                      "size_bytes":  2518,
+                      "sha256":  "7c3ad1386b1a27d5beecdf2db22a271b6e31d595f0fa4cb685b6511acd9e9b0e"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/compile_order.rpt",
+                      "size_bytes":  24021,
+                      "sha256":  "0c9bfd15087ce179011ef7fd37dd2ed1bd0563f5599258906c64e9cd6691f98f"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/critical_paths.rpt",
+                      "size_bytes":  197263,
+                      "sha256":  "190d56d82b02c3223e77942acedf06ecc085d68d3a3411c47c949f5c022db7b0"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/drc.rpt",
+                      "size_bytes":  152376,
+                      "sha256":  "f4c8c4ed78df4cddf6d13322c2cd0c83960b8e472dc7655aa3dc6ec271ace77c"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/dsp_registers.rpt",
+                      "size_bytes":  23942,
+                      "sha256":  "94439322b43f7d205e8f024f149eb4fafec2dffa5c5e0f5e8560803bf8bb4ac3"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/implementation.json",
+                      "size_bytes":  425,
+                      "sha256":  "31bf8aa8f49c2a721f10b4176d26117ba9aa4ea27c2130ec3ffd840d0e293c16"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/input_cache_pipeline.rpt",
+                      "size_bytes":  3092,
+                      "sha256":  "f8be40a7ab6a4292182a0555f5359183383c0b5899e08e0fa31fabad62b4b536"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/methodology.rpt",
+                      "size_bytes":  1344,
+                      "sha256":  "a5f3a9d68d99219893f5a950d81a31aa35685e94912ac485af0eb1a660b80b5c"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/project/TinyYOLO_G227.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/ps7_init.tcl",
+                      "size_bytes":  35921,
+                      "sha256":  "c4fdfa3a2bf2548bb94560fd6f134d8770e6d1608327e1df301c73357ac9665d"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/pulse_width.rpt",
+                      "size_bytes":  913,
+                      "sha256":  "8830cc951a8462c966fe8f59ed3e5413851cd3c5d6b5a1137317d4f590b1c59c"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/reconstructed_bd.tcl",
+                      "size_bytes":  38006,
+                      "sha256":  "4cbd9ddbb50e31236dac9b3b7d047dbcff8a317a66771fc4863958611b612750"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/result.json",
+                      "size_bytes":  221,
+                      "sha256":  "84f9eb4552160a961b287d0d54447790a0daf58eada604a5f798a09c07985c8c"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/route_status.rpt",
+                      "size_bytes":  651,
+                      "sha256":  "da6781438872eedef34151be434e87926272a0f1a6f90e9b197950d31a1d9bf9"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/routed.dcp",
+                      "size_bytes":  22699108,
+                      "sha256":  "77c682cad3efd2ed63a49262fe9bf2bc7ba806c5e78cdc13cb0b7e74de024dee"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/block_design.tcl",
+                      "size_bytes":  31446,
+                      "sha256":  "0766904cd851ed1ec21e786460e775772ac6656d3149558a48eec04ae53d1566"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/board_uart.xdc",
+                      "size_bytes":  456,
+                      "sha256":  "89050a70c51b58d1294be2ac664177e24835e16267d02a3e8355640558a03e2e"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/critical_bram_power.xdc",
+                      "size_bytes":  1163,
+                      "sha256":  "faf2a9e3b8e44a979fab0be1bb5145596ed0508bce4a105cfa3973ab4120fb9a"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_allconv_closed_loop.v",
+                      "size_bytes":  14085,
+                      "sha256":  "ad06b751da10791f3bc97ac01370269f1140ac0d33bc86d1a2cb913249d94823"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_allconv_control.v",
+                      "size_bytes":  98501,
+                      "sha256":  "0104f415b4bb657dcede0f546af0cb80a913aff6c9f2db3d2f736a0cd6796144"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_counter32.v",
+                      "size_bytes":  2283,
+                      "sha256":  "354a03550626bc7bc84c0a4ea31ca044702068401f647a97f567f62b0d1cfd8b"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v",
+                      "size_bytes":  4554,
+                      "sha256":  "bba177c8d7656a9046b7052130516da7375ba6954c552b5b7cd2936a1ffc87e9"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_cycle_profile.v",
+                      "size_bytes":  8572,
+                      "sha256":  "abd59b005b4b0a36a1925ef00cadda2ba79df840bef0c01343416347a61cb09c"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_dot16.v",
+                      "size_bytes":  1853,
+                      "sha256":  "735794a59ff1de41163ba83f50836bb083c6829990e853b80ef8c50756d1e929"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_dot16_pair.v",
+                      "size_bytes":  3341,
+                      "sha256":  "761ca97cc99a7fe15e5dd57cf61c3641e3ef162f9c403cb788cad08579fc9c7a"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_dot24_pair.v",
+                      "size_bytes":  3609,
+                      "sha256":  "fd39aaf6d16e59b378dd85d7e3c41eefd5685bbda20ed3b00ecfef7013ee10bc"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_dsp_accum32.v",
+                      "size_bytes":  3696,
+                      "sha256":  "ab6aa3e3d72ceb7e548c540c786f8ce7f875eca71b8a22c3494095a368b12bb4"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_dsp_mul.v",
+                      "size_bytes":  1658,
+                      "sha256":  "f480cfd06266e22d4c589b7f38d6117a41db6576b0ed8dfda3ff448d9ce7a9a4"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_fp64_add.v",
+                      "size_bytes":  8076,
+                      "sha256":  "22ac3ed0a2debcdf8b64fc89a73c6960d2e56c4468c150e7a2d0ac6f9f1ca4ef"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_fp64_to_fp32.v",
+                      "size_bytes":  2956,
+                      "sha256":  "5900aa7039f3af3d54929a6f1d0fb5d9ff2d9a4b1f7eedbdd2bcfaadd9b7d9b0"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_head_exact.v",
+                      "size_bytes":  16445,
+                      "sha256":  "ca473835fecda0b2e8435677c3801c9600a106c030fc377e5fd6bf89909e1907"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_hp0_burst_cache.v",
+                      "size_bytes":  21149,
+                      "sha256":  "61746fe24e877451737142a6a19e09869eadab227129aef303951f649bc4554c"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_le33.v",
+                      "size_bytes":  1091,
+                      "sha256":  "ca208deda9c9c7437247e674d0dd193e46fe2ac3040ecea6ff81e7826b71b06b"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_lut_mul.v",
+                      "size_bytes":  1491,
+                      "sha256":  "fc98a851aeacce3f4cf2af7e7d38eca6bf47c7a8c534682c971c44a6ebb8c9e0"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_requant36_stream.v",
+                      "size_bytes":  5745,
+                      "sha256":  "0b9c0c3308b451b12c23e0bd2254fbe9810e772d4ef949c1ee5dbf72105d1c6a"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_rne64.v",
+                      "size_bytes":  12382,
+                      "sha256":  "8967dccfcf769d760c897a2e24ce7f8089f7e786414c02204a8eda5d01e14f57"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/hardware/g227/rtl/tinyyolo_shift56_jam.v",
+                      "size_bytes":  1591,
+                      "sha256":  "6004b5006727d9a2b1f973cae39aa58a8af6c46fd313aed289c5fbb4085f1322"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/scripts/rebuild_final.tcl",
+                      "size_bytes":  21028,
+                      "sha256":  "2b8bb06ad9cf2b5e9cd753dd772a2891d828b37f99f3c54fcb5df773df45fcf6"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/source_snapshot/scripts/run_final_hardware.ps1",
+                      "size_bytes":  6009,
+                      "sha256":  "684dd9fae6407be94067b0b74af53a937c5ae0b2c10a198b1d891bff74a12240"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/timing.rpt",
+                      "size_bytes":  123555,
+                      "sha256":  "114c0a831ad09b47c06cad428891f75ad7b48ce586549389ddf82a5257bdd855"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/Tiny_Yolo_G227.bit",
+                      "size_bytes":  4045693,
+                      "sha256":  "f29fa8bd3bcae4a02d3a9eee387d4a9dc7f4f55519128c121820bba8b65aa9d7"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/Tiny_Yolo_G227.xsa",
+                      "size_bytes":  1260179,
+                      "sha256":  "c4c5af2a9c278cc1db8ce310fae340cd8fc50f5d8e2980c283ceac4eee3668d0"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/utilization.rpt",
+                      "size_bytes":  11886,
+                      "sha256":  "80cb012e3ca0892ad46ee42d5e4c3b4cbcd63b30d1d01e7d0b42de0ef272f882"
+                  },
+                  {
+                      "path":  "verification/vivado_cache64_short/t192_l1_64k_impl/weight_pipeline.rpt",
+                      "size_bytes":  11487,
+                      "sha256":  "b4c8b41aa4a303c185be6040d1fde936877af463fd6035a22e8b62877251fb63"
+                  }
+              ],
+    "notes":  [
+                  "Build output directory retains the historical t192_l1_64k_impl name; saved source is the 128 KiB input-cache RTL.",
+                  "Manifest covers the exported bitstream/platform, routed checkpoint, key reports, PS7 init script, source snapshot, model, model/software verification records, and isolated unpromoted timing experiment.",
+                  "Offline implementation only; no board FPS, camera acceptance, or labeled mAP is claimed.",
+                  "The local-address preservation patch is not applied to the RTL or built artifacts.",
+                  "Manifest does not hash itself."
+              ]
+}

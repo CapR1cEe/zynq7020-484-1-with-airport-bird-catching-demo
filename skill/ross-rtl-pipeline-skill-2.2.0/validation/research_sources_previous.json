@@ -1,0 +1,112 @@
+{
+  "review_date": "2026-10-31",
+  "sources": [
+    {
+      "repository": "alexforencich/verilog-axis",
+      "commit": "48ff7a7e2ef782cf778d47910cf85835c64b1bce",
+      "files": [
+        {
+          "path": "rtl/axis_pipeline_fifo.v",
+          "url": "https://github.com/alexforencich/verilog-axis/blob/48ff7a7e2ef782cf778d47910cf85835c64b1bce/rtl/axis_pipeline_fifo.v",
+          "sha256": "a7cdccbf905c3f95d4a626fe77d84879a09c3f472dffc5ea2eb7acc9ba113c02",
+          "bytes": 10364
+        },
+        {
+          "path": "rtl/axis_register.v",
+          "url": "https://github.com/alexforencich/verilog-axis/blob/48ff7a7e2ef782cf778d47910cf85835c64b1bce/rtl/axis_register.v",
+          "sha256": "599fde2d6c2d806643bbffb7c444297e69a71871f962d4b741ec1914342e0d39",
+          "bytes": 10298
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/alexforencich/verilog-axis/blob/48ff7a7e2ef782cf778d47910cf85835c64b1bce/README.md",
+          "sha256": "34b574d6c8a289209346008a8dcf3308c621f4e2f7dfc11a6f8680728b126c9c",
+          "bytes": 12690
+        },
+        {
+          "path": "COPYING",
+          "url": "https://github.com/alexforencich/verilog-axis/blob/48ff7a7e2ef782cf778d47910cf85835c64b1bce/COPYING",
+          "sha256": "8ea57f95365e9b16a5b516f422b71269183a1ae53bab5878ae6d69039e58fe77",
+          "bytes": 1062
+        }
+      ]
+    },
+    {
+      "repository": "risclite/verilog-divider",
+      "commit": "e73dec16750b45bd9e01d82848251e564a4d5354",
+      "files": [
+        {
+          "path": "LICENSE",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "divfunc.v",
+          "url": "https://github.com/risclite/verilog-divider/blob/e73dec16750b45bd9e01d82848251e564a4d5354/divfunc.v",
+          "sha256": "2dd304c23c09a02b19a5476a5afab91b052205f2ed340f9b3fb080c40f837c61",
+          "bytes": 2853
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/risclite/verilog-divider/blob/e73dec16750b45bd9e01d82848251e564a4d5354/README.md",
+          "sha256": "32f155669c8ff30fc68bf80cb9687e7ea357f49e19653811c75b00c1c3831011",
+          "bytes": 2599
+        }
+      ]
+    },
+    {
+      "repository": "Xilinx/finn",
+      "commit": "38c42bf95abbdad493db0b0f5053060074698908",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "url": "https://github.com/Xilinx/finn/blob/38c42bf95abbdad493db0b0f5053060074698908/LICENSE.txt",
+          "sha256": "4abd10f778218fa44b426c88f86762fb91370893b5bc9e5cf105d0fc6e260f0f",
+          "bytes": 1533
+        },
+        {
+          "path": "src/finn/transformation/fpgadataflow/set_folding.py",
+          "url": "https://github.com/Xilinx/finn/blob/38c42bf95abbdad493db0b0f5053060074698908/src/finn/transformation/fpgadataflow/set_folding.py",
+          "sha256": "dff1365b38174d5a92ed63eb70ca8b3fadc8025140b984bc8b204e216ce71748",
+          "bytes": 14768
+        }
+      ]
+    },
+    {
+      "repository": "doonny/PipeCNN",
+      "commit": "392692b86747096e4324098deb38d8e93159809e",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/doonny/PipeCNN/blob/392692b86747096e4324098deb38d8e93159809e/README.md",
+          "sha256": "ad22162d5e79d53a64c22fe9db9f5f0ef9817dae5f5540e62b796cea5ca2daf7",
+          "bytes": 6694
+        },
+        {
+          "path": "project_intel/device/conv_pipe.cl",
+          "url": "https://github.com/doonny/PipeCNN/blob/392692b86747096e4324098deb38d8e93159809e/project_intel/device/conv_pipe.cl",
+          "sha256": "1ce33f754fb66866c39771f89611e11f1dc3ca9df014366dcd30b39de6c4df33",
+          "bytes": 43692
+        },
+        {
+          "path": "project_xilinx/device/coreConv.cpp",
+          "url": "https://github.com/doonny/PipeCNN/blob/392692b86747096e4324098deb38d8e93159809e/project_xilinx/device/coreConv.cpp",
+          "sha256": "08b3988b2e2f8f39561582edf81f801599389efabe51c4af3fc60619e586ad19",
+          "bytes": 9184
+        }
+      ]
+    },
+    {
+      "repository": "ZipCPU/zipcpu",
+      "commit": "42606d2d6ef55df313772232977621b2d72f0159",
+      "files": [
+        {
+          "path": "rtl/core/slowmpy.v",
+          "url": "https://github.com/ZipCPU/zipcpu/blob/42606d2d6ef55df313772232977621b2d72f0159/rtl/core/slowmpy.v",
+          "sha256": "449527da756405fab2b30ad7121609a0a0d7555c7fba68a6d0c81eb0f90502d4",
+          "bytes": 6536
+        }
+      ]
+    }
+  ],
+  "method": "Read local copies fetched from pinned primary-source repositories; third-party code omitted."
+}

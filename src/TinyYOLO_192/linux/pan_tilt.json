@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "reason": "Linux PWM channels and their board pin mapping are not configured. Outputs remain disabled until that mapping is verified.",
+  "pan": {"sysfs_path": "", "min_us": 1000, "center_us": 1500, "max_us": 2000, "direction": 1},
+  "tilt": {"sysfs_path": "", "min_us": 1000, "center_us": 1500, "max_us": 2000, "direction": 1}
+}

@@ -1,0 +1,21 @@
+{
+  "dtype": "float32_le",
+  "layout": "CHW",
+  "shape": [
+    3,
+    192,
+    192
+  ],
+  "elements": 110592,
+  "bytes_per_element": 4,
+  "normalized_range": [
+    0.0,
+    1.0
+  ],
+  "quantization": {
+    "dtype": "int8",
+    "scale": 0.003921568859368563,
+    "zero_point": -128,
+    "rounding": "nearest_even"
+  }
+}

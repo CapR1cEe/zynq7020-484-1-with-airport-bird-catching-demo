@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1793167698">
+  <File Type="ROUTE-PWR" Name="Tiny_Yolo_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Tiny_Yolo_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Tiny_Yolo_wrapper_power_summary_routed.pb"/>
+  <File Type="OPT-RQA-PB" Name="Tiny_Yolo_wrapper_rqa_opted.pb"/>
+  <File Type="REPORTS-TCL" Name="Tiny_Yolo_wrapper_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Tiny_Yolo_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Tiny_Yolo_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Tiny_Yolo_wrapper_drc_opted.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Tiny_Yolo_wrapper_routed_bb.dcp"/>
+  <File Type="OPT-UTIL" Name="Tiny_Yolo_wrapper_utilization_opted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Tiny_Yolo_wrapper_timing_summary_routed.pb"/>
+  <File Type="OPT-UTIL-PB" Name="Tiny_Yolo_wrapper_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Tiny_Yolo_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Tiny_Yolo_wrapper.hwdef"/>
+  <File Type="OPT-TIMING" Name="Tiny_Yolo_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Tiny_Yolo_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Tiny_Yolo_wrapper_drc_pwropted.rpt"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Tiny_Yolo_wrapper.nts"/>
+  <File Type="PWROPT-TIMING" Name="Tiny_Yolo_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Tiny_Yolo_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Tiny_Yolo_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Tiny_Yolo_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Tiny_Yolo_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Tiny_Yolo_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Tiny_Yolo_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Tiny_Yolo_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Tiny_Yolo_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="NOC_SOLUTION_FILE" Name="Tiny_Yolo_wrapper.ncr"/>
+  <File Type="PLACE-TIMING" Name="Tiny_Yolo_wrapper_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Tiny_Yolo_wrapper_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="Tiny_Yolo_wrapper_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Tiny_Yolo_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Tiny_Yolo_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Tiny_Yolo_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Tiny_Yolo_wrapper_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Tiny_Yolo_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-UTIL" Name="Tiny_Yolo_wrapper_utilization_routed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Tiny_Yolo_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Tiny_Yolo_wrapper_routed.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Tiny_Yolo_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="Tiny_Yolo_wrapper_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Tiny_Yolo_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Tiny_Yolo_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Tiny_Yolo_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Tiny_Yolo_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Tiny_Yolo_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Tiny_Yolo_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="Tiny_Yolo_wrapper_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Tiny_Yolo_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Tiny_Yolo_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Tiny_Yolo_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Tiny_Yolo_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Tiny_Yolo_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Tiny_Yolo_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Tiny_Yolo_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Tiny_Yolo_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Tiny_Yolo_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Tiny_Yolo_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Tiny_Yolo_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Tiny_Yolo_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Tiny_Yolo_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Tiny_Yolo_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Tiny_Yolo_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Tiny_Yolo_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Tiny_Yolo_wrapper.bit"/>
+  <File Type="BG-BIN" Name="Tiny_Yolo_wrapper.bin"/>
+  <File Type="BITSTR-MSK" Name="Tiny_Yolo_wrapper.msk"/>
+  <File Type="BITSTR-RBT" Name="Tiny_Yolo_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="Tiny_Yolo_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="Tiny_Yolo_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Tiny_Yolo_wrapper.mmi"/>
+  <File Type="PDI-FILE" Name="Tiny_Yolo_wrapper.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Tiny_Yolo_wrapper_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Tiny_Yolo_wrapper_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Tiny_Yolo_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="Tiny_Yolo_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="Tiny_Yolo_wrapper.rnpi"/>
+  <File Type="RCDO-FILE" Name="Tiny_Yolo_wrapper.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="Tiny_Yolo_wrapper_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="Tiny_Yolo_wrapper_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="Tiny_Yolo_wrapper_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="Tiny_Yolo_wrapper_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="Tiny_Yolo_wrapper_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="Tiny_Yolo_wrapper_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="Tiny_Yolo_wrapper_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Tiny_Yolo_wrapper_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="Tiny_Yolo_wrapper_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="Tiny_Yolo_wrapper_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="Tiny_Yolo_wrapper_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="Tiny_Yolo_wrapper_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="Tiny_Yolo_wrapper_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Tiny_Yolo_wrapper_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="Tiny_Yolo_wrapper_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="Tiny_Yolo_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="Tiny_Yolo_wrapper.rbd"/>
+  <File Type="MMI-FILE" Name="Tiny_Yolo_wrapper.mmi"/>
+  <File Type="BIF-FILE" Name="Tiny_Yolo_wrapper.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="Tiny_Yolo_wrapper_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="Tiny_Yolo_wrapper_pld.bif"/>
+  <File Type="LTX-FILE" Name="Tiny_Yolo_wrapper.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="Tiny_Yolo_wrapper_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="Tiny_Yolo_wrapper_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Tiny_Yolo_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Tiny_Yolo_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="Tiny_Yolo_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="Tiny_Yolo_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="Tiny_Yolo_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Tiny_Yolo_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Tiny_Yolo_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_rne64.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_dot16.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_dot16_pair.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_allconv_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_counter32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_cycle_profile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_dot24_pair.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_dsp_accum32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_dsp_mul.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_fp64_add.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_fp64_to_fp32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_head_exact.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_hp0_burst_cache.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_le33.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_lut_mul.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_pipe_add.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_requant36_stream.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_shift56_jam.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/rtl/tinyyolo_allconv_closed_loop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Tiny_Yolo/Tiny_Yolo.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/Tiny_Yolo/hdl/Tiny_Yolo_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Tiny_Yolo_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../hardware/g227/board_uart.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/critical_bram_power.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ProcessingOrder" Val="LATE"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hardware/g227/reset_power_activity.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ProcessingOrder" Val="LATE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PPRDIR/../scripts/implementation_pre_opt.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;OPT_DESIGN;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../scripts/optimize_control_fanout.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;PHYS_OPT_DESIGN;TCL.POST"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../scripts/implementation_pre_bitstream.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;WRITE_BITSTREAM;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../scripts/restore_implementation_budget.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;POST_ROUTE_PHYS_OPT_DESIGN;TCL.POST"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design" PreStepTclHook="$PPRDIR/../scripts/implementation_pre_opt.tcl"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" PostStepTclHook="$PPRDIR/../scripts/optimize_control_fanout.tcl">
+      <Option Id="Directive">2</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">8</Option>
+      <Option Id="MoreOptsStr"><![CDATA[-tns_cleanup]]></Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design" PostStepTclHook="$PPRDIR/../scripts/restore_implementation_budget.tcl" EnableStepBool="1">
+      <Option Id="Directive">1</Option>
+    </Step>
+    <Step Id="write_bitstream" PreStepTclHook="$PPRDIR/../scripts/implementation_pre_bitstream.tcl"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Oct 25 16:03:07 2026
+# Process ID         : 15908
+# Current directory  : <workspace>/work
+# Command line       : vivado.exe -mode batch -notrace -source <workspace>/probe_jtag.tcl -log <workspace>/03_jtag_probe.log -journal <workspace>/probe_jtag.jou
+# Log file           : <workspace>/03_jtag_probe.log
+# Journal file       : <workspace>/probe_jtag.jou
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 19820 MB
+#-----------------------------------------------------------
+source {<workspace>/probe_jtag.tcl} -notrace
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2025.2
+  **** Build date : Oct 28 2025 at 10:03:13
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.2.0
+  ****** Build date   : Nov 14 2025-07:16:52
+    **** Build number : 2025.2.1763075812
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 562.105 ; gain = 4.973
+TY_HW_TARGETS=localhost:3121/xilinx_tcf/Xilinx/25SL082A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/25SL082A
+TY_HW_DEVICE=arm_dap_0 PART=arm_dap
+TY_HW_DEVICE=xc7z020_1 PART=xc7z020
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/25SL082A
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 25 16:03:23 2026...

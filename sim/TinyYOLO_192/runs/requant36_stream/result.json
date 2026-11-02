@@ -1,0 +1,21 @@
+{
+  "status": "PASS_REQUANT36_STREAM",
+  "board_tested": false,
+  "backend": "AMD_UNISIM",
+  "source_sha256": {
+    "tinyyolo_dsp_mul.v": "f480cfd06266e22d4c589b7f38d6117a41db6576b0ed8dfda3ff448d9ce7a9a4",
+    "tinyyolo_requant36_stream.v": "059aaa75c7f3b4f419490a7e4ab2031fb4ca314e9733c77b37cb8c4d6c4165e2"
+  },
+  "bench_sha256": "25758232dfad996baaa1fadcee690d251ed139592590249e095b37278af188f8",
+  "generator_sha256": "038d5a2be586cd8e92dd87c4c844b9e1e1ed478f106fae4f6fa189119ac1990d",
+  "vectors_sha256": "ac07ec52009d9decde81dd1a00514201235bf6df287d2b1c929a413c06f8534a",
+  "log_sha256": "6cf66f5a61be220dcd3a62c2653ccfe3e06cdd94eb575dc6edc8148cad84ccd9",
+  "vectors": 30833,
+  "model_coefficients": 4593,
+  "maximum_model_coefficient_bits": 36,
+  "latency_clocks": 14,
+  "initiation_interval": 1,
+  "DSPs_per_engine": 4,
+  "marker": "REQUANT36_STREAM_PASS vectors=30833 results=27238 products=27686 latency=14 II=1",
+  "finished_utc": "2026-10-25T09:07:28.621035+00:00"
+}

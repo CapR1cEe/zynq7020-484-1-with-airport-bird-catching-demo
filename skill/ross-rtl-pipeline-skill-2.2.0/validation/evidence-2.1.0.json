@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-01",
+  "skill_version": "2.1.0",
+  "annotation_review": "annotation_review.json",
+  "unit_tests": "unit_tests.json",
+  "functional_simulation": {
+    "tool": "XSim 2025.2",
+    "status": "passed",
+    "default_examples": [
+      "mac",
+      "elastic",
+      "tree",
+      "fork"
+    ],
+    "tree_cases": [
+      [
+        5,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        17,
+        8
+      ],
+      [
+        32,
+        15
+      ]
+    ],
+    "coverage": "Signed extrema, odd lanes, continuous II=1, bubbles, long/random stalls, tags, last and pending reset",
+    "limits": "Deterministic simulation, not full parameter coverage or formal proof"
+  },
+  "lint": {
+    "tool": "Verilator 5.048",
+    "status": "passed",
+    "default_tops": 4,
+    "additional_tree_configurations": 6
+  },
+  "mutation_checks": {
+    "status": "passed",
+    "checks": [
+      {
+        "defect": "tree_drop_odd_lane",
+        "detected": true,
+        "failure_message": "tree signed sum/tag/order mismatch",
+        "runner_status": "failed"
+      },
+      {
+        "defect": "fork_repeat_fast_branch",
+        "detected": true,
+        "failure_message": "fork unsolicited/duplicate branch 0",
+        "runner_status": "failed"
+      }
+    ]
+  },
+  "registered_tree_characterization": {
+    "part": "xc7z020clg484-1",
+    "tool": "Vivado 2025.2",
+    "target_mhz": 200,
+    "period_ns": 5.0,
+    "uncertainty_ns": 0.15,
+    "output_max_delay_ns": 0.5,
+    "output_min_delay_ns": 0.0,
+    "whole_design": {
+      "status": "timing_fail",
+      "context": "integrated",
+      "signoff": false,
+      "metrics": {
+        "wns_ns": -5.577,
+        "tns_ns": -59.755,
+        "whs_ns": 0.024,
+        "ths_ns": 0.0,
+        "wpws_ns": 2.0,
+        "tpws_ns": 0.0,
+        "setup_failing_endpoints": 11,
+        "hold_failing_endpoints": 0,
+        "pulse_failing_endpoints": 0
+      },
+      "check_timing": {
+        "no_clock": 0,
+        "constant_clock": 0,
+        "unconstrained_internal_endpoints": 0,
+        "no_input_delay": 0,
+        "no_output_delay": 0,
+        "multiple_clock": 0,
+        "loops": 0,
+        "partial_input_delay": 0,
+        "partial_output_delay": 0
+      },
+      "failures": [
+        "wns_ns is negative: -5.577",
+        "tns_ns is negative: -59.755",
+        "setup_failing_endpoints: 11"
+      ],
+      "incomplete_reasons": [],
+      "remaining_review": [
+        "Clock/CDC relationships, DRC, methodology, exceptions and constraint intent",
+        "Physical IO/clock context, path details and application/board behavior"
+      ],
+      "design_state": "Routed"
+    },
+    "register_to_register_subset": {
+      "scope": "All register-to-register paths in the benchmark, excluding IO",
+      "worst_setup_slack_ns": 1.313,
+      "worst_hold_slack_ns": 0.024,
+      "signoff": false,
+      "reports": [
+        "registered_tree_200/reports/internal_setup.rpt",
+        "registered_tree_200/reports/internal_hold.rpt"
+      ]
+    },
+    "resources": {
+      "top_luts": 56,
+      "top_ffs": 130,
+      "core_luts": 52,
+      "core_ffs": 83,
+      "dsps": 0,
+      "ramb36": 0,
+      "ramb18": 0
+    },
+    "drc": "NSTD-1 and UCIO-1 critical warnings: no board IO standards/locations; ZPS7-1 warning",
+    "signoff": false,
+    "board_tested": false,
+    "limits": "Full benchmark setup fails on output paths; internal positive slack does not overrule that failure. No bitstream generated."
+  },
+  "legacy_ooc": "history-2.0.0/ooc; earlier hold failures remain failures",
+  "source_hashes": {
+    "skills/vivado-rtl-pipeline-design/SKILL.md": "5591330ba484585c35a17e7a83b9018b22235d280045103f6302d5a2910c549a",
+    "skills/vivado-rtl-pipeline-design/assets/design-contract.example.json": "780f792516834f73d0bd991e659239fb52413a6d5f29c3efcd4d4a47a084094e",
+    "skills/vivado-rtl-pipeline-design/assets/evidence.example.json": "5e515d0172dc7fe7fb852d7095b31faaebcfe128094a108ef7ee390e833d8f3e",
+    "skills/vivado-rtl-pipeline-design/assets/iteration-ledger.example.csv": "4328044bb770be44f6fb8a800e2846abdadea7e2ffa4553a998eb72eeae2cb5f",
+    "skills/vivado-rtl-pipeline-design/assets/stage-table.example.csv": "bde4ef9eafaf837e2de066337235beed63fcb86d2044e7c3d3b43620692fa52c",
+    "skills/vivado-rtl-pipeline-design/references/architecture-and-timing.md": "5f3b16c022757fc66f80614824e6484d025afb3afc0756cd8d08a79a1d5e0a84",
+    "skills/vivado-rtl-pipeline-design/references/case-studies-2026-11-01.md": "4037aabc30c9cf9bf54fbad7027d106d61f64a8f9b0b8a6d90d242c4638e2acd",
+    "skills/vivado-rtl-pipeline-design/references/pipeline-patterns.md": "a772b02d96f075beca605d5bd28ef5111fb2783ea21dcbd56304c53220dae5ff",
+    "skills/vivado-rtl-pipeline-design/references/readable-rtl.md": "e045cb659a9584e1c218e376c6b542f42b9b4dd1725ed6bd67c33c03d5a28a43",
+    "skills/vivado-rtl-pipeline-design/references/research-notes.md": "e4d4f44b86c10b3128aaf8bfd15f448020437c9de7e92db23015c58e19ac0404",
+    "skills/vivado-rtl-pipeline-design/references/timing-closure.md": "da4ee5e727765f6e0a6996e6ecb1e6d48513e381cc32e58bd1745030c2bdb279",
+    "skills/vivado-rtl-pipeline-design/references/verification-and-mcp.md": "53ffd703e77e730d47855366a252b0d29e1504dfd5a3d6f767cc35682e7aec0f",
+    "skills/vivado-rtl-pipeline-design/scripts/assess_timing.py": "14cd149bc04afc5222018affc4287f5180340f656055c6f03c3ecca67e863383",
+    "skills/vivado-rtl-pipeline-design/scripts/characterize_tree.tcl": "3cd3d76a2f36d42c9fef5c2550ae0ec484ea63e4c94fb7c7ff5739294497cdc6",
+    "skills/vivado-rtl-pipeline-design/scripts/collect_reports.tcl": "397e408e3cb6608a6e8a1558cbb2979a751981aef93572f5f0f5ce3f564becc8",
+    "skills/vivado-rtl-pipeline-design/scripts/resource_plan.py": "80ddf19603cfa7b27be5ac39b7b6dff7f03072bfbea9b7ee4720f08c17ef4258",
+    "skills/vivado-rtl-pipeline-design/scripts/run_examples.py": "c16a0b35c96a84c24e2b713b4d3a96804da1be3a16ff41461ec95a0887b8c8cb",
+    "skills/vivado-rtl-pipeline-design/scripts/test_assess_timing.py": "f716ad326d9c926b86f44c97c78a94f450716749e17581f9f680956a0c1151d4",
+    "skills/vivado-rtl-pipeline-design/scripts/test_resource_plan.py": "83d0aaf210d2fd1d5b6bd380661221eb26037e177be1c007f8eb1ba5625053e4",
+    "skills/vivado-rtl-pipeline-design/assets/bench/registered_tree_benchmark.sv": "f523195554bb6ec14e8c6280aa48f02475588e12ab232200e7c7b030097b9848",
+    "skills/vivado-rtl-pipeline-design/assets/rtl/elastic_buffer.sv": "2f545dd8a616bb4f3c755634624323e6e9430ac0f7ac9728a1339b5a59a725e2",
+    "skills/vivado-rtl-pipeline-design/assets/rtl/four_lane_mac_stream.sv": "ad53a5ab5cb3351d06b1fb0dc17072fb81bc1eec3fe48ec19d2766c878e726c2",
+    "skills/vivado-rtl-pipeline-design/assets/rtl/signed_sum_tree_stream.sv": "89dae3a305258152e0197ca3fb1b9fcfcaa600ba3dc843181e59e8885b58c4ee",
+    "skills/vivado-rtl-pipeline-design/assets/rtl/stream_fork2.sv": "688c1e71247a0a720844371ccd96386bd75d1f232ee3bab503b42837bbe387c4",
+    "skills/vivado-rtl-pipeline-design/assets/tb/tb_elastic_buffer.sv": "d4d6e9a40e1e3b865058c1a714ec87d73eca64217e87a82d18b90113c3938004",
+    "skills/vivado-rtl-pipeline-design/assets/tb/tb_four_lane_mac_stream.sv": "03c3377da9ab6d32abc89e266ddfe7c357a185e924dd92719136fffc125c492c",
+    "skills/vivado-rtl-pipeline-design/assets/tb/tb_signed_sum_tree_stream.sv": "99f4b11ea2e8bc1afe72744cc8e2797fbcc417703301386a359b8204e02ae233",
+    "skills/vivado-rtl-pipeline-design/assets/tb/tb_stream_fork2.sv": "787db7d815e83bb88f0be95114342a0722294ea291b6f543437ea8fa8a48c959"
+  },
+  "limitations": [
+    "No controlled performance comparison against the complete official ROSS suite",
+    "New upstream regressions were inspected, not executed",
+    "No board run, thermal qualification, full CDC integration or formal proof",
+    "Icarus backend untested; Verilator evidence here is lint, not binary simulation"
+  ]
+}

@@ -1,0 +1,49 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_allconv_closed_loop.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_allconv_closed_loop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_allconv_control.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_allconv_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_counter32.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_counter32
+INFO: [VRFC 10-311] analyzing module tinyyolo_counter32_load
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_ctrl_hp0_pipe2.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_ctrl_hp0_pipe2
+INFO: [VRFC 10-311] analyzing module tinyyolo_rv_slice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_cycle_profile.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_cycle_profile
+INFO: [VRFC 10-311] analyzing module tinyyolo_counter64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_dot16.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dot16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_dot16_pair.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dot16_pair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_dot24_pair.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dot24_pair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_dsp_accum32.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dsp_accum32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_dsp_mul.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dsp_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_fp64_add.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_fp64_add
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_fp64_to_fp32.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_fp64_to_fp32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_head_exact.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_head_exact
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_hp0_burst_cache.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_hp0_burst_cache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_le33.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_le33
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_lut_mul.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_lut_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_pipe_add.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_pipe_add
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_requant36_stream.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_requant36_stream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_rne64.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_rne64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/tinyyolo_shift56_jam.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_shift56_jam
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/dsp48e1_fast.sv" into library work
+INFO: [VRFC 10-311] analyzing module ty_dsp48e1_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/closedloop/tb_closedloop.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_closedloop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/AMDDesigntools/2025.2/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

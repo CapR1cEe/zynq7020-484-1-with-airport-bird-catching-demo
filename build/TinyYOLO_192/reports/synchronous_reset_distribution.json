@@ -1,0 +1,1 @@
+{"status":"PASS_SAME_EDGE_RESET_DISTRIBUTION","source":"Tiny_Yolo_i/proc_sys_reset_0/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N","replicas":55,"bypassed_inverters":17,"flattened_buffers":88,"preserved_low_inputs":5,"complemented_lut_inputs":39,"loads":3229,"maximum_replica_fanout":64,"added_reset_cycles":0,"clock_enable_data_set_and_init_checked":true,"path_exceptions_changed":false}

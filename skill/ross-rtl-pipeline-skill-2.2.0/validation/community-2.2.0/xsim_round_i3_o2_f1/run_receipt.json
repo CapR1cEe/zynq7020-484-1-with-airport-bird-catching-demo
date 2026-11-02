@@ -1,0 +1,19 @@
+{
+  "mode": "simulate",
+  "backend": "xsim",
+  "results": [
+    {
+      "example": "round",
+      "status": "passed",
+      "parameters": {
+        "IN_WIDTH": 3,
+        "OUT_WIDTH": 2,
+        "FRACTION_BITS": 1
+      },
+      "mac_width": null
+    }
+  ],
+  "implementation_frequency": "not_measured_by_this_runner",
+  "tool_version": "Vivado Simulator v2025.2",
+  "status": "passed"
+}

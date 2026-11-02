@@ -1,0 +1,181 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "parameters": {
+        "IN_WIDTH": 8,
+        "OUT_WIDTH": 4,
+        "FRACTION_BITS": 3
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_default/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 8,
+        "OUT_WIDTH": 4,
+        "FRACTION_BITS": 3
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "lint_round_default/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 2,
+        "OUT_WIDTH": 2,
+        "FRACTION_BITS": 0
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_i2_o2_f0/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 2,
+        "OUT_WIDTH": 2,
+        "FRACTION_BITS": 0
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "verilator_round_i2_o2_f0/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 3,
+        "OUT_WIDTH": 2,
+        "FRACTION_BITS": 1
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_i3_o2_f1/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 3,
+        "OUT_WIDTH": 2,
+        "FRACTION_BITS": 1
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "verilator_round_i3_o2_f1/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 8,
+        "OUT_WIDTH": 4,
+        "FRACTION_BITS": 0
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_i8_o4_f0/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 8,
+        "OUT_WIDTH": 4,
+        "FRACTION_BITS": 0
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "verilator_round_i8_o4_f0/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 8,
+        "OUT_WIDTH": 8,
+        "FRACTION_BITS": 0
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_i8_o8_f0/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 8,
+        "OUT_WIDTH": 8,
+        "FRACTION_BITS": 0
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "verilator_round_i8_o8_f0/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 9,
+        "OUT_WIDTH": 3,
+        "FRACTION_BITS": 8
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_i9_o3_f8/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 9,
+        "OUT_WIDTH": 3,
+        "FRACTION_BITS": 8
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "verilator_round_i9_o3_f8/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 10,
+        "OUT_WIDTH": 4,
+        "FRACTION_BITS": 3
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_i10_o4_f3/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 10,
+        "OUT_WIDTH": 4,
+        "FRACTION_BITS": 3
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "verilator_round_i10_o4_f3/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 12,
+        "OUT_WIDTH": 6,
+        "FRACTION_BITS": 5
+      },
+      "mode": "simulate",
+      "backend": "xsim",
+      "exit_code": 0,
+      "receipt": "xsim_round_i12_o6_f5/run_receipt.json"
+    },
+    {
+      "parameters": {
+        "IN_WIDTH": 12,
+        "OUT_WIDTH": 6,
+        "FRACTION_BITS": 5
+      },
+      "mode": "lint",
+      "backend": "verilator",
+      "exit_code": 0,
+      "receipt": "verilator_round_i12_o6_f5/run_receipt.json"
+    }
+  ]
+}

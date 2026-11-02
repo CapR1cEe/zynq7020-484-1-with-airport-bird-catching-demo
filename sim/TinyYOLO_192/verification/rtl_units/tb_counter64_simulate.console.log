@@ -1,0 +1,19 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Oct 28 13:58:19 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_counter64/xsim_script.tcl
+# xsim {tb_counter64} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PROFILE_SAMPLE_PASS samples=1024 counters=15 zero_state=1 multihot=1 delayed_reset=1
+COUNTER64_PASS checks=85623 carries=16,32,48,64 clear_priority=1 enable_stalls=1
+COUNTER32_PASS checks=85623 carries=8,16,24,32 clear_priority=1 enable_stalls=1
+$finish called at time : 868210 ns : File "U:/verification/rtl_units/tb_counter64.sv" Line 246
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 13:58:21 2026...

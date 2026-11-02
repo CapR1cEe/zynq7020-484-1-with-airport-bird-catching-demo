@@ -1,0 +1,67 @@
+{
+    "run_id":  "cal2200_20261031T1257357008",
+    "width_us":  2200,
+    "axis":  "tilt",
+    "ball":  "H19",
+    "pulses":  150,
+    "duration_ms":  3000,
+    "H20":  "constant_low",
+    "runtime":  {
+                    "axis":  "tilt",
+                    "ball":  "H19",
+                    "busy_observed":  true,
+                    "commanded_pulses":  150,
+                    "completion_sample_elapsed_s":  3.001515,
+                    "expected_frame_ms":  20,
+                    "expected_total_ms":  3000,
+                    "physical_motion_confirmed":  null,
+                    "physical_pin_waveform_measured":  false,
+                    "request_completion_observed":  true,
+                    "transitions":  [
+                                        {
+                                            "busy":  1,
+                                            "completed":  0,
+                                            "elapsed_s":  0.001627
+                                        },
+                                        {
+                                            "busy":  0,
+                                            "completed":  1,
+                                            "elapsed_s":  3.001515
+                                        }
+                                    ],
+                    "width_us":  2200
+                },
+    "restored_inference":  {
+                               "abi":  2,
+                               "build_id":  1194480898,
+                               "dma_bytes":  33554432,
+                               "faulted":  0,
+                               "fclk_hz":  99999999,
+                               "ocm_bytes":  32768,
+                               "ocm_flags":  1,
+                               "pl_hz":  240000000
+                           },
+    "board_boot_id": "0fc63d45-e7f7-41b4-b210-b83fb3dabaac",
+    "physical_motion_confirmed":  true,
+    "physical_observation_status":  "user_feedback_recorded",
+    "operator_observation": {
+        "raw_feedback": "前方约1度",
+        "measurement_method": "operator_protractor",
+        "measurement_phase": "after_pwm_stop",
+        "held_angle_directly_measured": false,
+        "reported_final_angle_deg": 1,
+        "angle_report_is_approximate": true,
+        "reference": "fixed_operator_zero_as_requested",
+        "previous_command_width_us": 2150,
+        "previous_reported_angle_deg": 5,
+        "settled_before_stop": null,
+        "relaxation_after_stop": null,
+        "protractor_smallest_division_deg": 1,
+        "mechanical_contact": null,
+        "abnormal_noise": null
+    },
+    "angle_reference":  "fixed_operator_zero",
+    "angle_sign":  "forward_positive_backward_negative",
+    "physical_pin_waveform_measured":  false,
+    "bitstream_sha256":  "56A23AFF4390508B8E8C42F7E1083947AC2FF6F04049158C4917D9FEC9071FAB"
+}

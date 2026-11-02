@@ -1,0 +1,103 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Oct 28 14:23:49 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/closedloop/xsim_script.tcl
+# xsim {closedloop} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PROFILE_CLEAR_CONTRACT_PASS counters=15 start_clear=1
+CLOSEDLOOP_CASE_PASS case=0 ci=1 co=1 h=1 w=1 k=1 outputs=1
+CLOSEDLOOP_CASE_PASS case=1 ci=3 co=1 h=2 w=1 k=1 outputs=2
+CLOSEDLOOP_CASE_PASS case=2 ci=8 co=1 h=3 w=1 k=1 outputs=3
+CLOSEDLOOP_CASE_PASS case=3 ci=17 co=1 h=1 w=3 k=1 outputs=3
+CLOSEDLOOP_CASE_PASS case=4 ci=1 co=3 h=2 w=3 k=1 outputs=18
+CLOSEDLOOP_CASE_PASS case=5 ci=3 co=3 h=3 w=3 k=1 outputs=27
+CLOSEDLOOP_CASE_PASS case=6 ci=8 co=3 h=1 w=5 k=1 outputs=15
+CLOSEDLOOP_CASE_PASS case=7 ci=17 co=3 h=2 w=5 k=1 outputs=30
+CLOSEDLOOP_CASE_PASS case=8 ci=1 co=17 h=3 w=5 k=1 outputs=255
+CLOSEDLOOP_CASE_PASS case=9 ci=3 co=17 h=1 w=1 k=1 outputs=17
+CLOSEDLOOP_CASE_PASS case=10 ci=8 co=17 h=2 w=1 k=1 outputs=34
+CLOSEDLOOP_CASE_PASS case=11 ci=17 co=17 h=3 w=1 k=1 outputs=51
+CLOSEDLOOP_CASE_PASS case=12 ci=1 co=1 h=1 w=3 k=3 outputs=3
+CLOSEDLOOP_CASE_PASS case=13 ci=3 co=1 h=2 w=3 k=3 outputs=6
+CLOSEDLOOP_CASE_PASS case=14 ci=8 co=1 h=3 w=3 k=3 outputs=9
+CLOSEDLOOP_CASE_PASS case=15 ci=17 co=1 h=1 w=5 k=3 outputs=5
+CLOSEDLOOP_CASE_PASS case=16 ci=1 co=3 h=2 w=5 k=3 outputs=30
+CLOSEDLOOP_CASE_PASS case=17 ci=3 co=3 h=3 w=5 k=3 outputs=45
+CLOSEDLOOP_CASE_PASS case=18 ci=8 co=3 h=1 w=1 k=3 outputs=3
+CLOSEDLOOP_CASE_PASS case=19 ci=17 co=3 h=2 w=1 k=3 outputs=6
+CLOSEDLOOP_CASE_PASS case=20 ci=1 co=17 h=3 w=1 k=3 outputs=51
+CLOSEDLOOP_CASE_PASS case=21 ci=3 co=17 h=1 w=3 k=3 outputs=51
+CLOSEDLOOP_CASE_PASS case=22 ci=8 co=17 h=2 w=3 k=3 outputs=102
+CLOSEDLOOP_CASE_PASS case=23 ci=17 co=17 h=3 w=3 k=3 outputs=153
+OVERFLOW_GUARD_PASS negative=0 final_only=0 lane=0 faulting_output_untouched=1
+OVERFLOW_GUARD_PASS negative=1 final_only=0 lane=0 faulting_output_untouched=1
+OVERFLOW_GUARD_PASS negative=0 final_only=1 lane=0 faulting_output_untouched=1
+OVERFLOW_GUARD_PASS negative=1 final_only=1 lane=0 faulting_output_untouched=1
+OVERFLOW_GUARD_PASS negative=0 final_only=1 lane=15 faulting_output_untouched=1
+OVERFLOW_GUARD_PASS negative=1 final_only=1 lane=15 faulting_output_untouched=1
+OVERFLOW_GUARD_PASS negative=0 final_only=1 lane=16 faulting_output_untouched=1
+OVERFLOW_GUARD_PASS negative=1 final_only=1 lane=16 faulting_output_untouched=1
+BOUNDARY_CASE_PASS ci=1 co=1024 h=1 w=1 k=1 outputs=1024
+BOUNDARY_CASE_PASS ci=1024 co=1 h=1 w=1 k=1 outputs=1
+BOUNDARY_CASE_PASS ci=512 co=1 h=1 w=1 k=3 outputs=1
+BOUNDARY_CASE_PASS ci=1 co=1 h=1 w=845 k=1 outputs=845
+BOUNDARY_CASE_PASS ci=1 co=1 h=416 w=1 k=1 outputs=416
+LOCALITY_CASE_PASS revision=0 outputs=1581
+LOCALITY_CASE_PASS revision=1 outputs=1581
+PARAMETER_GUARD_PASS coefficient=0000000fffffffff shift=36 accepted=1
+PARAMETER_GUARD_PASS coefficient=0000000000000000 shift=36 accepted=0
+PARAMETER_GUARD_PASS coefficient=0000001000000000 shift=36 accepted=0
+PARAMETER_GUARD_PASS coefficient=8000000000000001 shift=36 accepted=0
+PARAMETER_GUARD_PASS coefficient=0000000000000001 shift=0 accepted=0
+PARAMETER_GUARD_PASS coefficient=0000000000000001 shift=63 accepted=0
+PARAMETER_GUARD_PASS coefficient=0000000000000001 shift=256 accepted=0
+CONFIG_GUARD_PASS address=36 data=00000000 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=36 data=00000401 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=40 data=00000000 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=40 data=00000401 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=44 data=00000000 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=44 data=000001a1 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=48 data=00000000 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=48 data=0000034e error=2 no_DDR=1
+CONFIG_GUARD_PASS address=52 data=00000002 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=56 data=00000001 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=60 data=00000080 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=64 data=ffffff7f error=2 no_DDR=1
+CONFIG_GUARD_PASS address=36 data=80000001 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=40 data=80000001 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=44 data=80000001 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=48 data=80000001 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=52 data=80000001 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=56 data=80000000 error=2 no_DDR=1
+CONFIG_GUARD_PASS address=8 data=00100001 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=12 data=00108004 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=16 data=00118004 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=20 data=00119004 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=24 data=0011c004 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=28 data=00120004 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=32 data=00130001 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=8 data=000ff000 error=4 no_DDR=1
+CONFIG_GUARD_PASS address=8 data=1fff0000 error=4 no_DDR=1
+CONFIG_GUARD_PASS address=28 data=1fff0000 error=4 no_DDR=1
+CONFIG_GUARD_PASS address=32 data=1fff0000 error=4 no_DDR=1
+CONFIG_GUARD_PASS address=32 data=00120000 error=4 no_DDR=1
+CONFIG_GUARD_PASS address=76 data=1ffeff08 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=76 data=1fff0000 error=1 no_DDR=1
+CONFIG_GUARD_PASS address=76 data=ffffff00 error=1 no_DDR=1
+DERIVED_SIZE_GUARD_PASS ci=1 h=416 w=417 k=1 no_DDR=1
+DERIVED_SIZE_GUARD_PASS ci=513 h=1 w=1 k=3 no_DDR=1
+DERIVED_SIZE_GUARD_PASS ci=1024 h=1 w=1 k=3 no_DDR=1
+LOCALITY_PASS cases=2 outputs=3162 cross_word=1 cross_row=1 groups=2 START_invalidation=1
+CLOSEDLOOP_PASS cases=24 outputs=920 boundary_cases=5 boundary_outputs=2287 config_guards=36 bus_reads=4844 bus_writes=12866 guards=4 profile_sum=1
+$finish called at time : 3740730554 ps : File "V:/runs/clean_clock_20261028_hp0/closedloop/tb_closedloop.sv" Line 403
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:02:31 . Memory (MB): peak = 233.125 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 25380 KB (Peak: 25380 KB), Simulation CPU Usage: 149078 ms
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 14:26:22 2026...

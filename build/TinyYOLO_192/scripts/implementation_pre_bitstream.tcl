@@ -1,0 +1,16 @@
+set bitstream_root [file dirname [file dirname [file normalize [info script]]]]
+set reports [file join $bitstream_root reports]
+report_timing_summary -delay_type min_max -report_unconstrained -file [file join $reports timing.rpt]
+report_utilization -file [file join $reports utilization.rpt]
+report_drc -file [file join $reports drc.rpt]
+report_cdc -details -file [file join $reports cdc.rpt]
+report_methodology -file [file join $reports methodology.rpt]
+report_bus_skew -file [file join $reports bus_skew.rpt]
+report_route_status -file [file join $reports route_status.rpt]
+report_clocks -file [file join $reports clocks.rpt]
+set check [open [file join $reports check_timing.rpt] w]
+puts $check [check_timing -return_string]
+close $check
+source [file join $bitstream_root scripts require_timing_closure.tcl]
+source [file join $bitstream_root scripts assert_clock_topology.tcl]
+assert_clock_topology

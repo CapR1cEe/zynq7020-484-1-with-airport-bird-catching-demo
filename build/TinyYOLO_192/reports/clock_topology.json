@@ -1,0 +1,1 @@
+{"status":"PASS_ORIGINAL_CLOCK_TOPOLOGY","clock_mhz":240,"bufg_count":3,"cascaded_bufg":false,"pl_bufg_direct_mmcm_clkout0":true,"clock_period_unchanged":true,"user_uncertainty_ns":0.000,"path_exceptions_changed":false,"warning_suppression":false}

@@ -1,0 +1,203 @@
+{
+  "review_date": "2026-11-01",
+  "sources": [
+    {
+      "repository": "WangXuan95/FPGA-FixedPoint",
+      "commit": "35b175d6912f085c01f5b986e4f41c70a3807909",
+      "license_metadata": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "description": "Verilog implementation of fixed-point numbers, supports custom bit width, arithmetic, converting to float, with single cycle & pipeline version. 一个Verilog定点数库，提供算术运算、与浮点数的互相转换，包含单周期和流水线两种实现。",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/WangXuan95/FPGA-FixedPoint/35b175d6912f085c01f5b986e4f41c70a3807909/README.md",
+          "bytes": 10392,
+          "sha256": "0b27662358b526e1f2bb03ba81cdc3df5ccffb54ae6cbd852723e9f4946eaa8b",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/WangXuan95/FPGA-FixedPoint/35b175d6912f085c01f5b986e4f41c70a3807909/LICENSE",
+          "bytes": 35821,
+          "sha256": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "RTL/fixedpoint.v",
+          "url": "https://raw.githubusercontent.com/WangXuan95/FPGA-FixedPoint/35b175d6912f085c01f5b986e4f41c70a3807909/RTL/fixedpoint.v",
+          "bytes": 33291,
+          "sha256": "471ceb0a3a8bf719e90d735714083da8a59c81a95b1dbd73baeb872b54df5473",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "SIM/tb_fxp_mul_div_pipe.v",
+          "url": "https://raw.githubusercontent.com/WangXuan95/FPGA-FixedPoint/35b175d6912f085c01f5b986e4f41c70a3807909/SIM/tb_fxp_mul_div_pipe.v",
+          "bytes": 4655,
+          "sha256": "c72bf120da921a133e3035aaba9da5b29a95e71448efaa8214e8175cdaadf23e",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "SIM/tb_add_sub_mul_div.v",
+          "url": "https://raw.githubusercontent.com/WangXuan95/FPGA-FixedPoint/35b175d6912f085c01f5b986e4f41c70a3807909/SIM/tb_add_sub_mul_div.v",
+          "bytes": 4852,
+          "sha256": "988bb70ab7b13632fd706fd91ca2930b1128ea6deee9541e8a8a6c1d605f20bb",
+          "download_method": "GitHub contents API at pinned commit"
+        }
+      ]
+    },
+    {
+      "repository": "YosysHQ/picorv32",
+      "commit": "ef203c2b0a3fb793280f5114941416c425c5b461",
+      "license_metadata": {
+        "key": "isc",
+        "name": "ISC License",
+        "spdx_id": "ISC",
+        "url": "https://api.github.com/licenses/isc",
+        "node_id": "MDc6TGljZW5zZTEw"
+      },
+      "description": "PicoRV32 - A Size-Optimized RISC-V CPU",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/README.md",
+          "bytes": 30622,
+          "sha256": "399c2d2e00e4581ee4ef33034089992401e10c4e917a33cd363b80dfb283e964",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "COPYING",
+          "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/COPYING",
+          "bytes": 777,
+          "sha256": "041ebc727233e5bf096dd41260cbb81014d3d29ca007a15f3b1807d4e9ff288e",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "picorv32.v",
+          "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/picorv32.v",
+          "bytes": 94657,
+          "sha256": "0836050971b3c6cdd28ac3b1e5719a67fb645161912bef1e472e63995ceb0622",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "scripts/smtbmc/mulcmp.v",
+          "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/scripts/smtbmc/mulcmp.v",
+          "bytes": 1936,
+          "sha256": "17ba79635247ec3e5499e5c4eb06f87c3c0955674dde9db0bc8a1cd0ec7fbbcf",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "scripts/smtbmc/mulcmp.sh",
+          "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/scripts/smtbmc/mulcmp.sh",
+          "bytes": 334,
+          "sha256": "0746ddd40c28a4165e2eb3cc0394163b8fa3a1be0c012801ec732da07fed98ee",
+          "download_method": "GitHub contents API at pinned commit"
+        }
+      ]
+    },
+    {
+      "repository": "ZipCPU/wb2axip",
+      "commit": "2e8d3bc2d26ddc33d1881022a2a2b9d3f0c16b9b",
+      "license_metadata": null,
+      "description": "Bus bridges and other odds and ends",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ZipCPU/wb2axip/2e8d3bc2d26ddc33d1881022a2a2b9d3f0c16b9b/README.md",
+          "bytes": 29398,
+          "sha256": "e21ffe5300b43bf2c38286ee8f2e201606d0a93f974b67f4c7235bd605904dd3",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "rtl/skidbuffer.v",
+          "url": "https://raw.githubusercontent.com/ZipCPU/wb2axip/2e8d3bc2d26ddc33d1881022a2a2b9d3f0c16b9b/rtl/skidbuffer.v",
+          "bytes": 12571,
+          "sha256": "ed1fda9192563fd7fd7033b564e8cf47ad6cb63ba4f578ed2c302037d47a5389",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "bench/formal/skidbuffer.sby",
+          "url": "https://raw.githubusercontent.com/ZipCPU/wb2axip/2e8d3bc2d26ddc33d1881022a2a2b9d3f0c16b9b/bench/formal/skidbuffer.sby",
+          "bytes": 538,
+          "sha256": "067e36aa8fcd26a8743216f5f36cb87c532624912dc6812dbbf7f9c76d3d6a58",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "bench/formal/README.md",
+          "url": "https://raw.githubusercontent.com/ZipCPU/wb2axip/2e8d3bc2d26ddc33d1881022a2a2b9d3f0c16b9b/bench/formal/README.md",
+          "bytes": 3050,
+          "sha256": "545744e5f63e4e6ad754c4bc41f54214301cedf6f7a52e6052da69c8cbaf6c76",
+          "download_method": "GitHub contents API at pinned commit"
+        }
+      ]
+    },
+    {
+      "repository": "AmeerAbdelhadi/Multiported-RAM",
+      "commit": "5f969563865bbca27100fc2a292f17688ad1fbcc",
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "description": "Modular Multi-ported SRAM-based Memory",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/AmeerAbdelhadi/Multiported-RAM/5f969563865bbca27100fc2a292f17688ad1fbcc/README.md",
+          "bytes": 8090,
+          "sha256": "0601e11fb45940fd8d472c492a1d22b56194499d4e0e80b6f7393586437582ad",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/AmeerAbdelhadi/Multiported-RAM/5f969563865bbca27100fc2a292f17688ad1fbcc/LICENSE",
+          "bytes": 1661,
+          "sha256": "cc210ac8822d952baf07080123d1ca29a3b6e51c1ed787017fb9bf1749892969",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "mpram_xor.v",
+          "url": "https://raw.githubusercontent.com/AmeerAbdelhadi/Multiported-RAM/5f969563865bbca27100fc2a292f17688ad1fbcc/mpram_xor.v",
+          "bytes": 10318,
+          "sha256": "ef9fd15232ecaed2295e7e40c538bddf861e9a6a661584c8b3f21497ad6a7802",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "dpram.v",
+          "url": "https://raw.githubusercontent.com/AmeerAbdelhadi/Multiported-RAM/5f969563865bbca27100fc2a292f17688ad1fbcc/dpram.v",
+          "bytes": 5360,
+          "sha256": "1398ca4331aab63e2ff0af7b2b84db19b2fe2b71916a7fd778501e79221ddcbd",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "mrram.v",
+          "url": "https://raw.githubusercontent.com/AmeerAbdelhadi/Multiported-RAM/5f969563865bbca27100fc2a292f17688ad1fbcc/mrram.v",
+          "bytes": 5121,
+          "sha256": "28d0d2489537c6d073ba3d5567d0d1301293c7854457e2ebc2bf55c43ed05527",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "mpram_tb.v",
+          "url": "https://raw.githubusercontent.com/AmeerAbdelhadi/Multiported-RAM/5f969563865bbca27100fc2a292f17688ad1fbcc/mpram_tb.v",
+          "bytes": 22172,
+          "sha256": "ee80da2c704cb47ee7afdd9c2ad432a48d15b841eb359a902b7d0876fc368b12",
+          "download_method": "GitHub contents API at pinned commit"
+        },
+        {
+          "path": "utils.vh",
+          "url": "https://raw.githubusercontent.com/AmeerAbdelhadi/Multiported-RAM/5f969563865bbca27100fc2a292f17688ad1fbcc/utils.vh",
+          "bytes": 6868,
+          "sha256": "9f410b3f3e3c876b87a20a7abde24d26687caf5a58badf0efd04e9c79efeac90",
+          "download_method": "GitHub contents API at pinned commit"
+        }
+      ]
+    }
+  ],
+  "method": "Pinned primary-source review; upstream tests inspected, not executed."
+}

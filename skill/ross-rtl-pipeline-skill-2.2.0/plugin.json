@@ -1,0 +1,17 @@
+{
+  "name": "ross-rtl-pipeline-community",
+  "version": "2.2.0",
+  "description": "Community ROSS skill for annotated RTL, resource planning and evidence-based pipeline design",
+  "author": {
+    "name": "RTL Pipeline Skill contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ross",
+    "fpga",
+    "vivado",
+    "rtl",
+    "pipeline",
+    "timing-closure"
+  ]
+}

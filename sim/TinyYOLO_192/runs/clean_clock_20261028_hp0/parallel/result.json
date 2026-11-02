@@ -1,0 +1,12 @@
+{
+  "suite": "parallel",
+  "status": "PASS",
+  "backend": "qualified_cycle_exact_DSP_model",
+  "elapsed_seconds": 472.687,
+  "pass_marker": [
+    "PARALLEL_PASS cases=60 outputs=21546"
+  ],
+  "behavioral_clock_MHz": 240,
+  "onehot_assertion": true,
+  "generated_bench_sha256": "c42bb4ebb9d1a07515919f858b562043581b5493b28f04ce402765e5889774b7"
+}

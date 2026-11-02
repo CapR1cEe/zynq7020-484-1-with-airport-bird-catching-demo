@@ -1,0 +1,156 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Oct 28 14:33:49 2026
+# Process ID         : 24196
+# Current directory  : <project>
+# Command line       : vivado.exe -mode batch -nojournal -notrace -log reports/synthesis_diagnostics_final.log -source scripts/diagnose_synthesis.tcl
+# Log file           : <project>/reports/synthesis_diagnostics_final.log
+# Journal file       : 
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 22424 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'no'.
+source scripts/diagnose_synthesis.tcl -notrace
+Scanning sources...
+Finished scanning sources
+INFO: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.1\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vek385_1:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385_2\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+INFO: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/AMDDesigntools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesigntools/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 573.707 ; gain = 237.281
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 978.668 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5208 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/Tiny_Yolo_processing_system7_0_0.xdc] for cell 'Tiny_Yolo_i/processing_system7_0/inst'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/Tiny_Yolo_processing_system7_0_0.xdc] for cell 'Tiny_Yolo_i/processing_system7_0/inst'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_1/bd_6194_psr0_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_1/bd_6194_psr0_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr0/U0'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_2/bd_6194_psr_aclk_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_2/bd_6194_psr_aclk_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_3/bd_6194_psr_aclk1_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_3/bd_6194_psr_aclk1_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/smartconnect.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/smartconnect.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_proc_sys_reset_0_0/Tiny_Yolo_proc_sys_reset_0_0_board.xdc] for cell 'Tiny_Yolo_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_proc_sys_reset_0_0/Tiny_Yolo_proc_sys_reset_0_0_board.xdc] for cell 'Tiny_Yolo_i/proc_sys_reset_0/U0'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_board.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_board.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_ps_ctrl_reset_0/Tiny_Yolo_ps_ctrl_reset_0_board.xdc] for cell 'Tiny_Yolo_i/ps_ctrl_reset/U0'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_ps_ctrl_reset_0/Tiny_Yolo_ps_ctrl_reset_0_board.xdc] for cell 'Tiny_Yolo_i/ps_ctrl_reset/U0'
+Parsing XDC File [<project>/hardware/g227/board_uart.xdc]
+Finished Parsing XDC File [<project>/hardware/g227/board_uart.xdc]
+Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_late.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Finished Parsing XDC File [<project>/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_late.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Parsing XDC File [<project>/hardware/g227/critical_bram_power.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [<project>/hardware/g227/critical_bram_power.xdc:4]
+INFO: [Timing 38-2] Deriving generated clocks [<project>/hardware/g227/critical_bram_power.xdc:4]
+set_power_opt: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1810.707 ; gain = 645.984
+Finished Parsing XDC File [<project>/hardware/g227/critical_bram_power.xdc]
+Parsing XDC File [<project>/hardware/g227/reset_power_activity.xdc]
+get_nets: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1810.707 ; gain = 0.000
+Finished Parsing XDC File [<project>/hardware/g227/reset_power_activity.xdc]
+INFO: [Project 1-1714] 39 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1903.109 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 63 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 49 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 12 instances
+
+open_run: Time (s): cpu = 00:01:11 ; elapsed = 00:01:05 . Memory (MB): peak = 1903.109 ; gain = 1327.148
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.299 . Memory (MB): peak = 1921.895 ; gain = 0.000
+check_timing: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 2217.098 ; gain = 295.203
+Command: report_drc -file <project>/reports/synthesis_drc.rpt
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file <project>/reports/synthesis_drc.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2217.098 ; gain = 0.000
+Command: report_methodology -file <project>/reports/synthesis_methodology.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 4 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file <project>/reports/synthesis_methodology.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:28 ; elapsed = 00:00:10 . Memory (MB): peak = 2217.098 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-314] The report_cdc command only analyzes and reports clock domain crossing paths where clocks have been defined on both source and destination sides. Ports with no input delay constraint are skipped. Please run check_timing to verify there are no missing clock definitions in your design, nor any unconstrained input port.
+SYNTHESIS_DIAGNOSTICS_COMPLETE
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 14:35:50 2026...

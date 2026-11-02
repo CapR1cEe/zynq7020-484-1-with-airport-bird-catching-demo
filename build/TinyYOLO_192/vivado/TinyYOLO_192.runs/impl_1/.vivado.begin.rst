@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+  <Process Command="powershell.exe" Owner="CodexSandboxOffline" Host="CAPR1CEE" Pid="24112" />
+</ProcessHandle>

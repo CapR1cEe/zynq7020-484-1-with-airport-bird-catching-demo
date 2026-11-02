@@ -1,0 +1,65 @@
+printf '\nTY_90adaea58d424b9eaffde55595032623_BEGIN\n'; bash - c "$(printf '%s' 'c2V0IC1ldQpwcmludGYgJz09PSBSVU5USU1FIElOVkVOVE9SWSA9PT1cbicKZm luZCAvb3B0L3Rpbnl5b2xvIC1tYXhkZXB0aCAzIC10eXBlIGYgLXByaW50ZiAnJXMgJXBcbicgfCBoZW FkIC0xMDAKcHJpbnRmICdcbj09PSBCT09UIE1PVU5UUyA9PT1cbicKbW91bnQgfCBncmVwIC1FICdtbW N8Ym9vdHxzaG0nIHx8IHRydWUKcHJpbnRmICdcbj09PSBUT09MUyBBTkQgTUVNT1JZID09PVxuJwpjb2 1tYW5kIC12IGdjYyBweXRob24zIHNoYTI1NnN1bSB1bnppcCB8fCB0cnVlCmZyZWUgLW0KcHJpbnRmIC dcbj09PSBMT0FERUQgRFJJVkVSIElERU5USVRZID09PVxuJwptb2RpbmZvIHRpbnl5b2xvX2RtYSB8IG hlYWQgLTE0CmNhdCAvc3lzL21vZHVsZS90aW55eW9sb19kbWEvcGFyYW1ldGVycy8qIDI+L2Rldi9udW xsIHx8IHRydWUKcHJpbnRmICdcbj09PSBERVZJQ0UgSU5GTyA9PT1cbicKcHl0aG9uMyAtIDw8J1BZJw ppbXBvcnQgb3MsZmNudGwsc3RydWN0LGpzb24KZmQ9b3Mub3BlbignL2Rldi90aW55eW9sbzAnLG9zLk 9fUkRXUikKdHJ5OgogICAgaW5mbz1ieXRlYXJyYXkoMzIpCiAgICBmY250bC5pb2N0bChmZCwweDgwMj A1OTI4LGluZm8sVHJ1ZSkKICAgIGZpZWxkcz0oJ2FiaScsJ2J1aWxkX2lkJywncGxfaHonLCdmY2xrX2 h6JywnZG1hX2J5dGVzJywnZmF1bHRlZCcsJ29jbV9ieXRlcycsJ29jbV9mbGFncycpCiAgICBwcmludC hqc29uLmR1bXBzKGRpY3QoemlwKGZpZWxkcyxzdHJ1Y3QudW5wYWNrKCc8OEknLGluZm8pKSksc29ydF 9rZXlzPVRydWUpKQpmaW5hbGx5OgogICAgb3MuY2xvc2UoZmQpClBZCnByaW50ZiAnXG49PT0gQ0FNRV JBIEFORCBTRU5TT1JTID09PVxuJwpjYXQgL3N5cy9jbGFzcy92aWRlbzRsaW51eC92aWRlbzAvbmFtZQ pmaW5kIC9zeXMvYnVzL2lpby9kZXZpY2VzIC1tYXhkZXB0aCAyIC10eXBlIGYgLW5hbWUgJyp0ZW1wKi cgLXByaW50IDI+L2Rldi9udWxsIHx8IHRydWUKcHJpbnRmICdcbj09PSBERVBMT1lNRU5UIFNDUklQVF MgPT09XG4nCmZpbmQgL29wdC90aW55eW9sbyAtbWF4ZGVwdGggMyAtdHlwZSBmIFwoIC1uYW1lICcqLn NoJyAtbyAtbmFtZSAnbW9kZWxfY29uZmlnLmpzb24nIC1vIC1uYW1lICdOQVRJVkVfU0hBMjU2U1VNUy 50eHQnIFwpIC1wcmludAo=' | base64 -d)"; ty_console_rc=$?; printf '\nTY_90adaea58d 424b9eaffde55595032623_END:%s\n' "$ty_console_rc"
+
+TY_90adaea58d424b9eaffde55595032623_BEGIN
+=== RUNTIME INVENTORY ===
+858 /opt/tinyyolo/board_cleanup.json
+33368 /opt/tinyyolo/tinyyolo_linux
+12128 /opt/tinyyolo/libtinyyolo_tracker.so
+16857 /opt/tinyyolo/camera_infer.py
+3313 /opt/tinyyolo/native_build.json
+10319 /opt/tinyyolo/camera_environment_fix.json
+656 /opt/tinyyolo/selected_release.json
+17836 /opt/tinyyolo/camera_stream
+6065 /opt/tinyyolo/linux_board_validate.py
+110592 /opt/tinyyolo/bird.bin
+8140 /opt/tinyyolo/tinyyolo_session.py
+15364 /opt/tinyyolo/tinyyolo_dma.ko
+13188 /opt/tinyyolo/camera_capture
+3476 /opt/tinyyolo/deployment_manifest.json
+10524 /opt/tinyyolo/sd/devicetree.dtb
+4045693 /opt/tinyyolo/sd/xillydemo.bit
+4397024 /opt/tinyyolo/sd/boot.bin
+323 /opt/tinyyolo/pan_tilt.json
+2278 /opt/tinyyolo/camera_session.py
+847 /opt/tinyyolo/sd_installed.json
+4869 /opt/tinyyolo/target_control.py
+3608 /opt/tinyyolo/board_input_contract.py
+415 /opt/tinyyolo/model_config.json
+36380 /opt/tinyyolo/expected.json
+12211392 /opt/tinyyolo/parameters.bin
+340 /opt/tinyyolo/run_camera_240.sh
+110592 /opt/tinyyolo/random.bin
+
+=== BOOT MOUNTS ===
+/dev/mmcblk0p2 on / type ext4 (rw,relatime,data=ordered)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+
+=== TOOLS AND MEMORY ===
+/usr/bin/gcc
+/usr/bin/python3
+/usr/bin/sha256sum
+/usr/bin/unzip
+              total        used        free      shared  buff/cache   available
+Mem:            434          39         315           3          80         373
+Swap:             0           0           0
+
+=== LOADED DRIVER IDENTITY ===
+filename:       /lib/modules/4.4.30-xillinux-2.0/extra/tinyyolo_dma.ko
+description:    TinyYOLO G228 reserved coherent DMA polling driver
+license:        GPL
+alias:          of:N*T*Ctinyyolo,g228*
+depends:        
+vermagic:       4.4.30-xillinux-2.0 SMP preempt mod_unload ARMv7 p2v8 
+
+=== DEVICE INFO ===
+{"abi": 2, "build_id": 1194480898, "dma_bytes": 33554432, "faulted": 0, "fclk_hz": 99999999, "ocm_bytes": 32768, "ocm_flags": 1, "pl_hz": 240000000}
+
+=== CAMERA AND SENSORS ===
+USB Camera
+
+=== DEPLOYMENT SCRIPTS ===
+/opt/tinyyolo/model_config.json
+/opt/tinyyolo/run_camera_240.sh
+
+TY_90adaea58d424b9eaffde55595032623_END:0
+root@localh

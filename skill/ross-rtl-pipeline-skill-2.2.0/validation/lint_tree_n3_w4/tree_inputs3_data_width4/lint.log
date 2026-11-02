@@ -1,0 +1,4 @@
+["<MSYS2_INSTALL>\\ucrt64\\bin\\verilator_bin.exe", "--lint-only", "-Wall", "--top-module", "signed_sum_tree_stream", "<SKILL_DIR>/assets/rtl/signed_sum_tree_stream.sv", "-GINPUTS=3", "-GDATA_WIDTH=4"]
+- V e r i l a t i o n   R e p o r t: Verilator 5.048 2026-04-26 rev vUNKNOWN-built20260428
+- Verilator: Built from 0.034 MB sources in 2 modules, into 0.024 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.008 s (elab=0.001, cvt=0.003, bld=0.000); cpu 0.000 s on 1 threads; allocated 14.441 MB

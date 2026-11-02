@@ -1,0 +1,9 @@
+{
+  "status": "PASS_LUT64_FORMAT_CORRECTION",
+  "complemented_inputs_audited": 39,
+  "full_truth_tables_exhaustively_checked": true,
+  "applied_init_readback_checked_by_implementation_hook": true,
+  "implementation_hook_sha256": "c51b9e5b3213b11ddbed2192aac8b94648fbb485385db66d2327709e523aa3b9",
+  "transformation_table_sha256": "7d1675873d492a353e465f17d00a47c783b080cfdfc8a77a98374a934a80a8f8",
+  "board_tested": false
+}

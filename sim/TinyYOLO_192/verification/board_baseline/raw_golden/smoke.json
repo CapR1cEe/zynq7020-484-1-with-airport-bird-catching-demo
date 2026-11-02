@@ -1,0 +1,13 @@
+{
+  "abi": 2,
+  "ocm_flags": 1,
+  "ocm_bytes": 32768,
+  "build_id": "0x47325502",
+  "faulted": 0,
+  "invalid_descriptor": "PASS_EINVAL",
+  "dma_bytes": 33554432,
+  "pl_hz": 240000000,
+  "fclk_hz": 99999999,
+  "exclusive_open": "PASS_EBUSY",
+  "status": "PASS_LINUX_DRIVER_SMOKE"
+}

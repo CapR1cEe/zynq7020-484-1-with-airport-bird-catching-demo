@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Oct 28 13:58:19 2026
+# Process ID         : 9456
+# Current directory  : U:/verification/rtl_units
+# Command line       : xsim.exe -log tb_counter64.log -mode tcl -source {xsim.dir/tb_counter64/xsim_script.tcl}
+# Log file           : U:/verification/rtl_units/tb_counter64.log
+# Journal file       : U:/verification/rtl_units\xsim.jou
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 20507 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_counter64/xsim_script.tcl
+# xsim {tb_counter64} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PROFILE_SAMPLE_PASS samples=1024 counters=15 zero_state=1 multihot=1 delayed_reset=1
+COUNTER64_PASS checks=85623 carries=16,32,48,64 clear_priority=1 enable_stalls=1
+COUNTER32_PASS checks=85623 carries=8,16,24,32 clear_priority=1 enable_stalls=1
+$finish called at time : 868210 ns : File "U:/verification/rtl_units/tb_counter64.sv" Line 246
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 13:58:21 2026...

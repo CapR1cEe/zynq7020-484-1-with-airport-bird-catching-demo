@@ -1,0 +1,63 @@
+{
+  "status": "PASS_CLOCKFIX_IMPLEMENTATION",
+  "checked_utc": "2026-10-28T06:37:58.649888+00:00",
+  "clock_mhz": 240,
+  "rtl_changed": true,
+  "changed_rtl_sources": [
+    "hardware/g227/rtl/tinyyolo_dot24_pair.v",
+    "hardware/g227/rtl/tinyyolo_hp0_burst_cache.v"
+  ],
+  "changed_build_sources": {
+    "hardware/g227/rtl/tinyyolo_dot24_pair.v": {
+      "before_sha256": "e0e5708d5754946aa4d21b781e5d57f019e96daa43b77259f803118a5f04dc14",
+      "after_sha256": "16007ea9e13df81414a67bf478042435a5d5810be1c8b980a5b5cb728b627cab"
+    },
+    "hardware/g227/rtl/tinyyolo_hp0_burst_cache.v": {
+      "before_sha256": "9d44ba12fa8598cd219522648e0f71cdafea865b470da7f47694e232d6145965",
+      "after_sha256": "b46cea78823e484d8e04a44fb26cc3bf1c9d08af81d622bb7b0268cbf6872e93"
+    },
+    "scripts/build_vivado.tcl": {
+      "before_sha256": "e19e2b19b67a87fb0c41014302aedc85ba575698292afce1d92950d1c6dd4c9e",
+      "after_sha256": "4ba3939deec11f5ee35d4342ce9669170c135b02582b15541ce9fbe6b5853bf9"
+    },
+    "scripts/implementation_pre_bitstream.tcl": {
+      "before_sha256": "3d8b1d8fe8fb425459372aaada5cac586d4e6046d5ed048b4fe9b32767168736",
+      "after_sha256": "f893ca3f5fbf2787f22178dd63f34d726c65731020767d2000a4c28be2c3c620"
+    },
+    "scripts/implementation_pre_opt.tcl": {
+      "before_sha256": "69603b9249e6b128629253aca4f94d34384a72d9d95e1a7c88a5db73e16eed79",
+      "after_sha256": "637779599a1bd29d4e3fd869a5ff20e76da9308f7891291120d8c9b20a21e078"
+    },
+    "scripts/optimize_control_fanout.tcl": {
+      "before_sha256": "efa4b0a63aaa0cf5643c646ec66305085c5576d7fdcea44a6351c9dee49b6ac6",
+      "after_sha256": "96c9b17f693473c6850f0b74d6e0101e4e41c89b446cfacfe7947a842440a5c1"
+    },
+    "scripts/restore_implementation_budget.tcl": {
+      "before_sha256": "d33e16151c639960f322669f0bedacccc3bda73a04e959381e489488a3bcad47",
+      "after_sha256": "fa20d45468564856ce797c052ae93e25c93645749e37aaa2fe5487f63b46c3d4"
+    },
+    "scripts/assert_clock_topology.tcl": {
+      "before_sha256": null,
+      "after_sha256": "97a1ac4c29cac38591a37cd0c603dae8bd713581cb95dc39781048e5e858598e"
+    },
+    "scripts/run_synthesis_direct.ps1": {
+      "before_sha256": null,
+      "after_sha256": "f2bf8e631f1e200f5acedfee84c4772559f9648965ebbe310fc9d2844cbb4eea"
+    },
+    "scripts/run_implementation_direct.ps1": {
+      "before_sha256": null,
+      "after_sha256": "e8429f46044d7a74bbb7948152b04e5494d2587ba529893b11507174b97bc3b6"
+    },
+    "scripts/rebuild_clockfix.ps1": {
+      "before_sha256": null,
+      "after_sha256": "df9896140a22e779912df9aaf0615b5dd4a3497836b22eb4ee60c673734faeb2"
+    }
+  },
+  "timing_constraints_changed": false,
+  "added_pipeline_cycles": 0,
+  "cascaded_bufg": false,
+  "after_setup_ns": 0.067,
+  "after_hold_ns": 0.02,
+  "native_implementation_receipt_sha256": "fca4dd98197990dc63e429ad2f1081a99d3fb12f544784f80f02703a83479fa0",
+  "clock_topology_receipt_sha256": "c30c48e6dc1edb8f5263e223e3f557b833bbfc10713b13402d2e20168e616a4d"
+}

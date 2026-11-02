@@ -1,0 +1,5 @@
+["<VIVADO_INSTALL>\\bin\\xvlog.bat", "--sv", "<SKILL_DIR>/assets/rtl/elastic_buffer.sv", "<SKILL_DIR>/assets/tb/tb_elastic_buffer.sv"]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<SKILL_DIR>/assets/rtl/elastic_buffer.sv" into library work
+INFO: [VRFC 10-311] analyzing module elastic_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<SKILL_DIR>/assets/tb/tb_elastic_buffer.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_elastic_buffer

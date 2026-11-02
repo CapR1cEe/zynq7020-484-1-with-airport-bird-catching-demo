@@ -1,0 +1,40 @@
+{
+  "status": "PASS_MOCK_PIPELINE_ONLY",
+  "input_size": 192,
+  "positions": 180,
+  "build_id": "0x47325502",
+  "duration_seconds": 0.0940000000045984,
+  "startup_ms": 0.0,
+  "capture_frames": 12,
+  "completed_detections": 3,
+  "successful_tracking_updates": 0,
+  "detection_fps": null,
+  "tracking_output_fps": null,
+  "capture_loop_fps": null,
+  "network_ms": [
+    25,
+    25,
+    25
+  ],
+  "detection_5fps_pass": null,
+  "detection_15fps_pass": null,
+  "tracking_15fps_pass": null,
+  "overlay_saved": false,
+  "board_measurement": false,
+  "tracking_enabled": true,
+  "detection_max_age_seconds": 1.5,
+  "tracking_history_frames": 48,
+  "physical_pan_tilt_tested": false,
+  "accuracy_map": null,
+  "accuracy_note": "Requires a labelled bird evaluation set",
+  "test_doubles": [
+    "RuntimeSession",
+    "CameraSession"
+  ],
+  "mock_detection_fps": 31.914893615460027,
+  "mock_tracking_output_fps": 0.0,
+  "mock_capture_loop_fps": 127.65957446184011,
+  "mock_detection_5fps_pass": true,
+  "mock_detection_15fps_pass": true,
+  "mock_tracking_15fps_pass": false
+}

@@ -1,0 +1,38 @@
+{
+  "mode": "lint",
+  "backend": "verilator",
+  "results": [
+    {
+      "example": "mac",
+      "status": "passed",
+      "parameters": {
+        "DATA_WIDTH": 8
+      },
+      "mac_width": 8
+    },
+    {
+      "example": "elastic",
+      "status": "passed",
+      "parameters": {},
+      "mac_width": null
+    },
+    {
+      "example": "tree",
+      "status": "passed",
+      "parameters": {
+        "INPUTS": 5,
+        "DATA_WIDTH": 8
+      },
+      "mac_width": null
+    },
+    {
+      "example": "fork",
+      "status": "passed",
+      "parameters": {},
+      "mac_width": null
+    }
+  ],
+  "implementation_frequency": "not_measured_by_this_runner",
+  "tool_version": "Verilator 5.048 2026-04-26 rev vUNKNOWN-built20260428",
+  "status": "passed"
+}

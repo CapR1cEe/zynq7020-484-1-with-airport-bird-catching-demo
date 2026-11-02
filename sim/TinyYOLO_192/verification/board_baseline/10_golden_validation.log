@@ -1,0 +1,29 @@
+printf '\nTY_daf1f6f338be4e8e92b69799843f5181_BEGIN\n'; bash - c "$(printf '%s' 'c2V0IC1ldQpjZCAvZGV2L3NobS90eTE5Ml92YWxpZGF0aW9uXzIwMjYxMDI1X3 J1bjAxCmV4cG9ydCBUSU5ZWU9MT19DUFVfQ0FDSEU9cmFtIFRJTllZT0xPX1pFUk9fU0tJUD0xCnByaW 50ZiAnPT09IDE5MngxOTIgR09MREVOIFZBTElEQVRJT04gPT09XG4nCnB5dGhvbjMgLXUgbGludXhfYm 9hcmRfdmFsaWRhdGUucHkgPiBnb2xkZW5fdmFsaWRhdGlvbi5sb2cgMj4mMQpjYXQgZ29sZGVuX3ZhbG lkYXRpb24ubG9nCnB5dGhvbjMgLSA8PCdQWScKaW1wb3J0IGpzb24Kd2l0aCBvcGVuKCdyZXN1bHQuan NvbicpIGFzIHN0cmVhbToKICAgIHJlc3VsdD1qc29uLmxvYWQoc3RyZWFtKQpwcmludChqc29uLmR1bX BzKHtrZXk6cmVzdWx0W2tleV0gZm9yIGtleSBpbiAoJ3N0YXR1cycsJ3N0ZXBfaGFzaF9jb21wYXJpc2 9ucycsJ2NvbnZvbHV0aW9uX2hhc2hfY29tcGFyaXNvbnMnLCd3YXJtX2ZyYW1lX21zJywnc21va2UnKX 0sc29ydF9rZXlzPVRydWUpKQpQWQpwcmludGYgJ1RZXzE5Ml9HT0xERU5fQ09NUExFVEVcbicK' | ba se64 -d)"; ty_console_rc=$?; printf '\nTY_daf1f6f338be4e8e92b69799843f5181_END:% s\n' "$ty_console_rc"
+
+TY_daf1f6f338be4e8e92b69799843f5181_BEGIN
+=== 192x192 GOLDEN VALIDATION ===
+PASS_LINUX_DRIVER_SMOKE
+TRACE_START bird
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=863 PL_convolutions=24 HP_idle=1
+TRACE_PASS bird steps=50 convolution_layers=24
+TRACE_START random
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=863 PL_convolutions=24 HP_idle=1
+TRACE_PASS random steps=50 convolution_layers=24
+TRACE_START bird_repeat
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=861 PL_convolutions=24 HP_idle=1
+TRACE_PASS bird_repeat steps=50 convolution_layers=24
+PRODUCTION_START frames=8
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=749 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=2 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=3 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=4 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=5 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=6 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=7 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=8 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+LINUX_BOARD_VALIDATION_PASS warm_mean_ms=725.000
+{"convolution_hash_comparisons": 72, "smoke": {"abi": 2, "build_id": "0x47325502", "dma_bytes": 33554432, "exclusive_open": "PASS_EBUSY", "faulted": 0, "fclk_hz": 99999999, "invalid_descriptor": "PASS_EINVAL", "ocm_bytes": 32768, "ocm_flags": 1, "pl_hz": 240000000, "status": "PASS_LINUX_DRIVER_SMOKE"}, "status": "PASS_LINUX_24_LAYER_AND_PRODUCTION", "step_hash_comparisons": 150, "warm_frame_ms": {"max": 725, "mean": 725.0, "min": 725, "samples": 7}}
+TY_192_GOLDEN_COMPLETE
+
+TY_daf1f6f338be4e8e92b69799843f5181_END:0
+root@localhost:~# 

@@ -1,0 +1,11 @@
+net	leaf_inputs_before
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parameter_store_mul_index[0]	96
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parameter_store_mul_index[1]	96
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parameter_store_mul_index[2]	96
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parameter_store_mul_index[3]	96
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parameter_store_mul_index[4]	96
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/head/state_0[5]	20
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/weight_write_address[7]	25
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/weight_write_address_reg[7]_rep_n_0	22
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/weight_write_address_reg[7]_rep__0_n_0	4
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_ctrl_hp0_pipe2/rsp1/m_data_reg[41]_0	17

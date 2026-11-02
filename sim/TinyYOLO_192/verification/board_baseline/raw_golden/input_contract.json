@@ -1,0 +1,39 @@
+{
+  "input_contract": {
+    "normalized_range": [
+      0.0,
+      1.0
+    ],
+    "bytes_per_element": 4,
+    "layout": "CHW",
+    "dtype": "float32_le",
+    "shape": [
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "zero_point": -128,
+      "scale": 0.003921568859368563,
+      "dtype": "int8",
+      "rounding": "nearest_even"
+    },
+    "elements": 110592
+  },
+  "frames": {
+    "random": {
+      "quantized_bytes": 110592,
+      "quantized_sha256": "f1259e8282efb40ed916eec6899bdc447095c33767cdb743ecd9abd488d8721d",
+      "bytes": 442368,
+      "sha256": "769a1806c6b4f5b78aca82a0b4e9b11b13770ec728972c513bc8b0e471e84d48"
+    },
+    "bird": {
+      "quantized_bytes": 110592,
+      "quantized_sha256": "44e29ecc95bbd76f9ba16e71042643bbe8864a87f028ce7baa17ed2746c79412",
+      "bytes": 442368,
+      "sha256": "e3b40a13985360b9aa152b3b12635d4cdf6ec2e2b47385730a4af04896b3a194"
+    }
+  },
+  "board_tested": false,
+  "status": "PASS_FLOAT32_INPUT_CONTRACT_ONLY"
+}

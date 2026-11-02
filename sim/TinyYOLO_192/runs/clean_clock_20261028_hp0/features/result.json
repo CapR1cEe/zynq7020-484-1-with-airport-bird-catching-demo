@@ -1,0 +1,12 @@
+{
+  "suite": "features",
+  "status": "PASS",
+  "backend": "qualified_cycle_exact_DSP_model",
+  "elapsed_seconds": 814.703,
+  "pass_marker": [
+    "FEATURES_PASS cases=296 outputs=38393 cache=1 coalesce=1 omit_acc=1 LUT=1 sparse=1 pool=1"
+  ],
+  "behavioral_clock_MHz": 240,
+  "onehot_assertion": true,
+  "generated_bench_sha256": "cb6ace69eddbeda346d60578157f9e68b3434463eee998cba242233476fa67ca"
+}

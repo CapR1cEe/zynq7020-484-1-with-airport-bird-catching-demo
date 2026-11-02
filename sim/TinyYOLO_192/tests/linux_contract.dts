@@ -1,0 +1,28 @@
+/dts-v1/;
+/* Syntax-only fixture for the integration fragment. This is not a board DTB. */
+/ {
+    #address-cells = <1>;
+    #size-cells = <1>;
+    clkc: clock-controller {
+        compatible = "fixed-clock";
+        #clock-cells = <1>;
+        clock-frequency = <100000000>;
+    };
+    amba: amba@0 {
+        reg = <0x0 0xffffffff>;
+        compatible = "simple-bus";
+        #address-cells = <1>;
+        #size-cells = <1>;
+        ranges;
+        ps7_ocm: ps7-ocmc@f800c000 {
+            compatible = "xlnx,zynq-ocmc-1.0", "xlnx,zynq-ocm-1.0";
+            reg = <0xf800c000 0x1000>;
+            status = "okay";
+        };
+        sdhci0: sdhci@e0100000 { reg = <0xe0100000 0x1000>; };
+        uart0: serial@e0000000 { reg = <0xe0000000 0x1000>; };
+        uart1: serial@e0001000 { reg = <0xe0001000 0x1000>; };
+    };
+};
+/include/ "../linux/tinyyolo-g228.dtsi"
+/include/ "../linux/tinyyolo-ocm-optional.dtsi"

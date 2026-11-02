@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/hardware/g227/rtl/tinyyolo_pipe_add.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_pipe_add
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/hardware/g227/rtl/tinyyolo_dsp_mul.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dsp_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/hardware/g227/rtl/tinyyolo_dot16_pair.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dot16_pair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/hardware/g227/rtl/tinyyolo_dot24_pair.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dot24_pair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/tests/tb_dot_pair.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_dot_pair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/tests/tb_dot24_pair.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_dot24_pair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/AMDDesigntools/2025.2/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

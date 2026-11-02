@@ -1,0 +1,17 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Oct 28 13:58:45 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_control_fault_guards/xsim_script.tcl
+# xsim {tb_control_fault_guards} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+CONTROL_FAULT_GUARDS_PASS checks=108 immediate_zero_fault=1 bus_priority=1 restart=1
+$finish called at time : 331297 ps : File "W:/verification/control_guards/tb_control_fault_guards.sv" Line 86
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 13:58:47 2026...

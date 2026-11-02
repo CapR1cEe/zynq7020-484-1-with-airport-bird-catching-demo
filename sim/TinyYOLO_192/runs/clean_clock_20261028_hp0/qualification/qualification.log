@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Oct 28 13:58:10 2026
+# Process ID         : 12032
+# Current directory  : V:/runs/clean_clock_20261028_hp0/qualification
+# Command line       : xsim.exe -log qualification.log -mode tcl -source {xsim.dir/qualification/xsim_script.tcl}
+# Log file           : V:/runs/clean_clock_20261028_hp0/qualification/qualification.log
+# Journal file       : V:/runs/clean_clock_20261028_hp0/qualification\xsim.jou
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 20749 MB
+#-----------------------------------------------------------
+source xsim.dir/qualification/xsim_script.tcl
+# xsim {qualification} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+FAST_DSP_LOCKSTEP_PASS cycles=40000 mul_configs=2 accum=1 resets=400 loads=5525 overflows=2249 math_checks=25214
+$finish called at time : 166764980 ps : File "<project>/tests/tb_dsp_fast.sv" Line 65
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 28 13:58:16 2026...

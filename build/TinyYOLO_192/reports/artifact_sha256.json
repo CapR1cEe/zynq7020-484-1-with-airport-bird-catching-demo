@@ -1,0 +1,14 @@
+{
+  "firmware/final_192.bit": {
+    "bytes": 4045693,
+    "sha256": "2d8bd35bada1e084579a9aa1fcf1d0b1d800fa9c757ddf1ea4d09db588ee46de"
+  },
+  "firmware/final_192.xsa": {
+    "bytes": 1386939,
+    "sha256": "ca8cd04a8d98d15fbee248a83774ca8d60e1785d2beef073845638ba1ff8a2c0"
+  },
+  "firmware/final_192_routed.dcp": {
+    "bytes": 26731764,
+    "sha256": "52586037aec2f8aa68040068357076eed882a034fe394643586961e74004216e"
+  }
+}

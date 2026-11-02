@@ -1,0 +1,12 @@
+printf '\nTY_e43bae9c5e4842918c1907c08ad029d5_BEGIN\n'; bash - c "$(printf '%s' 'c2V0IC1ldQpjZCAvZGV2L3NobS90eTE5Ml92YWxpZGF0aW9uXzIwMjYxMDI1X3 J1bjAxCmlmIHRlc3QgLWYgY2FtZXJhMTIwLnBpZDsgdGhlbgogICAgcHMgLXAgIiQoY2F0IGNhbWVyYT EyMC5waWQpIiAtbyBwaWQ9LHN0YXQ9LGV0aW1lPSxhcmdzPSB8fCB0cnVlCmZpCnRhaWwgLTQgY2FtZX JhMTIwLmxvZwppZiB0ZXN0IC1mIGNhbWVyYTEyMC9zdW1tYXJ5Lmpzb247IHRoZW4KICAgIHByaW50Zi AnVFlfQ0FNRVJBX0NPTVBMRVRFXG4nCiAgICBjYXQgY2FtZXJhMTIwL3N1bW1hcnkuanNvbgpmaQo='  | base64 -d)"; ty_console_rc=$?; printf '\nTY_e43bae9c5e4842918c1907c08ad029d5_E ND:%s\n' "$ty_console_rc"
+
+TY_e43bae9c5e4842918c1907c08ad029d5_BEGIN
+,stat=,etime=,args=
+               2116
+CAMERA_FRAME frame=26 detections_completed=26 target=0 total_ms=843.196
+CAMERA_FRAME frame=27 detections_completed=27 target=0 total_ms=832.490
+CAMERA_FRAME frame=28 detections_completed=28 target=0 total_ms=834.567
+CAMERA_FRAME frame=29 detections_completed=29 target=0 total_ms=832.476
+
+TY_e43bae9c5e4842918c1907c08ad029d5_END:0
+root@localhost:~# 

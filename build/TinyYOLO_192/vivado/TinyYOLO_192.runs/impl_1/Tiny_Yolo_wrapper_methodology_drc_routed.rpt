@@ -1,0 +1,40 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Wed Oct 28 14:28:12 2026
+| Host         : CaPr1cEe running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Tiny_Yolo_wrapper_methodology_drc_routed.rpt -pb Tiny_Yolo_wrapper_methodology_drc_routed.pb -rpx Tiny_Yolo_wrapper_methodology_drc_routed.rpx
+| Design       : Tiny_Yolo_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 1
++-----------+----------+------------------------------------------------------+--------+
+| Rule      | Severity | Description                                          | Checks |
++-----------+----------+------------------------------------------------------+--------+
+| TIMING-28 | Warning  | Auto-derived clock referenced by a timing constraint | 1      |
++-----------+----------+------------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-28#1 Warning
+Auto-derived clock referenced by a timing constraint  
+The auto-derived clock clk_out1_Tiny_Yolo_pl_clk_0 is referenced by name inside timing constraint (see constraint position 52 in the Timing Constraint window in Vivado IDE). It is recommended to reference an auto-derived clock by the pin name attached to the clock: get_clocks -of_objects [get_pins Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0]
+Related violations: <none>
+
+

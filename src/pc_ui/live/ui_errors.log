@@ -1,0 +1,153 @@
+2026-11-02T12:47:30.271023 could not open port 'COM5': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+2026-11-02T12:47:37.378269 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:47:44.526750 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:47:51.729102 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:47:58.980481 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:06.144703 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:13.327084 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:20.558099 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:27.740573 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:31.944367 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:34.959417 could not open port 'COM5': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+2026-11-02T12:48:37.959506 could not open port 'COM5': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+2026-11-02T12:48:45.106916 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:52.385940 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:48:59.599618 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:53:34.622299 could not open port 'COM5': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+2026-11-02T12:53:37.473177 could not open port 'COM5': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+2026-11-02T12:53:40.491042 could not open port 'COM5': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+2026-11-02T12:53:43.474984 could not open port 'COM5': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+2026-11-02T12:53:50.707843 Board shell is busy or unavailable; no interrupt sent
+2026-11-02T12:53:58.180742 Uploaded file checksum differs
+2026-11-02T14:05:19.192705 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:06:59.162268 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:07:39.316746 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:29.230769 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:32.289942 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:35.221602 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:38.267368 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:41.246433 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:44.294197 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:47.303780 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:50.291666 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:53.340475 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:56.334520 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:08:59.384046 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:02.372219 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:05.423531 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:08.407155 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:11.449456 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:14.437474 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:17.490632 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:20.478068 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:23.527795 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:26.510084 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:29.559584 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:32.545759 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:35.590995 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:38.575325 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:41.621207 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:44.608320 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:47.661547 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:50.653902 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:53.703228 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:56.691871 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:09:59.742218 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:02.736193 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:05.782579 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:08.766935 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:11.814623 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:14.801580 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:17.855315 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:20.846172 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:23.888244 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:26.882030 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:29.868571 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:32.919057 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:35.909552 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:38.954320 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:41.943554 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:45.005139 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:48.012313 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:51.017985 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:54.002924 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:10:57.062830 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:00.051889 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:03.050147 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:06.104435 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:09.098585 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:12.095817 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:15.090102 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:18.149414 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:21.138045 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:24.192198 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:27.172625 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:30.218513 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:33.209860 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:36.257132 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:39.244420 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:42.294355 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:45.281218 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:48.331834 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:51.321027 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:54.363985 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:11:57.345678 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:00.392024 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:03.394276 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:06.383547 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:09.425962 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:12.414788 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:15.462039 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:18.449308 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:21.500282 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:24.486272 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:27.535308 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:30.524907 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:33.575074 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:36.568587 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:39.616799 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:42.598069 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:45.644206 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:48.628269 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:51.622277 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:54.668720 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:12:57.656349 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:00.707438 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:03.685336 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:06.733469 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:09.718036 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:12.763152 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:15.749923 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:18.786871 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:21.832687 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:24.820140 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:27.871172 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:30.852527 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:33.906798 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:36.890808 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:39.903626 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:42.957627 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:45.948245 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:48.945971 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:52.009171 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:55.009212 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:13:57.999778 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:01.053477 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:04.034316 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:07.052665 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:10.110932 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:13.106597 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:16.110622 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:19.154467 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:22.130603 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:25.187941 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:28.173324 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:31.221776 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:34.208106 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:37.256719 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:40.249637 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:43.239165 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:46.291720 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:49.293989 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:52.290067 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none
+2026-11-02T14:14:55.349451 COM5 is unavailable and no FTDI board UART (VID 0403, PID 6010) was found. Available serial ports: none

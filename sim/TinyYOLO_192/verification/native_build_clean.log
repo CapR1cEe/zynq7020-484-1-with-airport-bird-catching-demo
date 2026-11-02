@@ -1,0 +1,6 @@
+make: Entering directory '/dev/shm/ty192_final_20261025_01/linux'
+cc -std=c11 -D_POSIX_C_SOURCE=200809L -DTINYYOLO_LINUX -O3  -ffp-contract=off -fno-strict-aliasing -Wall -Wextra -Werror -Wno-misleading-indentation ../software/source/integrated_network.c -o tinyyolo_linux -lm
+cc -std=c11 -D_POSIX_C_SOURCE=200809L -O3  -Wall -Wextra -Werror camera_stream.c -o camera_stream
+cc -std=c11 -D_POSIX_C_SOURCE=200809L -O3  -Wall -Wextra -Werror camera_capture.c -o camera_capture
+cc -std=c11 -O3  -Wall -Wextra -Werror -fPIC -shared tracker_core.c -o libtinyyolo_tracker.so -lm
+make: Leaving directory '/dev/shm/ty192_final_20261025_01/linux'

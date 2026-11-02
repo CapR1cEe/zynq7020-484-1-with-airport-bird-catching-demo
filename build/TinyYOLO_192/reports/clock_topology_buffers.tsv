@@ -1,0 +1,4 @@
+cell	primitive	site	input_driver	input_net	output_net
+Tiny_Yolo_i/pl_clk/inst/clkf_buf	BUFG	BUFGCTRL_X0Y1	Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKFBOUT	Tiny_Yolo_i/pl_clk/inst/clkfbout_Tiny_Yolo_pl_clk_0	Tiny_Yolo_i/pl_clk/inst/clkfbout_buf_Tiny_Yolo_pl_clk_0
+Tiny_Yolo_i/pl_clk/inst/clkout1_buf	BUFG	BUFGCTRL_X0Y0	Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0	Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0	Tiny_Yolo_i/pl_clk/inst/clk_out1
+Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG	BUFG	BUFGCTRL_X0Y16	Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]	Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]	Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK0

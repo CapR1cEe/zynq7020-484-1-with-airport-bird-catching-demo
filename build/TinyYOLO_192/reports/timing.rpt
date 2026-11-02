@@ -1,0 +1,1568 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Wed Oct 28 14:32:15 2026
+| Host         : CaPr1cEe running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -delay_type min_max -report_unconstrained -file <project>/reports/timing.rpt
+| Design       : Tiny_Yolo_wrapper
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+  Inter-SLR Compensation                     :  Conservative
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+Rule       Severity  Description                                           Violations  
+---------  --------  ----------------------------------------------------  ----------  
+TIMING-28  Warning   Auto-derived clock referenced by a timing constraint  1           
+
+Note: This report is based on the most recent report_methodology run and may not be up-to-date. Run report_methodology on the current design for the latest report.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (0)
+6. checking no_output_delay (0)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (0)
+------------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (0)
+-------------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.067        0.000                      0                88727        0.020        0.000                      0                88635        0.833        0.000                       0                 49828  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock                          Waveform(ns)         Period(ns)      Frequency(MHz)
+-----                          ------------         ----------      --------------
+clk_fpga_0                     {0.000 5.000}        10.000          100.000         
+  clk_out1_Tiny_Yolo_pl_clk_0  {0.000 2.083}        4.167           240.000         
+  clkfbout_Tiny_Yolo_pl_clk_0  {0.000 25.000}       50.000          20.000          
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock                              WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----                              -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk_fpga_0                           2.863        0.000                      0                 1253        0.025        0.000                      0                 1253        3.000        0.000                       0                   685  
+  clk_out1_Tiny_Yolo_pl_clk_0        0.067        0.000                      0                87382        0.020        0.000                      0                87382        0.833        0.000                       0                 49140  
+  clkfbout_Tiny_Yolo_pl_clk_0                                                                                                                                                   47.845        0.000                       0                     3  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock                   To Clock                         WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------                   --------                         -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+clk_out1_Tiny_Yolo_pl_clk_0  clk_fpga_0                        27.932        0.000                      0                   32                                                                        
+clk_fpga_0                   clk_out1_Tiny_Yolo_pl_clk_0        2.216        0.000                      0                   60                                                                        
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| User Ignored Path Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group                   From Clock                   To Clock                   
+----------                   ----------                   --------                   
+(none)                                                                                 
+(none)                                                    clk_fpga_0                   
+(none)                       clk_fpga_0                   clk_fpga_0                   
+(none)                       clk_out1_Tiny_Yolo_pl_clk_0  clk_fpga_0                   
+(none)                                                    clk_out1_Tiny_Yolo_pl_clk_0  
+(none)                       clk_fpga_0                   clk_out1_Tiny_Yolo_pl_clk_0  
+(none)                       clk_out1_Tiny_Yolo_pl_clk_0  clk_out1_Tiny_Yolo_pl_clk_0  
+
+
+------------------------------------------------------------------------------------------------
+| Unconstrained Path Table
+| ------------------------
+------------------------------------------------------------------------------------------------
+
+Path Group                   From Clock                   To Clock                   
+----------                   ----------                   --------                   
+(none)                                                    clk_fpga_0                   
+(none)                                                    clk_out1_Tiny_Yolo_pl_clk_0  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_fpga_0
+  To Clock:  clk_fpga_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        2.863ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.025ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.000ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             2.863ns  (required time - arrival time)
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_mmu/inst/aw_reg_stall/m_vector_i_reg[1027]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[7]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_fpga_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_fpga_0 rise@10.000ns - clk_fpga_0 rise@0.000ns)
+  Data Path Delay:        6.956ns  (logic 2.365ns (34.001%)  route 4.591ns (65.999%))
+  Logic Levels:           8  (CARRY4=2 LUT4=1 LUT6=5)
+  Clock Path Skew:        -0.056ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.704ns = ( 12.704 - 10.000 ) 
+    Source Clock Delay      (SCD):    2.989ns
+    Clock Pessimism Removal (CPR):    0.229ns
+  Clock Uncertainty:      0.154ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.193     1.193    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.695     2.989    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_mmu/inst/aw_reg_stall/aclk
+    SLICE_X27Y95         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_mmu/inst/aw_reg_stall/m_vector_i_reg[1027]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y95         FDRE (Prop_fdre_C_Q)         0.419     3.408 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_mmu/inst/aw_reg_stall/m_vector_i_reg[1027]/Q
+                         net (fo=24, routed)          1.369     4.777    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/s_axi_awsize[1]
+    SLICE_X27Y91         LUT6 (Prop_lut6_I2_O)        0.299     5.076 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[4]_i_2/O
+                         net (fo=3, routed)           0.952     6.029    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/wrap_awaddr[4]
+    SLICE_X29Y94         LUT6 (Prop_lut6_I0_O)        0.124     6.153 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_21/O
+                         net (fo=1, routed)           0.000     6.153    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_21_n_0
+    SLICE_X29Y94         CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.532     6.685 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[11]_i_13/CO[3]
+                         net (fo=1, routed)           0.000     6.685    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[11]_i_13_n_0
+    SLICE_X29Y95         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.313     6.998 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[11]_i_23/O[3]
+                         net (fo=2, routed)           0.503     7.501    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/wrap_awaddr_limit[11]
+    SLICE_X28Y95         LUT6 (Prop_lut6_I4_O)        0.306     7.807 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_25/O
+                         net (fo=1, routed)           0.667     8.474    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_25_n_0
+    SLICE_X28Y95         LUT6 (Prop_lut6_I5_O)        0.124     8.598 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_15/O
+                         net (fo=1, routed)           0.439     9.037    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_15_n_0
+    SLICE_X29Y92         LUT6 (Prop_lut6_I5_O)        0.124     9.161 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_7/O
+                         net (fo=12, routed)          0.660     9.821    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[11]_i_7_n_0
+    SLICE_X28Y96         LUT4 (Prop_lut4_I1_O)        0.124     9.945 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[7]_i_1/O
+                         net (fo=1, routed)           0.000     9.945    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr[7]
+    SLICE_X28Y96         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                     10.000    10.000 r  
+    PS7_X0Y0             PS7                          0.000    10.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088    11.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.525    12.704    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aclk
+    SLICE_X28Y96         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[7]/C
+                         clock pessimism              0.229    12.933    
+                         clock uncertainty           -0.154    12.779    
+    SLICE_X28Y96         FDRE (Setup_fdre_C_D)        0.029    12.808    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[7]
+  -------------------------------------------------------------------
+                         required time                         12.808    
+                         arrival time                          -9.945    
+  -------------------------------------------------------------------
+                         slack                                  2.863    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.025ns  (arrival time - required time)
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[7]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[101]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_fpga_0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_fpga_0 rise@0.000ns - clk_fpga_0 rise@0.000ns)
+  Data Path Delay:        0.451ns  (logic 0.141ns (31.273%)  route 0.310ns (68.727%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.350ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.297ns
+    Source Clock Delay      (SCD):    0.912ns
+    Clock Pessimism Removal (CPR):    0.035ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.576     0.912    Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aclk
+    SLICE_X28Y96         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y96         FDRE (Prop_fdre_C_Q)         0.141     1.053 r  Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/gen_axilite_conv.axilite_conv_inst/aw_addr_reg[7]/Q
+                         net (fo=2, routed)           0.310     1.362    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_in[101]
+    SLICE_X30Y100        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[101]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.931     1.297    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_clk
+    SLICE_X30Y100        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[101]/C
+                         clock pessimism             -0.035     1.262    
+    SLICE_X30Y100        FDRE (Hold_fdre_C_D)         0.076     1.338    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[101]
+  -------------------------------------------------------------------
+                         required time                         -1.338    
+                         arrival time                           1.362    
+  -------------------------------------------------------------------
+                         slack                                  0.025    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_fpga_0
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0] }
+
+Check Type        Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     BUFG/I             n/a            2.155         10.000      7.845      BUFGCTRL_X0Y16   Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/I
+Max Period        n/a     MMCME2_ADV/CLKIN1  n/a            100.000       10.000      90.000     MMCME2_ADV_X1Y0  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKIN1
+Low Pulse Width   Slow    MMCME2_ADV/CLKIN1  n/a            2.000         5.000       3.000      MMCME2_ADV_X1Y0  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKIN1
+High Pulse Width  Slow    MMCME2_ADV/CLKIN1  n/a            2.000         5.000       3.000      MMCME2_ADV_X1Y0  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+  To Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        0.067ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.020ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        0.833ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.067ns  (required time - arrival time)
+  Source:                 Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[1].mul/dsp/CLK
+                            (rising edge-triggered cell DSP48E1 clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Destination:            Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][17]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             clk_out1_Tiny_Yolo_pl_clk_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            4.167ns  (clk_out1_Tiny_Yolo_pl_clk_0 rise@4.167ns - clk_out1_Tiny_Yolo_pl_clk_0 rise@0.000ns)
+  Data Path Delay:        3.652ns  (logic 1.784ns (48.852%)  route 1.868ns (51.148%))
+  Logic Levels:           6  (CARRY4=5 LUT2=1)
+  Clock Path Skew:        -0.380ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.653ns = ( 6.819 - 4.167 ) 
+    Source Clock Delay      (SCD):    3.162ns
+    Clock Pessimism Removal (CPR):    0.129ns
+  Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.193     1.193    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.806     3.100    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.793    -0.693 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.889     1.196    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     1.297 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.865     3.162    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[1].mul/s00_axi_aclk
+    DSP48_X3Y27          DSP48E1                                      r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[1].mul/dsp/CLK
+  -------------------------------------------------------------------    -------------------
+    DSP48_X3Y27          DSP48E1 (Prop_dsp48e1_CLK_P[1])
+                                                      0.434     3.596 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[1].mul/dsp/P[1]
+                         net (fo=1, routed)           1.868     5.463    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/partial[1]_680[1]
+    SLICE_X47Y64         LUT2 (Prop_lut2_I1_O)        0.124     5.587 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle[0][3]_i_4/O
+                         net (fo=1, routed)           0.000     5.587    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle[0][3]_i_4_n_0
+    SLICE_X47Y64         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     6.137 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     6.137    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][3]_i_1_n_0
+    SLICE_X47Y65         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     6.251 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     6.251    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][7]_i_1_n_0
+    SLICE_X47Y66         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     6.365 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     6.365    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][11]_i_1_n_0
+    SLICE_X47Y67         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     6.479 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     6.479    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][15]_i_1_n_0
+    SLICE_X47Y68         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     6.813 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][18]_i_1/O[1]
+                         net (fo=1, routed)           0.000     6.813    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/p_3_out[17]
+    SLICE_X47Y68         FDRE                                         r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][17]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      4.167     4.167 r  
+    PS7_X0Y0             PS7                          0.000     4.167 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     5.255    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     5.346 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.612     6.958    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425     3.533 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725     5.258    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     5.349 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.471     6.819    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/s00_axi_aclk
+    SLICE_X47Y68         FDRE                                         r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][17]/C
+                         clock pessimism              0.129     6.948    
+                         clock uncertainty           -0.130     6.819    
+    SLICE_X47Y68         FDRE (Setup_fdre_C_D)        0.062     6.881    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/row_middle_reg[0][17]
+  -------------------------------------------------------------------
+                         required time                          6.881    
+                         arrival time                          -6.813    
+  -------------------------------------------------------------------
+                         slack                                  0.067    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.020ns  (arrival time - required time)
+  Source:                 Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/high_q_reg[5]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Destination:            Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/y_reg[15]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             clk_out1_Tiny_Yolo_pl_clk_0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_out1_Tiny_Yolo_pl_clk_0 rise@0.000ns - clk_out1_Tiny_Yolo_pl_clk_0 rise@0.000ns)
+  Data Path Delay:        0.424ns  (logic 0.211ns (49.791%)  route 0.213ns (50.209%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        0.272ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.250ns
+    Source Clock Delay      (SCD):    0.948ns
+    Clock Pessimism Removal (CPR):    0.030ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.597     0.933    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.150    -0.217 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.529     0.312    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.338 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.610     0.948    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/s00_axi_aclk
+    SLICE_X94Y51         FDRE                                         r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/high_q_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X94Y51         FDRE (Prop_fdre_C_Q)         0.164     1.112 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/high_q_reg[5]/Q
+                         net (fo=5, routed)           0.213     1.324    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/high_q[5]
+    SLICE_X94Y49         LUT5 (Prop_lut5_I2_O)        0.047     1.371 r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/y[15]_i_1__5/O
+                         net (fo=1, routed)           0.000     1.371    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/y0[8]
+    SLICE_X94Y49         FDRE                                         r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/y_reg[15]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.864     1.230    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.467    -0.237 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.576     0.339    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.368 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.882     1.250    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/s00_axi_aclk
+    SLICE_X94Y49         FDRE                                         r  Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/y_reg[15]/C
+                         clock pessimism             -0.030     1.220    
+    SLICE_X94Y49         FDRE (Hold_fdre_C_D)         0.131     1.351    Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/tree_level1[7].add1/y_reg[15]
+  -------------------------------------------------------------------
+                         required time                         -1.351    
+                         arrival time                           1.371    
+  -------------------------------------------------------------------
+                         slack                                  0.020    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_out1_Tiny_Yolo_pl_clk_0
+Waveform(ns):       { 0.000 2.083 }
+Period(ns):         4.167
+Sources:            { Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0 }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.944         4.167       1.223      RAMB36_X4Y8      Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/activation_mem_reg_0/CLKARDCLK
+Max Period        n/a     MMCME2_ADV/CLKOUT0  n/a            213.360       4.167       209.193    MMCME2_ADV_X1Y0  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+Low Pulse Width   Slow    RAMD64E/CLK         n/a            1.250         2.083       0.833      SLICE_X66Y40     Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/chunk_map_reg_0_63_0_2/RAMA/CLK
+High Pulse Width  Slow    RAMD64E/CLK         n/a            1.250         2.083       0.833      SLICE_X66Y40     Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/chunk_map_reg_0_63_0_2/RAMA/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clkfbout_Tiny_Yolo_pl_clk_0
+  To Clock:  clkfbout_Tiny_Yolo_pl_clk_0
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       47.845ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clkfbout_Tiny_Yolo_pl_clk_0
+Waveform(ns):       { 0.000 25.000 }
+Period(ns):         50.000
+Sources:            { Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKFBOUT }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period  n/a     BUFG/I              n/a            2.155         50.000      47.845     BUFGCTRL_X0Y1    Tiny_Yolo_i/pl_clk/inst/clkf_buf/I
+Max Period  n/a     MMCME2_ADV/CLKFBIN  n/a            100.000       50.000      50.000     MMCME2_ADV_X1Y0  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKFBIN
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+  To Clock:  clk_fpga_0
+
+Setup :            0  Failing Endpoints,  Worst Slack       27.932ns,  Total Violation        0.000ns
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             27.932ns  (required time - arrival time)
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[32]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[32]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_fpga_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            30.000ns  (MaxDelay Path 30.000ns)
+  Data Path Delay:        1.792ns  (logic 0.478ns (26.672%)  route 1.314ns (73.328%))
+  Logic Levels:           0  
+  Timing Exception:       MaxDelay Path 30.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X30Y101                                     0.000     0.000 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[32]/C
+    SLICE_X30Y101        FDRE (Prop_fdre_C_Q)         0.478     0.478 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[32]/Q
+                         net (fo=1, routed)           1.314     1.792    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff[32]
+    SLICE_X28Y92         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[32]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                   30.000    30.000    
+    SLICE_X28Y92         FDRE (Setup_fdre_C_D)       -0.276    29.724    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[32]
+  -------------------------------------------------------------------
+                         required time                         29.724    
+                         arrival time                          -1.792    
+  -------------------------------------------------------------------
+                         slack                                 27.932    
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_fpga_0
+  To Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        2.216ns,  Total Violation        0.000ns
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             2.216ns  (required time - arrival time)
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[98]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[98]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             clk_out1_Tiny_Yolo_pl_clk_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            4.167ns  (MaxDelay Path 4.167ns)
+  Data Path Delay:        1.736ns  (logic 0.478ns (27.534%)  route 1.258ns (72.466%))
+  Logic Levels:           0  
+  Timing Exception:       MaxDelay Path 4.167ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X30Y100                                     0.000     0.000 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[98]/C
+    SLICE_X30Y100        FDRE (Prop_fdre_C_Q)         0.478     0.478 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[98]/Q
+                         net (fo=1, routed)           1.258     1.736    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff[98]
+    SLICE_X47Y100        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[98]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    4.167     4.167    
+    SLICE_X47Y100        FDRE (Setup_fdre_C_D)       -0.215     3.952    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[98]
+  -------------------------------------------------------------------
+                         required time                          3.952    
+                         arrival time                          -1.736    
+  -------------------------------------------------------------------
+                         slack                                  2.216    
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/processing_system7_0/inst/PS7_i/EMIOUART0TX
+                            (internal pin)
+  Destination:            UART_0_txd
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        9.278ns  (logic 3.565ns (38.425%)  route 5.713ns (61.575%))
+  Logic Levels:           1  (OBUF=1)
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/EMIOUART0TX
+                         net (fo=1, routed)           5.713     5.713    UART_0_txd_OBUF
+    L17                  OBUF (Prop_obuf_I_O)         3.565     9.278 r  UART_0_txd_OBUF_inst/O
+                         net (fo=0)                   0.000     9.278    UART_0_txd
+    L17                                                               r  UART_0_txd (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/processing_system7_0/inst/PS7_i/EMIOUART0TX
+                            (internal pin)
+  Destination:            UART_0_txd
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        3.473ns  (logic 1.265ns (36.435%)  route 2.208ns (63.565%))
+  Logic Levels:           1  (OBUF=1)
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/EMIOUART0TX
+                         net (fo=1, routed)           2.208     2.208    UART_0_txd_OBUF
+    L17                  OBUF (Prop_obuf_I_O)         1.265     3.473 r  UART_0_txd_OBUF_inst/O
+                         net (fo=0)                   0.000     3.473    UART_0_txd
+    L17                                                               r  UART_0_txd (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  clk_fpga_0
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        3.023ns  (logic 0.124ns (4.102%)  route 2.899ns (95.898%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Uncertainty:      0.152ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    PS7_X0Y0             PS7                          0.000     0.000 f  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                         net (fo=3, routed)           2.899     2.899    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ext_reset_in
+    SLICE_X44Y130        LUT1 (Prop_lut1_I0_O)        0.124     3.023 r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT_i_1/O
+                         net (fo=1, routed)           0.000     3.023    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/src_in
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.641     2.820    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/dest_clk
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Fast Process Corner)
+  Data Path Delay:        1.262ns  (logic 0.045ns (3.566%)  route 1.217ns (96.434%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Uncertainty:      0.152ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    PS7_X0Y0             PS7                          0.000     0.000 f  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                         net (fo=3, routed)           1.217     1.217    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ext_reset_in
+    SLICE_X44Y130        LUT1 (Prop_lut1_I0_O)        0.045     1.262 r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT_i_1/O
+                         net (fo=1, routed)           0.000     1.262    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/src_in
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.900     1.266    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/dest_clk
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_fpga_0
+  To Clock:  clk_fpga_0
+
+Max Delay            27 Endpoints
+Min Delay            27 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/CLR
+                            (recovery check against rising-edge clock clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Data Path Delay:        3.200ns  (logic 0.580ns (18.123%)  route 2.620ns (81.877%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Path Skew:        -0.253ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.871ns
+    Source Clock Delay      (SCD):    3.124ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.154ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.193     1.193    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.830     3.124    Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/aclk
+    SLICE_X41Y129        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y129        FDRE (Prop_fdre_C_Q)         0.456     3.580 r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/Q
+                         net (fo=8, routed)           2.052     5.632    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst/src_arst
+    SLICE_X29Y116        LUT1 (Prop_lut1_I0_O)        0.124     5.756 f  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff[2]_i_1/O
+                         net (fo=3, routed)           0.569     6.324    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst/reset_pol
+    SLICE_X29Y116        FDCE                                         f  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.692     2.871    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst/dest_clk
+    SLICE_X29Y116        FDCE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/ps_ctrl_reset/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Fast Process Corner)
+  Data Path Delay:        0.516ns  (logic 0.186ns (36.028%)  route 0.330ns (63.972%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Path Skew:        0.301ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.267ns
+    Source Clock Delay      (SCD):    0.966ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.154ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.630     0.966    Tiny_Yolo_i/ps_ctrl_reset/U0/slowest_sync_clk
+    SLICE_X43Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X43Y130        FDRE (Prop_fdre_C_Q)         0.141     1.107 f  Tiny_Yolo_i/ps_ctrl_reset/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/Q
+                         net (fo=1, routed)           0.158     1.265    Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/EXT_LPF/aresetn
+    SLICE_X43Y130        LUT1 (Prop_lut1_I0_O)        0.045     1.310 r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX_i_1/O
+                         net (fo=3, routed)           0.172     1.482    Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/src_in
+    SLICE_X43Y131        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.901     1.267    Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/dest_clk
+    SLICE_X43Y131        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/syncstages_ff_reg[0]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+  To Clock:  clk_fpga_0
+
+Max Delay             5 Endpoints
+Min Delay            37 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].dest_ack_reg/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_dest2src_inst/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        1.968ns  (logic 0.518ns (26.321%)  route 1.450ns (73.679%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.324ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.867ns
+    Source Clock Delay      (SCD):    3.191ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.495ns  ((TSJ^2 + TIJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.193     1.193    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.806     3.100    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.793    -0.693 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.889     1.196    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     1.297 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.894     3.191    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/m_sc_aclk
+    SLICE_X54Y119        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].dest_ack_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X54Y119        FDRE (Prop_fdre_C_Q)         0.518     3.709 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].dest_ack_reg/Q
+                         net (fo=1, routed)           1.450     5.159    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_dest2src_inst/src_in
+    SLICE_X31Y120        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_dest2src_inst/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.688     2.867    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_dest2src_inst/dest_clk
+    SLICE_X31Y120        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_dest2src_inst/syncstages_ff_reg[0]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[35]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[35]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Fast Process Corner)
+  Data Path Delay:        0.293ns  (logic 0.141ns (48.115%)  route 0.152ns (51.885%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.294ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.211ns
+    Source Clock Delay      (SCD):    0.917ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.495ns  ((TSJ^2 + TIJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.597     0.933    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.150    -0.217 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.529     0.312    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.338 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.579     0.917    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_clk
+    SLICE_X31Y98         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[35]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y98         FDRE (Prop_fdre_C_Q)         0.141     1.058 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[35]/Q
+                         net (fo=1, routed)           0.152     1.210    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff[35]
+    SLICE_X29Y97         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[35]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.845     1.211    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_clk
+    SLICE_X29Y97         FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[35]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        3.719ns  (logic 0.124ns (3.335%)  route 3.595ns (96.665%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Uncertainty:      0.424ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+    User Uncertainty         (UU):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    PS7_X0Y0             PS7                          0.000     0.000 f  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                         net (fo=3, routed)           3.149     3.149    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ext_reset_in
+    SLICE_X10Y49         LUT1 (Prop_lut1_I0_O)        0.124     3.273 r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT_i_1/O
+                         net (fo=1, routed)           0.446     3.719    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/src_in
+    SLICE_X9Y49          FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.612     2.791    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425    -0.634 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725     1.091    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     1.182 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.578     2.760    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/dest_clk
+    SLICE_X9Y49          FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Fast Process Corner)
+  Data Path Delay:        1.470ns  (logic 0.045ns (3.062%)  route 1.425ns (96.938%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Uncertainty:      0.424ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    PS7_X0Y0             PS7                          0.000     0.000 f  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKRESETN[0]
+                         net (fo=3, routed)           1.258     1.258    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ext_reset_in
+    SLICE_X10Y49         LUT1 (Prop_lut1_I0_O)        0.045     1.303 r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT_i_1/O
+                         net (fo=1, routed)           0.167     1.470    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/src_in
+    SLICE_X9Y49          FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.864     1.230    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.467    -0.237 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.576     0.339    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.368 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.864     1.232    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/dest_clk
+    SLICE_X9Y49          FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/syncstages_ff_reg[0]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_fpga_0
+  To Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+
+Max Delay             7 Endpoints
+Min Delay            67 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_sendd_ff_reg/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_src2dest_inst/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        2.077ns  (logic 0.518ns (24.942%)  route 1.559ns (75.058%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.333ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.839ns
+    Source Clock Delay      (SCD):    3.172ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.495ns  ((TSJ^2 + TIJ^2 + DJ^2)^1/2) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+    User Uncertainty         (UU):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.193     1.193    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.878     3.172    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_clk
+    SLICE_X30Y120        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_sendd_ff_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X30Y120        FDRE (Prop_fdre_C_Q)         0.518     3.690 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_sendd_ff_reg/Q
+                         net (fo=2, routed)           1.559     5.249    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_src2dest_inst/src_in
+    SLICE_X33Y101        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_src2dest_inst/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.612     2.791    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425    -0.634 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725     1.091    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     1.182 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.657     2.839    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_src2dest_inst/dest_clk
+    SLICE_X33Y101        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/xpm_cdc_single_src2dest_inst/syncstages_ff_reg[0]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[88]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[88]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Fast Process Corner)
+  Data Path Delay:        0.242ns  (logic 0.141ns (58.263%)  route 0.101ns (41.737%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.306ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.299ns
+    Source Clock Delay      (SCD):    0.993ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.495ns  ((TSJ^2 + TIJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.657     0.993    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_clk
+    SLICE_X29Y109        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[88]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X29Y109        FDRE (Prop_fdre_C_Q)         0.141     1.134 r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff_reg[88]/Q
+                         net (fo=1, routed)           0.101     1.235    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/src_hsdata_ff[88]
+    SLICE_X30Y109        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[88]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.864     1.230    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.467    -0.237 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.576     0.339    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.368 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.931     1.299    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_clk
+    SLICE_X30Y109        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake/dest_hsdata_ff_reg[88]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+  To Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+
+Max Delay            18 Endpoints
+Min Delay            18 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/CLR
+                            (recovery check against rising-edge clock clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Data Path Delay:        3.145ns  (logic 0.580ns (18.443%)  route 2.565ns (81.557%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Path Skew:        -0.356ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.838ns
+    Source Clock Delay      (SCD):    3.194ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.000ns
+    User Uncertainty         (UU):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.193     1.193    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.806     3.100    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.793    -0.693 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.889     1.196    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     1.297 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.897     3.194    Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/aclk1
+    SLICE_X60Y130        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X60Y130        FDRE (Prop_fdre_C_Q)         0.456     3.650 r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/Q
+                         net (fo=6, routed)           2.037     5.687    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst/src_arst
+    SLICE_X33Y103        LUT1 (Prop_lut1_I0_O)        0.124     5.811 f  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff[2]_i_1/O
+                         net (fo=3, routed)           0.528     6.339    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst/reset_pol
+    SLICE_X33Y103        FDCE                                         f  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.612     2.791    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425    -0.634 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725     1.091    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     1.182 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.656     2.838    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst/dest_clk
+    SLICE_X33Y103        FDCE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Destination:            Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/CLR
+                            (removal check against rising-edge clock clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Removal (Min at Fast Process Corner)
+  Data Path Delay:        0.731ns  (logic 0.185ns (25.293%)  route 0.546ns (74.707%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Path Skew:        0.300ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.293ns
+    Source Clock Delay      (SCD):    0.993ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.597     0.933    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.150    -0.217 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.529     0.312    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.338 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.655     0.993    Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/aclk1
+    SLICE_X60Y130        FDRE                                         r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X60Y130        FDRE (Prop_fdre_C_Q)         0.141     1.134 r  Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N/Q
+                         net (fo=6, routed)           0.311     1.445    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst/src_arst
+    SLICE_X60Y129        LUT1 (Prop_lut1_I0_O)        0.044     1.489 f  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst/arststages_ff[2]_i_1/O
+                         net (fo=3, routed)           0.236     1.724    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst/reset_pol
+    SLICE_X60Y129        FDCE                                         f  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.864     1.230    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.467    -0.237 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.576     0.339    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.368 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.925     1.293    Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst/dest_clk
+    SLICE_X60Y129        FDCE                                         r  Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst/arststages_ff_reg[0]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  clk_fpga_0
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int_reg/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        7.379ns  (logic 0.124ns (1.680%)  route 7.255ns (98.320%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Uncertainty:      0.152ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X1Y0      MMCME2_ADV                   0.000     0.000 f  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                         net (fo=2, routed)           7.255     7.255    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/dcm_locked
+    SLICE_X44Y130        LUT4 (Prop_lut4_I0_O)        0.124     7.379 r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int0/O
+                         net (fo=1, routed)           0.000     7.379    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int0__0
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.641     2.820    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/slowest_sync_clk
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int_reg/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int_reg/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Fast Process Corner)
+  Data Path Delay:        3.219ns  (logic 0.045ns (1.398%)  route 3.174ns (98.602%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Uncertainty:      0.152ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X1Y0      MMCME2_ADV                   0.000     0.000 f  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                         net (fo=2, routed)           3.174     3.174    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/dcm_locked
+    SLICE_X44Y130        LUT4 (Prop_lut4_I0_O)        0.045     3.219 r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int0/O
+                         net (fo=1, routed)           0.000     3.219    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int0__0
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.900     1.266    Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/slowest_sync_clk
+    SLICE_X44Y130        FDRE                                         r  Tiny_Yolo_i/ps_ctrl_reset/U0/EXT_LPF/lpf_int_reg/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  clk_out1_Tiny_Yolo_pl_clk_0
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int_reg/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        5.414ns  (logic 0.124ns (2.290%)  route 5.290ns (97.710%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Uncertainty:      0.424ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE + UU
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+    User Uncertainty         (UU):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X1Y0      MMCME2_ADV                   0.000     0.000 f  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                         net (fo=2, routed)           5.290     5.290    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/dcm_locked
+    SLICE_X26Y49         LUT4 (Prop_lut4_I0_O)        0.124     5.414 r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int0/O
+                         net (fo=1, routed)           0.000     5.414    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int0__0
+    SLICE_X26Y49         FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           1.088     1.088    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         1.612     2.791    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425    -0.634 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725     1.091    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     1.182 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       1.570     2.753    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/slowest_sync_clk
+    SLICE_X26Y49         FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int_reg/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                            (internal pin)
+  Destination:            Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int_reg/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_Tiny_Yolo_pl_clk_0  {rise@0.000ns fall@2.083ns period=4.167ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Fast Process Corner)
+  Data Path Delay:        2.480ns  (logic 0.045ns (1.814%)  route 2.435ns (98.186%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Uncertainty:      0.424ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.250ns
+    Phase Error              (PE):    0.297ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X1Y0      MMCME2_ADV                   0.000     0.000 f  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/LOCKED
+                         net (fo=2, routed)           2.435     2.435    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/dcm_locked
+    SLICE_X26Y49         LUT4 (Prop_lut4_I0_O)        0.045     2.480 r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int0/O
+                         net (fo=1, routed)           0.000     2.480    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int0__0
+    SLICE_X26Y49         FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_Tiny_Yolo_pl_clk_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  Tiny_Yolo_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    Tiny_Yolo_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  Tiny_Yolo_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=685, routed)         0.864     1.230    Tiny_Yolo_i/pl_clk/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.467    -0.237 r  Tiny_Yolo_i/pl_clk/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.576     0.339    Tiny_Yolo_i/pl_clk/inst/clk_out1_Tiny_Yolo_pl_clk_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.368 r  Tiny_Yolo_i/pl_clk/inst/clkout1_buf/O
+                         net (fo=49139, routed)       0.858     1.226    Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/slowest_sync_clk
+    SLICE_X26Y49         FDRE                                         r  Tiny_Yolo_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int_reg/C
+
+
+
+
+

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "version": "2.2.0",
+  "suites": [
+    {
+      "script": "test_resource_plan.py",
+      "tests": 6
+    },
+    {
+      "script": "test_assess_timing.py",
+      "tests": 6
+    }
+  ]
+}

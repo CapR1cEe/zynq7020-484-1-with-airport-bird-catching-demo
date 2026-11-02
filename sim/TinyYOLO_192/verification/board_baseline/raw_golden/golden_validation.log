@@ -1,0 +1,20 @@
+PASS_LINUX_DRIVER_SMOKE
+TRACE_START bird
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=863 PL_convolutions=24 HP_idle=1
+TRACE_PASS bird steps=50 convolution_layers=24
+TRACE_START random
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=863 PL_convolutions=24 HP_idle=1
+TRACE_PASS random steps=50 convolution_layers=24
+TRACE_START bird_repeat
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=861 PL_convolutions=24 HP_idle=1
+TRACE_PASS bird_repeat steps=50 convolution_layers=24
+PRODUCTION_START frames=8
+PASS_LINUX_PL_FRAME frame=1 elapsed_ms=749 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=2 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=3 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=4 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=5 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=6 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=7 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+PASS_LINUX_PL_FRAME frame=8 elapsed_ms=725 PL_convolutions=24 HP_idle=1
+LINUX_BOARD_VALIDATION_PASS warm_mean_ms=725.000

@@ -1,0 +1,17 @@
+{
+    "run_id":  "cal2250_20261031T1330166567",
+    "width_us":  2250,
+    "axis":  "tilt",
+    "ball":  "H19",
+    "pulses":  150,
+    "duration_ms":  3000,
+    "H20":  "constant_low",
+    "runtime":  null,
+    "restored_inference":  null,
+    "physical_motion_confirmed":  null,
+    "physical_observation_status":  "awaiting_user_feedback",
+    "angle_reference":  "fixed_operator_zero",
+    "angle_sign":  "forward_positive_backward_negative",
+    "physical_pin_waveform_measured":  false,
+    "bitstream_sha256":  "56A23AFF4390508B8E8C42F7E1083947AC2FF6F04049158C4917D9FEC9071FAB"
+}

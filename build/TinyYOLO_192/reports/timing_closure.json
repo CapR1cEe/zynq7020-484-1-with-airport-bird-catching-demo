@@ -1,0 +1,1 @@
+{"status":"PASS_TIMING_CLOSURE","clock_mhz":240,"setup_ns":0.067,"hold_ns":0.020,"minimum_setup_margin_target_ns":0.0,"minimum_bus_skew_ns":11.018,"timing_constraints_met":true,"negative_slack_allowed":false}

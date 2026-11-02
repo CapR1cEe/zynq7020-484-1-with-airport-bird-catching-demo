@@ -1,0 +1,10 @@
+report	status	detail
+timing_summary.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/timing_summary.rpt
+setup_paths.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/setup_paths.rpt
+hold_paths.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/hold_paths.rpt
+utilization.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/utilization.rpt
+methodology.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/methodology.rpt
+drc.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/drc.rpt
+clock_interaction.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/clock_interaction.rpt
+cdc.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/cdc.rpt
+bus_skew.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/elastic_buffer/reports/bus_skew.rpt

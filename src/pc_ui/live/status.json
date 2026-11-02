@@ -1,0 +1,35 @@
+{
+  "model_input_size": 192,
+  "width": 640,
+  "frame": 29,
+  "detection_enabled": false,
+  "target_dy_px": null,
+  "preview_width": 640,
+  "detections": [],
+  "preview_height": 480,
+  "target_dx_px": null,
+  "board_session": "/tmp/tinyyolo_live_z2kdu3s7",
+  "target_detected": false,
+  "camera_sequence": 1230,
+  "height": 480,
+  "board_monotonic_s": 674.141472583,
+  "inference_ms": null,
+  "camera_connected": true,
+  "runtime_dir": "/opt/tinyyolo_192_verified_20261102",
+  "detection_error": null,
+  "target_confidence": null,
+  "kind": "frame",
+  "capture_ms": 63.83601000004546,
+  "roundtrip_ms": 3286.455900000078,
+  "received_at": "2026-11-02T18:14:58.689",
+  "focus_score": 80.0,
+  "preview_color": {
+    "method": "gray_world",
+    "gains_rgb": [
+      0.89434,
+      1.23839,
+      0.93086
+    ],
+    "preview_only": true
+  }
+}

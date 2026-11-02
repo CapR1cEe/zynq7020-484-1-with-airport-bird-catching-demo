@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "mutation": "round_half_up",
+      "detected": true,
+      "runner_status": "failed",
+      "reason": "Independent value/overflow/tag/last oracle rejected the mutant",
+      "log": "round_half_up.log",
+      "receipt": "mutation_runs/round_half_up/run_receipt.json"
+    },
+    {
+      "mutation": "overflow_not_carried",
+      "detected": true,
+      "runner_status": "failed",
+      "reason": "Independent value/overflow/tag/last oracle rejected the mutant",
+      "log": "overflow_not_carried.log",
+      "receipt": "mutation_runs/overflow_not_carried/run_receipt.json"
+    }
+  ]
+}

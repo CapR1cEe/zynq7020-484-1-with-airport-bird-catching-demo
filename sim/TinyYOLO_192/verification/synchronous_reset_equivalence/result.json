@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SAME_EDGE_RESET_PRIMITIVE_EQUIVALENCE",
+  "backend": "AMD_UNISIM",
+  "cycles": 4096,
+  "marker": "PASS_RESET_RETIMING_UNISIM cycles=4096 init_complement=1 ce_and_reset_checked=1",
+  "added_reset_cycles": 0,
+  "equation": "NOT(FDRE(D,C,CE,R,INIT)) = FDSE(NOT(D),C,CE,S=R,NOT(INIT))",
+  "sha256": {
+    "reset_retime_tb.v": "e44548a8c51080fe37fd60e14b548b38b44b97a186c293137d0b75c2db9e974d",
+    "run.ps1": "13324e4056ad27c2ed6d4a88fb24f9b57f72dd767169bcf5e1f70f422374a3a8",
+    "simulation.log": "bd1713065eee480020a2554b584e3ac21fb6a5721fd3a1d235e7755db58a2472",
+    "compile.log": "1fb0a924f03482006f1f49f52ac20e0340c82b4606ac19a45554a1524ba05a23",
+    "elaborate.log": "058120c6943ada60acc28f28d54bc65fc8519e36dbc67cb72fa930086ba02633"
+  }
+}

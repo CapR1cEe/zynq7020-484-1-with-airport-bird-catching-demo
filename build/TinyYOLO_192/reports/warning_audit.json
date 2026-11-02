@@ -1,0 +1,101 @@
+{
+  "errors": [],
+  "non_timing_warnings": [],
+  "timing_warnings": [
+    {
+      "file": "reports/methodology.rpt",
+      "line": 30,
+      "id": "TIMING-28",
+      "severity": "Warning",
+      "message": "| TIMING-28 | Warning  | Auto-derived clock referenced by a timing constraint | 2      |",
+      "timing": true
+    },
+    {
+      "file": "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+      "line": 3463,
+      "severity": "WARNING",
+      "id": "Route 35-39",
+      "message": "The design did not meet timing requirements. Please run report_timing_summary for detailed reports.",
+      "timing": true
+    },
+    {
+      "file": "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+      "line": 3500,
+      "severity": "WARNING",
+      "id": "Timing 38-436",
+      "message": "There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.",
+      "timing": true
+    },
+    {
+      "file": "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+      "line": 3617,
+      "severity": "CRITICAL WARNING",
+      "id": "Timing 38-282",
+      "message": "The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.",
+      "timing": true,
+      "phase": "stricter_intermediate_implementation_budget"
+    },
+    {
+      "file": "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+      "line": 3618,
+      "severity": "WARNING",
+      "id": "Timing 38-436",
+      "message": "There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.",
+      "timing": true
+    },
+    {
+      "file": "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+      "line": 3646,
+      "severity": "WARNING",
+      "id": "Timing 38-436",
+      "message": "There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.",
+      "timing": true
+    },
+    {
+      "file": "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+      "line": 3661,
+      "severity": "WARNING",
+      "id": "Timing 38-436",
+      "message": "There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.",
+      "timing": true
+    },
+    {
+      "file": "reports/final_export.log",
+      "line": 3810,
+      "severity": "WARNING",
+      "id": "Timing 38-436",
+      "message": "There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.",
+      "timing": true
+    },
+    {
+      "file": "reports/final_export.log",
+      "line": 3830,
+      "severity": "WARNING",
+      "id": "Timing 38-436",
+      "message": "There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.",
+      "timing": true
+    }
+  ],
+  "current_logs": [
+    "vivado/TinyYOLO_192.runs/synth_1/runme.log",
+    "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+    "reports/final_export.log",
+    "reports/synthesis_diagnostics_final.log",
+    "reports/project_open_check.log",
+    "reports/project_portability_check.log"
+  ],
+  "unresolved_non_timing_warnings": [],
+  "intermediate_timing_critical_warnings": [
+    {
+      "file": "vivado/TinyYOLO_192.runs/impl_1/runme.log",
+      "line": 3617,
+      "severity": "CRITICAL WARNING",
+      "id": "Timing 38-282",
+      "message": "The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.",
+      "timing": true,
+      "phase": "stricter_intermediate_implementation_budget"
+    }
+  ],
+  "exact_info_classification_rules": 242,
+  "warning_suppression": false
+}

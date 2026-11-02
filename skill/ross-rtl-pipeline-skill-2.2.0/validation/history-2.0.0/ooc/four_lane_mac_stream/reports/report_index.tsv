@@ -1,0 +1,10 @@
+report	status	detail
+timing_summary.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/timing_summary.rpt
+setup_paths.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/setup_paths.rpt
+hold_paths.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/hold_paths.rpt
+utilization.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/utilization.rpt
+methodology.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/methodology.rpt
+drc.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/drc.rpt
+clock_interaction.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/clock_interaction.rpt
+cdc.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/cdc.rpt
+bus_skew.rpt	COLLECTED_REVIEW_REQUIRED	<VALIDATION_DIR>/ooc/four_lane_mac_stream/reports/bus_skew.rpt

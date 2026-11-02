@@ -1,0 +1,12 @@
+{
+  "suite": "closedloop",
+  "status": "PASS",
+  "backend": "qualified_cycle_exact_DSP_model",
+  "elapsed_seconds": 163.266,
+  "pass_marker": [
+    "CLOSEDLOOP_PASS cases=24 outputs=920 boundary_cases=5 boundary_outputs=2287 config_guards=36 bus_reads=4844 bus_writes=12866 guards=4 profile_sum=1"
+  ],
+  "behavioral_clock_MHz": 240,
+  "onehot_assertion": true,
+  "generated_bench_sha256": "445a6f5c8731cfc7ab17d0a15e49e619741fb617b6cbf03d8524d6ee40301d78"
+}

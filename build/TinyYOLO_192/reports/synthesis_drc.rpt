@@ -1,0 +1,2360 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Wed Oct 28 14:35:33 2026
+| Host         : CaPr1cEe running 64-bit major release  (build 9200)
+| Command      : report_drc -file <project>/reports/synthesis_drc.rpt
+| Design       : Tiny_Yolo_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 464
++---------+----------+-------------------------------------------------------------------+--------+
+| Rule    | Severity | Description                                                       | Checks |
++---------+----------+-------------------------------------------------------------------+--------+
+| AVAL-4  | Advisory | enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND | 216    |
+| AVAL-5  | Advisory | enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND   | 16     |
+| REQP-20 | Advisory | enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND                   | 16     |
+| REQP-24 | Advisory | enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND                   | 16     |
+| REQP-29 | Advisory | enum_CREG_0_connects_CEC_GND                                      | 200    |
++---------+----------+-------------------------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+AVAL-4#1 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#2 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#3 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#4 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#5 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#6 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#7 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#8 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#9 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#10 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#11 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#12 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#13 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#14 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#15 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#16 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#17 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#18 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#19 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#20 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#21 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#22 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#23 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#24 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#25 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#26 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#27 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#28 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#29 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#30 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#31 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#32 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#33 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#34 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#35 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#36 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#37 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#38 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#39 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#40 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#41 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#42 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#43 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#44 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#45 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#46 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#47 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#48 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#49 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#50 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#51 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[11].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#52 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#53 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#54 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#55 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#56 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#57 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#58 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#59 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#60 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#61 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#62 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#63 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#64 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#65 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#66 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#67 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#68 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#69 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#70 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#71 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#72 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#73 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#74 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#75 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#76 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#77 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[13].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#78 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#79 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#80 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#81 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#82 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#83 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#84 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#85 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#86 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#87 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#88 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#89 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#90 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#91 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#92 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#93 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#94 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#95 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#96 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#97 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#98 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#99 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#100 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#101 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#102 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#103 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[15].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#104 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[1].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#105 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#106 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#107 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#108 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#109 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#110 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#111 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#112 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#113 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#114 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#115 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#116 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#117 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#118 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#119 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#120 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#121 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#122 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#123 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#124 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#125 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#126 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#127 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#128 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#129 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#130 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[3].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#131 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#132 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#133 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#134 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#135 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#136 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#137 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#138 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#139 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#140 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#141 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#142 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#143 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#144 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#145 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#146 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#147 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#148 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#149 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#150 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#151 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#152 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#153 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#154 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#155 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#156 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[5].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#157 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#158 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#159 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#160 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#161 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#162 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#163 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#164 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#165 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#166 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#167 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#168 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#169 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#170 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#171 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#172 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#173 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#174 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#175 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#176 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#177 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#178 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#179 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#180 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#181 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#182 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[7].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#183 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#184 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#185 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[10].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#186 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[11].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#187 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[12].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#188 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[13].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#189 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[14].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#190 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[15].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#191 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[16].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#192 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[17].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#193 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[18].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#194 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[19].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#195 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#196 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[20].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#197 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[21].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#198 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[22].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#199 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[23].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#200 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[2].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#201 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[3].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#202 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[4].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#203 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[5].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#204 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[6].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#205 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[7].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#206 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[8].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#207 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[9].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#208 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[9].accum/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#209 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[0].magnitude_half[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#210 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[0].magnitude_half[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#211 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[1].magnitude_half[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#212 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[1].magnitude_half[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#213 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#214 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#215 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[1].magnitude_half[0].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#216 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[1].magnitude_half[1].mul/dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#1 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#2 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#3 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[11].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#4 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#5 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[13].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#6 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#7 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[15].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#8 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[1].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#9 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#10 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[3].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#11 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#12 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[5].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#13 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#14 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[7].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#15 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#16 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[9].accum/dsp: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+REQP-20#1 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#2 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#3 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[11].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#4 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#5 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[13].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#6 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#7 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[15].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#8 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[1].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#9 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#10 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[3].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#11 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#12 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[5].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#13 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#14 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[7].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#15 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-20#16 Advisory
+enum_AREG_0_connects_CEA1_GND_connects_CEA2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[9].accum/dsp: When DSP48E1 attribute AREG is set to 0, the CEA1 and CEA2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#1 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#2 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#3 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[11].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#4 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#5 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[13].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#6 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#7 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[15].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#8 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[1].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#9 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#10 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[3].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#11 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#12 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[5].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#13 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#14 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[7].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#15 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-24#16 Advisory
+enum_BREG_0_connects_CEB1_GND_connects_CEB2_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[9].accum/dsp: When DSP48E1 attribute BREG is set to 0, the CEB1 and CEB2 pins should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#1 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#2 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#3 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#4 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#5 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#6 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#7 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#8 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#9 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#10 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#11 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#12 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#13 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#14 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#15 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#16 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#17 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#18 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#19 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#20 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#21 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#22 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#23 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#24 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[0].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#25 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#26 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#27 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#28 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#29 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#30 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#31 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#32 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#33 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#34 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#35 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#36 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#37 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#38 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#39 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#40 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#41 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#42 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#43 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#44 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#45 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#46 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#47 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#48 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[10].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#49 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#50 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#51 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#52 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#53 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#54 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#55 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#56 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#57 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#58 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#59 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#60 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#61 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#62 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#63 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#64 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#65 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#66 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#67 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#68 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#69 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#70 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#71 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#72 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[12].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#73 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#74 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#75 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#76 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#77 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#78 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#79 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#80 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#81 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#82 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#83 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#84 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#85 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#86 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#87 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#88 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#89 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#90 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#91 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#92 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#93 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#94 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#95 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#96 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[14].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#97 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#98 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#99 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#100 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#101 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#102 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#103 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#104 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#105 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#106 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#107 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#108 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#109 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#110 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#111 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#112 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#113 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#114 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#115 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#116 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#117 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#118 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#119 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#120 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[2].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#121 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#122 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#123 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#124 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#125 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#126 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#127 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#128 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#129 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#130 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#131 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#132 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#133 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#134 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#135 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#136 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#137 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#138 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#139 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#140 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#141 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#142 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#143 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#144 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[4].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#145 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#146 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#147 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#148 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#149 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#150 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#151 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#152 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#153 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#154 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#155 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#156 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#157 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#158 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#159 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#160 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#161 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#162 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#163 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#164 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#165 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#166 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#167 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#168 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[6].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#169 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#170 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[10].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#171 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[11].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#172 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[12].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#173 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[13].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#174 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[14].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#175 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[15].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#176 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[16].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#177 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[17].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#178 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[18].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#179 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[19].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#180 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#181 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[20].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#182 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[21].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#183 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[22].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#184 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[23].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#185 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[2].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#186 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[3].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#187 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[4].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#188 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[5].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#189 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[6].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#190 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[7].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#191 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[8].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#192 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_lane[8].paired_dot.dot/mul_lane[9].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#193 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[0].magnitude_half[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#194 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[0].magnitude_half[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#195 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[1].magnitude_half[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#196 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[0].requant/coefficient_half[1].magnitude_half[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#197 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#198 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[0].magnitude_half[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#199 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[1].magnitude_half[0].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+REQP-29#200 Advisory
+enum_CREG_0_connects_CEC_GND  
+Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/parallel_requant[1].requant/coefficient_half[1].magnitude_half[1].mul/dsp: When the DSP48E1 CREG attribute is set to 0, the CEC input pin should be tied to GND to save power.
+Related violations: <none>
+
+

@@ -1,0 +1,98 @@
+{
+  "status": "PASS_OFFLINE_TRACKING_CAMERA_PIPELINE",
+  "build_id": "0x47325502",
+  "input_size": 192,
+  "checks": [
+    {
+      "name": "integer_translation",
+      "frames": 4,
+      "exact": true,
+      "host_ms_per_frame": 0.1847750008892035,
+      "board_timing": false
+    },
+    {
+      "name": "brightness_offset",
+      "offset": 18
+    },
+    {
+      "name": "occlusion_reacquire_boundaries_low_texture"
+    },
+    {
+      "name": "five_percent_scale",
+      "bbox": [
+        53.5,
+        37.0,
+        116.49999618530273,
+        79.0
+      ],
+      "tolerance_pixels": 2
+    },
+    {
+      "name": "camera_protocol",
+      "malformed_cases": 5,
+      "repeated_sequence_rejected": true
+    },
+    {
+      "name": "dma_infer_image",
+      "bytes": 110592,
+      "matches_preprocess": true
+    },
+    {
+      "name": "delayed_detection_native_replay",
+      "detector_delay_seconds": 0.7,
+      "replayed_frames": 11,
+      "stale_deadline_seconds": 1.5,
+      "failed_refresh_preserves_target": true
+    },
+    {
+      "name": "mock_sync_main",
+      "completed_detections": 3,
+      "capture_frames": 3,
+      "max_inflight": 1,
+      "board_measurement": false
+    },
+    {
+      "name": "mock_async_main",
+      "completed_detections": 3,
+      "capture_frames": 12,
+      "max_inflight": 1,
+      "board_measurement": false
+    },
+    {
+      "name": "pwm_simulated_arm_loss_reacquire_watchdog_limits",
+      "physical_test": false
+    },
+    {
+      "name": "pwm_simulated_write_fault_and_dual_shutdown",
+      "physical_test": false
+    },
+    {
+      "name": "pwm_config_validation",
+      "cases": 4,
+      "physical_test": false
+    },
+    {
+      "name": "exception_shutdown_order",
+      "events": [
+        "pwm_off",
+        "worker_done",
+        "pwm_off",
+        "runtime_close"
+      ]
+    }
+  ],
+  "board_tested": false,
+  "camera_tested": false,
+  "detection_fps_measured": null,
+  "accuracy_map": null,
+  "source_sha256": {
+    "linux/camera_infer.py": "00634eb09e9a7d4a9b9a2a2dae1ecc90431186b0c05e8327ff7a193eae4bd0b0",
+    "linux/camera_session.py": "f92bd07abc61d99a03d562d553844e0b5404feb8413084ec04c09db7c370d5a5",
+    "linux/target_control.py": "c65d15a51c6423b0a79922337d87993f4adf0bd4b00d43e9730dcf3a94486aed",
+    "linux/tracker_core.c": "9875c7e764038cefeb8f8918022f1a666adc0488d5affa40a3811fde515dbb3a",
+    "linux/tinyyolo_session.py": "b36a88a38f717eb18e0320031c7850959966182dea76c2d1380e7b35b2635c4a",
+    "linux/model_config.json": "faabb38b4cd3ba4652d50484888e41d2e11f62173dbf5b0d127f2eb023df4b16",
+    "scripts/check_tracking_pipeline.py": "c058476d600b8876ddb2450c32c29d39cd6ebdf23b401680e015393e9218e4ca",
+    "scripts/check_pan_tilt.py": "61f51dcf2dc3328571182d17ff8bf2bf22ff23d321e3e2cc409b67ef3f4d6987"
+  }
+}

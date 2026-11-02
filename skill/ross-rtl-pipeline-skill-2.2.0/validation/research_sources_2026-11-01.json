@@ -1,0 +1,175 @@
+{
+  "review_date": "2026-11-01",
+  "sources": [
+    {
+      "repository": "pulp-platform/common_cells",
+      "commit": "e73baaec2ca665cd80c3c384e9258e35242b829c",
+      "files": [
+        {
+          "path": "src/stream_fork.sv",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/src/stream_fork.sv",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "src/stream_fifo.sv",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/src/stream_fifo.sv",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "src/spill_register.sv",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/src/spill_register.sv",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "src/cc_stream_fork.sv",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/src/cc_stream_fork.sv",
+          "bytes": 4608,
+          "sha256": "915e30e0368d529c197924f68b25cf76d00e3645cab551c98975f40b852456a9"
+        },
+        {
+          "path": "src/cc_stream_fifo.sv",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/src/cc_stream_fifo.sv",
+          "bytes": 2801,
+          "sha256": "d9bc22df925eaaf3266d866af6f09423c8ddafef0ffbbaed0f60f13c81398f1c"
+        },
+        {
+          "path": "src/cc_spill_register.sv",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/src/cc_spill_register.sv",
+          "bytes": 1518,
+          "sha256": "9fa980c80e230330d8ac7ef3af35bcec60014fd81a43f7adaf2ce3e6a4666094"
+        },
+        {
+          "path": "src/cc_spill_register_flushable.sv",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/src/cc_spill_register_flushable.sv",
+          "bytes": 3546,
+          "sha256": "734e199551750b46f0da373d6d8c70f13c84db24e8d61e06146717219e155f9b"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/LICENSE",
+          "bytes": 10329,
+          "sha256": "6527a46225891b976fa94f634f6ee0cd22e1c7129d6f11c5c98c997627625fc7"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/pulp-platform/common_cells/blob/e73baaec2ca665cd80c3c384e9258e35242b829c/README.md",
+          "bytes": 30621,
+          "sha256": "f6563f93b823ffd2b8925a7a896e5b4f07794fe418755f3e448b0c7ac33c076b"
+        }
+      ]
+    },
+    {
+      "repository": "lowRISC/ibex",
+      "commit": "f4515520c0045bb8ef1e72d46ed82499a6ac5f18",
+      "files": [
+        {
+          "path": "rtl/ibex_multdiv_fast.sv",
+          "url": "https://github.com/lowRISC/ibex/blob/f4515520c0045bb8ef1e72d46ed82499a6ac5f18/rtl/ibex_multdiv_fast.sv",
+          "bytes": 18521,
+          "sha256": "c86ca819b58b8ce2fc4ff5db887346bcd622b868fb7815fa07dd77119c68c04a"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/lowRISC/ibex/blob/f4515520c0045bb8ef1e72d46ed82499a6ac5f18/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/lowRISC/ibex/blob/f4515520c0045bb8ef1e72d46ed82499a6ac5f18/README.md",
+          "bytes": 7053,
+          "sha256": "75b5682c3c1fce84808e4683d97bc67fb669fb9363599252e197ef2ffbe3ffa1"
+        }
+      ]
+    },
+    {
+      "repository": "hdl-modules/hdl-modules",
+      "commit": "2bdb03032345a72b2cff17d2ab5ab6af422b636b",
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/LICENSE",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "README.rst",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/README.rst",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "license.txt",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/license.txt",
+          "bytes": 1471,
+          "sha256": "52b7032949ef9eafe851a286633cfca04b839410bff643575fd5f508110210f1"
+        },
+        {
+          "path": "readme.rst",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/readme.rst",
+          "bytes": 3745,
+          "sha256": "2b87b3f446ca06ddf632c53fd25e14eeb160d24869ac9219eccf809cca617405"
+        },
+        {
+          "path": "modules/common/src/handshake_pipeline.vhd",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/modules/common/src/handshake_pipeline.vhd",
+          "bytes": 11233,
+          "sha256": "7cdd87e3a4299d8d352d1594b875f61b7a5a8f8766d57ffd7434f9273a089b27"
+        },
+        {
+          "path": "modules/common/src/handshake_splitter.vhd",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/modules/common/src/handshake_splitter.vhd",
+          "bytes": 3107,
+          "sha256": "d14e1bc680bf423b99ad0ec4e147dee19d25145b15b2ac8762f137c3563cc084"
+        },
+        {
+          "path": "modules/common/test/tb_handshake_splitter.vhd",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/modules/common/test/tb_handshake_splitter.vhd",
+          "bytes": 5038,
+          "sha256": "e67c7a05fb1a298cffb5490d49973cd2796ae86988da11551209adbad32ab690"
+        },
+        {
+          "path": "modules/math/src/truncate_round_signed.vhd",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/modules/math/src/truncate_round_signed.vhd",
+          "bytes": 7866,
+          "sha256": "71d03d5799e2ccb3f1c9e5f64a9efbfdfae9fa60913163ad73a882be9b3fb03a"
+        },
+        {
+          "path": "modules/math/test/tb_truncate_round_signed.vhd",
+          "url": "https://github.com/hdl-modules/hdl-modules/blob/2bdb03032345a72b2cff17d2ab5ab6af422b636b/modules/math/test/tb_truncate_round_signed.vhd",
+          "bytes": 7804,
+          "sha256": "3414982ad2349011d40bb890bc70a8983e774c81239693b02b24d3cef72efe91"
+        }
+      ]
+    },
+    {
+      "repository": "alexforencich/verilog-axi",
+      "commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+      "files": [
+        {
+          "path": "rtl/axi_register_rd.v",
+          "url": "https://github.com/alexforencich/verilog-axi/blob/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/rtl/axi_register_rd.v",
+          "bytes": 18905,
+          "sha256": "63f1bd6f9d72ae28643fd7af3a5d5bcb05d45cbfb290c59c120c327ba49aa575"
+        },
+        {
+          "path": "tb/axi_register/test_axi_register.py",
+          "url": "https://github.com/alexforencich/verilog-axi/blob/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/tb/axi_register/test_axi_register.py",
+          "bytes": 8791,
+          "sha256": "752a6335a647fb8c21c525ba861faa8e9dfda7fd64dca383bcefbb507f0f7119"
+        },
+        {
+          "path": "COPYING",
+          "url": "https://github.com/alexforencich/verilog-axi/blob/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
+          "bytes": 1057,
+          "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/alexforencich/verilog-axi/blob/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/README.md",
+          "bytes": 20806,
+          "sha256": "99499ca09430eff2c4aca5ed472759e4090bf51c1dcef5e07b880f9a11fc3a61"
+        }
+      ]
+    }
+  ],
+  "method": "Pinned primary-source implementation and test inspection; no upstream regression reproduction claim."
+}

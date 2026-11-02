@@ -1,0 +1,57 @@
+{
+  "status": "PASS_HOST_GRAPH_REFERENCE",
+  "build_command": [
+    "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+    "-std=c11",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-Wno-misleading-indentation",
+    "-DTINYYOLO_HOST",
+    "-ffp-contract=off",
+    "-fno-strict-aliasing",
+    "..\\..\\software\\source\\integrated_network.c",
+    "-o",
+    "network_reference.exe",
+    "-lm"
+  ],
+  "params_sha256": "DC66425157588A3DE922EDCD26454E72F80DA2047EDF0C5DCBEB0C552A04D4D0",
+  "cases": {
+    "bird": {
+      "input_sha256": "E3B40A13985360B9AA152B3B12635D4CDF6EC2E2B47385730A4AF04896B3A194",
+      "outputs": {
+        "bird.final.bin": "11A077EE860A6E9E18A2869B82EB6193D2047EDE69E3F17F926841F05CC0046D",
+        "bird.trace.bin": "7A68A8894E21B4452CDD4D2E0AF17E3FE6490A23E9A2389546FD161034D00563",
+        "bird.steps.bin": "8AA9A54A2555E9B5929A38C44DE767B67D770EDD08440575DF362DA86DFF367C",
+        "bird.acc_guarded.bin": "A5D7F668634CBAA4B48B1A13718B5AFD0C83D3B9619631688EF17E6F2E144F19"
+      }
+    },
+    "random": {
+      "input_sha256": "769A1806C6B4F5B78ACA82A0B4E9B11B13770EC728972C513BC8B0E471E84D48",
+      "outputs": {
+        "random.final.bin": "6A683A0F27CF02310841CF071F6F6CA68F633CDCEEA9A49DE6AC84AA7F917B3E",
+        "random.trace.bin": "6D3F33A77797A0D3603BF47985F72D2E279EE1641F106F969401D639759041AF",
+        "random.steps.bin": "396AF6CEE0E1E99644A405A74B2531A74528B848EDAC6F29E7DA0AFCD123CA05",
+        "random.acc_guarded.bin": "E39FFC544117CAAA542B8F9B0B31DD64B45A9D94B5B0D64D27C30396DA4C21F3"
+      }
+    },
+    "bird_repeat": {
+      "input_sha256": "E3B40A13985360B9AA152B3B12635D4CDF6EC2E2B47385730A4AF04896B3A194",
+      "outputs": {
+        "bird_repeat.final.bin": "11A077EE860A6E9E18A2869B82EB6193D2047EDE69E3F17F926841F05CC0046D",
+        "bird_repeat.trace.bin": "7A68A8894E21B4452CDD4D2E0AF17E3FE6490A23E9A2389546FD161034D00563",
+        "bird_repeat.steps.bin": "90B7B1881C0FA712DA60E979FDE59FEB2ACA08A7F708784B76AD7781FA780DA2",
+        "bird_repeat.acc_guarded.bin": "A5D7F668634CBAA4B48B1A13718B5AFD0C83D3B9619631688EF17E6F2E144F19"
+      }
+    }
+  },
+  "sources": {
+    "integrated_network.c": "E98E99B9E10BEEC112C38FACF6FC85042919648DFAD1A92325973B8CB24E85CB",
+    "network_config.h": "965E05883527FF745E8E89B643B16BD3BE4D61D9596CC5DF31003FD54EFBD3A6",
+    "tinyyolo_integer_ops.h": "5C3FCBF6A18645D4CD434762F2E027CAB74197A7E8E00BA290B6109182F0E013"
+  },
+  "provenance": "New host goldens regenerated from recovered sealed parameters; not historical board evidence",
+  "board_tested": false,
+  "repeat_binary_equal": true
+}

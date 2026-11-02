@@ -1,0 +1,20 @@
+{
+  "comparison": "document_and_artifact_coverage_not_agent_performance",
+  "skills": [
+    {
+      "name": "hls-pipeline",
+      "baseline_release": "2026.9.1",
+      "entrypoint_sha256": "d78a441d49fd7a90828aaae751f67b60a626412a23c6f7079f5025ac942917b7"
+    },
+    {
+      "name": "hls-pipe-decomp",
+      "baseline_release": "2026.9.1",
+      "entrypoint_sha256": "9bea5fe7484a7d46b06552e5713ffcb07965160d339cb1365a72da057044975a"
+    },
+    {
+      "name": "vivado-timing-methodology-checks",
+      "baseline_release": "2026.9.1",
+      "entrypoint_sha256": "27737039372a9184fdc5ca0cb6c1ca77c759d1b7563ce608dffaec22c4c8c5a6"
+    }
+  ]
+}

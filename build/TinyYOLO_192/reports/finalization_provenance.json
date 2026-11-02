@@ -1,0 +1,17 @@
+{
+  "status": "PASS_CLOCKFIX_FINALIZATION",
+  "checked_utc": "2026-10-28T06:37:58.649888+00:00",
+  "build_inventory_sha256": "c096321d84b6dc7c88cf7d70a1665c039392d048b6a1b7909d8e2f674f140672",
+  "routed_checkpoint_sha256": "685aeee52acffc6349fd552221639056b30849f1745711569291252b9f652276",
+  "changed_frozen_files": {},
+  "native_implementation_receipt_sha256": "fca4dd98197990dc63e429ad2f1081a99d3fb12f544784f80f02703a83479fa0",
+  "native_synthesis_receipt_sha256": "af963a6219003e1a5debe2455b68c8dacc1718dc59aa1f0b3c070e8015157925",
+  "rtl_changed_during_finalization": true,
+  "implementation_netlist_corrected": true,
+  "timing_constraints_changed": false,
+  "synthesis_reused": false,
+  "clock_topology_preserved": true,
+  "placement_routing_repeated": true,
+  "run_properties_forced": false,
+  "warning_suppression": false
+}

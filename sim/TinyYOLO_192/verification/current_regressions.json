@@ -1,0 +1,13 @@
+{
+  "status": "PASS_CURRENT_RTL_REGRESSIONS",
+  "receipts": {
+    "dot_pairs": {
+      "path": "runs/split_dot_pairs_20261028_125848/result.json",
+      "sha256": "893d87c690665095af9c435a1771c38ceb1f7ed24b6a3ffce36d72717d4e5ae9"
+    },
+    "integration": {
+      "path": "runs/clean_clock_20261028_hp0/result.json",
+      "sha256": "dd01ba6ef96eb5425d57e23c58a77e168e516535ea372e67715041d87a1d5034"
+    }
+  }
+}

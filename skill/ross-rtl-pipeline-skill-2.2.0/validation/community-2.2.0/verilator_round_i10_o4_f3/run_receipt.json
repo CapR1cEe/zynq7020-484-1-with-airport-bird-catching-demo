@@ -1,0 +1,19 @@
+{
+  "mode": "lint",
+  "backend": "verilator",
+  "results": [
+    {
+      "example": "round",
+      "status": "passed",
+      "parameters": {
+        "IN_WIDTH": 10,
+        "OUT_WIDTH": 4,
+        "FRACTION_BITS": 3
+      },
+      "mac_width": null
+    }
+  ],
+  "implementation_frequency": "not_measured_by_this_runner",
+  "tool_version": "Verilator 5.048 2026-04-26 rev vUNKNOWN-built20260428",
+  "status": "passed"
+}

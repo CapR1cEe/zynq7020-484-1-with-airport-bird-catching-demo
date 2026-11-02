@@ -1,0 +1,1 @@
+{"status":"PASS_ORIGINAL_SETUP_BUDGET_RESTORED","scope":"uncertainty_restoration_with_original_clock_topology","clock_mhz":240,"additional_setup_uncertainty_ns":0.250,"original_user_uncertainty_ns":0.000,"restored_user_uncertainty_ns":0.000,"stricter_setup_ns":-0.183,"original_setup_ns":0.067,"applied_before_placement":true,"clock_topology_preserved":true}

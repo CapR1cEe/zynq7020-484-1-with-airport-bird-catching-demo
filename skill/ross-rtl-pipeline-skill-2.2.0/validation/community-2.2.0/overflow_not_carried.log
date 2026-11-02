@@ -1,0 +1,5 @@
+compile.log: exit=0
+build.log: exit=0
+simulation.log: exit=0
+<VALIDATION_DIR>\mutation_runs\overflow_not_carried\run_receipt.json
+round: simulation ended without the bench PASS receipt

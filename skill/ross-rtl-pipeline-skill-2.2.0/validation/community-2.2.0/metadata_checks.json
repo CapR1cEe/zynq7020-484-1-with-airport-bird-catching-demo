@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "version": "2.2.0",
+  "checks": [
+    "YAML frontmatter",
+    "single canonical repository entry",
+    "package manifest",
+    "both plugin metadata files",
+    "UTF-8 and portable skill paths",
+    "Python syntax",
+    "mirrored examples"
+  ],
+  "portable_files_checked": 32
+}

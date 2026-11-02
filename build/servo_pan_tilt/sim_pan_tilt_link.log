@@ -1,0 +1,104 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Nov  1 13:49:13 2026
+# Process ID         : 21784
+# Current directory  : <project>
+# Command line       : vivado.exe -mode batch -nojournal -log sim_pan_tilt_link.log -source sim_pan_tilt_link.tcl
+# Log file           : <project>/sim_pan_tilt_link.log
+# Journal file       : 
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 19459 MB
+#-----------------------------------------------------------
+source sim_pan_tilt_link.tcl
+# set root [file dirname [file normalize [info script]]]
+# file mkdir [file join $root sim_pan_tilt_link]
+# create_project -force Pan_Tilt_Link_Simulation [file join $root sim_pan_tilt_link project] -part xc7z020clg484-1
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is '<project>/sim_pan_tilt_link/project'
+# set_property target_language Verilog [current_project]
+# add_files -fileset sim_1 -norecurse [list [file join $root servo_pan_tilt_link.v] [file join $root tb_pan_tilt_link.sv]]
+# set_property top tb_pan_tilt_link [get_filesets sim_1]
+# set_property top_auto_set 0 [get_filesets sim_1]
+# launch_simulation -mode behavioral
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Nov  1 13:49:19 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_pan_tilt_link'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '<project>/sim_pan_tilt_link/project/Pan_Tilt_Link_Simulation.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesigntools/2025.2/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_pan_tilt_link' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '<project>/sim_pan_tilt_link/project/Pan_Tilt_Link_Simulation.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_pan_tilt_link_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "<project>/servo_pan_tilt_link.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module servo_pan_tilt_link
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/tb_pan_tilt_link.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_pan_tilt_link
+INFO: [VRFC 10-2263] Analyzing Verilog file "<project>/sim_pan_tilt_link/project/Pan_Tilt_Link_Simulation.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '<project>/sim_pan_tilt_link/project/Pan_Tilt_Link_Simulation.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_pan_tilt_link_behav xil_defaultlib.tb_pan_tilt_link xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesigntools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_pan_tilt_link_behav xil_defaultlib.tb_pan_tilt_link xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.servo_pan_tilt_link(CLOCKS_PER_U...
+Compiling module xil_defaultlib.tb_pan_tilt_link
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_pan_tilt_link_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '<project>/sim_pan_tilt_link/project/Pan_Tilt_Link_Simulation.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_pan_tilt_link_behav -key {Behavioral:sim_1:Functional:tb_pan_tilt_link} -tclbatch {tb_pan_tilt_link.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_pan_tilt_link.tcl
+## set curr_wave [current_wave_config]
+## if { [string length $curr_wave] == 0 } {
+##   if { [llength [get_objects]] > 0} {
+##     add_wave /
+##     set_property needs_save false [current_wave_config]
+##   } else {
+##      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+##   }
+## }
+## run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_pan_tilt_link_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 575.957 ; gain = 19.801
+# run all
+PAN_TILT_PAIR_PASS pan_us=1480 tilt_us=2150 frames=50
+PAN_TILT_PAIR_PASS pan_us=1450 tilt_us=2200 frames=50
+PAN_TILT_LINK_RTL_PASS independent_widths synchronized start home_return
+$finish called at time : 77025401 ns : File "<project>/tb_pan_tilt_link.sv" Line 110
+# close_sim
+INFO: [Simtcl 6-16] Simulation closed
+# close_project
+# exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  1 13:49:26 2026...

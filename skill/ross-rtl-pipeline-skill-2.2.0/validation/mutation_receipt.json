@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "defect": "tree_drop_odd_lane",
+      "detected": true,
+      "failure_message": "tree signed sum/tag/order mismatch",
+      "runner_status": "failed"
+    },
+    {
+      "defect": "fork_repeat_fast_branch",
+      "detected": true,
+      "failure_message": "fork unsolicited/duplicate branch 0",
+      "runner_status": "failed"
+    }
+  ]
+}

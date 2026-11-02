@@ -1,0 +1,7 @@
+release_tag: community-2.2.0
+generated_at: "2026-11-01"
+skills:
+  - name: vivado-rtl-pipeline-design
+    description: Preserve annotated RTL and use measured community methods to plan resources and pipelines.
+    path: skills/vivado-rtl-pipeline-design
+    version: 2.2.0

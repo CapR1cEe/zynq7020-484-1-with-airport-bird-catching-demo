@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "method": "Byte-for-byte comparison against 2.1.0",
+  "unchanged_existing_rtl_and_benches": {
+    "assets/rtl/elastic_buffer.sv": "2f545dd8a616bb4f3c755634624323e6e9430ac0f7ac9728a1339b5a59a725e2",
+    "assets/rtl/four_lane_mac_stream.sv": "ad53a5ab5cb3351d06b1fb0dc17072fb81bc1eec3fe48ec19d2766c878e726c2",
+    "assets/rtl/signed_sum_tree_stream.sv": "89dae3a305258152e0197ca3fb1b9fcfcaa600ba3dc843181e59e8885b58c4ee",
+    "assets/rtl/stream_fork2.sv": "688c1e71247a0a720844371ccd96386bd75d1f232ee3bab503b42837bbe387c4",
+    "assets/tb/tb_elastic_buffer.sv": "d4d6e9a40e1e3b865058c1a714ec87d73eca64217e87a82d18b90113c3938004",
+    "assets/tb/tb_four_lane_mac_stream.sv": "03c3377da9ab6d32abc89e266ddfe7c357a185e924dd92719136fffc125c492c",
+    "assets/tb/tb_signed_sum_tree_stream.sv": "99f4b11ea2e8bc1afe72744cc8e2797fbcc417703301386a359b8204e02ae233",
+    "assets/tb/tb_stream_fork2.sv": "787db7d815e83bb88f0be95114342a0722294ea291b6f543437ea8fa8a48c959"
+  },
+  "new_example": "round_sat_stream.sv retains visible stages and local Chinese/English explanations",
+  "limit": "Retention is mechanically checked; comment truth/readability still require engineering review."
+}

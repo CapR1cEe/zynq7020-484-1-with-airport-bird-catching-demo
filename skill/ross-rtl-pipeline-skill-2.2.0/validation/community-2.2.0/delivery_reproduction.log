@@ -1,0 +1,31 @@
+compile.log: exit=0
+build.log: exit=0
+simulation.log: exit=0
+PASS MAC width=8: accepted=764 received=758 reset_flushed=6 latency=3 II=1 stall_checks=190
+compile.log: exit=0
+build.log: exit=0
+simulation.log: exit=0
+PASS elastic: accepted=762 received=758 reset_flushed=4 peak=2 latency=1 II=1 stall_checks=153
+compile.log: exit=0
+build.log: exit=0
+simulation.log: exit=0
+PASS TREE inputs=5 width=8 accepted=1051 received=1045 reset_flushed=6 stages=3 II=1 stall_checks=237
+compile.log: exit=0
+build.log: exit=0
+simulation.log: exit=0
+PASS FORK accepted=1033 received0=1032 received1=1032 flushed0=1 flushed1=1 stages=1 II=1 partial_resets=2 asymmetric_cycles=337 stall_checks=371
+compile.log: exit=0
+build.log: exit=0
+simulation.log: exit=0
+PASS ROUND in=8 out=4 frac=3 exhaustive=256 accepted=1294 received=1292 reset_flushed=2 stages=2 II=1 ii_checks=254 stall_checks=185
+<VALIDATION_DIR>\delivery_reproduction\simulation\default\run_receipt.json
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

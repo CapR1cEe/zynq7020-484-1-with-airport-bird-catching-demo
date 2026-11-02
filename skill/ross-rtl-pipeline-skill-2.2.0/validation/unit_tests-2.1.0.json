@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "suites": [
+    {
+      "script": "test_resource_plan.py",
+      "tests": 6,
+      "status": "passed"
+    },
+    {
+      "script": "test_assess_timing.py",
+      "tests": 6,
+      "status": "passed"
+    }
+  ]
+}

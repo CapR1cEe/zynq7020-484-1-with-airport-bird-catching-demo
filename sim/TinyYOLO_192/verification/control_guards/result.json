@@ -1,0 +1,47 @@
+{
+  "status": "PASS_CONTROL_GUARDS",
+  "backend": "AMD_UNISIM",
+  "clock_mhz": 240,
+  "source_sha256": {
+    "tinyyolo_allconv_closed_loop.v": "05baeffd2fbcfe47272f4d4a53fbb41a940b9fb82e074b19505224efe9222b87",
+    "tinyyolo_allconv_control.v": "89794e3d2e638f1f73ce9b228f6cb983e08d0059c3e452f9354d15cc465cecab",
+    "tinyyolo_counter32.v": "0e131d113a8eb9a3c3e47891554b43025dec576fea0fd48cbda1c6750095bf89",
+    "tinyyolo_ctrl_hp0_pipe2.v": "bba177c8d7656a9046b7052130516da7375ba6954c552b5b7cd2936a1ffc87e9",
+    "tinyyolo_cycle_profile.v": "cabf9bb91479794fcc853b0c156e205a9dd64621df08bb90da5cb2731791db3c",
+    "tinyyolo_dot16.v": "735794a59ff1de41163ba83f50836bb083c6829990e853b80ef8c50756d1e929",
+    "tinyyolo_dot16_pair.v": "cbe78ed37b21a778006278d2e84aaf69d2f0bf0511b841b5f42931b6d2725ad1",
+    "tinyyolo_dot24_pair.v": "16007ea9e13df81414a67bf478042435a5d5810be1c8b980a5b5cb728b627cab",
+    "tinyyolo_dsp_accum32.v": "ab6aa3e3d72ceb7e548c540c786f8ce7f875eca71b8a22c3494095a368b12bb4",
+    "tinyyolo_dsp_mul.v": "f480cfd06266e22d4c589b7f38d6117a41db6576b0ed8dfda3ff448d9ce7a9a4",
+    "tinyyolo_fp64_add.v": "eeb622cf211c1d8ebfdca0e7aa52be84dbcf72a623f8d2c62c7ca99414973214",
+    "tinyyolo_fp64_to_fp32.v": "a318ea055d6c4be9b5f8ae1c05266b0c098e5b5cc125c0c6a3a06f71aec02388",
+    "tinyyolo_head_exact.v": "932a9fd0f39e75fa64a2f260a958259039be674e6dc08e33b4987542b8becb90",
+    "tinyyolo_hp0_burst_cache.v": "b46cea78823e484d8e04a44fb26cc3bf1c9d08af81d622bb7b0268cbf6872e93",
+    "tinyyolo_le33.v": "ca208deda9c9c7437247e674d0dd193e46fe2ac3040ecea6ff81e7826b71b06b",
+    "tinyyolo_lut_mul.v": "fc98a851aeacce3f4cf2af7e7d38eca6bf47c7a8c534682c971c44a6ebb8c9e0",
+    "tinyyolo_pipe_add.v": "0d67d87fb5efd24e020ed29fd1f380a6750883891a67397ebf539141151529a0",
+    "tinyyolo_requant36_stream.v": "059aaa75c7f3b4f419490a7e4ab2031fb4ca314e9733c77b37cb8c4d6c4165e2",
+    "tinyyolo_rne64.v": "8967dccfcf769d760c897a2e24ce7f8089f7e786414c02204a8eda5d01e14f57",
+    "tinyyolo_shift56_jam.v": "d3eb3b0c3ed113c3c804d72227de8ce534ab5bbffc2d135c61f0467ecfce14cf"
+  },
+  "suites": [
+    {
+      "top": "tb_control_fault_guards",
+      "marker": "CONTROL_FAULT_GUARDS_PASS checks=108 immediate_zero_fault=1 bus_priority=1 restart=1",
+      "bench_sha256": "3510a9e49dca9b4335fb8a87bb4a0a26d592ad1ed3cb9c81b5f1c18fb9e25dcd",
+      "log_sha256": "a316b8f4ee2c576a337e425ba66dfbc9dc3957135e2fef256dc6a010eeff7c65"
+    },
+    {
+      "top": "tb_head_config",
+      "marker": "HEAD_CONFIG_PASS legal=679 invalid=24 backpressure_cycles=8 hardware_access=0",
+      "bench_sha256": "17b4b8f1417de68687e202c3ccb9043be7ba881161bf510c64f51869b9c22696",
+      "log_sha256": "ded2318826793caa52c744353e11bb6f1b063591656050c4e0a4004f52dc2dd3"
+    },
+    {
+      "top": "tb_size_pipeline",
+      "marker": "SIZE_PIPELINE_PASS cases=7 full_plane=173056 signed_boundary=131072 hardware_access=0",
+      "bench_sha256": "29ba68a7b7307758dfe97feb909e3f6a1ded263106fef5ca12bcca0bd256dbe6",
+      "log_sha256": "eda15b45dee62680f322bec8d4827c805986ff3c4b8936ce3ca676dfaa9ec355"
+    }
+  ]
+}

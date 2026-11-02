@@ -1,0 +1,772 @@
+{
+    "run_id":  "pantilt_20261101T0524546353",
+    "axis":  "pan+tilt",
+    "sequence_mode":  "slow_dual_axis_boundary_sweep_with_home_return",
+    "pan_ball":  "H20",
+    "tilt_ball":  "H19",
+    "camera_connected":  false,
+    "track_path_us":  [
+
+                      ],
+    "home_widths_us":  [
+                           1560,
+                           2200
+                       ],
+    "frames_per_move":  50,
+    "duration_ms_per_move":  1021,
+    "repeats_per_target":  0,
+    "tracking_duration_s":  0,
+    "group_count":  0,
+    "inter_group_rest_s":  0,
+    "boundary_start_us":  [
+                              1200,
+                              1900
+                          ],
+    "boundary_end_us":  [
+                            1870,
+                            2300
+                        ],
+    "boundary_approach_steps":  10,
+    "boundary_sweep_steps":  30,
+    "runtime":  {
+                    "axis":  "pan+tilt",
+                    "boundary_approach_steps":  10,
+                    "boundary_end_us":  [
+                                            1870,
+                                            2300
+                                        ],
+                    "boundary_start_us":  [
+                                              1200,
+                                              1900
+                                          ],
+                    "boundary_sweep_steps":  30,
+                    "camera_connected":  false,
+                    "camera_frame":  null,
+                    "frames_per_move":  50,
+                    "group_count":  0,
+                    "home_us":  [
+                                    1560,
+                                    2200
+                                ],
+                    "inter_group_rest_s":  0,
+                    "pan_ball":  "H20",
+                    "repeats_per_target":  0,
+                    "run_mode":  "boundary-sweep",
+                    "tilt_ball":  "H19",
+                    "tracking_duration_s":  0,
+                    "tracking_path_us":  [
+
+                                         ],
+                    "transitions":  [
+                                        {
+                                            "boundary_step":  1,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021944
+                                                          },
+                                            "pan_us":  1560,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021607,
+                                                        "completed_after_s":  1.0212
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021914
+                                                           },
+                                            "tilt_us":  2200
+                                        },
+                                        {
+                                            "boundary_step":  2,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021887
+                                                          },
+                                            "pan_us":  1520,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021495,
+                                                        "completed_after_s":  1.02144
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021828
+                                                           },
+                                            "tilt_us":  2167
+                                        },
+                                        {
+                                            "boundary_step":  3,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021877
+                                                          },
+                                            "pan_us":  1480,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021459,
+                                                        "completed_after_s":  1.02169
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021891
+                                                           },
+                                            "tilt_us":  2133
+                                        },
+                                        {
+                                            "boundary_step":  4,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021786
+                                                          },
+                                            "pan_us":  1440,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021562,
+                                                        "completed_after_s":  1.021378
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021753
+                                                           },
+                                            "tilt_us":  2100
+                                        },
+                                        {
+                                            "boundary_step":  5,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021885
+                                                          },
+                                            "pan_us":  1400,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021423,
+                                                        "completed_after_s":  1.021721
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021946
+                                                           },
+                                            "tilt_us":  2067
+                                        },
+                                        {
+                                            "boundary_step":  6,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021894
+                                                          },
+                                            "pan_us":  1360,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021454,
+                                                        "completed_after_s":  1.021503
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021895
+                                                           },
+                                            "tilt_us":  2033
+                                        },
+                                        {
+                                            "boundary_step":  7,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021817
+                                                          },
+                                            "pan_us":  1320,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021553,
+                                                        "completed_after_s":  1.021552
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021807
+                                                           },
+                                            "tilt_us":  2000
+                                        },
+                                        {
+                                            "boundary_step":  8,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021902
+                                                          },
+                                            "pan_us":  1280,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021511,
+                                                        "completed_after_s":  1.02149
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021801
+                                                           },
+                                            "tilt_us":  1967
+                                        },
+                                        {
+                                            "boundary_step":  9,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021858
+                                                          },
+                                            "pan_us":  1240,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021532,
+                                                        "completed_after_s":  1.022471
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021788
+                                                           },
+                                            "tilt_us":  1933
+                                        },
+                                        {
+                                            "boundary_step":  10,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021914
+                                                          },
+                                            "pan_us":  1200,
+                                            "phase":  "approach_boundary",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021449,
+                                                        "completed_after_s":  1.021673
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021798
+                                                           },
+                                            "tilt_us":  1900
+                                        },
+                                        {
+                                            "boundary_step":  1,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021774
+                                                          },
+                                            "pan_us":  1200,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021474,
+                                                        "completed_after_s":  1.021766
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021853
+                                                           },
+                                            "tilt_us":  1900
+                                        },
+                                        {
+                                            "boundary_step":  2,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.022211
+                                                          },
+                                            "pan_us":  1223,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021088,
+                                                        "completed_after_s":  1.022081
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021501
+                                                           },
+                                            "tilt_us":  1914
+                                        },
+                                        {
+                                            "boundary_step":  3,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021784
+                                                          },
+                                            "pan_us":  1246,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021533,
+                                                        "completed_after_s":  1.021141
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021753
+                                                           },
+                                            "tilt_us":  1928
+                                        },
+                                        {
+                                            "boundary_step":  4,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021868
+                                                          },
+                                            "pan_us":  1269,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021401,
+                                                        "completed_after_s":  1.021684
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02226
+                                                           },
+                                            "tilt_us":  1941
+                                        },
+                                        {
+                                            "boundary_step":  5,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021808
+                                                          },
+                                            "pan_us":  1292,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.02148,
+                                                        "completed_after_s":  1.021507
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021869
+                                                           },
+                                            "tilt_us":  1955
+                                        },
+                                        {
+                                            "boundary_step":  6,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021836
+                                                          },
+                                            "pan_us":  1316,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021519,
+                                                        "completed_after_s":  1.022378
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021815
+                                                           },
+                                            "tilt_us":  1969
+                                        },
+                                        {
+                                            "boundary_step":  7,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021805
+                                                          },
+                                            "pan_us":  1339,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021572,
+                                                        "completed_after_s":  1.02237
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02179
+                                                           },
+                                            "tilt_us":  1983
+                                        },
+                                        {
+                                            "boundary_step":  8,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021806
+                                                          },
+                                            "pan_us":  1362,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021559,
+                                                        "completed_after_s":  1.022428
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021862
+                                                           },
+                                            "tilt_us":  1997
+                                        },
+                                        {
+                                            "boundary_step":  9,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021799
+                                                          },
+                                            "pan_us":  1385,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021477,
+                                                        "completed_after_s":  1.022262
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02182
+                                                           },
+                                            "tilt_us":  2010
+                                        },
+                                        {
+                                            "boundary_step":  10,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021777
+                                                          },
+                                            "pan_us":  1408,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021494,
+                                                        "completed_after_s":  1.022335
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021754
+                                                           },
+                                            "tilt_us":  2024
+                                        },
+                                        {
+                                            "boundary_step":  11,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021923
+                                                          },
+                                            "pan_us":  1431,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021488,
+                                                        "completed_after_s":  1.021303
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021817
+                                                           },
+                                            "tilt_us":  2038
+                                        },
+                                        {
+                                            "boundary_step":  12,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021876
+                                                          },
+                                            "pan_us":  1454,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021433,
+                                                        "completed_after_s":  1.021435
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021822
+                                                           },
+                                            "tilt_us":  2052
+                                        },
+                                        {
+                                            "boundary_step":  13,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021804
+                                                          },
+                                            "pan_us":  1477,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021407,
+                                                        "completed_after_s":  1.021318
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021754
+                                                           },
+                                            "tilt_us":  2066
+                                        },
+                                        {
+                                            "boundary_step":  14,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021791
+                                                          },
+                                            "pan_us":  1500,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021492,
+                                                        "completed_after_s":  1.021295
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02178
+                                                           },
+                                            "tilt_us":  2079
+                                        },
+                                        {
+                                            "boundary_step":  15,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021803
+                                                          },
+                                            "pan_us":  1523,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021414,
+                                                        "completed_after_s":  1.021667
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021871
+                                                           },
+                                            "tilt_us":  2093
+                                        },
+                                        {
+                                            "boundary_step":  16,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021909
+                                                          },
+                                            "pan_us":  1547,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021513,
+                                                        "completed_after_s":  1.02168
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021812
+                                                           },
+                                            "tilt_us":  2107
+                                        },
+                                        {
+                                            "boundary_step":  17,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021786
+                                                          },
+                                            "pan_us":  1570,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021417,
+                                                        "completed_after_s":  1.021236
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021782
+                                                           },
+                                            "tilt_us":  2121
+                                        },
+                                        {
+                                            "boundary_step":  18,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021792
+                                                          },
+                                            "pan_us":  1593,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021421,
+                                                        "completed_after_s":  1.021305
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021785
+                                                           },
+                                            "tilt_us":  2134
+                                        },
+                                        {
+                                            "boundary_step":  19,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021815
+                                                          },
+                                            "pan_us":  1616,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021549,
+                                                        "completed_after_s":  1.021473
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021746
+                                                           },
+                                            "tilt_us":  2148
+                                        },
+                                        {
+                                            "boundary_step":  20,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021896
+                                                          },
+                                            "pan_us":  1639,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021393,
+                                                        "completed_after_s":  1.021663
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021852
+                                                           },
+                                            "tilt_us":  2162
+                                        },
+                                        {
+                                            "boundary_step":  21,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021915
+                                                          },
+                                            "pan_us":  1662,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.02152,
+                                                        "completed_after_s":  1.02179
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021873
+                                                           },
+                                            "tilt_us":  2176
+                                        },
+                                        {
+                                            "boundary_step":  22,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021864
+                                                          },
+                                            "pan_us":  1685,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021437,
+                                                        "completed_after_s":  1.021896
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021787
+                                                           },
+                                            "tilt_us":  2190
+                                        },
+                                        {
+                                            "boundary_step":  23,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021852
+                                                          },
+                                            "pan_us":  1708,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021422,
+                                                        "completed_after_s":  1.021967
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021779
+                                                           },
+                                            "tilt_us":  2203
+                                        },
+                                        {
+                                            "boundary_step":  24,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021864
+                                                          },
+                                            "pan_us":  1731,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021397,
+                                                        "completed_after_s":  1.021223
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02187
+                                                           },
+                                            "tilt_us":  2217
+                                        },
+                                        {
+                                            "boundary_step":  25,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021865
+                                                          },
+                                            "pan_us":  1754,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021482,
+                                                        "completed_after_s":  1.021271
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02176
+                                                           },
+                                            "tilt_us":  2231
+                                        },
+                                        {
+                                            "boundary_step":  26,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021804
+                                                          },
+                                            "pan_us":  1778,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021466,
+                                                        "completed_after_s":  1.022231
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02187
+                                                           },
+                                            "tilt_us":  2245
+                                        },
+                                        {
+                                            "boundary_step":  27,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021788
+                                                          },
+                                            "pan_us":  1801,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021469,
+                                                        "completed_after_s":  1.021763
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.02178
+                                                           },
+                                            "tilt_us":  2259
+                                        },
+                                        {
+                                            "boundary_step":  28,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021819
+                                                          },
+                                            "pan_us":  1824,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021523,
+                                                        "completed_after_s":  1.021301
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021779
+                                                           },
+                                            "tilt_us":  2272
+                                        },
+                                        {
+                                            "boundary_step":  29,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021851
+                                                          },
+                                            "pan_us":  1847,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021481,
+                                                        "completed_after_s":  1.021246
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021739
+                                                           },
+                                            "tilt_us":  2286
+                                        },
+                                        {
+                                            "boundary_step":  30,
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021874
+                                                          },
+                                            "pan_us":  1870,
+                                            "phase":  "boundary_sweep",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021542,
+                                                        "completed_after_s":  1.021568
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021847
+                                                           },
+                                            "tilt_us":  2300
+                                        },
+                                        {
+                                            "frames":  50,
+                                            "pan_setup":  {
+                                                              "setup_ack_after_s":  0.021873
+                                                          },
+                                            "pan_us":  1560,
+                                            "phase":  "return_zero",
+                                            "run":  {
+                                                        "busy_asserted_after_s":  0.021434,
+                                                        "completed_after_s":  1.022173
+                                                    },
+                                            "tilt_setup":  {
+                                                               "setup_ack_after_s":  0.021803
+                                                           },
+                                            "tilt_us":  2200
+                                        }
+                                    ]
+                },
+    "restored_inference":  {
+                               "abi":  2,
+                               "build_id":  1194480898,
+                               "dma_bytes":  33554432,
+                               "faulted":  0,
+                               "fclk_hz":  99999999,
+                               "ocm_bytes":  32768,
+                               "ocm_flags":  1,
+                               "pl_hz":  240000000
+                           },
+    "physical_motion_confirmed":  null,
+    "physical_pin_waveform_measured":  false,
+    "bitstream_sha256":  "868583E42E720759558F94DC0BA2B8087EE48CFFAC1A6583C160CBA62635185F"
+}

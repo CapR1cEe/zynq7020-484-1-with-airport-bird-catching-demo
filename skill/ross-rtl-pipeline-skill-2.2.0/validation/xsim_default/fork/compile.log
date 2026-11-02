@@ -1,0 +1,5 @@
+["<VIVADO_INSTALL>\\bin\\xvlog.bat", "--sv", "<SKILL_DIR>/assets/rtl/stream_fork2.sv", "<SKILL_DIR>/assets/tb/tb_stream_fork2.sv"]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<SKILL_DIR>/assets/rtl/stream_fork2.sv" into library work
+INFO: [VRFC 10-311] analyzing module stream_fork2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<SKILL_DIR>/assets/tb/tb_stream_fork2.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_stream_fork2

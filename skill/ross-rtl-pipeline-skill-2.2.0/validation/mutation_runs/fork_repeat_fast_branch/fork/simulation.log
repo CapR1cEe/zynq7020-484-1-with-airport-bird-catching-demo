@@ -1,0 +1,19 @@
+["<VIVADO_INSTALL>\\bin\\xsim.bat", "ross_example", "--runall"]
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Sun Nov  1 08:52:03 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/ross_example/xsim_script.tcl
+# xsim {ross_example} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Fatal: fork unsolicited/duplicate branch 0
+Time: 1025 ns  Iteration: 0  Process: /tb_stream_fork2/Always29_2  Scope: tb_stream_fork2.Block48_4  File: <VALIDATION_DIR>/mutation_sources/fork_repeat_fast_branch/assets/tb/tb_stream_fork2.sv Line: 56
+$finish called at time : 1025 ns
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 08:52:05 2026...

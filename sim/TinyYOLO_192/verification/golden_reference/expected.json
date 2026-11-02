@@ -1,0 +1,1262 @@
+{
+  "hardware": {
+    "build_id": "0x47325502",
+    "pl_MHz": 240,
+    "fclk_MHz": 100,
+    "bit_sha256": "c4a9afd9a5dd00eef1952757597792d925914972b33aa4ab09f4564eaa7e5957",
+    "xsa_sha256": "9e70ab4b82868fc946f250e63c5d6f8e07d002ab02af99e9c5c5726b4ad79ebf"
+  },
+  "inputs": {
+    "parameters.bin": {
+      "bytes": 12213056,
+      "sha256": "dc66425157588a3de922edcd26454e72f80da2047edf0c5dcbeb0c552a04d4d0"
+    },
+    "bird.bin": {
+      "bytes": 442368,
+      "sha256": "e3b40a13985360b9aa152b3b12635d4cdf6ec2e2b47385730a4af04896b3a194"
+    },
+    "random.bin": {
+      "bytes": 442368,
+      "sha256": "769a1806c6b4f5b78aca82a0b4e9b11b13770ec728972c513bc8b0e471e84d48"
+    }
+  },
+  "frames": {
+    "bird": {
+      "steps": [
+        {
+          "step": 0,
+          "kind": 1,
+          "layer": null,
+          "tensor": 0,
+          "bytes": 110592,
+          "sha256": "44e29ecc95bbd76f9ba16e71042643bbe8864a87f028ce7baa17ed2746c79412"
+        },
+        {
+          "step": 1,
+          "kind": 4,
+          "layer": 0,
+          "tensor": 1,
+          "bytes": 589824,
+          "sha256": "73e00cbcdc0cab6175b5851c5a9eeca9bd16fe712c5e3efddae33a938fc07cd2"
+        },
+        {
+          "step": 2,
+          "kind": 2,
+          "layer": null,
+          "tensor": 2,
+          "bytes": 147456,
+          "sha256": "9a4da345eeabbf31abcbf481f346525d58ed9dd44453d2a17aa664bdd37d85de"
+        },
+        {
+          "step": 3,
+          "kind": 4,
+          "layer": 1,
+          "tensor": 3,
+          "bytes": 294912,
+          "sha256": "48104fde57360f38d63b8b90a14397284de9a92f1db9d51cba5483be7dfbb2f8"
+        },
+        {
+          "step": 4,
+          "kind": 2,
+          "layer": null,
+          "tensor": 4,
+          "bytes": 73728,
+          "sha256": "0cb8336d4f1da5fe698b15aa15c4b1ab19bab9a044f2ba781a8c8c24245b3c83"
+        },
+        {
+          "step": 5,
+          "kind": 4,
+          "layer": 2,
+          "tensor": 5,
+          "bytes": 147456,
+          "sha256": "985509253340f2d4e175c950630f04ee37f5828d06c31d5c0707cef71b830895"
+        },
+        {
+          "step": 6,
+          "kind": 2,
+          "layer": null,
+          "tensor": 6,
+          "bytes": 36864,
+          "sha256": "c8a36b6705ed5334f1a6cfc2b3faf17df8759f873927402cb39f39415e6779c3"
+        },
+        {
+          "step": 7,
+          "kind": 4,
+          "layer": 3,
+          "tensor": 7,
+          "bytes": 73728,
+          "sha256": "0599b9b62e9fab8197290aa14482366aa5f2e31785f804e9f3fe9f85e3a70b20"
+        },
+        {
+          "step": 8,
+          "kind": 2,
+          "layer": null,
+          "tensor": 8,
+          "bytes": 18432,
+          "sha256": "e575c8a68e67aaef49608933c01c11342a6d6cb6615be8edec98065668dfe83c"
+        },
+        {
+          "step": 9,
+          "kind": 4,
+          "layer": 4,
+          "tensor": 9,
+          "bytes": 36864,
+          "sha256": "fb26b2ae3583e391f4b70fa32f627d45d5bf4f269da4728f62341b1d8b4405a8"
+        },
+        {
+          "step": 10,
+          "kind": 2,
+          "layer": null,
+          "tensor": 10,
+          "bytes": 9216,
+          "sha256": "4e8afa1f21b6efbe56cb55419d3609cbec72f9e0c28bb53dc2759caf3a70e0d2"
+        },
+        {
+          "step": 11,
+          "kind": 4,
+          "layer": 5,
+          "tensor": 11,
+          "bytes": 18432,
+          "sha256": "6b3319242149a563ae0c531e2a8ba4939febfc8d9b1ef1c71d8f37914a7d9602"
+        },
+        {
+          "step": 12,
+          "kind": 2,
+          "layer": null,
+          "tensor": 12,
+          "bytes": 18432,
+          "sha256": "375427f3346b8f1529785e8ae374bcf435c50240d6a65998ee5326a2bfd569e3"
+        },
+        {
+          "step": 13,
+          "kind": 4,
+          "layer": 6,
+          "tensor": 13,
+          "bytes": 36864,
+          "sha256": "87c673d32d456045672e1d0a4b67d25057b761bc4b360ddd1db1049a6b87217f"
+        },
+        {
+          "step": 14,
+          "kind": 2,
+          "layer": null,
+          "tensor": 14,
+          "bytes": 36864,
+          "sha256": "52bec19be3a29389112a69f67e3609ba1fdbc7cd872774dc7ade18f96ae07818"
+        },
+        {
+          "step": 15,
+          "kind": 4,
+          "layer": 7,
+          "tensor": 15,
+          "bytes": 9216,
+          "sha256": "6ea64538f527873f46312ab8de787937bab3fe27586dd4f94999b04e6a007c4f"
+        },
+        {
+          "step": 16,
+          "kind": 2,
+          "layer": null,
+          "tensor": 16,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "step": 17,
+          "kind": 4,
+          "layer": 8,
+          "tensor": 17,
+          "bytes": 4608,
+          "sha256": "db32a15b5772fa1033bb535d148ba3cb39f0061ac6f6af8499194bf985092e88"
+        },
+        {
+          "step": 18,
+          "kind": 2,
+          "layer": null,
+          "tensor": 18,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "step": 19,
+          "kind": 4,
+          "layer": 9,
+          "tensor": 19,
+          "bytes": 18432,
+          "sha256": "a86afb48f73c85efbc8909c227f4a500e1f4c0f70053ca670977417e6fbfb2c9"
+        },
+        {
+          "step": 20,
+          "kind": 2,
+          "layer": null,
+          "tensor": 20,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "step": 21,
+          "kind": 4,
+          "layer": 10,
+          "tensor": 21,
+          "bytes": 2304,
+          "sha256": "1c1987a03cd1dc44ab575e0ebce714e39f2b2a9a0add1adced62fab4605167e4"
+        },
+        {
+          "step": 22,
+          "kind": 2,
+          "layer": null,
+          "tensor": 22,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "step": 23,
+          "kind": 4,
+          "layer": 11,
+          "tensor": 23,
+          "bytes": 9216,
+          "sha256": "2b0615bffb71ae24aaf1ed4c554add440c68365fa858ef8613c1f0e8d9825d5e"
+        },
+        {
+          "step": 24,
+          "kind": 3,
+          "layer": null,
+          "tensor": 24,
+          "bytes": 55296,
+          "sha256": "df8c2a52521e494e6d207f5db96bbefa1cd90e7f9a7f824beb77f3b3e1db5b95"
+        },
+        {
+          "step": 25,
+          "kind": 4,
+          "layer": 12,
+          "tensor": 25,
+          "bytes": 36864,
+          "sha256": "5d0eb3bede76c7fd29eb72c592e67b6fdc71f1bbb6679814e6cfa2b21035abc8"
+        },
+        {
+          "step": 26,
+          "kind": 2,
+          "layer": null,
+          "tensor": 26,
+          "bytes": 2304,
+          "sha256": "321503a8f2f7cd19849d581db734dbdc3384c0d9733743700536785e5be2c474"
+        },
+        {
+          "step": 27,
+          "kind": 4,
+          "layer": 13,
+          "tensor": 27,
+          "bytes": 2304,
+          "sha256": "dbb204642430443d56940bd0d3570b165b2bbf6ce985b887eec3c20dfb083370"
+        },
+        {
+          "step": 28,
+          "kind": 2,
+          "layer": null,
+          "tensor": 28,
+          "bytes": 9216,
+          "sha256": "3aa19fe09a48e175ec1f8976f03dc95aae4cd6001cbe07f8b01febcd7e1845f8"
+        },
+        {
+          "step": 29,
+          "kind": 4,
+          "layer": 14,
+          "tensor": 29,
+          "bytes": 9216,
+          "sha256": "c5973e6ffe15997d143d8abd8ee98f561ed18f6beb4cafc59dc7e0c8f11ede04"
+        },
+        {
+          "step": 30,
+          "kind": 2,
+          "layer": null,
+          "tensor": 30,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "step": 31,
+          "kind": 4,
+          "layer": 15,
+          "tensor": 31,
+          "bytes": 9216,
+          "sha256": "83c60d5dff20b586a9648c1b41afafe1cdc71c95c112016b0d8d747b04ec50f2"
+        },
+        {
+          "step": 32,
+          "kind": 2,
+          "layer": null,
+          "tensor": 32,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "step": 33,
+          "kind": 4,
+          "layer": 16,
+          "tensor": 33,
+          "bytes": 36864,
+          "sha256": "cb59e57089fec77d8d5c1e7e8e77ae6940fe712d4844334f6fb03f903555a256"
+        },
+        {
+          "step": 34,
+          "kind": 2,
+          "layer": null,
+          "tensor": 34,
+          "bytes": 36864,
+          "sha256": "73b1448b722e16484d4508648d266877c1e3d2b55eaec9d3dfa0a210df558767"
+        },
+        {
+          "step": 35,
+          "kind": 5,
+          "layer": 17,
+          "tensor": 35,
+          "bytes": 144,
+          "sha256": "f15950e4bbfb4e25a65c5c0c591eb5995fae162f67d8e0945604877dfc01d2ef"
+        },
+        {
+          "step": 36,
+          "kind": 2,
+          "layer": null,
+          "tensor": 36,
+          "bytes": 2304,
+          "sha256": "da9eec5d62180ed524c2b46c34104aabf7ab7b3e734289d37c1b34eafb47ba72"
+        },
+        {
+          "step": 37,
+          "kind": 4,
+          "layer": 18,
+          "tensor": 37,
+          "bytes": 2304,
+          "sha256": "e9e8dec37fbf7e40b2167c9ff6e4612f1a91702a6d3c72b6f4473f991b41b7b4"
+        },
+        {
+          "step": 38,
+          "kind": 2,
+          "layer": null,
+          "tensor": 38,
+          "bytes": 9216,
+          "sha256": "925e208175216430e437feea26ff649cbd65abfb9033ebca2714c125e882b18b"
+        },
+        {
+          "step": 39,
+          "kind": 4,
+          "layer": 19,
+          "tensor": 39,
+          "bytes": 9216,
+          "sha256": "3621004b2c41578f72f69e3e97174f63fc030429b3f7de846109274cc8025bf0"
+        },
+        {
+          "step": 40,
+          "kind": 2,
+          "layer": null,
+          "tensor": 40,
+          "bytes": 36864,
+          "sha256": "a9cc7560c7c0f6b129ebd9466b73f226da150ace2ee1d7435a52758e5b797f4d"
+        },
+        {
+          "step": 41,
+          "kind": 4,
+          "layer": 20,
+          "tensor": 41,
+          "bytes": 36864,
+          "sha256": "b335cdd59cc7fb66a717db6b96c3db3771a4fc6ddd43a4a23b153bc051eb35ee"
+        },
+        {
+          "step": 42,
+          "kind": 2,
+          "layer": null,
+          "tensor": 42,
+          "bytes": 147456,
+          "sha256": "a933cfbcf2fdf2c86a809a9053c64261eef9ce0f7a78465c96eee67b0b145903"
+        },
+        {
+          "step": 43,
+          "kind": 5,
+          "layer": 21,
+          "tensor": 43,
+          "bytes": 576,
+          "sha256": "3ad12db4b95953e36a39deb19e7c6ba149af8cf33664ac8907957f81d2d797ed"
+        },
+        {
+          "step": 44,
+          "kind": 2,
+          "layer": null,
+          "tensor": 44,
+          "bytes": 9216,
+          "sha256": "0280fa82843a6f77131ee9c78c1755a5407bec8eedb9984a82799faaeda417ed"
+        },
+        {
+          "step": 45,
+          "kind": 4,
+          "layer": 22,
+          "tensor": 45,
+          "bytes": 9216,
+          "sha256": "46a940c2a6152104d4a2df02cf24143f1ebc940f71fa0616835521e1c3eb8772"
+        },
+        {
+          "step": 46,
+          "kind": 6,
+          "layer": null,
+          "tensor": 46,
+          "bytes": 46800,
+          "sha256": "52c45d6bbf86db15d2ea173f2c64590db6fd3799fd6cce734399605dd019a142"
+        },
+        {
+          "step": 47,
+          "kind": 7,
+          "layer": null,
+          "tensor": 47,
+          "bytes": 11520,
+          "sha256": "f1cf18fa4cd73924b53a0a32b283ca7a5327e1f569ee491b57ae2faf3aa93572"
+        },
+        {
+          "step": 48,
+          "kind": 4,
+          "layer": 23,
+          "tensor": 48,
+          "bytes": 720,
+          "sha256": "3e56e4fb14273e1bcb8f032036b8dcd7802ae4f08a6fa6554053e7ad46a6884e"
+        },
+        {
+          "step": 49,
+          "kind": 8,
+          "layer": null,
+          "tensor": 49,
+          "bytes": 3600,
+          "sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d"
+        }
+      ],
+      "final_sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d"
+    },
+    "random": {
+      "steps": [
+        {
+          "step": 0,
+          "kind": 1,
+          "layer": null,
+          "tensor": 0,
+          "bytes": 110592,
+          "sha256": "f1259e8282efb40ed916eec6899bdc447095c33767cdb743ecd9abd488d8721d"
+        },
+        {
+          "step": 1,
+          "kind": 4,
+          "layer": 0,
+          "tensor": 1,
+          "bytes": 589824,
+          "sha256": "35dc07dac4dd86e3452153a3f17c9069837a34abe5ee3c9239e8c2ffaa025d61"
+        },
+        {
+          "step": 2,
+          "kind": 2,
+          "layer": null,
+          "tensor": 2,
+          "bytes": 147456,
+          "sha256": "13c9ba7ebaf39265a718a0fa98ce070c5dba6391caa8dc83cf7664afd2b0fa28"
+        },
+        {
+          "step": 3,
+          "kind": 4,
+          "layer": 1,
+          "tensor": 3,
+          "bytes": 294912,
+          "sha256": "56d93a2c1e4140549c42e5b6fa07f5533c311d9009d14c05dd0f70efaa9085da"
+        },
+        {
+          "step": 4,
+          "kind": 2,
+          "layer": null,
+          "tensor": 4,
+          "bytes": 73728,
+          "sha256": "380496f98e22233a3cfa1eba6f69c234dd4fb3819a3ec471d3335d289b6beed8"
+        },
+        {
+          "step": 5,
+          "kind": 4,
+          "layer": 2,
+          "tensor": 5,
+          "bytes": 147456,
+          "sha256": "1dd03f5093476daacb507f8e55803489d4a76dd1c966b50779f1a20523c6aa5e"
+        },
+        {
+          "step": 6,
+          "kind": 2,
+          "layer": null,
+          "tensor": 6,
+          "bytes": 36864,
+          "sha256": "dc437bdab158e953c4b26099576fc7ce44943c7cb1c3a56205f9b8ee5e259916"
+        },
+        {
+          "step": 7,
+          "kind": 4,
+          "layer": 3,
+          "tensor": 7,
+          "bytes": 73728,
+          "sha256": "3a659125bcab2e312819a860cfbd29a4ac8f09c46a94a4801395f7a8fa9a2698"
+        },
+        {
+          "step": 8,
+          "kind": 2,
+          "layer": null,
+          "tensor": 8,
+          "bytes": 18432,
+          "sha256": "2ce4004df1af430049ddbe6365309bb1bfa5b718e87357a0224682773059555f"
+        },
+        {
+          "step": 9,
+          "kind": 4,
+          "layer": 4,
+          "tensor": 9,
+          "bytes": 36864,
+          "sha256": "384d63cd096bb4ac449bedbe1b5e7ff3b71c3551d168d0dd5630d220e13f31d6"
+        },
+        {
+          "step": 10,
+          "kind": 2,
+          "layer": null,
+          "tensor": 10,
+          "bytes": 9216,
+          "sha256": "c27f4e4e5c230ccdb0670eadba49ab7f2b994f1b0b53f73458b9aef5a946469d"
+        },
+        {
+          "step": 11,
+          "kind": 4,
+          "layer": 5,
+          "tensor": 11,
+          "bytes": 18432,
+          "sha256": "df9a1adc44bea13d040ee3fddb0e80f0dd7d32a5f5949380d83d4fc313f7b128"
+        },
+        {
+          "step": 12,
+          "kind": 2,
+          "layer": null,
+          "tensor": 12,
+          "bytes": 18432,
+          "sha256": "891d64ffdcf2b1ad655bae003c34e5a579321c1e11e48efc9d25ae2e55f8a76f"
+        },
+        {
+          "step": 13,
+          "kind": 4,
+          "layer": 6,
+          "tensor": 13,
+          "bytes": 36864,
+          "sha256": "c86b77574cd000324e15c6584093455ed5a42925782e22b5caf67c890fec976e"
+        },
+        {
+          "step": 14,
+          "kind": 2,
+          "layer": null,
+          "tensor": 14,
+          "bytes": 36864,
+          "sha256": "2fff2a26406672a0a529d5562c45eea00e26716560c7e0ba05632e9403287a88"
+        },
+        {
+          "step": 15,
+          "kind": 4,
+          "layer": 7,
+          "tensor": 15,
+          "bytes": 9216,
+          "sha256": "fe1c99443e8f881c5e6af64fcba0cfd5e3ecbbe3db8836a6745718835c8d7fee"
+        },
+        {
+          "step": 16,
+          "kind": 2,
+          "layer": null,
+          "tensor": 16,
+          "bytes": 9216,
+          "sha256": "95f77a4ce045295bb3069dafb985aacb1888cbcd5608b088ecea5ea32b16c2dd"
+        },
+        {
+          "step": 17,
+          "kind": 4,
+          "layer": 8,
+          "tensor": 17,
+          "bytes": 4608,
+          "sha256": "319f2e5899d6c85311c22afa572dcadfcf71e57e160f2becec4b908fb2dda504"
+        },
+        {
+          "step": 18,
+          "kind": 2,
+          "layer": null,
+          "tensor": 18,
+          "bytes": 9216,
+          "sha256": "95f77a4ce045295bb3069dafb985aacb1888cbcd5608b088ecea5ea32b16c2dd"
+        },
+        {
+          "step": 19,
+          "kind": 4,
+          "layer": 9,
+          "tensor": 19,
+          "bytes": 18432,
+          "sha256": "821844dfe7b7b0e15669588f4e3d851af610d8b405513f0f8715f6043eb68a1f"
+        },
+        {
+          "step": 20,
+          "kind": 2,
+          "layer": null,
+          "tensor": 20,
+          "bytes": 18432,
+          "sha256": "580253025904da67ed767cfe4ee6dc433fb5d300cebdd120262697cb685a349e"
+        },
+        {
+          "step": 21,
+          "kind": 4,
+          "layer": 10,
+          "tensor": 21,
+          "bytes": 2304,
+          "sha256": "817633a57b6c075c18cd016d01e06fe36a07569ddfbbdb91720cc31ed84a541b"
+        },
+        {
+          "step": 22,
+          "kind": 2,
+          "layer": null,
+          "tensor": 22,
+          "bytes": 18432,
+          "sha256": "580253025904da67ed767cfe4ee6dc433fb5d300cebdd120262697cb685a349e"
+        },
+        {
+          "step": 23,
+          "kind": 4,
+          "layer": 11,
+          "tensor": 23,
+          "bytes": 9216,
+          "sha256": "99752945054c75734df7baaaf88129ad393483010bf8d09f67aa7be20a986550"
+        },
+        {
+          "step": 24,
+          "kind": 3,
+          "layer": null,
+          "tensor": 24,
+          "bytes": 55296,
+          "sha256": "9d97d49d94f367235139a475f9e9c758ebd33cbf6c6cc6c9edc6de7bcbe5abb5"
+        },
+        {
+          "step": 25,
+          "kind": 4,
+          "layer": 12,
+          "tensor": 25,
+          "bytes": 36864,
+          "sha256": "9266c3c0f2347f88997e54d8fa5544b6fc4238758a898d1f3cc34f2ca530bb83"
+        },
+        {
+          "step": 26,
+          "kind": 2,
+          "layer": null,
+          "tensor": 26,
+          "bytes": 2304,
+          "sha256": "85f56daca00922246fdcb2eae99bb6d982981d55cb7f89b1ed935ee00b6f4f7e"
+        },
+        {
+          "step": 27,
+          "kind": 4,
+          "layer": 13,
+          "tensor": 27,
+          "bytes": 2304,
+          "sha256": "a0afe5c33fcefc3f895e3aafa010e2936f406ed7ead352112bef213b1de9bdb3"
+        },
+        {
+          "step": 28,
+          "kind": 2,
+          "layer": null,
+          "tensor": 28,
+          "bytes": 9216,
+          "sha256": "6f4940ca973cf65e1c19238a0a65dd55fdb02a3c8320200a3f954e85a3d7d479"
+        },
+        {
+          "step": 29,
+          "kind": 4,
+          "layer": 14,
+          "tensor": 29,
+          "bytes": 9216,
+          "sha256": "13d45412d6c42e3ee66f001f728b3fa86f2afaafad0e149877db55daf620c10d"
+        },
+        {
+          "step": 30,
+          "kind": 2,
+          "layer": null,
+          "tensor": 30,
+          "bytes": 36864,
+          "sha256": "fe780866a43a2ef7ea69611bfa869179ba7c820bb113020b3c86c9cf89760ddf"
+        },
+        {
+          "step": 31,
+          "kind": 4,
+          "layer": 15,
+          "tensor": 31,
+          "bytes": 9216,
+          "sha256": "35a2786ad14889786bbd75c45af519572f505a66d576e9af8f0cc79c90d12517"
+        },
+        {
+          "step": 32,
+          "kind": 2,
+          "layer": null,
+          "tensor": 32,
+          "bytes": 36864,
+          "sha256": "fe780866a43a2ef7ea69611bfa869179ba7c820bb113020b3c86c9cf89760ddf"
+        },
+        {
+          "step": 33,
+          "kind": 4,
+          "layer": 16,
+          "tensor": 33,
+          "bytes": 36864,
+          "sha256": "81d431a873c0fae42f8df0fe0c7e4f2a08e40759d78d1b0894f00629750ee9ab"
+        },
+        {
+          "step": 34,
+          "kind": 2,
+          "layer": null,
+          "tensor": 34,
+          "bytes": 36864,
+          "sha256": "53383e31865385f87c47aca8fe1648cd12eb9749ce4232aff7b57becab2e3a53"
+        },
+        {
+          "step": 35,
+          "kind": 5,
+          "layer": 17,
+          "tensor": 35,
+          "bytes": 144,
+          "sha256": "3cf0dd878a993b0b3df7c301f1213f3c05e000b13d08d2a47158540fb9735201"
+        },
+        {
+          "step": 36,
+          "kind": 2,
+          "layer": null,
+          "tensor": 36,
+          "bytes": 2304,
+          "sha256": "64f6166387e370180aac1cf13d31eba11f037d134a9956f4bd91769f4e45cd00"
+        },
+        {
+          "step": 37,
+          "kind": 4,
+          "layer": 18,
+          "tensor": 37,
+          "bytes": 2304,
+          "sha256": "b7601c3412ae8b3fa0eb0317e084ff17c5899028b2e2d69d09fd377021af28df"
+        },
+        {
+          "step": 38,
+          "kind": 2,
+          "layer": null,
+          "tensor": 38,
+          "bytes": 9216,
+          "sha256": "006378cf051fd9372eecaddc18d330e1ae1573f8e1fe7b27482d1a45d70daa26"
+        },
+        {
+          "step": 39,
+          "kind": 4,
+          "layer": 19,
+          "tensor": 39,
+          "bytes": 9216,
+          "sha256": "f819d4a3eba7efb6a407b7048f99b83de54858ff2aabb7abc6a93db06309a0c3"
+        },
+        {
+          "step": 40,
+          "kind": 2,
+          "layer": null,
+          "tensor": 40,
+          "bytes": 36864,
+          "sha256": "101fa4c85a73ecb2572d45214d3af33836256df9fd3eb991ce472dbde4945d90"
+        },
+        {
+          "step": 41,
+          "kind": 4,
+          "layer": 20,
+          "tensor": 41,
+          "bytes": 36864,
+          "sha256": "2fb066f3bd3df8e9e16eb0c60483b89757e45bef27b8558706f414817411b79e"
+        },
+        {
+          "step": 42,
+          "kind": 2,
+          "layer": null,
+          "tensor": 42,
+          "bytes": 147456,
+          "sha256": "bbdf90085df000b172c1e15215565a5b358c57125e9bfc5f7b9c38be6db2fde1"
+        },
+        {
+          "step": 43,
+          "kind": 5,
+          "layer": 21,
+          "tensor": 43,
+          "bytes": 576,
+          "sha256": "7aa8f132125fcce09000c79ff00ccb9a03aafe2abc35dc312ce0dec6eb992515"
+        },
+        {
+          "step": 44,
+          "kind": 2,
+          "layer": null,
+          "tensor": 44,
+          "bytes": 9216,
+          "sha256": "135165843412fe8ccfe0716851e7839310fbbc7b93e3e13c281f40b1469e010c"
+        },
+        {
+          "step": 45,
+          "kind": 4,
+          "layer": 22,
+          "tensor": 45,
+          "bytes": 9216,
+          "sha256": "4f273e6fe7f6762f32cc99c9c291a90ea34643da6b5d493445c690250a0e4d6f"
+        },
+        {
+          "step": 46,
+          "kind": 6,
+          "layer": null,
+          "tensor": 46,
+          "bytes": 46800,
+          "sha256": "b7300d4efcc656b30d43f6c998b543e216da62c2f35152ab8123a619a347e810"
+        },
+        {
+          "step": 47,
+          "kind": 7,
+          "layer": null,
+          "tensor": 47,
+          "bytes": 11520,
+          "sha256": "700e4c97c43a669a82ca9218fc87ce8d9547c5daa2d2c011af53a98d51b06b11"
+        },
+        {
+          "step": 48,
+          "kind": 4,
+          "layer": 23,
+          "tensor": 48,
+          "bytes": 720,
+          "sha256": "33ab8232d36c039bfcbcff20abc8c64aef84b5e834f783582b4efc27359a0165"
+        },
+        {
+          "step": 49,
+          "kind": 8,
+          "layer": null,
+          "tensor": 49,
+          "bytes": 3600,
+          "sha256": "6a683a0f27cf02310841cf071f6f6ca68f633cdceea9a49de6ac84aa7f917b3e"
+        }
+      ],
+      "final_sha256": "6a683a0f27cf02310841cf071f6f6ca68f633cdceea9a49de6ac84aa7f917b3e"
+    },
+    "bird_repeat": {
+      "steps": [
+        {
+          "step": 0,
+          "kind": 1,
+          "layer": null,
+          "tensor": 0,
+          "bytes": 110592,
+          "sha256": "44e29ecc95bbd76f9ba16e71042643bbe8864a87f028ce7baa17ed2746c79412"
+        },
+        {
+          "step": 1,
+          "kind": 4,
+          "layer": 0,
+          "tensor": 1,
+          "bytes": 589824,
+          "sha256": "73e00cbcdc0cab6175b5851c5a9eeca9bd16fe712c5e3efddae33a938fc07cd2"
+        },
+        {
+          "step": 2,
+          "kind": 2,
+          "layer": null,
+          "tensor": 2,
+          "bytes": 147456,
+          "sha256": "9a4da345eeabbf31abcbf481f346525d58ed9dd44453d2a17aa664bdd37d85de"
+        },
+        {
+          "step": 3,
+          "kind": 4,
+          "layer": 1,
+          "tensor": 3,
+          "bytes": 294912,
+          "sha256": "48104fde57360f38d63b8b90a14397284de9a92f1db9d51cba5483be7dfbb2f8"
+        },
+        {
+          "step": 4,
+          "kind": 2,
+          "layer": null,
+          "tensor": 4,
+          "bytes": 73728,
+          "sha256": "0cb8336d4f1da5fe698b15aa15c4b1ab19bab9a044f2ba781a8c8c24245b3c83"
+        },
+        {
+          "step": 5,
+          "kind": 4,
+          "layer": 2,
+          "tensor": 5,
+          "bytes": 147456,
+          "sha256": "985509253340f2d4e175c950630f04ee37f5828d06c31d5c0707cef71b830895"
+        },
+        {
+          "step": 6,
+          "kind": 2,
+          "layer": null,
+          "tensor": 6,
+          "bytes": 36864,
+          "sha256": "c8a36b6705ed5334f1a6cfc2b3faf17df8759f873927402cb39f39415e6779c3"
+        },
+        {
+          "step": 7,
+          "kind": 4,
+          "layer": 3,
+          "tensor": 7,
+          "bytes": 73728,
+          "sha256": "0599b9b62e9fab8197290aa14482366aa5f2e31785f804e9f3fe9f85e3a70b20"
+        },
+        {
+          "step": 8,
+          "kind": 2,
+          "layer": null,
+          "tensor": 8,
+          "bytes": 18432,
+          "sha256": "e575c8a68e67aaef49608933c01c11342a6d6cb6615be8edec98065668dfe83c"
+        },
+        {
+          "step": 9,
+          "kind": 4,
+          "layer": 4,
+          "tensor": 9,
+          "bytes": 36864,
+          "sha256": "fb26b2ae3583e391f4b70fa32f627d45d5bf4f269da4728f62341b1d8b4405a8"
+        },
+        {
+          "step": 10,
+          "kind": 2,
+          "layer": null,
+          "tensor": 10,
+          "bytes": 9216,
+          "sha256": "4e8afa1f21b6efbe56cb55419d3609cbec72f9e0c28bb53dc2759caf3a70e0d2"
+        },
+        {
+          "step": 11,
+          "kind": 4,
+          "layer": 5,
+          "tensor": 11,
+          "bytes": 18432,
+          "sha256": "6b3319242149a563ae0c531e2a8ba4939febfc8d9b1ef1c71d8f37914a7d9602"
+        },
+        {
+          "step": 12,
+          "kind": 2,
+          "layer": null,
+          "tensor": 12,
+          "bytes": 18432,
+          "sha256": "375427f3346b8f1529785e8ae374bcf435c50240d6a65998ee5326a2bfd569e3"
+        },
+        {
+          "step": 13,
+          "kind": 4,
+          "layer": 6,
+          "tensor": 13,
+          "bytes": 36864,
+          "sha256": "87c673d32d456045672e1d0a4b67d25057b761bc4b360ddd1db1049a6b87217f"
+        },
+        {
+          "step": 14,
+          "kind": 2,
+          "layer": null,
+          "tensor": 14,
+          "bytes": 36864,
+          "sha256": "52bec19be3a29389112a69f67e3609ba1fdbc7cd872774dc7ade18f96ae07818"
+        },
+        {
+          "step": 15,
+          "kind": 4,
+          "layer": 7,
+          "tensor": 15,
+          "bytes": 9216,
+          "sha256": "6ea64538f527873f46312ab8de787937bab3fe27586dd4f94999b04e6a007c4f"
+        },
+        {
+          "step": 16,
+          "kind": 2,
+          "layer": null,
+          "tensor": 16,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "step": 17,
+          "kind": 4,
+          "layer": 8,
+          "tensor": 17,
+          "bytes": 4608,
+          "sha256": "db32a15b5772fa1033bb535d148ba3cb39f0061ac6f6af8499194bf985092e88"
+        },
+        {
+          "step": 18,
+          "kind": 2,
+          "layer": null,
+          "tensor": 18,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "step": 19,
+          "kind": 4,
+          "layer": 9,
+          "tensor": 19,
+          "bytes": 18432,
+          "sha256": "a86afb48f73c85efbc8909c227f4a500e1f4c0f70053ca670977417e6fbfb2c9"
+        },
+        {
+          "step": 20,
+          "kind": 2,
+          "layer": null,
+          "tensor": 20,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "step": 21,
+          "kind": 4,
+          "layer": 10,
+          "tensor": 21,
+          "bytes": 2304,
+          "sha256": "1c1987a03cd1dc44ab575e0ebce714e39f2b2a9a0add1adced62fab4605167e4"
+        },
+        {
+          "step": 22,
+          "kind": 2,
+          "layer": null,
+          "tensor": 22,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "step": 23,
+          "kind": 4,
+          "layer": 11,
+          "tensor": 23,
+          "bytes": 9216,
+          "sha256": "2b0615bffb71ae24aaf1ed4c554add440c68365fa858ef8613c1f0e8d9825d5e"
+        },
+        {
+          "step": 24,
+          "kind": 3,
+          "layer": null,
+          "tensor": 24,
+          "bytes": 55296,
+          "sha256": "df8c2a52521e494e6d207f5db96bbefa1cd90e7f9a7f824beb77f3b3e1db5b95"
+        },
+        {
+          "step": 25,
+          "kind": 4,
+          "layer": 12,
+          "tensor": 25,
+          "bytes": 36864,
+          "sha256": "5d0eb3bede76c7fd29eb72c592e67b6fdc71f1bbb6679814e6cfa2b21035abc8"
+        },
+        {
+          "step": 26,
+          "kind": 2,
+          "layer": null,
+          "tensor": 26,
+          "bytes": 2304,
+          "sha256": "321503a8f2f7cd19849d581db734dbdc3384c0d9733743700536785e5be2c474"
+        },
+        {
+          "step": 27,
+          "kind": 4,
+          "layer": 13,
+          "tensor": 27,
+          "bytes": 2304,
+          "sha256": "dbb204642430443d56940bd0d3570b165b2bbf6ce985b887eec3c20dfb083370"
+        },
+        {
+          "step": 28,
+          "kind": 2,
+          "layer": null,
+          "tensor": 28,
+          "bytes": 9216,
+          "sha256": "3aa19fe09a48e175ec1f8976f03dc95aae4cd6001cbe07f8b01febcd7e1845f8"
+        },
+        {
+          "step": 29,
+          "kind": 4,
+          "layer": 14,
+          "tensor": 29,
+          "bytes": 9216,
+          "sha256": "c5973e6ffe15997d143d8abd8ee98f561ed18f6beb4cafc59dc7e0c8f11ede04"
+        },
+        {
+          "step": 30,
+          "kind": 2,
+          "layer": null,
+          "tensor": 30,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "step": 31,
+          "kind": 4,
+          "layer": 15,
+          "tensor": 31,
+          "bytes": 9216,
+          "sha256": "83c60d5dff20b586a9648c1b41afafe1cdc71c95c112016b0d8d747b04ec50f2"
+        },
+        {
+          "step": 32,
+          "kind": 2,
+          "layer": null,
+          "tensor": 32,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "step": 33,
+          "kind": 4,
+          "layer": 16,
+          "tensor": 33,
+          "bytes": 36864,
+          "sha256": "cb59e57089fec77d8d5c1e7e8e77ae6940fe712d4844334f6fb03f903555a256"
+        },
+        {
+          "step": 34,
+          "kind": 2,
+          "layer": null,
+          "tensor": 34,
+          "bytes": 36864,
+          "sha256": "73b1448b722e16484d4508648d266877c1e3d2b55eaec9d3dfa0a210df558767"
+        },
+        {
+          "step": 35,
+          "kind": 5,
+          "layer": 17,
+          "tensor": 35,
+          "bytes": 144,
+          "sha256": "f15950e4bbfb4e25a65c5c0c591eb5995fae162f67d8e0945604877dfc01d2ef"
+        },
+        {
+          "step": 36,
+          "kind": 2,
+          "layer": null,
+          "tensor": 36,
+          "bytes": 2304,
+          "sha256": "da9eec5d62180ed524c2b46c34104aabf7ab7b3e734289d37c1b34eafb47ba72"
+        },
+        {
+          "step": 37,
+          "kind": 4,
+          "layer": 18,
+          "tensor": 37,
+          "bytes": 2304,
+          "sha256": "e9e8dec37fbf7e40b2167c9ff6e4612f1a91702a6d3c72b6f4473f991b41b7b4"
+        },
+        {
+          "step": 38,
+          "kind": 2,
+          "layer": null,
+          "tensor": 38,
+          "bytes": 9216,
+          "sha256": "925e208175216430e437feea26ff649cbd65abfb9033ebca2714c125e882b18b"
+        },
+        {
+          "step": 39,
+          "kind": 4,
+          "layer": 19,
+          "tensor": 39,
+          "bytes": 9216,
+          "sha256": "3621004b2c41578f72f69e3e97174f63fc030429b3f7de846109274cc8025bf0"
+        },
+        {
+          "step": 40,
+          "kind": 2,
+          "layer": null,
+          "tensor": 40,
+          "bytes": 36864,
+          "sha256": "a9cc7560c7c0f6b129ebd9466b73f226da150ace2ee1d7435a52758e5b797f4d"
+        },
+        {
+          "step": 41,
+          "kind": 4,
+          "layer": 20,
+          "tensor": 41,
+          "bytes": 36864,
+          "sha256": "b335cdd59cc7fb66a717db6b96c3db3771a4fc6ddd43a4a23b153bc051eb35ee"
+        },
+        {
+          "step": 42,
+          "kind": 2,
+          "layer": null,
+          "tensor": 42,
+          "bytes": 147456,
+          "sha256": "a933cfbcf2fdf2c86a809a9053c64261eef9ce0f7a78465c96eee67b0b145903"
+        },
+        {
+          "step": 43,
+          "kind": 5,
+          "layer": 21,
+          "tensor": 43,
+          "bytes": 576,
+          "sha256": "3ad12db4b95953e36a39deb19e7c6ba149af8cf33664ac8907957f81d2d797ed"
+        },
+        {
+          "step": 44,
+          "kind": 2,
+          "layer": null,
+          "tensor": 44,
+          "bytes": 9216,
+          "sha256": "0280fa82843a6f77131ee9c78c1755a5407bec8eedb9984a82799faaeda417ed"
+        },
+        {
+          "step": 45,
+          "kind": 4,
+          "layer": 22,
+          "tensor": 45,
+          "bytes": 9216,
+          "sha256": "46a940c2a6152104d4a2df02cf24143f1ebc940f71fa0616835521e1c3eb8772"
+        },
+        {
+          "step": 46,
+          "kind": 6,
+          "layer": null,
+          "tensor": 46,
+          "bytes": 46800,
+          "sha256": "52c45d6bbf86db15d2ea173f2c64590db6fd3799fd6cce734399605dd019a142"
+        },
+        {
+          "step": 47,
+          "kind": 7,
+          "layer": null,
+          "tensor": 47,
+          "bytes": 11520,
+          "sha256": "f1cf18fa4cd73924b53a0a32b283ca7a5327e1f569ee491b57ae2faf3aa93572"
+        },
+        {
+          "step": 48,
+          "kind": 4,
+          "layer": 23,
+          "tensor": 48,
+          "bytes": 720,
+          "sha256": "3e56e4fb14273e1bcb8f032036b8dcd7802ae4f08a6fa6554053e7ad46a6884e"
+        },
+        {
+          "step": 49,
+          "kind": 8,
+          "layer": null,
+          "tensor": 49,
+          "bytes": 3600,
+          "sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d"
+        }
+      ],
+      "final_sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d"
+    }
+  },
+  "input_contract": {
+    "dtype": "float32_le",
+    "layout": "CHW",
+    "shape": [
+      3,
+      192,
+      192
+    ],
+    "elements": 110592,
+    "bytes_per_element": 4,
+    "normalized_range": [
+      0.0,
+      1.0
+    ],
+    "quantization": {
+      "dtype": "int8",
+      "scale": 0.003921568859368563,
+      "zero_point": -128,
+      "rounding": "nearest_even"
+    }
+  },
+  "host_reference_manifest_sha256": "36f586c9c7e45ce4088ba314c1feabcd73bbeea29aed72a172a2452291f4488e"
+}

@@ -1,0 +1,26 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesigntools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe -L unisims_ver -L secureip tb_dsp_fast glbl -s qualification 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module work.tinyyolo_dsp_mul
+Compiling module work.ty_dsp48e1_fast_default
+Compiling module work.fast_tinyyolo_dsp_mul
+Compiling module unisims_ver.DSP48E1(ADREG=0,ALUMODEREG=0,CAR...
+Compiling module work.tinyyolo_dsp_mul(INPUT_REG=1)
+Compiling module work.ty_dsp48e1_fast(AREG=1,ACASCREG=...
+Compiling module work.fast_tinyyolo_dsp_mul(INPUT_REG=...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module work.tinyyolo_dsp_accum32
+Compiling module work.ty_dsp48e1_fast(USE_MULT="NONE",...
+Compiling module work.fast_tinyyolo_dsp_accum32
+Compiling module work.tb_dsp_fast
+Compiling module work.glbl
+Built simulation snapshot qualification

@@ -1,0 +1,98 @@
+{
+  "source_sha256": {
+    "linux/model_config.json": "faabb38b4cd3ba4652d50484888e41d2e11f62173dbf5b0d127f2eb023df4b16",
+    "scripts/check_pan_tilt.py": "61f51dcf2dc3328571182d17ff8bf2bf22ff23d321e3e2cc409b67ef3f4d6987",
+    "linux/camera_infer.py": "00634eb09e9a7d4a9b9a2a2dae1ecc90431186b0c05e8327ff7a193eae4bd0b0",
+    "linux/camera_session.py": "f92bd07abc61d99a03d562d553844e0b5404feb8413084ec04c09db7c370d5a5",
+    "linux/tinyyolo_session.py": "b36a88a38f717eb18e0320031c7850959966182dea76c2d1380e7b35b2635c4a",
+    "linux/tracker_core.c": "9875c7e764038cefeb8f8918022f1a666adc0488d5affa40a3811fde515dbb3a",
+    "linux/target_control.py": "c65d15a51c6423b0a79922337d87993f4adf0bd4b00d43e9730dcf3a94486aed",
+    "scripts/check_tracking_pipeline.py": "c058476d600b8876ddb2450c32c29d39cd6ebdf23b401680e015393e9218e4ca"
+  },
+  "input_size": 192,
+  "checks": [
+    {
+      "exact": true,
+      "name": "integer_translation",
+      "host_ms_per_frame": 8.695951749814412,
+      "board_timing": false,
+      "frames": 4
+    },
+    {
+      "name": "brightness_offset",
+      "offset": 18
+    },
+    {
+      "name": "occlusion_reacquire_boundaries_low_texture"
+    },
+    {
+      "name": "five_percent_scale",
+      "bbox": [
+        53.5,
+        37.0,
+        116.49999618530273,
+        79.0
+      ],
+      "tolerance_pixels": 2
+    },
+    {
+      "repeated_sequence_rejected": true,
+      "name": "camera_protocol",
+      "malformed_cases": 5
+    },
+    {
+      "name": "dma_infer_image",
+      "bytes": 110592,
+      "matches_preprocess": true
+    },
+    {
+      "name": "delayed_detection_native_replay",
+      "failed_refresh_preserves_target": true,
+      "detector_delay_seconds": 0.7,
+      "replayed_frames": 11,
+      "stale_deadline_seconds": 1.5
+    },
+    {
+      "max_inflight": 1,
+      "board_measurement": false,
+      "completed_detections": 3,
+      "name": "mock_sync_main",
+      "capture_frames": 3
+    },
+    {
+      "max_inflight": 1,
+      "board_measurement": false,
+      "completed_detections": 3,
+      "name": "mock_async_main",
+      "capture_frames": 12
+    },
+    {
+      "physical_test": false,
+      "name": "pwm_simulated_arm_loss_reacquire_watchdog_limits"
+    },
+    {
+      "physical_test": false,
+      "name": "pwm_simulated_write_fault_and_dual_shutdown"
+    },
+    {
+      "physical_test": false,
+      "cases": 4,
+      "name": "pwm_config_validation"
+    },
+    {
+      "name": "exception_shutdown_order",
+      "events": [
+        "pwm_off",
+        "worker_done",
+        "pwm_off",
+        "runtime_close"
+      ]
+    }
+  ],
+  "camera_tested": false,
+  "detection_fps_measured": null,
+  "build_id": "0x47325502",
+  "board_tested": false,
+  "status": "PASS_OFFLINE_TRACKING_CAMERA_PIPELINE",
+  "accuracy_map": null
+}

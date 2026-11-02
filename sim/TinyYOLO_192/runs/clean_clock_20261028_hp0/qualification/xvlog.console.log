@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/hardware/g227/rtl/tinyyolo_dsp_accum32.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dsp_accum32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/qualification/fast_tinyyolo_dsp_accum32.v" into library work
+INFO: [VRFC 10-311] analyzing module fast_tinyyolo_dsp_accum32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/hardware/g227/rtl/tinyyolo_dsp_mul.v" into library work
+INFO: [VRFC 10-311] analyzing module tinyyolo_dsp_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/qualification/fast_tinyyolo_dsp_mul.v" into library work
+INFO: [VRFC 10-311] analyzing module fast_tinyyolo_dsp_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/runs/clean_clock_20261028_hp0/simulation_rtl/dsp48e1_fast.sv" into library work
+INFO: [VRFC 10-311] analyzing module ty_dsp48e1_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<project>/tests/tb_dsp_fast.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_dsp_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/AMDDesigntools/2025.2/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

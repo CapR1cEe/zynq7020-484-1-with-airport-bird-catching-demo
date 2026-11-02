@@ -1,0 +1,81 @@
+{
+  "status": "AUDITED_VENDOR_RESET_TIMING_EXCEPTION",
+  "warning_id": "Physopt 32-894",
+  "message": "Found a constraint with the -through option on pin Tiny_Yolo_i/proc_sys_reset_0/peripheral_aresetn[0] or the net immediately connecting to the pin. This constraint will block optimizations for this and all downstream leaf pins.",
+  "classification": "timing_optimization_limitation",
+  "vendor_exceptions": [
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/m00_exit_pipeline/m00_exit/inst/xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_w_node/inst/s_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_transaction_regulator/inst/xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_si_converter/inst/xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_entry_pipeline/s00_mmu/inst/xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_w_node/inst/m_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/s_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/m_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/s_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/m_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    },
+    {
+      "checkpoint_member": "Tiny_Yolo_wrapper_late.xdc",
+      "scope": "Tiny_Yolo_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/s_sc_xpm_cdc_async_rst_inst",
+      "constraint": "set_false_path -through [get_ports -scoped_to_current_instance -no_traverse src_arst]"
+    }
+  ],
+  "exceptions_removed": false,
+  "severity_changed": false,
+  "note": "XPM asynchronous-reset false paths can prevent reset-net replication. They are retained to preserve vendor CDC timing constraints."
+}

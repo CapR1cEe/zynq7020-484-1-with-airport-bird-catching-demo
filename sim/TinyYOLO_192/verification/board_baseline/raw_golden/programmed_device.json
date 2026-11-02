@@ -1,0 +1,10 @@
+{
+  "dma_bytes": 33554432,
+  "faulted": 0,
+  "abi": 2,
+  "pl_hz": 240000000,
+  "ocm_flags": 1,
+  "build_id": 1194480898,
+  "ocm_bytes": 32768,
+  "fclk_hz": 99999999
+}

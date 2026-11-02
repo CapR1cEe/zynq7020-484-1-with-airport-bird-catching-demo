@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "existing_examples": [
+    {
+      "file": "assets/rtl/four_lane_mac_stream.sv",
+      "all_original_line_comments_retained": true,
+      "original_comment_count": 1,
+      "non_comment_logic_unchanged": true
+    },
+    {
+      "file": "assets/rtl/elastic_buffer.sv",
+      "all_original_line_comments_retained": true,
+      "original_comment_count": 2,
+      "non_comment_logic_unchanged": true
+    }
+  ],
+  "manual_review": "New comments explain numeric widths, handshake enable alignment, reset and ready-path limitations; comment retention alone is not correctness."
+}

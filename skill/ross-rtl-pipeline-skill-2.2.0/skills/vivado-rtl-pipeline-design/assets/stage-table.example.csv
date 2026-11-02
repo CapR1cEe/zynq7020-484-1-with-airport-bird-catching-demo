@@ -1,0 +1,4 @@
+stage,operation,input_width,output_width,enable,metadata,capture_stages,required_ii,capacity_tokens,evidence
+products,four signed multiplies,8,16,ready_products,tag,1,1,1,example RTL; mapping unforced
+pairs,two exact pair sums,16,17,ready_pairs,tag,1,1,1,example RTL
+sum,one exact final sum,17,18,ready_sum,tag,1,1,1,example RTL; total capture stages 3

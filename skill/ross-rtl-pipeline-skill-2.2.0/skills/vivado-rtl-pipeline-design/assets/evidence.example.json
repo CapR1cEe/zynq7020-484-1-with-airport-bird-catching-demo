@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "example_not_measured",
+  "source_revision": null,
+  "source_hashes": {},
+  "constraint_hashes": {},
+  "part_speed_grade": null,
+  "tool_version": null,
+  "flow_strategy_seed": null,
+  "requested_frequency_mhz": null,
+  "simulation": {
+    "status": "not_run",
+    "report": null,
+    "no_stall_capture_stages": null,
+    "measured_ii_cycles": null
+  },
+  "formal_or_equivalence": {
+    "status": "not_run",
+    "mode": null,
+    "configuration": null,
+    "environment_assumptions": null,
+    "properties_and_scope": null,
+    "engine_bound_and_induction": null,
+    "traffic_and_reset_covers": null,
+    "transaction_alignment": null,
+    "report": null
+  },
+  "synthesis": {
+    "status": "not_run",
+    "report": null,
+    "resources": null
+  },
+  "implementation": {
+    "status": "not_run",
+    "report": null,
+    "constrained_frequency_mhz": null,
+    "wns_ns": null,
+    "tns_ns": null,
+    "whs_ns": null,
+    "ths_ns": null,
+    "wpws_ns": null,
+    "tpws_ns": null,
+    "unconstrained_endpoints": null,
+    "clock_cdc_drc_methodology_review": null
+  },
+  "board_system": {
+    "status": "not_run",
+    "workload": null,
+    "timing_boundary": null,
+    "throughput": null
+  },
+  "iteration_history": [],
+  "limitations": [
+    "Replace with actual evidence; null means unmeasured, never a passing zero."
+  ],
+  "annotation_review": {
+    "status": "not_run",
+    "retained_annotations": null,
+    "changed_assumptions": null,
+    "rtl_diff": null
+  }
+}

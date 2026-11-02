@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Nov  1 13:53:06 2026
+# Process ID         : 6964
+# Current directory  : <project>
+# Command line       : vivado.exe -mode batch -nojournal -log <project>\runs\pantilt_20261101T0552462003\hardware.log -source <project>\test_and_restore_pan_tilt_link.tcl -tclargs <project>\runs\pantilt_20261101T0552462003
+# Log file           : <project>/runs/pantilt_20261101T0552462003/hardware.log
+# Journal file       : 
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 19479 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to '<project>\.vivado_user_data'.
+source {<project>\test_and_restore_pan_tilt_link.tcl}
+# set root [file dirname [file normalize [info script]]]
+# if {[llength $argv] != 1} {error {Expected one run directory}}
+# set runroot [file normalize [lindex $argv 0]]
+# set testbit [file join $root firmware servo_pan_tilt_link.bit]
+# set original [file normalize {<project>/firmware/final_192.bit}]
+# foreach path [list $testbit $original] {
+#     if {![file isfile $path] || [file size $path] < 1024} {error "Missing bitstream: $path"}
+# }
+# proc configured {device bitfile} {
+#     set_property PROGRAM.FILE $bitfile $device
+#     program_hw_devices $device
+#     refresh_hw_device $device
+#     set done [get_property REGISTER.CONFIG_STATUS.BIT14_DONE_PIN $device]
+#     set crc [get_property REGISTER.CONFIG_STATUS.BIT00_CRC_ERROR $device]
+#     puts "PAN_TILT_LINK_CONFIG file=$bitfile done=$done crc=$crc"
+#     if {$done ne {1} || $crc ne {0}} {error {FPGA configuration check failed}}
+# }
+# proc mark {name} {
+#     global runroot
+#     set stream [open [file join $runroot $name] w]
+#     puts $stream [clock seconds]
+#     close $stream
+# }
+# open_hw_manager
+# connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2025.2
+  **** Build date : Oct 28 2025 at 10:03:13
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.2.0
+  ****** Build date   : Nov 14 2025-07:16:52
+    **** Build number : 2025.2.1763075812
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 561.520 ; gain = 4.000
+# if {[llength [get_hw_targets]] != 1} {error {Expected one cable}}
+# current_hw_target [lindex [get_hw_targets] 0]
+# open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/25SL082A
+# set devices [get_hw_devices -filter {PART == xc7z020}]
+# if {[llength $devices] != 1} {error {Expected one xc7z020}}
+# set device [lindex $devices 0]
+# current_hw_device $device
+INFO: [Labtools 27-3164] End of startup status: HIGH
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported soft debug core(s) in it.
+PAN_TILT_LINK_CONFIG file=<project>/firmware/servo_pan_tilt_link.bit done=1 crc=0
+# set failed [catch {
+#     mark programming_started.flag
+#     configured $device $testbit
+#     mark test_programmed.flag
+#     set deadline [expr {[clock seconds] + 2100}]
+#     while {![file exists [file join $runroot restore_requested.flag]]} {
+#         if {[clock seconds] >= $deadline} {error {Serial controller timeout; restoring original}}
+#         after 50
+#     }
+# } failure]
+# configured $device $original
+INFO: [Labtools 27-3164] End of startup status: HIGH
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported soft debug core(s) in it.
+PAN_TILT_LINK_CONFIG file=<project>/firmware/final_192.bit done=1 crc=0
+# mark inference_restored.flag
+# puts {PAN_TILT_LINK_ORIGINAL_RESTORED}
+PAN_TILT_LINK_ORIGINAL_RESTORED
+# close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/25SL082A
+# disconnect_hw_server
+# close_hw_manager
+# if {$failed} {error $failure}
+# exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  1 13:53:54 2026...

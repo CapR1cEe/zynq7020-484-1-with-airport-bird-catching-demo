@@ -1,0 +1,72 @@
+{
+  "run_id": "cal2200_20261031T1339032506",
+  "width_us": 2200,
+  "axis": "tilt",
+  "ball": "H19",
+  "pulses": 150,
+  "duration_ms": 3000,
+  "H20": "constant_low",
+  "runtime": {
+    "axis": "tilt",
+    "ball": "H19",
+    "busy_observed": true,
+    "commanded_pulses": 150,
+    "completion_sample_elapsed_s": 3.002283,
+    "expected_frame_ms": 20,
+    "expected_total_ms": 3000,
+    "physical_motion_confirmed": null,
+    "physical_pin_waveform_measured": false,
+    "request_completion_observed": true,
+    "transitions": [
+      {
+        "busy": 1,
+        "completed": 0,
+        "elapsed_s": 0.001612
+      },
+      {
+        "busy": 0,
+        "completed": 1,
+        "elapsed_s": 3.002283
+      }
+    ],
+    "width_us": 2200
+  },
+  "restored_inference": {
+    "abi": 2,
+    "build_id": 1194480898,
+    "dma_bytes": 33554432,
+    "faulted": 0,
+    "fclk_hz": 99999999,
+    "ocm_bytes": 32768,
+    "ocm_flags": 1,
+    "pl_hz": 240000000
+  },
+  "physical_motion_confirmed": true,
+  "physical_observation_status": "camera_recorded_valid",
+  "angle_reference": "fixed_operator_zero",
+  "angle_sign": "forward_positive_backward_negative",
+  "physical_pin_waveform_measured": false,
+  "bitstream_sha256": "56A23AFF4390508B8E8C42F7E1083947AC2FF6F04049158C4917D9FEC9071FAB",
+  "camera_observation": {
+    "width_us": 2200,
+    "started_utc": "2026-10-31T13:38:56.816860+00:00",
+    "frame_count": 205,
+    "after_valid_count": 15,
+    "physical_angle_calibrated": false,
+    "measurement": "image_plane_bracket_orientation",
+    "video_nominal_fps": 5,
+    "actual_frame_timestamps": "frames.jsonl",
+    "failure": null,
+    "before_relative_image_deg": -4.955929970252865,
+    "before_sample_spread_deg": 0.012765642058448101,
+    "before_sample_count": 7,
+    "after_relative_image_deg": -0.3907378506251891,
+    "after_sample_spread_deg": 0.042785801357748454,
+    "after_sample_count": 15,
+    "vision_valid": true,
+    "board_run_id": "cal2200_20261031T1339032506",
+    "original_inference_restored": true,
+    "observed_change_image_deg": 4.5651921196276755,
+    "output_directory": "<workspace>/seriesA_04_2200"
+  }
+}

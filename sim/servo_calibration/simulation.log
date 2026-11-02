@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Oct 31 20:02:37 2026
+# Process ID         : 26076
+# Current directory  : <project>/sim
+# Command line       : xsim.exe -log simulation.log -mode tcl -source {xsim.dir/cal2250/xsim_script.tcl}
+# Log file           : <project>/sim/simulation.log
+# Journal file       : <project>/sim\xsim.jou
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 20756 MB
+#-----------------------------------------------------------
+source xsim.dir/cal2250/xsim_script.tcl
+# xsim {cal2250} -autoloadwcfg -tclbatch {run.tcl}
+Time resolution is 1 ps
+source run.tcl
+## run -all
+CALIBRATION_SEQUENCE_PASS width_us=2250 pulses=150 frame_us=20000 latched_width held_no_retrigger
+CALIBRATION_SEQUENCE_PASS width_us=2000 pulses=150 frame_us=20000 latched_width held_no_retrigger
+CALIBRATION_SEQUENCE_PASS width_us=2500 pulses=150 frame_us=20000 latched_width held_no_retrigger
+CALIBRATION_GUARDS_PASS stale pan conflict width_range tristate abort reset
+CALIBRATION_PRODUCTION_PASS clk_mhz=50 width_us=2250 pulse_clocks=112500 pulses=150 frame_us=20000 total_ms=3000
+CALIBRATION_RTL_PASS
+$finish called at time : 3024000241 ns : File "<project>/tb_servo_microtest.sv" Line 87
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:36 . Memory (MB): peak = 228.945 ; gain = 0.000
+## exit
+INFO: xsimkernel Simulation Memory Usage: 11776 KB (Peak: 11776 KB), Simulation CPU Usage: 35593 ms
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 20:03:14 2026...

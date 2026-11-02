@@ -1,0 +1,5 @@
+["<VIVADO_INSTALL>\\bin\\xvlog.bat", "--sv", "<VALIDATION_DIR>/mutation_sources/overflow_not_carried/assets/rtl/round_sat_stream.sv", "<VALIDATION_DIR>/mutation_sources/overflow_not_carried/assets/tb/tb_round_sat_stream.sv"]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<VALIDATION_DIR>/mutation_sources/overflow_not_carried/assets/rtl/round_sat_stream.sv" into library work
+INFO: [VRFC 10-311] analyzing module round_sat_stream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<VALIDATION_DIR>/mutation_sources/overflow_not_carried/assets/tb/tb_round_sat_stream.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_round_sat_stream

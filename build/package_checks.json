@@ -1,0 +1,99 @@
+{
+  "checked_at_utc": "2026-11-01T14:26:53+00:00",
+  "scope": "offline_distribution_validation",
+  "on_board_retest": false,
+  "full_synthesis_and_route_rerun": false,
+  "checks": [
+    {
+      "name": "project_open",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 39.16,
+      "required_marker": "FINAL_PROJECT_OPEN_PASS"
+    },
+    {
+      "name": "pan_tilt_simulation",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 19.45,
+      "required_marker": "PAN_TILT_LINK_RTL_PASS"
+    },
+    {
+      "name": "board_update_selftest",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.33,
+      "required_marker": "target_center=1"
+    },
+    {
+      "name": "offline_tracking",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 4.06,
+      "required_marker": "PASS_OFFLINE_TRACKING_CAMERA_PIPELINE"
+    },
+    {
+      "name": "skill_unit_tests",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 1.09,
+      "required_marker": "OK"
+    },
+    {
+      "name": "skill_distribution",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.27,
+      "required_marker": "\"status\": \"passed\""
+    }
+  ],
+  "project": {
+    "status": "PASS_PROJECT_OPEN",
+    "source_count": 74,
+    "part": "xc7z020clg484-1",
+    "top": "Tiny_Yolo_wrapper",
+    "all_active_sources_local": true,
+    "pre_opt_hook_in_utils": true,
+    "post_place_hook_in_utils": true,
+    "cleanup_dependency_local": true,
+    "clock_topology_checked": true,
+    "cascaded_bufg": false,
+    "synthesis": "synth_design Complete!",
+    "implementation": "write_bitstream Complete!"
+  },
+  "skill_unit_tests": 12,
+  "powershell_files_parsed": 14,
+  "python_and_json_syntax": "PASS",
+  "submission_content_review": "PASS",
+  "report": {
+    "pages": 20,
+    "embedded_images": 13,
+    "source_fragments_preserved": true,
+    "base_box_photo_page": 9,
+    "internal_battery_photo_page": 10,
+    "selected_pages_visually_checked": [
+      9,
+      10,
+      14,
+      18,
+      19,
+      20
+    ]
+  },
+  "model_input": "192x192",
+  "preserved_history": {
+    "source_hashes": true,
+    "numerical_results": true,
+    "failed_measurements": true,
+    "frozen_firmware_and_parameters": true
+  },
+  "reproduce": {
+    "distribution": "python build/verify_submission.py",
+    "assemble": "python build/prepare_project.py",
+    "project": "vivado -mode batch -source scripts/verify_project.tcl",
+    "pan_tilt_simulation": "vivado -mode batch -source sim_pan_tilt_link.tcl",
+    "board_update_selftest": "python camera_infer.py --selftest",
+    "offline_tracking": "python scripts/check_tracking_pipeline.py --output tracking_check",
+    "skill_package": "python skill/ross-rtl-pipeline-skill-2.2.0/validation/verify_package.py"
+  }
+}

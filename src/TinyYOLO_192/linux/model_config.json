@@ -1,0 +1,11 @@
+{
+  "input_size": 192,
+  "mac_lanes": 24,
+  "positions": 180,
+  "final_values": 900,
+  "parameters_sha256": "dc66425157588a3de922edcd26454e72f80da2047edf0c5dcbeb0c552a04d4d0",
+  "onnx_sha256": "ab300d0a2e2fc3be714410c06a2751f4b68b9c66a49f8f39a11b47fc0c57d9a6",
+  "baseline_sha256": "73443b92ccf27ae120d10d3060a3367fc4bc74a776dfb9e90b2d022a13b5d9af",
+  "source_release_build_id": "0x47325502",
+  "accuracy_measured": false
+}

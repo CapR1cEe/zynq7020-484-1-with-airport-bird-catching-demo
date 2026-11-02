@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "extracted_package": "ZIP extracted into a separate directory",
+  "reproduction": "validation/reproduce.py ran 12 unit tests and all four default XSim benches",
+  "simulation": {
+    "mode": "simulate",
+    "backend": "xsim",
+    "results": [
+      {
+        "example": "mac",
+        "status": "passed",
+        "parameters": {
+          "DATA_WIDTH": 8
+        },
+        "mac_width": 8
+      },
+      {
+        "example": "elastic",
+        "status": "passed",
+        "parameters": {},
+        "mac_width": null
+      },
+      {
+        "example": "tree",
+        "status": "passed",
+        "parameters": {
+          "INPUTS": 5,
+          "DATA_WIDTH": 8
+        },
+        "mac_width": null
+      },
+      {
+        "example": "fork",
+        "status": "passed",
+        "parameters": {},
+        "mac_width": null
+      }
+    ],
+    "implementation_frequency": "not_measured_by_this_runner",
+    "tool_version": "Vivado Simulator v2025.2",
+    "status": "passed"
+  },
+  "integrity_before_and_after_reproduction": "passed",
+  "metadata": "YAML/frontmatter/manifest/path portability checks passed",
+  "artifact_only_update": "This receipt was added after reproduction; RTL and scripts are unchanged."
+}

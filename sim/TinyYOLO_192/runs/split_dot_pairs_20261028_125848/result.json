@@ -1,0 +1,25 @@
+{
+  "status": "PASS_SPLIT_DOT_PAIRS",
+  "backend": "AMD_UNISIM",
+  "clock_mhz": 240,
+  "source_sha256": {
+    "hardware\\g227\\rtl\\tinyyolo_pipe_add.v": "0d67d87fb5efd24e020ed29fd1f380a6750883891a67397ebf539141151529a0",
+    "hardware\\g227\\rtl\\tinyyolo_dsp_mul.v": "f480cfd06266e22d4c589b7f38d6117a41db6576b0ed8dfda3ff448d9ce7a9a4",
+    "hardware\\g227\\rtl\\tinyyolo_dot16_pair.v": "cbe78ed37b21a778006278d2e84aaf69d2f0bf0511b841b5f42931b6d2725ad1",
+    "hardware\\g227\\rtl\\tinyyolo_dot24_pair.v": "16007ea9e13df81414a67bf478042435a5d5810be1c8b980a5b5cb728b627cab",
+    "tests\\tb_dot_pair.sv": "e6179bc083251a999e2bd9f2a62844c0773efea5d42fded81bd12272abff7137",
+    "tests\\tb_dot24_pair.sv": "2ad01611e02823e6ad0617302b3403c10475af369a26b9a82999b82ea1f5f27f"
+  },
+  "suites": [
+    {
+      "bench": "tb_dot_pair",
+      "marker": "PACKED_DOT_PAIR_PASS vectors=31474 signed_products=1007168 reset_bubbles_last=PASS",
+      "latency_clocks": 13
+    },
+    {
+      "bench": "tb_dot24_pair",
+      "marker": "DOT24_PAIR_PASS vectors=3926 reset_bubbles=PASS clock_MHz=240",
+      "latency_clocks": 15
+    }
+  ]
+}

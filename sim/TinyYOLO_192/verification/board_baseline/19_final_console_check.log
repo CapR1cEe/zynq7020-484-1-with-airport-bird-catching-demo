@@ -1,0 +1,22 @@
+printf '\nTY_6a88e95c9128476d8bcb1c8a16939df5_BEGIN\n'; bash - c "$(printf '%s' 'c2V0IC1ldQpwcmludGYgJ2IwMjZjYjA5OTFhNzE5Yjc4NGVhNmFlNTYzMGI1Y2 NmMmI5N2E0NWM0MTVmMjI4MDM4YTg4NTQ1OTBlZjNjODEgIC9vcHQvdGlueXlvbG8vcGFyYW1ldGVycy 5iaW5cbjYwMGExNDVjMzU2YTlkMDgyZGY1ZjJiMDhlYWNkZTI4ZjUzMDNkNWQ1ZDBjNGYxNTg0NTdhMD E4YTA4ODllZDMgIC9vcHQvdGlueXlvbG8vdGlueXlvbG9fbGludXhcbjEwNzFhNzQ0ZGI2ZjJjNDBiYj BkMjAxZGM4NzZmYWI3YzA0YzhjYmVkN2YwYzFiNWVkOGI5YjJlZGY2NGE4MmQgIC9vcHQvdGlueXlvbG 8vdGlueXlvbG9fZG1hLmtvXG4nIHwgc2hhMjU2c3VtIC1jIC0Kc3R0eSAtRiAvZGV2L3R0eVBTMCBzcG VlZApjYXQgL2Rldi9zaG0vdHkxOTJfdmFsaWRhdGlvbl8yMDI2MTAyNV9ydW4wMS9wb3N0X2RldmljZS 5qc29uCmNhdCAvZGV2L3NobS90eTE5Ml92YWxpZGF0aW9uXzIwMjYxMDI1X3J1bjAxL3Bvc3RfcHJvY2 Vzc2VzLmpzb24KcHJpbnRmICdcblRZX0ZJTkFMX0NPTlNPTEVfUEFTU1xuJwo=' | base64 -d)"; t y_console_rc=$?; printf '\nTY_6a88e95c9128476d8bcb1c8a16939df5_END:%s\n' "$ty_co nsole_rc"
+
+TY_6a88e95c9128476d8bcb1c8a16939df5_BEGIN
+/opt/tinyyolo/parameters.bin: OK
+/opt/tinyyolo/tinyyolo_linux: OK
+/opt/tinyyolo/tinyyolo_dma.ko: OK
+115200
+{
+  "fclk_hz": 99999999,
+  "dma_bytes": 33554432,
+  "abi": 2,
+  "ocm_flags": 1,
+  "faulted": 0,
+  "build_id": 1194480898,
+  "pl_hz": 240000000,
+  "ocm_bytes": 32768
+}{
+  "active_inference_processes": []
+}
+TY_FINAL_CONSOLE_PASS
+
+TY_6a88e95c9128476d8bcb1c8a16939df5_END:0

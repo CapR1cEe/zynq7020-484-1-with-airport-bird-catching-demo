@@ -1,0 +1,1468 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Oct 28 13:57:56 2026
+# Process ID         : 9180
+# Current directory  : __PROJECT_ROOT__/vivado/TinyYOLO_192.runs/synth_1
+# Command line       : vivado.exe -log Tiny_Yolo_wrapper.vds -product Vivado -messageDb vivado.pb -mode batch -source Tiny_Yolo_wrapper.tcl -notrace
+# Log file           : __PROJECT_ROOT__/vivado/TinyYOLO_192.runs/synth_1/Tiny_Yolo_wrapper.vds
+# Journal file       : __PROJECT_ROOT__/vivado/TinyYOLO_192.runs/synth_1\vivado.jou
+# Running On         : CaPr1cEe
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 33485 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35633 MB
+# Available Virtual  : 21738 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'no'.
+source Tiny_Yolo_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 579.930 ; gain = 240.285
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesigntools/2025.2/Vivado/data/ip'.
+Command: synth_design -top Tiny_Yolo_wrapper -part xc7z020clg484-1 -resource_sharing off -control_set_opt_threshold 10
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29032
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1379.023 ; gain = 539.941
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Tiny_Yolo_wrapper' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/hdl/Tiny_Yolo_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Tiny_Yolo' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Tiny_Yolo_pl_clk_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0.v:65]
+INFO: [Synth 8-6157] synthesizing module 'Tiny_Yolo_pl_clk_0_clk_wiz' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_clk_wiz.v:65]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95844]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 4.950000e+01 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000e+00 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 1.000000e+01 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 4.125000e+00 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 5.000000e-01 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000e+00 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 5 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95844]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'Tiny_Yolo_pl_clk_0_clk_wiz' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_clk_wiz.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'Tiny_Yolo_pl_clk_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0.v:65]
+INFO: [Synth 8-638] synthesizing module 'Tiny_Yolo_proc_sys_reset_0_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_proc_sys_reset_0_0/synth/Tiny_Yolo_proc_sys_reset_0_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b1 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_proc_sys_reset_0_0/synth/Tiny_Yolo_proc_sys_reset_0_0.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1371]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1387]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1413]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1436]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1460]
+INFO: [Synth 8-638] synthesizing module 'lpf' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318' bound to instance 'POR_SRL_I' of component 'SRL16' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_EXT' of component 'xpm_cdc_single' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:968]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (0#1) [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_HI_AUX' of component 'xpm_cdc_single' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:992]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+INFO: [Synth 8-256] done synthesizing module 'Tiny_Yolo_proc_sys_reset_0_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_proc_sys_reset_0_0/synth/Tiny_Yolo_proc_sys_reset_0_0.vhd:74]
+INFO: [Synth 8-7071] port 'mb_reset' of module 'Tiny_Yolo_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:191]
+INFO: [Synth 8-7071] port 'bus_struct_reset' of module 'Tiny_Yolo_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:191]
+INFO: [Synth 8-7071] port 'peripheral_reset' of module 'Tiny_Yolo_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:191]
+INFO: [Synth 8-7071] port 'interconnect_aresetn' of module 'Tiny_Yolo_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:191]
+INFO: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'Tiny_Yolo_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:191]
+INFO: [Synth 8-6157] synthesizing module 'Tiny_Yolo_processing_system7_0_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+INFO: [Synth 8-6157] synthesizing module 'BIBUF' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2325]
+INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2325]
+INFO: [Synth 8-6157] synthesizing module 'PS7' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:140294]
+INFO: [Synth 8-6155] done synthesizing module 'PS7' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:140294]
+INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+INFO: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:478]
+INFO: [Synth 8-6155] done synthesizing module 'Tiny_Yolo_processing_system7_0_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/synth/Tiny_Yolo_processing_system7_0_0.v:53]
+INFO: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'Tiny_Yolo_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:198]
+INFO: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'Tiny_Yolo_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:198]
+INFO: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'Tiny_Yolo_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:198]
+INFO: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'Tiny_Yolo_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:198]
+INFO: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'Tiny_Yolo_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:198]
+INFO: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'Tiny_Yolo_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:198]
+INFO: [Synth 8-7023] instance 'processing_system7_0' of module 'Tiny_Yolo_processing_system7_0_0' has 112 connections declared, but only 106 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:198]
+INFO: [Synth 8-638] synthesizing module 'Tiny_Yolo_ps_ctrl_reset_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_ps_ctrl_reset_0/synth/Tiny_Yolo_ps_ctrl_reset_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b1 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_ps_ctrl_reset_0/synth/Tiny_Yolo_ps_ctrl_reset_0.vhd:139]
+INFO: [Synth 8-256] done synthesizing module 'Tiny_Yolo_ps_ctrl_reset_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_ps_ctrl_reset_0/synth/Tiny_Yolo_ps_ctrl_reset_0.vhd:74]
+INFO: [Synth 8-7071] port 'mb_reset' of module 'Tiny_Yolo_ps_ctrl_reset_0' is unconnected for instance 'ps_ctrl_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:305]
+INFO: [Synth 8-7071] port 'bus_struct_reset' of module 'Tiny_Yolo_ps_ctrl_reset_0' is unconnected for instance 'ps_ctrl_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:305]
+INFO: [Synth 8-7071] port 'peripheral_reset' of module 'Tiny_Yolo_ps_ctrl_reset_0' is unconnected for instance 'ps_ctrl_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:305]
+INFO: [Synth 8-7071] port 'peripheral_aresetn' of module 'Tiny_Yolo_ps_ctrl_reset_0' is unconnected for instance 'ps_ctrl_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:305]
+INFO: [Synth 8-7023] instance 'ps_ctrl_reset' of module 'Tiny_Yolo_ps_ctrl_reset_0' has 10 connections declared, but only 6 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:305]
+INFO: [Synth 8-6157] synthesizing module 'Tiny_Yolo_smartconnect_0_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/synth/Tiny_Yolo_smartconnect_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_1VTE75B' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:664]
+INFO: [Synth 8-638] synthesizing module 'bd_6194_psr0_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_6194_psr0_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_6194_psr0_0.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset__parameterized2' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1371]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1387]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1413]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1436]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1460]
+INFO: [Synth 8-638] synthesizing module 'lpf__parameterized0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318' bound to instance 'POR_SRL_I' of component 'SRL16' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_EXT' of component 'xpm_cdc_single' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:968]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_AUX' of component 'xpm_cdc_single' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1015]
+INFO: [Synth 8-256] done synthesizing module 'lpf__parameterized0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset__parameterized2' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+INFO: [Synth 8-256] done synthesizing module 'bd_6194_psr0_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_6194_psr0_0.vhd:74]
+INFO: [Synth 8-7071] port 'mb_reset' of module 'bd_6194_psr0_0' is unconnected for instance 'psr0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:699]
+INFO: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_6194_psr0_0' is unconnected for instance 'psr0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:699]
+INFO: [Synth 8-7071] port 'peripheral_reset' of module 'bd_6194_psr0_0' is unconnected for instance 'psr0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:699]
+INFO: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_6194_psr0_0' is unconnected for instance 'psr0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:699]
+INFO: [Synth 8-7023] instance 'psr0' of module 'bd_6194_psr0_0' has 10 connections declared, but only 6 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:699]
+INFO: [Synth 8-638] synthesizing module 'bd_6194_psr_aclk_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_6194_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_6194_psr_aclk_0.vhd:139]
+INFO: [Synth 8-256] done synthesizing module 'bd_6194_psr_aclk_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_6194_psr_aclk_0.vhd:74]
+INFO: [Synth 8-7071] port 'mb_reset' of module 'bd_6194_psr_aclk_0' is unconnected for instance 'psr_aclk' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:706]
+INFO: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_6194_psr_aclk_0' is unconnected for instance 'psr_aclk' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:706]
+INFO: [Synth 8-7071] port 'peripheral_reset' of module 'bd_6194_psr_aclk_0' is unconnected for instance 'psr_aclk' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:706]
+INFO: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_6194_psr_aclk_0' is unconnected for instance 'psr_aclk' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:706]
+INFO: [Synth 8-7023] instance 'psr_aclk' of module 'bd_6194_psr_aclk_0' has 10 connections declared, but only 6 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:706]
+INFO: [Synth 8-638] synthesizing module 'bd_6194_psr_aclk1_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_6194_psr_aclk1_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_6194_psr_aclk1_0.vhd:139]
+INFO: [Synth 8-256] done synthesizing module 'bd_6194_psr_aclk1_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_6194_psr_aclk1_0.vhd:74]
+INFO: [Synth 8-7071] port 'mb_reset' of module 'bd_6194_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:713]
+INFO: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_6194_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:713]
+INFO: [Synth 8-7071] port 'peripheral_reset' of module 'bd_6194_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:713]
+INFO: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_6194_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:713]
+INFO: [Synth 8-7023] instance 'psr_aclk1' of module 'bd_6194_psr_aclk1_0' has 10 connections declared, but only 6 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:713]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_1VTE75B' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:664]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_3JKGHG' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:722]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_m00e_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_14/synth/bd_6194_m00e_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (0#1) [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_m00e_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_14/synth/bd_6194_m00e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_3JKGHG' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:722]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_m00s2a_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_13/synth/bd_6194_m00s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_m00s2a_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_13/synth/bd_6194_m00s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_s00a2s_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_6194_s00a2s_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_s00a2s_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_6194_s00a2s_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_13XM83B' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:964]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_s00mmu_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_6194_s00mmu_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_s00mmu_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_6194_s00mmu_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_s00sic_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_6194_s00sic_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_s00sic_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_6194_s00sic_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_s00tr_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_6194_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_s00tr_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_6194_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_13XM83B' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:964]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_16TLXM5' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:1540]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_sarn_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_6194_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake' [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single__parameterized1' [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single__parameterized1' (0#1) [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake' (0#1) [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_sarn_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_6194_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_sawn_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_6194_sawn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_sawn_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_6194_sawn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_sbn_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_6194_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized0' [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized0' (0#1) [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_sbn_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_6194_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_srn_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_6194_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized1' [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized1' (0#1) [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_srn_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_6194_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6194_swn_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_6194_swn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized2' [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized2' (0#1) [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194_swn_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_6194_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_16TLXM5' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:1540]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6194' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Tiny_Yolo_smartconnect_0_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/synth/Tiny_Yolo_smartconnect_0_0.v:53]
+INFO: [Synth 8-7071] port 'M00_AXI_awprot' of module 'Tiny_Yolo_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:313]
+INFO: [Synth 8-7071] port 'M00_AXI_arprot' of module 'Tiny_Yolo_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:313]
+INFO: [Synth 8-7023] instance 'smartconnect_0' of module 'Tiny_Yolo_smartconnect_0_0' has 60 connections declared, but only 58 given [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:313]
+INFO: [Synth 8-6157] synthesizing module 'Tiny_Yolo_tinyyolo_accel_0_0' [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_tinyyolo_accel_0_0/synth/Tiny_Yolo_tinyyolo_accel_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_allconv_closed_loop' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_closed_loop.v:6]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_allconv_control' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_control.v:7]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_dot24_pair' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_dot24_pair.v:6]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_dsp_mul' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_dsp_mul.v:4]
+	Parameter INPUT_REG bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DSP48E1' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:48135]
+	Parameter ACASCREG bound to: 1 - type: integer 
+	Parameter ADREG bound to: 0 - type: integer 
+	Parameter ALUMODEREG bound to: 0 - type: integer 
+	Parameter AREG bound to: 1 - type: integer 
+	Parameter A_INPUT bound to: DIRECT - type: string 
+	Parameter BCASCREG bound to: 1 - type: integer 
+	Parameter BREG bound to: 1 - type: integer 
+	Parameter B_INPUT bound to: DIRECT - type: string 
+	Parameter CARRYINREG bound to: 0 - type: integer 
+	Parameter CARRYINSELREG bound to: 0 - type: integer 
+	Parameter CREG bound to: 0 - type: integer 
+	Parameter DREG bound to: 0 - type: integer 
+	Parameter INMODEREG bound to: 0 - type: integer 
+	Parameter MREG bound to: 1 - type: integer 
+	Parameter OPMODEREG bound to: 0 - type: integer 
+	Parameter PREG bound to: 1 - type: integer 
+	Parameter USE_DPORT bound to: FALSE - type: string 
+	Parameter USE_MULT bound to: MULTIPLY - type: string 
+	Parameter USE_SIMD bound to: ONE48 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'DSP48E1' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:48135]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_dsp_mul' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_dsp_mul.v:4]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_pipe_add' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+	Parameter WIDTH bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_pipe_add' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_pipe_add__parameterized0' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+	Parameter WIDTH bound to: 17 - type: integer 
+	Parameter LOW_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_pipe_add__parameterized0' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_pipe_add__parameterized1' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+	Parameter WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_pipe_add__parameterized1' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_pipe_add__parameterized2' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+	Parameter WIDTH bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_pipe_add__parameterized2' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_pipe_add__parameterized3' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+	Parameter WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_pipe_add__parameterized3' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_pipe_add__parameterized4' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+	Parameter WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_pipe_add__parameterized4' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_pipe_add.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_dot24_pair' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_dot24_pair.v:6]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_dsp_accum32' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_dsp_accum32.v:5]
+	Parameter TERM_WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DSP48E1__parameterized0' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:48135]
+	Parameter ACASCREG bound to: 0 - type: integer 
+	Parameter ADREG bound to: 0 - type: integer 
+	Parameter ALUMODEREG bound to: 0 - type: integer 
+	Parameter AREG bound to: 0 - type: integer 
+	Parameter A_INPUT bound to: DIRECT - type: string 
+	Parameter BCASCREG bound to: 0 - type: integer 
+	Parameter BREG bound to: 0 - type: integer 
+	Parameter B_INPUT bound to: DIRECT - type: string 
+	Parameter CARRYINREG bound to: 0 - type: integer 
+	Parameter CARRYINSELREG bound to: 0 - type: integer 
+	Parameter CREG bound to: 1 - type: integer 
+	Parameter DREG bound to: 0 - type: integer 
+	Parameter INMODEREG bound to: 0 - type: integer 
+	Parameter MREG bound to: 0 - type: integer 
+	Parameter OPMODEREG bound to: 1 - type: integer 
+	Parameter PREG bound to: 1 - type: integer 
+	Parameter USE_DPORT bound to: FALSE - type: string 
+	Parameter USE_MULT bound to: NONE - type: string 
+	Parameter USE_SIMD bound to: ONE48 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'DSP48E1__parameterized0' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:48135]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_dsp_accum32' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_dsp_accum32.v:5]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_requant36_stream' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_requant36_stream.v:7]
+	Parameter TAG_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_requant36_stream' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_requant36_stream.v:7]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_control.v:1015]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_control.v:1015]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_control.v:1015]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_control.v:1015]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_control.v:1015]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_head_exact' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_head_exact.v:6]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_le33' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_le33.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_le33' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_le33.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_fp64_add' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_fp64_add.v:5]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_shift56_jam' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_shift56_jam.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_shift56_jam' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_shift56_jam.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_fp64_add' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_fp64_add.v:5]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_fp64_to_fp32' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_fp64_to_fp32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_shift56_jam__parameterized0' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_shift56_jam.v:5]
+	Parameter RESULT_WIDTH bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_shift56_jam__parameterized0' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_shift56_jam.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_fp64_to_fp32' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_fp64_to_fp32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_counter32' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_counter32.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_counter32' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_counter32.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_head_exact' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_head_exact.v:6]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_counter64' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:147]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_counter64' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:147]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_lut_mul' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+	Parameter AW bound to: 9 - type: integer 
+	Parameter BW bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_lut_mul' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_lut_mul__parameterized0' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+	Parameter AW bound to: 18 - type: integer 
+	Parameter BW bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_lut_mul__parameterized0' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_lut_mul__parameterized1' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+	Parameter AW bound to: 11 - type: integer 
+	Parameter BW bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_lut_mul__parameterized1' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_lut_mul__parameterized2' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+	Parameter AW bound to: 6 - type: integer 
+	Parameter BW bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_lut_mul__parameterized2' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:5]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_counter32_load' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_counter32.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_counter32_load' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_counter32.v:38]
+INFO: [Synth 8-6157] synthesizing module 'LUT6' [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95553]
+	Parameter INIT bound to: 64'b0101010101010101010101010101010101010101010101010100010001000101 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6' (0#1) [C:/AMDDesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95553]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_allconv_control' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_control.v:7]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_cycle_profile' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:8]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:113]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:113]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:113]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:113]
+INFO: [Synth 8-226] default block is never used [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_cycle_profile' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_cycle_profile.v:8]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_ctrl_hp0_pipe2' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:4]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_rv_slice' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+	Parameter WIDTH bound to: 171 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_rv_slice' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_rv_slice__parameterized0' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+	Parameter WIDTH bound to: 65 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_rv_slice__parameterized0' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_ctrl_hp0_pipe2' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:4]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_hp0_burst_cache' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_hp0_burst_cache.v:8]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_rv_slice__parameterized1' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+	Parameter WIDTH bound to: 73 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_rv_slice__parameterized1' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+INFO: [Synth 8-6157] synthesizing module 'tinyyolo_rv_slice__parameterized2' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_rv_slice__parameterized2' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_ctrl_hp0_pipe2.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_hp0_burst_cache' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_hp0_burst_cache.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'tinyyolo_allconv_closed_loop' (0#1) [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_allconv_closed_loop.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Tiny_Yolo_tinyyolo_accel_0_0' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_tinyyolo_accel_0_0/synth/Tiny_Yolo_tinyyolo_accel_0_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'Tiny_Yolo' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/synth/Tiny_Yolo.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Tiny_Yolo_wrapper' (0#1) [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/hdl/Tiny_Yolo_wrapper.v:13]
+INFO: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_1VTE75B does not have driver. [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/synth/bd_6194.v:682]
+INFO: [Synth 8-6014] Unused sequential element dest_req_ext_ff_reg was removed.  [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:623]
+INFO: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1814.125 ; gain = 975.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1814.125 ; gain = 975.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1814.125 ; gain = 975.043
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1816.031 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 222 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/Tiny_Yolo_processing_system7_0_0.xdc] for cell 'Tiny_Yolo_i/processing_system7_0/inst'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/Tiny_Yolo_processing_system7_0_0.xdc] for cell 'Tiny_Yolo_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_processing_system7_0_0/Tiny_Yolo_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Tiny_Yolo_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Tiny_Yolo_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_1/bd_6194_psr0_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_1/bd_6194_psr0_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr0/U0'
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_2/bd_6194_psr_aclk_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_2/bd_6194_psr_aclk_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_3/bd_6194_psr_aclk1_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/bd_0/ip/ip_3/bd_6194_psr_aclk1_0_board.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/smartconnect.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/smartconnect.xdc] for cell 'Tiny_Yolo_i/smartconnect_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_smartconnect_0_0/smartconnect.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Tiny_Yolo_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Tiny_Yolo_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_proc_sys_reset_0_0/Tiny_Yolo_proc_sys_reset_0_0_board.xdc] for cell 'Tiny_Yolo_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_proc_sys_reset_0_0/Tiny_Yolo_proc_sys_reset_0_0_board.xdc] for cell 'Tiny_Yolo_i/proc_sys_reset_0/U0'
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_board.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_board.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_ps_ctrl_reset_0/Tiny_Yolo_ps_ctrl_reset_0_board.xdc] for cell 'Tiny_Yolo_i/ps_ctrl_reset/U0'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_ps_ctrl_reset_0/Tiny_Yolo_ps_ctrl_reset_0_board.xdc] for cell 'Tiny_Yolo_i/ps_ctrl_reset/U0'
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [__PROJECT_ROOT__/hardware/g227/board_uart.xdc]
+Finished Parsing XDC File [__PROJECT_ROOT__/hardware/g227/board_uart.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [__PROJECT_ROOT__/hardware/g227/board_uart.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Tiny_Yolo_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Tiny_Yolo_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [__PROJECT_ROOT__/vivado/TinyYOLO_192.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Tiny_Yolo_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Tiny_Yolo_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_late.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+Finished Parsing XDC File [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ip/Tiny_Yolo_pl_clk_0/Tiny_Yolo_pl_clk_0_late.xdc] for cell 'Tiny_Yolo_i/pl_clk/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Tiny_Yolo_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Tiny_Yolo_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/AMDDesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Tiny_Yolo_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Tiny_Yolo_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 39 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 2166.562 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  SRL16 => SRL16E: 5 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2166.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:32 ; elapsed = 00:01:32 . Memory (MB): peak = 2166.562 ; gain = 1327.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:32 ; elapsed = 00:01:32 . Memory (MB): peak = 2166.562 ; gain = 1327.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:33 ; elapsed = 00:01:33 . Memory (MB): peak = 2166.562 ; gain = 1327.480
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.gen_write.write_cs_reg' in module 'sc_mmu_v1_0_16_decerr_slave'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.w_state_reg' in module 'sc_mmu_v1_0_16_top'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.r_state_reg' in module 'sc_mmu_v1_0_16_top'
+INFO: [Synth 8-802] inferred FSM for state register 'w_state_reg' in module 'sc_si_converter_v1_0_16_axilite_conv'
+INFO: [Synth 8-802] inferred FSM for state register 'r_state_reg' in module 'sc_si_converter_v1_0_16_axilite_conv'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.gen_write.write_cs_reg' using encoding 'one-hot' in module 'sc_mmu_v1_0_16_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+*
+                 W_STALL |                               01 | 00000000000000000000000000000001
+               W_PENDING |                               10 | 00000000000000000000000000000010
+                W_DECERR |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.w_state_reg' using encoding 'sequential' in module 'sc_mmu_v1_0_16_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+*
+                 R_STALL |                               01 | 00000000000000000000000000000001
+               R_PENDING |                               10 | 00000000000000000000000000000010
+                R_DECERR |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.r_state_reg' using encoding 'sequential' in module 'sc_mmu_v1_0_16_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  W_IDLE |                              000 | 00000000000000000000000000000000
+                    W_RX |                              001 | 00000000000000000000000000000001
+                    W_TX |                              010 | 00000000000000000000000000000010
+              W_COMPLETE |                              011 | 00000000000000000000000000000100
+               W_RECOVER |                              100 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'w_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_16_axilite_conv'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  R_IDLE |                             0001 | 00000000000000000000000000000000
+               R_PENDING |                             0010 | 00000000000000000000000000000001
+                    R_RX |                             0100 | 00000000000000000000000000000010
+                    R_TX |                             1000 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_state_reg' using encoding 'one-hot' in module 'sc_si_converter_v1_0_16_axilite_conv'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              110
+*
+              SM_WR_IDLE |                             0010 |                              000
+              SM_WR_FULL |                             0100 |                              011
+              SM_WR_WAIT |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              SM_RD_IDLE |                              001 |                               10
+             SM_RD_VALID |                              010 |                               00
+              SM_RD_WAIT |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              110
+*
+              SM_WR_IDLE |                             0010 |                              000
+              SM_WR_FULL |                             0100 |                              011
+              SM_WR_WAIT |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              SM_RD_IDLE |                              001 |                               10
+             SM_RD_VALID |                              010 |                               00
+              SM_RD_WAIT |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              110
+*
+              SM_WR_IDLE |                             0010 |                              000
+              SM_WR_FULL |                             0100 |                              011
+              SM_WR_WAIT |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              SM_RD_IDLE |                              001 |                               10
+             SM_RD_VALID |                              010 |                               00
+              SM_RD_WAIT |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              110
+*
+              SM_WR_IDLE |                             0010 |                              000
+              SM_WR_FULL |                             0100 |                              011
+              SM_WR_WAIT |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              SM_RD_IDLE |                              001 |                               10
+             SM_RD_VALID |                              010 |                               00
+              SM_RD_WAIT |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'one-hot' in module 'sc_node_v1_0_19_reg_fifo_async__parameterized2'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:48 ; elapsed = 00:01:49 . Memory (MB): peak = 2166.562 ; gain = 1327.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4652] Swapped enable and write-enable on 16 RAM instances of RAM local_data_reg to conserve power
+INFO: [Synth 8-3886] merging instance 'local_oc_reg_rep[0]' (FDRE) to 'local_oc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'local_oc_reg_rep[1]' (FDRE) to 'local_oc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'local_oc_reg_rep[2]' (FDRE) to 'local_oc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'local_oc_reg_rep[3]' (FDRE) to 'local_oc_reg[3]'
+INFO: [Synth 8-3886] merging instance 'local_oc_reg_rep[4]' (FDRE) to 'local_oc_reg[4]'
+INFO: [Synth 8-3886] merging instance 'parameter_store_shift_reg[4]' (FD) to 'parameter_store_bias_reg[4]'
+INFO: [Synth 8-3886] merging instance 'parameter_store_shift_reg[5]' (FD) to 'parameter_store_bias_reg[5]'
+INFO: [Synth 8-3886] merging instance 'parameter_store_shift_reg[2]' (FD) to 'parameter_store_bias_reg[2]'
+INFO: [Synth 8-3886] merging instance 'parameter_store_shift_reg[3]' (FD) to 'parameter_store_bias_reg[3]'
+INFO: [Synth 8-3886] merging instance 'parameter_store_shift_reg[0]' (FD) to 'parameter_store_bias_reg[0]'
+INFO: [Synth 8-3886] merging instance 'parameter_store_shift_reg[1]' (FD) to 'parameter_store_bias_reg[1]'
+INFO: [Synth 8-4471] merging register 'row_reg[30][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[29][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[28][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[27][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[26][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[25][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[24][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[23][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[22][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[21][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[20][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[19][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[18][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[17][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[16][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[15][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[14][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[13][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[12][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[11][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[14][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[13][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[12][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[11][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[10][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[9][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[8][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[7][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[6][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[6][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[5][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[4][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[3][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'oct_sum_reg[2][16:0]' into 'oct_sum_reg[3][16:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:26]
+INFO: [Synth 8-3886] merging instance 'head/adder/mantissa_source_reg[0]' (FDRE) to 'head/adder/mantissa_source_reg[1]'
+INFO: [Synth 8-3886] merging instance 'head/adder/mantissa_source_reg[1]' (FDRE) to 'head/adder/mantissa_source_reg[2]'
+INFO: [Synth 8-3886] merging instance 'head/adder/mantissa_source_reg[2]' (FDRE) to 'head/adder/big_reg[0]'
+INFO: [Synth 8-3886] merging instance 'head/adder/mantissa_source_reg[55]' (FDRE) to 'head/adder/big_reg[55]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][8]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][7]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][6]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][5]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][4]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][3]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][2]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3886] merging instance 'weight_mul/row_reg[31][1]' (FD) to 'weight_mul/row_reg[31][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (weight_mul/\row_reg[31][0] )
+INFO: [Synth 8-3886] merging instance 'head/adder/big_reg[0]' (FDRE) to 'head/adder/big_reg[1]'
+INFO: [Synth 8-3886] merging instance 'head/adder/big_reg[1]' (FDRE) to 'head/adder/big_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (head/adder/\big_reg[2] )
+INFO: [Synth 8-3886] merging instance 'head/convert/significand_source_reg[0]' (FDE) to 'head/convert/significand_source_reg[1]'
+INFO: [Synth 8-3886] merging instance 'head/convert/significand_source_reg[1]' (FDE) to 'head/convert/significand_source_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (head/convert/\significand_source_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lut_end_hi_reg[16] )
+INFO: [Synth 8-3886] merging instance 'head/plane_part_hi_hi_reg[7]' (FDRE) to 'head/plane_part_hi_hi_reg[0]'
+INFO: [Synth 8-3886] merging instance 'head/plane_part_hi_hi_reg[0]' (FDRE) to 'head/plane_part_hi_hi_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (head/\plane_part_hi_hi_reg[1] )
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[29]' (FDRE) to 'acc_bytes_reg[31]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[28]' (FDRE) to 'acc_bytes_reg[30]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[27]' (FDRE) to 'acc_bytes_reg[29]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[26]' (FDRE) to 'acc_bytes_reg[28]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[25]' (FDRE) to 'acc_bytes_reg[27]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[24]' (FDRE) to 'acc_bytes_reg[26]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[23]' (FDRE) to 'acc_bytes_reg[25]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[22]' (FDRE) to 'acc_bytes_reg[24]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[21]' (FDRE) to 'acc_bytes_reg[23]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[20]' (FDRE) to 'acc_bytes_reg[22]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[19]' (FDRE) to 'acc_bytes_reg[21]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[18]' (FDRE) to 'acc_bytes_reg[20]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[17]' (FDRE) to 'acc_bytes_reg[19]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[16]' (FDRE) to 'acc_bytes_reg[18]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[0]' (FDRE) to 'acc_bytes_reg[2]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[1]' (FDRE) to 'acc_bytes_reg[3]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[2]' (FDRE) to 'acc_bytes_reg[4]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[3]' (FDRE) to 'acc_bytes_reg[5]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[4]' (FDRE) to 'acc_bytes_reg[6]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[5]' (FDRE) to 'acc_bytes_reg[7]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[6]' (FDRE) to 'acc_bytes_reg[8]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[7]' (FDRE) to 'acc_bytes_reg[9]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[8]' (FDRE) to 'acc_bytes_reg[10]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[9]' (FDRE) to 'acc_bytes_reg[11]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[10]' (FDRE) to 'acc_bytes_reg[12]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[11]' (FDRE) to 'acc_bytes_reg[13]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[12]' (FDRE) to 'acc_bytes_reg[14]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[13]' (FDRE) to 'acc_bytes_reg[15]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[14]' (FDRE) to 'acc_bytes_reg[16]'
+INFO: [Synth 8-3886] merging instance 'q_bytes_reg[15]' (FDRE) to 'acc_bytes_reg[17]'
+INFO: [Synth 8-3886] merging instance 'acc_bytes_reg[0]' (FDRE) to 'acc_bytes_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\acc_bytes_reg[1] )
+INFO: [Synth 8-3886] merging instance 'weight_bytes_reg[2]' (FDRE) to 'weight_bytes_reg[0]'
+INFO: [Synth 8-3886] merging instance 'weight_bytes_reg[1]' (FDRE) to 'weight_bytes_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\weight_bytes_reg[0] )
+INFO: [Synth 8-3886] merging instance 'config_spatial_parts_reg[4]' (FD) to 'config_pool_parts_reg[1]'
+INFO: [Synth 8-3886] merging instance 'head/table_data_base_reg[2]' (FDRE) to 'head/table_end_reg[2]'
+INFO: [Synth 8-3886] merging instance 'head/table_data_base_reg[1]' (FDRE) to 'head/table_end_reg[1]'
+INFO: [Synth 8-3886] merging instance 'head/table_data_base_reg[0]' (FDRE) to 'head/table_end_reg[0]'
+INFO: [Synth 8-3886] merging instance 'head/table_data_base_reg[3]' (FDRE) to 'head/table_end_reg[3]'
+INFO: [Synth 8-3886] merging instance 'head/table_data_base_reg[4]' (FDRE) to 'head/table_end_reg[4]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[31]' (FD) to 'missing_chunks_reg[10]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[10]' (FD) to 'missing_chunks_reg[11]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[11]' (FD) to 'missing_chunks_reg[12]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[12]' (FD) to 'missing_chunks_reg[13]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[13]' (FD) to 'missing_chunks_reg[14]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[14]' (FD) to 'missing_chunks_reg[15]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[15]' (FD) to 'missing_chunks_reg[16]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[16]' (FD) to 'missing_chunks_reg[17]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[17]' (FD) to 'missing_chunks_reg[18]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[18]' (FD) to 'missing_chunks_reg[19]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[19]' (FD) to 'missing_chunks_reg[20]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[20]' (FD) to 'missing_chunks_reg[21]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[21]' (FD) to 'missing_chunks_reg[22]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[22]' (FD) to 'missing_chunks_reg[23]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[23]' (FD) to 'missing_chunks_reg[24]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[24]' (FD) to 'missing_chunks_reg[25]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[25]' (FD) to 'missing_chunks_reg[26]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[26]' (FD) to 'missing_chunks_reg[27]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[27]' (FD) to 'missing_chunks_reg[28]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[28]' (FD) to 'missing_chunks_reg[29]'
+INFO: [Synth 8-3886] merging instance 'missing_chunks_reg[29]' (FD) to 'missing_chunks_reg[30]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\local_store_tag_reg[16] )
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[30]' (FDRE) to 'head/event_error_code_reg[31]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[31]' (FDRE) to 'head/event_error_code_reg[29]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[29]' (FDRE) to 'head/event_error_code_reg[28]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[28]' (FDRE) to 'head/event_error_code_reg[27]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[27]' (FDRE) to 'head/event_error_code_reg[26]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[26]' (FDRE) to 'head/event_error_code_reg[25]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[25]' (FDRE) to 'head/event_error_code_reg[24]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[24]' (FDRE) to 'head/event_error_code_reg[23]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[23]' (FDRE) to 'head/event_error_code_reg[22]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[22]' (FDRE) to 'head/event_error_code_reg[21]'
+INFO: [Synth 8-3886] merging instance 'head/event_error_code_reg[21]' (FDRE) to 'head/event_error_code_reg[20]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (head/\event_error_code_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shift_high_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\bias_high_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\source_high_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (head/\req_kind_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (weight_mul/\pair_sum_reg[15][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\event_error_code_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (weight_mul/\pair_sum_reg[15][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (weight_mul/\pair_sum_reg[15][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (weight_mul/\oct_sum_reg[3][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (weight_mul/\oct_sum_reg[3][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (weight_mul/\product_reg[24] )
+INFO: [Synth 8-4471] merging register 'row_reg[30][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[29][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[28][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[27][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[26][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[25][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[24][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[23][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[22][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[21][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[20][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[19][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[18][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[17][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[16][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[15][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[14][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[13][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[12][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[11][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[10][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[9][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[8][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[7][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[6][8:0]' into 'row_reg[31][8:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[14][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[13][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[12][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[11][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[10][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[9][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[8][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[7][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[6][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[5][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[4][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[3][10:0]' into 'pair_sum_reg[15][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[6][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[5][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[4][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[3][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[2][12:0]' into 'quad_sum_reg[7][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'oct_sum_reg[2][16:0]' into 'oct_sum_reg[3][16:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:26]
+INFO: [Synth 8-4471] merging register 'oct_sum_reg[1][16:0]' into 'oct_sum_reg[3][16:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:26]
+INFO: [Synth 8-4471] merging register 'row_reg[30][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[29][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[28][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[27][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[26][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[25][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[24][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[23][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[22][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[21][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[20][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[19][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'row_reg[18][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[14][12:0]' into 'pair_sum_reg[15][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[13][12:0]' into 'pair_sum_reg[15][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[12][12:0]' into 'pair_sum_reg[15][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[11][12:0]' into 'pair_sum_reg[15][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[10][12:0]' into 'pair_sum_reg[15][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'pair_sum_reg[9][12:0]' into 'pair_sum_reg[15][12:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:22]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[6][14:0]' into 'quad_sum_reg[7][14:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'quad_sum_reg[5][14:0]' into 'quad_sum_reg[7][14:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:24]
+INFO: [Synth 8-4471] merging register 'row_reg[30][10:0]' into 'row_reg[31][10:0]' [__PROJECT_ROOT__/hardware/g227/rtl/tinyyolo_lut_mul.v:20]
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\out_mul/row_reg[31][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\out_mul/pair_sum_reg[15][0] )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\out_mul/pair_sum_reg[15][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\out_mul/pair_sum_reg[15][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\out_mul/pair_sum_reg[15][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\dim_mul/half_sum_reg[1][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\dim_mul/product_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\plane_reg[31] )
+INFO: [Synth 8-4652] Swapped enable and write-enable on 2 RAM instances of RAM input_tags_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[0].data_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[1].data_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[2].data_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[3].data_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[4].data_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[5].data_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[6].data_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM input_bank[7].data_reg to conserve power
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_hp0/\line_end_reg[5] )
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/e44a/hdl/sc_exit_v1_0_vl_rfs.sv:4205]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/e44a/hdl/sc_exit_v1_0_vl_rfs.sv:4205]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/e44a/hdl/sc_exit_v1_0_vl_rfs.sv:4134]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [__PROJECT_ROOT__/vivado/TinyYOLO_192.gen/sources_1/bd/Tiny_Yolo/ipshared/e44a/hdl/sc_exit_v1_0_vl_rfs.sv:4134]
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_req[0] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_payld[0] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_19_top__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_req[0] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_payld[0] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_19_top__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__6 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__5 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_req[0] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_payld[0] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_19_top__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__8 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__9 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_req[0] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_payld[0] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_19_top__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1__7 is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_sc_req[0] in module sc_node_v1_0_19_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_si_converter/inst /\gen_axilite_conv.axilite_conv_inst/r_cnt_words_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /ar_reg_stall/\skid_buffer_reg[1142] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\m00_exit_pipeline/m00_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /aw_reg_stall/\skid_buffer_reg[186] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /aw_reg_stall/\skid_buffer_reg[1142] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[68] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_si_converter/inst /\gen_axilite_conv.axilite_conv_inst/m_aruser_reg[cascade][exclusive][id][0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[139] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[155] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[69] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[139] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[155] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /ar_reg_stall/\skid_buffer_reg[1130] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /\gen_endpoint.b_cnt_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /\gen_endpoint.r_cnt_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /ar_reg_stall/\m_vector_i_reg[1142] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /aw_reg_stall/\m_vector_i_reg[186] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /aw_reg_stall/\m_vector_i_reg[1142] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[84] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_mmu/inst /ar_reg_stall/\m_vector_i_reg[1130] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_si_converter/inst /\gen_axilite_conv.axilite_conv_inst/ar_size_d_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_si_converter/inst /\gen_axilite_conv.axilite_conv_inst/ar_burst_bytes_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_si_converter/inst /\gen_axilite_conv.axilite_conv_inst/m_aruser_reg[cascade][exclusive][size][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_entry_pipeline/s00_si_converter/inst /\gen_axilite_conv.axilite_conv_inst/m_aruser_reg[cascade][user][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[92] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (smartconnect_0/inst/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[135] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (smartconnect_0/inst/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo_async.inst_reg_fifo_async/gen_xpm_cdc_handshake_array[0].inst_cdc_handshake /\src_hsdata_ff_reg[92] )
+INFO: [Synth 8-3332] Sequential element (FDRE_inst) is unused and will be removed from module proc_sys_reset.
+INFO: [Synth 8-3332] Sequential element (BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module proc_sys_reset.
+INFO: [Synth 8-3332] Sequential element (ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N) is unused and will be removed from module proc_sys_reset.
+INFO: [Synth 8-3332] Sequential element (PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module proc_sys_reset.
+INFO: [Synth 8-3332] Sequential element (FDRE_inst) is unused and will be removed from module proc_sys_reset__1.
+INFO: [Synth 8-3332] Sequential element (BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module proc_sys_reset__1.
+INFO: [Synth 8-3332] Sequential element (PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module proc_sys_reset__1.
+INFO: [Synth 8-3332] Sequential element (ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module proc_sys_reset__1.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr0/U0/FDRE_inst) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr0/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr0/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr0/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/FDRE_inst) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/FDRE_inst) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_6194.
+INFO: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_6194.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:43 ; elapsed = 00:06:18 . Memory (MB): peak = 2166.562 ; gain = 1327.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:00 ; elapsed = 00:06:36 . Memory (MB): peak = 2177.117 ; gain = 1338.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:06:37 ; elapsed = 00:07:14 . Memory (MB): peak = 2421.703 ; gain = 1582.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/insti_4/inst/u_hp0/input_tags_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/insti_4/inst/u_hp0/input_tags_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/u_controli_0/inst/u_control/local_data_reg_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:07:11 ; elapsed = 00:07:48 . Memory (MB): peak = 2421.703 ; gain = 1582.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_control/local_data_reg_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_hp0/input_tags_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Tiny_Yolo_i/tinyyolo_accel_0/inst/u_hp0/input_tags_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:07:36 ; elapsed = 00:08:14 . Memory (MB): peak = 2543.277 ; gain = 1704.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:36 ; elapsed = 00:08:14 . Memory (MB): peak = 2543.277 ; gain = 1704.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:56 ; elapsed = 00:08:34 . Memory (MB): peak = 2675.145 ; gain = 1836.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:57 ; elapsed = 00:08:35 . Memory (MB): peak = 2675.145 ; gain = 1836.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:08:01 ; elapsed = 00:08:39 . Memory (MB): peak = 2703.145 ; gain = 1864.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:08:02 ; elapsed = 00:08:40 . Memory (MB): peak = 2703.145 ; gain = 1864.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name             | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|tinyyolo_dsp_accum32    | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_562    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_563    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_564    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_565    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_566    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_567    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_568    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_569    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_570    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_571    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_572    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_573    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_574    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_575    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_576    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_577    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_578    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_579    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_580    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_581    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_582    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_583    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_584    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_585    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_38 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_492    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_493    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_494    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_495    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_496    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_497    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_498    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_499    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_500    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_501    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_502    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_503    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_504    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_505    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_506    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_507    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_508    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_509    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_510    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_511    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_512    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_513    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_514    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_515    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_40 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_accum32_41 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_422    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_423    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_424    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_425    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_426    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_427    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_428    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_429    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_430    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_431    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_432    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_433    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_434    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_435    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_436    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_437    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_438    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_439    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_440    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_441    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_442    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_443    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_444    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_445    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_43 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_accum32_44 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_352    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_353    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_354    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_355    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_356    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_357    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_358    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_359    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_360    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_361    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_362    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_363    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_364    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_365    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_366    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_367    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_368    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_369    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_370    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_371    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_372    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_373    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_374    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_375    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_46 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_accum32_47 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_accum32_48 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_282    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_283    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_284    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_285    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_286    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_287    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_288    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_289    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_290    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_291    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_292    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_293    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_294    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_295    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_296    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_297    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_298    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_299    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_300    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_301    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_302    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_303    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_304    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_305    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_50 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_accum32_51 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_212    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_213    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_214    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_215    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_216    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_217    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_218    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_219    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_220    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_221    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_222    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_223    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_224    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_225    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_226    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_227    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_228    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_229    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_230    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_231    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_232    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_233    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_234    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_235    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_53 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_accum32_54 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_142    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_143    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_144    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_145    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_146    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_147    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_148    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_149    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_150    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_151    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_152    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_153    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_154    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_155    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_156    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_157    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_158    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_159    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_160    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_161    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_162    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_163    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_164    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_165    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_56 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_accum32_57 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_78     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_79     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_80     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_81     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_82     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_83     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_84     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_85     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_86     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_87     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_88     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_89     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_90     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_91     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_92     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_93     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_94     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_95     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_96     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_97     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_98     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_99     | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_100    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_101    | ((A'*B')')' | 30     | 18     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_accum32_59 | Dynamic     | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 1    | 
+|tinyyolo_dsp_mul_74     | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_75     | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_76     | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_77     | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul        | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_71     | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_72     | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|tinyyolo_dsp_mul_73     | ((A'*B')')' | 18     | 16     | -      | -      | 43     | 1    | 1    | -    | -    | -     | 1    | 1    | 
++------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BIBUF      |   130|
+|2     |BUFG       |     3|
+|3     |CARRY4     |  4414|
+|4     |DSP48E1    |   216|
+|6     |LUT1       |   731|
+|7     |LUT2       | 10519|
+|8     |LUT3       |  3939|
+|9     |LUT4       |  3541|
+|10    |LUT5       |  2283|
+|11    |LUT6       |  6008|
+|12    |MMCME2_ADV |     1|
+|13    |MUXF7      |   381|
+|14    |MUXF8      |    25|
+|15    |PS7        |     1|
+|16    |RAM32M     |    49|
+|17    |RAM32X1D   |     2|
+|18    |RAM64M     |    12|
+|19    |RAMB18E1   |     2|
+|21    |RAMB36E1   |   106|
+|27    |SRL16      |     5|
+|28    |SRL16E     |   108|
+|29    |FDCE       |    42|
+|30    |FDRE       | 49321|
+|31    |FDSE       |    34|
+|32    |IBUF       |     1|
+|33    |OBUF       |     1|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:08:02 ; elapsed = 00:08:40 . Memory (MB): peak = 2703.145 ; gain = 1864.062
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:06:44 ; elapsed = 00:07:56 . Memory (MB): peak = 2703.145 ; gain = 1511.625
+Synthesis Optimization Complete : Time (s): cpu = 00:08:03 ; elapsed = 00:08:42 . Memory (MB): peak = 2703.145 ; gain = 1864.062
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2708.246 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5213 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 2730.668 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 68 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 49 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 12 instances
+  SRL16 => SRL16E: 5 instances
+
+Synth Design complete | Checksum: 6fe1b58b
+INFO: [Common 17-83] Releasing license: Synthesis
+738 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:08:38 ; elapsed = 00:09:21 . Memory (MB): peak = 2730.668 ; gain = 2147.766
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.197 . Memory (MB): peak = 2730.668 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint '__PROJECT_ROOT__/vivado/TinyYOLO_192.runs/synth_1/Tiny_Yolo_wrapper.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 2730.668 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Tiny_Yolo_wrapper_utilization_synth.rpt -pb Tiny_Yolo_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 14:07:50 2026...

@@ -1,0 +1,13 @@
+printf '\nTY_c3bd2f630a9f4529aa8a4956411dd1a0_BEGIN\n'; bash - c "$(printf '%s' 'c2V0IC1ldQptb2Rwcm9iZSB0aW55eW9sb19kbWEKdGVzdCAtYyAvZGV2L3Rpbn l5b2xvMApweXRob24zIC0gPDwnUFknCmltcG9ydCBvcyxmY250bCxzdHJ1Y3QsanNvbgpmZD1vcy5vcG VuKCcvZGV2L3Rpbnl5b2xvMCcsb3MuT19SRFdSKQp0cnk6CiAgICBpbmZvPWJ5dGVhcnJheSgzMikKIC AgIGZjbnRsLmlvY3RsKGZkLDB4ODAyMDU5MjgsaW5mbyxUcnVlKQogICAgdmFsdWVzPXN0cnVjdC51bn BhY2soJzw4SScsaW5mbykKICAgIGlmIHZhbHVlc1s6M10hPSgyLDB4NDczMjU1MDIsMjQwMDAwMDAwKS BvciBhYnModmFsdWVzWzNdLTEwMDAwMDAwMCk+MTAwMDAgb3IgdmFsdWVzWzVdIT0wOgogICAgICAgIH JhaXNlIFZhbHVlRXJyb3IoJ1Byb2dyYW1tZWQgZGV2aWNlIGlkZW50aXR5LCBjbG9ja3MsIG9yIGZhdW x0IHN0YXR1cyBpcyBpbnZhbGlkJykKICAgIHJlY29yZD1kaWN0KHppcCgoJ2FiaScsJ2J1aWxkX2lkJy wncGxfaHonLCdmY2xrX2h6JywnZG1hX2J5dGVzJywnZmF1bHRlZCcsJ29jbV9ieXRlcycsJ29jbV9mbG FncycpLHZhbHVlcykpCiAgICB3aXRoIG9wZW4oJy9kZXYvc2htL3R5MTkyX3ZhbGlkYXRpb25fMjAyNj EwMjVfcnVuMDEvcHJvZ3JhbW1lZF9kZXZpY2UuanNvbicsJ3cnKSBhcyBzdHJlYW06CiAgICAgICAgan Nvbi5kdW1wKHJlY29yZCxzdHJlYW0saW5kZW50PTIpCiAgICBwcmludChqc29uLmR1bXBzKHJlY29yZC xzb3J0X2tleXM9VHJ1ZSkpCmZpbmFsbHk6CiAgICBvcy5jbG9zZShmZCkKUFkKZG1lc2cgfCB0YWlsIC 01CnByaW50ZiAnVFlfUFJPR1JBTU1FRF9EUklWRVJfUkVBRFlcbicK' | base64 -d)"; ty_consol e_rc=$?; printf '\nTY_c3bd2f630a9f4529aa8a4956411dd1a0_END:%s\n' "$ty_console_rc "
+
+TY_c3bd2f630a9f4529aa8a4956411dd1a0_BEGIN
+{"abi": 2, "build_id": 1194480898, "dma_bytes": 33554432, "faulted": 0, "fclk_hz": 99999999, "ocm_bytes": 32768, "ocm_flags": 1, "pl_hz": 240000000}
+[   15.043897] usb 1-1: 3:7: cannot get freq at ep 0x86
+[   15.446080] random: nonblocking pool is initialized
+[  620.344637] tinyyolo-g228 40000000.accelerator: assigned reserved memory node dma-pool@18000000
+[  620.393465] tinyyolo-g228 40000000.accelerator: CPU OCM lookup cache: 32768 bytes from kernel gen_pool
+[  620.394937] tinyyolo-g228 40000000.accelerator: G228 build=47325502 fclk=99999999 aclk=240000000 Hz, DMA 0x18000000/33554432 bytes
+TY_PROGRAMMED_DRIVER_READY
+
+TY_c3bd2f630a9f4529aa8a4956411dd1a0_END:0
+root@localhost:~# 

@@ -1,0 +1,3493 @@
+{
+  "smoke": {
+    "abi": 2,
+    "ocm_flags": 1,
+    "ocm_bytes": 32768,
+    "build_id": "0x47325502",
+    "faulted": 0,
+    "invalid_descriptor": "PASS_EINVAL",
+    "dma_bytes": 33554432,
+    "pl_hz": 240000000,
+    "fclk_hz": 99999999,
+    "exclusive_open": "PASS_EBUSY",
+    "status": "PASS_LINUX_DRIVER_SMOKE"
+  },
+  "hardware": {
+    "bit_sha256": "f29fa8bd3bcae4a02d3a9eee387d4a9dc7f4f55519128c121820bba8b65aa9d7",
+    "pl_MHz": 240,
+    "build_id": "0x47325502",
+    "fclk_MHz": 100,
+    "xsa_sha256": "c4c5af2a9c278cc1db8ce310fae340cd8fc50f5d8e2980c283ceac4eee3668d0"
+  },
+  "trace_frames": {
+    "bird": {
+      "wall_seconds": 1.5623565009999538,
+      "metrics": {
+        "cpu_lookup_cache": "cached_ram",
+        "pl_calls": 24,
+        "trace_enabled": true,
+        "layers": [
+          {
+            "layer": 0,
+            "skipped": 144,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 14793888
+          },
+          {
+            "layer": 1,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 10820777
+          },
+          {
+            "layer": 2,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 8037436
+          },
+          {
+            "layer": 3,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 6652499
+          },
+          {
+            "layer": 4,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 6321909
+          },
+          {
+            "layer": 5,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7404636
+          },
+          {
+            "layer": 6,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 28704815
+          },
+          {
+            "layer": 7,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 2339151
+          },
+          {
+            "layer": 8,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 390076
+          },
+          {
+            "layer": 9,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7406657
+          },
+          {
+            "layer": 10,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 1836842
+          },
+          {
+            "layer": 11,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7210430
+          },
+          {
+            "layer": 12,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 17543162
+          },
+          {
+            "layer": 13,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 283257
+          },
+          {
+            "layer": 14,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 3715381
+          },
+          {
+            "layer": 15,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 3044772
+          },
+          {
+            "layer": 16,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 11932286
+          },
+          {
+            "layer": 17,
+            "skipped": 1792,
+            "hp_idle": 1,
+            "options": 4,
+            "cycles": 681554
+          },
+          {
+            "layer": 18,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 98773
+          },
+          {
+            "layer": 19,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 899380
+          },
+          {
+            "layer": 20,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 11932293
+          },
+          {
+            "layer": 21,
+            "skipped": 7341,
+            "hp_idle": 1,
+            "options": 4,
+            "cycles": 2711087
+          },
+          {
+            "layer": 22,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 307025
+          },
+          {
+            "layer": 23,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 134931
+          }
+        ],
+        "prequantized_int8_input": false,
+        "pl_hz": 240000000,
+        "fclk_hz": 99999999,
+        "dma_bytes_used": 17066752,
+        "elapsed_ms": 863,
+        "shared_dma_input": false,
+        "frame": 1,
+        "streamed_input": false,
+        "status": "PASS_LINUX_PL_FRAME",
+        "clock_MHz": 240,
+        "cpu_lookup_cache_bytes": 9616
+      },
+      "status": "PASS_50_STEPS_24_CONVOLUTIONS",
+      "final_sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d",
+      "steps": [
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 0,
+          "step": 0,
+          "kind": 1,
+          "bytes": 110592,
+          "sha256": "44e29ecc95bbd76f9ba16e71042643bbe8864a87f028ce7baa17ed2746c79412"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 0,
+          "tensor": 1,
+          "step": 1,
+          "kind": 4,
+          "bytes": 589824,
+          "sha256": "73e00cbcdc0cab6175b5851c5a9eeca9bd16fe712c5e3efddae33a938fc07cd2"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 2,
+          "step": 2,
+          "kind": 2,
+          "bytes": 147456,
+          "sha256": "9a4da345eeabbf31abcbf481f346525d58ed9dd44453d2a17aa664bdd37d85de"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 1,
+          "tensor": 3,
+          "step": 3,
+          "kind": 4,
+          "bytes": 294912,
+          "sha256": "48104fde57360f38d63b8b90a14397284de9a92f1db9d51cba5483be7dfbb2f8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 4,
+          "step": 4,
+          "kind": 2,
+          "bytes": 73728,
+          "sha256": "0cb8336d4f1da5fe698b15aa15c4b1ab19bab9a044f2ba781a8c8c24245b3c83"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 2,
+          "tensor": 5,
+          "step": 5,
+          "kind": 4,
+          "bytes": 147456,
+          "sha256": "985509253340f2d4e175c950630f04ee37f5828d06c31d5c0707cef71b830895"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 6,
+          "step": 6,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "c8a36b6705ed5334f1a6cfc2b3faf17df8759f873927402cb39f39415e6779c3"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 3,
+          "tensor": 7,
+          "step": 7,
+          "kind": 4,
+          "bytes": 73728,
+          "sha256": "0599b9b62e9fab8197290aa14482366aa5f2e31785f804e9f3fe9f85e3a70b20"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 8,
+          "step": 8,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "e575c8a68e67aaef49608933c01c11342a6d6cb6615be8edec98065668dfe83c"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 4,
+          "tensor": 9,
+          "step": 9,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "fb26b2ae3583e391f4b70fa32f627d45d5bf4f269da4728f62341b1d8b4405a8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 10,
+          "step": 10,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "4e8afa1f21b6efbe56cb55419d3609cbec72f9e0c28bb53dc2759caf3a70e0d2"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 5,
+          "tensor": 11,
+          "step": 11,
+          "kind": 4,
+          "bytes": 18432,
+          "sha256": "6b3319242149a563ae0c531e2a8ba4939febfc8d9b1ef1c71d8f37914a7d9602"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 12,
+          "step": 12,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "375427f3346b8f1529785e8ae374bcf435c50240d6a65998ee5326a2bfd569e3"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 6,
+          "tensor": 13,
+          "step": 13,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "87c673d32d456045672e1d0a4b67d25057b761bc4b360ddd1db1049a6b87217f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 14,
+          "step": 14,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "52bec19be3a29389112a69f67e3609ba1fdbc7cd872774dc7ade18f96ae07818"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 7,
+          "tensor": 15,
+          "step": 15,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "6ea64538f527873f46312ab8de787937bab3fe27586dd4f94999b04e6a007c4f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 16,
+          "step": 16,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 8,
+          "tensor": 17,
+          "step": 17,
+          "kind": 4,
+          "bytes": 4608,
+          "sha256": "db32a15b5772fa1033bb535d148ba3cb39f0061ac6f6af8499194bf985092e88"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 18,
+          "step": 18,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 9,
+          "tensor": 19,
+          "step": 19,
+          "kind": 4,
+          "bytes": 18432,
+          "sha256": "a86afb48f73c85efbc8909c227f4a500e1f4c0f70053ca670977417e6fbfb2c9"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 20,
+          "step": 20,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 10,
+          "tensor": 21,
+          "step": 21,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "1c1987a03cd1dc44ab575e0ebce714e39f2b2a9a0add1adced62fab4605167e4"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 22,
+          "step": 22,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 11,
+          "tensor": 23,
+          "step": 23,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "2b0615bffb71ae24aaf1ed4c554add440c68365fa858ef8613c1f0e8d9825d5e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 24,
+          "step": 24,
+          "kind": 3,
+          "bytes": 55296,
+          "sha256": "df8c2a52521e494e6d207f5db96bbefa1cd90e7f9a7f824beb77f3b3e1db5b95"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 12,
+          "tensor": 25,
+          "step": 25,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "5d0eb3bede76c7fd29eb72c592e67b6fdc71f1bbb6679814e6cfa2b21035abc8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 26,
+          "step": 26,
+          "kind": 2,
+          "bytes": 2304,
+          "sha256": "321503a8f2f7cd19849d581db734dbdc3384c0d9733743700536785e5be2c474"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 13,
+          "tensor": 27,
+          "step": 27,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "dbb204642430443d56940bd0d3570b165b2bbf6ce985b887eec3c20dfb083370"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 28,
+          "step": 28,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "3aa19fe09a48e175ec1f8976f03dc95aae4cd6001cbe07f8b01febcd7e1845f8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 14,
+          "tensor": 29,
+          "step": 29,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "c5973e6ffe15997d143d8abd8ee98f561ed18f6beb4cafc59dc7e0c8f11ede04"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 30,
+          "step": 30,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 15,
+          "tensor": 31,
+          "step": 31,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "83c60d5dff20b586a9648c1b41afafe1cdc71c95c112016b0d8d747b04ec50f2"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 32,
+          "step": 32,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 16,
+          "tensor": 33,
+          "step": 33,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "cb59e57089fec77d8d5c1e7e8e77ae6940fe712d4844334f6fb03f903555a256"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 34,
+          "step": 34,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "73b1448b722e16484d4508648d266877c1e3d2b55eaec9d3dfa0a210df558767"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 17,
+          "tensor": 35,
+          "step": 35,
+          "kind": 5,
+          "bytes": 144,
+          "sha256": "f15950e4bbfb4e25a65c5c0c591eb5995fae162f67d8e0945604877dfc01d2ef"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 36,
+          "step": 36,
+          "kind": 2,
+          "bytes": 2304,
+          "sha256": "da9eec5d62180ed524c2b46c34104aabf7ab7b3e734289d37c1b34eafb47ba72"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 18,
+          "tensor": 37,
+          "step": 37,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "e9e8dec37fbf7e40b2167c9ff6e4612f1a91702a6d3c72b6f4473f991b41b7b4"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 38,
+          "step": 38,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "925e208175216430e437feea26ff649cbd65abfb9033ebca2714c125e882b18b"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 19,
+          "tensor": 39,
+          "step": 39,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "3621004b2c41578f72f69e3e97174f63fc030429b3f7de846109274cc8025bf0"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 40,
+          "step": 40,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "a9cc7560c7c0f6b129ebd9466b73f226da150ace2ee1d7435a52758e5b797f4d"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 20,
+          "tensor": 41,
+          "step": 41,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "b335cdd59cc7fb66a717db6b96c3db3771a4fc6ddd43a4a23b153bc051eb35ee"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 42,
+          "step": 42,
+          "kind": 2,
+          "bytes": 147456,
+          "sha256": "a933cfbcf2fdf2c86a809a9053c64261eef9ce0f7a78465c96eee67b0b145903"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 21,
+          "tensor": 43,
+          "step": 43,
+          "kind": 5,
+          "bytes": 576,
+          "sha256": "3ad12db4b95953e36a39deb19e7c6ba149af8cf33664ac8907957f81d2d797ed"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 44,
+          "step": 44,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "0280fa82843a6f77131ee9c78c1755a5407bec8eedb9984a82799faaeda417ed"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 22,
+          "tensor": 45,
+          "step": 45,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "46a940c2a6152104d4a2df02cf24143f1ebc940f71fa0616835521e1c3eb8772"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 46,
+          "step": 46,
+          "kind": 6,
+          "bytes": 46800,
+          "sha256": "52c45d6bbf86db15d2ea173f2c64590db6fd3799fd6cce734399605dd019a142"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 47,
+          "step": 47,
+          "kind": 7,
+          "bytes": 11520,
+          "sha256": "f1cf18fa4cd73924b53a0a32b283ca7a5327e1f569ee491b57ae2faf3aa93572"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 23,
+          "tensor": 48,
+          "step": 48,
+          "kind": 4,
+          "bytes": 720,
+          "sha256": "3e56e4fb14273e1bcb8f032036b8dcd7802ae4f08a6fa6554053e7ad46a6884e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 49,
+          "step": 49,
+          "kind": 8,
+          "bytes": 3600,
+          "sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d"
+        }
+      ]
+    },
+    "bird_repeat": {
+      "wall_seconds": 1.5613651999999547,
+      "metrics": {
+        "cpu_lookup_cache": "cached_ram",
+        "pl_calls": 24,
+        "trace_enabled": true,
+        "layers": [
+          {
+            "layer": 0,
+            "skipped": 144,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 14793733
+          },
+          {
+            "layer": 1,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 10820852
+          },
+          {
+            "layer": 2,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 8037576
+          },
+          {
+            "layer": 3,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 6652515
+          },
+          {
+            "layer": 4,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 6321890
+          },
+          {
+            "layer": 5,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7404071
+          },
+          {
+            "layer": 6,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 28704585
+          },
+          {
+            "layer": 7,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 2339154
+          },
+          {
+            "layer": 8,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 389702
+          },
+          {
+            "layer": 9,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7404730
+          },
+          {
+            "layer": 10,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 1836679
+          },
+          {
+            "layer": 11,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7210509
+          },
+          {
+            "layer": 12,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 17542852
+          },
+          {
+            "layer": 13,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 283014
+          },
+          {
+            "layer": 14,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 3715821
+          },
+          {
+            "layer": 15,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 3044511
+          },
+          {
+            "layer": 16,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 11932599
+          },
+          {
+            "layer": 17,
+            "skipped": 1792,
+            "hp_idle": 1,
+            "options": 4,
+            "cycles": 681607
+          },
+          {
+            "layer": 18,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 98690
+          },
+          {
+            "layer": 19,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 899174
+          },
+          {
+            "layer": 20,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 11932571
+          },
+          {
+            "layer": 21,
+            "skipped": 7341,
+            "hp_idle": 1,
+            "options": 4,
+            "cycles": 2710326
+          },
+          {
+            "layer": 22,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 306674
+          },
+          {
+            "layer": 23,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 134409
+          }
+        ],
+        "prequantized_int8_input": false,
+        "pl_hz": 240000000,
+        "fclk_hz": 99999999,
+        "dma_bytes_used": 17066752,
+        "elapsed_ms": 861,
+        "shared_dma_input": false,
+        "frame": 1,
+        "streamed_input": false,
+        "status": "PASS_LINUX_PL_FRAME",
+        "clock_MHz": 240,
+        "cpu_lookup_cache_bytes": 9616
+      },
+      "status": "PASS_50_STEPS_24_CONVOLUTIONS",
+      "final_sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d",
+      "steps": [
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 0,
+          "step": 0,
+          "kind": 1,
+          "bytes": 110592,
+          "sha256": "44e29ecc95bbd76f9ba16e71042643bbe8864a87f028ce7baa17ed2746c79412"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 0,
+          "tensor": 1,
+          "step": 1,
+          "kind": 4,
+          "bytes": 589824,
+          "sha256": "73e00cbcdc0cab6175b5851c5a9eeca9bd16fe712c5e3efddae33a938fc07cd2"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 2,
+          "step": 2,
+          "kind": 2,
+          "bytes": 147456,
+          "sha256": "9a4da345eeabbf31abcbf481f346525d58ed9dd44453d2a17aa664bdd37d85de"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 1,
+          "tensor": 3,
+          "step": 3,
+          "kind": 4,
+          "bytes": 294912,
+          "sha256": "48104fde57360f38d63b8b90a14397284de9a92f1db9d51cba5483be7dfbb2f8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 4,
+          "step": 4,
+          "kind": 2,
+          "bytes": 73728,
+          "sha256": "0cb8336d4f1da5fe698b15aa15c4b1ab19bab9a044f2ba781a8c8c24245b3c83"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 2,
+          "tensor": 5,
+          "step": 5,
+          "kind": 4,
+          "bytes": 147456,
+          "sha256": "985509253340f2d4e175c950630f04ee37f5828d06c31d5c0707cef71b830895"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 6,
+          "step": 6,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "c8a36b6705ed5334f1a6cfc2b3faf17df8759f873927402cb39f39415e6779c3"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 3,
+          "tensor": 7,
+          "step": 7,
+          "kind": 4,
+          "bytes": 73728,
+          "sha256": "0599b9b62e9fab8197290aa14482366aa5f2e31785f804e9f3fe9f85e3a70b20"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 8,
+          "step": 8,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "e575c8a68e67aaef49608933c01c11342a6d6cb6615be8edec98065668dfe83c"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 4,
+          "tensor": 9,
+          "step": 9,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "fb26b2ae3583e391f4b70fa32f627d45d5bf4f269da4728f62341b1d8b4405a8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 10,
+          "step": 10,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "4e8afa1f21b6efbe56cb55419d3609cbec72f9e0c28bb53dc2759caf3a70e0d2"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 5,
+          "tensor": 11,
+          "step": 11,
+          "kind": 4,
+          "bytes": 18432,
+          "sha256": "6b3319242149a563ae0c531e2a8ba4939febfc8d9b1ef1c71d8f37914a7d9602"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 12,
+          "step": 12,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "375427f3346b8f1529785e8ae374bcf435c50240d6a65998ee5326a2bfd569e3"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 6,
+          "tensor": 13,
+          "step": 13,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "87c673d32d456045672e1d0a4b67d25057b761bc4b360ddd1db1049a6b87217f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 14,
+          "step": 14,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "52bec19be3a29389112a69f67e3609ba1fdbc7cd872774dc7ade18f96ae07818"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 7,
+          "tensor": 15,
+          "step": 15,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "6ea64538f527873f46312ab8de787937bab3fe27586dd4f94999b04e6a007c4f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 16,
+          "step": 16,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 8,
+          "tensor": 17,
+          "step": 17,
+          "kind": 4,
+          "bytes": 4608,
+          "sha256": "db32a15b5772fa1033bb535d148ba3cb39f0061ac6f6af8499194bf985092e88"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 18,
+          "step": 18,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "7a69cd63d9e9cd7b05864641aba04e6694dbcffde35967f244c46e708fad2048"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 9,
+          "tensor": 19,
+          "step": 19,
+          "kind": 4,
+          "bytes": 18432,
+          "sha256": "a86afb48f73c85efbc8909c227f4a500e1f4c0f70053ca670977417e6fbfb2c9"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 20,
+          "step": 20,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 10,
+          "tensor": 21,
+          "step": 21,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "1c1987a03cd1dc44ab575e0ebce714e39f2b2a9a0add1adced62fab4605167e4"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 22,
+          "step": 22,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "4f314bc7636c9391f9d9d1f06bfdf403d839c0129f83507ea52a01bf1f789573"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 11,
+          "tensor": 23,
+          "step": 23,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "2b0615bffb71ae24aaf1ed4c554add440c68365fa858ef8613c1f0e8d9825d5e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 24,
+          "step": 24,
+          "kind": 3,
+          "bytes": 55296,
+          "sha256": "df8c2a52521e494e6d207f5db96bbefa1cd90e7f9a7f824beb77f3b3e1db5b95"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 12,
+          "tensor": 25,
+          "step": 25,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "5d0eb3bede76c7fd29eb72c592e67b6fdc71f1bbb6679814e6cfa2b21035abc8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 26,
+          "step": 26,
+          "kind": 2,
+          "bytes": 2304,
+          "sha256": "321503a8f2f7cd19849d581db734dbdc3384c0d9733743700536785e5be2c474"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 13,
+          "tensor": 27,
+          "step": 27,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "dbb204642430443d56940bd0d3570b165b2bbf6ce985b887eec3c20dfb083370"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 28,
+          "step": 28,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "3aa19fe09a48e175ec1f8976f03dc95aae4cd6001cbe07f8b01febcd7e1845f8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 14,
+          "tensor": 29,
+          "step": 29,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "c5973e6ffe15997d143d8abd8ee98f561ed18f6beb4cafc59dc7e0c8f11ede04"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 30,
+          "step": 30,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 15,
+          "tensor": 31,
+          "step": 31,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "83c60d5dff20b586a9648c1b41afafe1cdc71c95c112016b0d8d747b04ec50f2"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 32,
+          "step": 32,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "1651ecbc9b6da385a52e5ef76886a51f0ef73f6ac9ee2c794b109adbb3bca229"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 16,
+          "tensor": 33,
+          "step": 33,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "cb59e57089fec77d8d5c1e7e8e77ae6940fe712d4844334f6fb03f903555a256"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 34,
+          "step": 34,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "73b1448b722e16484d4508648d266877c1e3d2b55eaec9d3dfa0a210df558767"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 17,
+          "tensor": 35,
+          "step": 35,
+          "kind": 5,
+          "bytes": 144,
+          "sha256": "f15950e4bbfb4e25a65c5c0c591eb5995fae162f67d8e0945604877dfc01d2ef"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 36,
+          "step": 36,
+          "kind": 2,
+          "bytes": 2304,
+          "sha256": "da9eec5d62180ed524c2b46c34104aabf7ab7b3e734289d37c1b34eafb47ba72"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 18,
+          "tensor": 37,
+          "step": 37,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "e9e8dec37fbf7e40b2167c9ff6e4612f1a91702a6d3c72b6f4473f991b41b7b4"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 38,
+          "step": 38,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "925e208175216430e437feea26ff649cbd65abfb9033ebca2714c125e882b18b"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 19,
+          "tensor": 39,
+          "step": 39,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "3621004b2c41578f72f69e3e97174f63fc030429b3f7de846109274cc8025bf0"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 40,
+          "step": 40,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "a9cc7560c7c0f6b129ebd9466b73f226da150ace2ee1d7435a52758e5b797f4d"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 20,
+          "tensor": 41,
+          "step": 41,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "b335cdd59cc7fb66a717db6b96c3db3771a4fc6ddd43a4a23b153bc051eb35ee"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 42,
+          "step": 42,
+          "kind": 2,
+          "bytes": 147456,
+          "sha256": "a933cfbcf2fdf2c86a809a9053c64261eef9ce0f7a78465c96eee67b0b145903"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 21,
+          "tensor": 43,
+          "step": 43,
+          "kind": 5,
+          "bytes": 576,
+          "sha256": "3ad12db4b95953e36a39deb19e7c6ba149af8cf33664ac8907957f81d2d797ed"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 44,
+          "step": 44,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "0280fa82843a6f77131ee9c78c1755a5407bec8eedb9984a82799faaeda417ed"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 22,
+          "tensor": 45,
+          "step": 45,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "46a940c2a6152104d4a2df02cf24143f1ebc940f71fa0616835521e1c3eb8772"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 46,
+          "step": 46,
+          "kind": 6,
+          "bytes": 46800,
+          "sha256": "52c45d6bbf86db15d2ea173f2c64590db6fd3799fd6cce734399605dd019a142"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 47,
+          "step": 47,
+          "kind": 7,
+          "bytes": 11520,
+          "sha256": "f1cf18fa4cd73924b53a0a32b283ca7a5327e1f569ee491b57ae2faf3aa93572"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 23,
+          "tensor": 48,
+          "step": 48,
+          "kind": 4,
+          "bytes": 720,
+          "sha256": "3e56e4fb14273e1bcb8f032036b8dcd7802ae4f08a6fa6554053e7ad46a6884e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 49,
+          "step": 49,
+          "kind": 8,
+          "bytes": 3600,
+          "sha256": "11a077ee860a6e9e18a2869b82eb6193d2047ede69e3f17f926841f05cc0046d"
+        }
+      ]
+    },
+    "random": {
+      "wall_seconds": 1.563197996000099,
+      "metrics": {
+        "cpu_lookup_cache": "cached_ram",
+        "pl_calls": 24,
+        "trace_enabled": true,
+        "layers": [
+          {
+            "layer": 0,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 14793848
+          },
+          {
+            "layer": 1,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 10820921
+          },
+          {
+            "layer": 2,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 8037345
+          },
+          {
+            "layer": 3,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 6651823
+          },
+          {
+            "layer": 4,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 6323117
+          },
+          {
+            "layer": 5,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7404574
+          },
+          {
+            "layer": 6,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 28704967
+          },
+          {
+            "layer": 7,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 2339473
+          },
+          {
+            "layer": 8,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 390017
+          },
+          {
+            "layer": 9,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7403857
+          },
+          {
+            "layer": 10,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 1836605
+          },
+          {
+            "layer": 11,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 7210524
+          },
+          {
+            "layer": 12,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 17542875
+          },
+          {
+            "layer": 13,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 283550
+          },
+          {
+            "layer": 14,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 3715399
+          },
+          {
+            "layer": 15,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 3044539
+          },
+          {
+            "layer": 16,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 11932710
+          },
+          {
+            "layer": 17,
+            "skipped": 1593,
+            "hp_idle": 1,
+            "options": 4,
+            "cycles": 694808
+          },
+          {
+            "layer": 18,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 98680
+          },
+          {
+            "layer": 19,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 899275
+          },
+          {
+            "layer": 20,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 11932384
+          },
+          {
+            "layer": 21,
+            "skipped": 5915,
+            "hp_idle": 1,
+            "options": 4,
+            "cycles": 2813424
+          },
+          {
+            "layer": 22,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 306418
+          },
+          {
+            "layer": 23,
+            "skipped": 0,
+            "hp_idle": 1,
+            "options": 57,
+            "cycles": 135008
+          }
+        ],
+        "prequantized_int8_input": false,
+        "pl_hz": 240000000,
+        "fclk_hz": 99999999,
+        "dma_bytes_used": 17066752,
+        "elapsed_ms": 863,
+        "shared_dma_input": false,
+        "frame": 1,
+        "streamed_input": false,
+        "status": "PASS_LINUX_PL_FRAME",
+        "clock_MHz": 240,
+        "cpu_lookup_cache_bytes": 9616
+      },
+      "status": "PASS_50_STEPS_24_CONVOLUTIONS",
+      "final_sha256": "6a683a0f27cf02310841cf071f6f6ca68f633cdceea9a49de6ac84aa7f917b3e",
+      "steps": [
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 0,
+          "step": 0,
+          "kind": 1,
+          "bytes": 110592,
+          "sha256": "f1259e8282efb40ed916eec6899bdc447095c33767cdb743ecd9abd488d8721d"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 0,
+          "tensor": 1,
+          "step": 1,
+          "kind": 4,
+          "bytes": 589824,
+          "sha256": "35dc07dac4dd86e3452153a3f17c9069837a34abe5ee3c9239e8c2ffaa025d61"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 2,
+          "step": 2,
+          "kind": 2,
+          "bytes": 147456,
+          "sha256": "13c9ba7ebaf39265a718a0fa98ce070c5dba6391caa8dc83cf7664afd2b0fa28"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 1,
+          "tensor": 3,
+          "step": 3,
+          "kind": 4,
+          "bytes": 294912,
+          "sha256": "56d93a2c1e4140549c42e5b6fa07f5533c311d9009d14c05dd0f70efaa9085da"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 4,
+          "step": 4,
+          "kind": 2,
+          "bytes": 73728,
+          "sha256": "380496f98e22233a3cfa1eba6f69c234dd4fb3819a3ec471d3335d289b6beed8"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 2,
+          "tensor": 5,
+          "step": 5,
+          "kind": 4,
+          "bytes": 147456,
+          "sha256": "1dd03f5093476daacb507f8e55803489d4a76dd1c966b50779f1a20523c6aa5e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 6,
+          "step": 6,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "dc437bdab158e953c4b26099576fc7ce44943c7cb1c3a56205f9b8ee5e259916"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 3,
+          "tensor": 7,
+          "step": 7,
+          "kind": 4,
+          "bytes": 73728,
+          "sha256": "3a659125bcab2e312819a860cfbd29a4ac8f09c46a94a4801395f7a8fa9a2698"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 8,
+          "step": 8,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "2ce4004df1af430049ddbe6365309bb1bfa5b718e87357a0224682773059555f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 4,
+          "tensor": 9,
+          "step": 9,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "384d63cd096bb4ac449bedbe1b5e7ff3b71c3551d168d0dd5630d220e13f31d6"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 10,
+          "step": 10,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "c27f4e4e5c230ccdb0670eadba49ab7f2b994f1b0b53f73458b9aef5a946469d"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 5,
+          "tensor": 11,
+          "step": 11,
+          "kind": 4,
+          "bytes": 18432,
+          "sha256": "df9a1adc44bea13d040ee3fddb0e80f0dd7d32a5f5949380d83d4fc313f7b128"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 12,
+          "step": 12,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "891d64ffdcf2b1ad655bae003c34e5a579321c1e11e48efc9d25ae2e55f8a76f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 6,
+          "tensor": 13,
+          "step": 13,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "c86b77574cd000324e15c6584093455ed5a42925782e22b5caf67c890fec976e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 14,
+          "step": 14,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "2fff2a26406672a0a529d5562c45eea00e26716560c7e0ba05632e9403287a88"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 7,
+          "tensor": 15,
+          "step": 15,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "fe1c99443e8f881c5e6af64fcba0cfd5e3ecbbe3db8836a6745718835c8d7fee"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 16,
+          "step": 16,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "95f77a4ce045295bb3069dafb985aacb1888cbcd5608b088ecea5ea32b16c2dd"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 8,
+          "tensor": 17,
+          "step": 17,
+          "kind": 4,
+          "bytes": 4608,
+          "sha256": "319f2e5899d6c85311c22afa572dcadfcf71e57e160f2becec4b908fb2dda504"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 18,
+          "step": 18,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "95f77a4ce045295bb3069dafb985aacb1888cbcd5608b088ecea5ea32b16c2dd"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 9,
+          "tensor": 19,
+          "step": 19,
+          "kind": 4,
+          "bytes": 18432,
+          "sha256": "821844dfe7b7b0e15669588f4e3d851af610d8b405513f0f8715f6043eb68a1f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 20,
+          "step": 20,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "580253025904da67ed767cfe4ee6dc433fb5d300cebdd120262697cb685a349e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 10,
+          "tensor": 21,
+          "step": 21,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "817633a57b6c075c18cd016d01e06fe36a07569ddfbbdb91720cc31ed84a541b"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 22,
+          "step": 22,
+          "kind": 2,
+          "bytes": 18432,
+          "sha256": "580253025904da67ed767cfe4ee6dc433fb5d300cebdd120262697cb685a349e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 11,
+          "tensor": 23,
+          "step": 23,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "99752945054c75734df7baaaf88129ad393483010bf8d09f67aa7be20a986550"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 24,
+          "step": 24,
+          "kind": 3,
+          "bytes": 55296,
+          "sha256": "9d97d49d94f367235139a475f9e9c758ebd33cbf6c6cc6c9edc6de7bcbe5abb5"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 12,
+          "tensor": 25,
+          "step": 25,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "9266c3c0f2347f88997e54d8fa5544b6fc4238758a898d1f3cc34f2ca530bb83"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 26,
+          "step": 26,
+          "kind": 2,
+          "bytes": 2304,
+          "sha256": "85f56daca00922246fdcb2eae99bb6d982981d55cb7f89b1ed935ee00b6f4f7e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 13,
+          "tensor": 27,
+          "step": 27,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "a0afe5c33fcefc3f895e3aafa010e2936f406ed7ead352112bef213b1de9bdb3"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 28,
+          "step": 28,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "6f4940ca973cf65e1c19238a0a65dd55fdb02a3c8320200a3f954e85a3d7d479"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 14,
+          "tensor": 29,
+          "step": 29,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "13d45412d6c42e3ee66f001f728b3fa86f2afaafad0e149877db55daf620c10d"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 30,
+          "step": 30,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "fe780866a43a2ef7ea69611bfa869179ba7c820bb113020b3c86c9cf89760ddf"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 15,
+          "tensor": 31,
+          "step": 31,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "35a2786ad14889786bbd75c45af519572f505a66d576e9af8f0cc79c90d12517"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 32,
+          "step": 32,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "fe780866a43a2ef7ea69611bfa869179ba7c820bb113020b3c86c9cf89760ddf"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 16,
+          "tensor": 33,
+          "step": 33,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "81d431a873c0fae42f8df0fe0c7e4f2a08e40759d78d1b0894f00629750ee9ab"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 34,
+          "step": 34,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "53383e31865385f87c47aca8fe1648cd12eb9749ce4232aff7b57becab2e3a53"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 17,
+          "tensor": 35,
+          "step": 35,
+          "kind": 5,
+          "bytes": 144,
+          "sha256": "3cf0dd878a993b0b3df7c301f1213f3c05e000b13d08d2a47158540fb9735201"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 36,
+          "step": 36,
+          "kind": 2,
+          "bytes": 2304,
+          "sha256": "64f6166387e370180aac1cf13d31eba11f037d134a9956f4bd91769f4e45cd00"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 18,
+          "tensor": 37,
+          "step": 37,
+          "kind": 4,
+          "bytes": 2304,
+          "sha256": "b7601c3412ae8b3fa0eb0317e084ff17c5899028b2e2d69d09fd377021af28df"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 38,
+          "step": 38,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "006378cf051fd9372eecaddc18d330e1ae1573f8e1fe7b27482d1a45d70daa26"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 19,
+          "tensor": 39,
+          "step": 39,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "f819d4a3eba7efb6a407b7048f99b83de54858ff2aabb7abc6a93db06309a0c3"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 40,
+          "step": 40,
+          "kind": 2,
+          "bytes": 36864,
+          "sha256": "101fa4c85a73ecb2572d45214d3af33836256df9fd3eb991ce472dbde4945d90"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 20,
+          "tensor": 41,
+          "step": 41,
+          "kind": 4,
+          "bytes": 36864,
+          "sha256": "2fb066f3bd3df8e9e16eb0c60483b89757e45bef27b8558706f414817411b79e"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 42,
+          "step": 42,
+          "kind": 2,
+          "bytes": 147456,
+          "sha256": "bbdf90085df000b172c1e15215565a5b358c57125e9bfc5f7b9c38be6db2fde1"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 21,
+          "tensor": 43,
+          "step": 43,
+          "kind": 5,
+          "bytes": 576,
+          "sha256": "7aa8f132125fcce09000c79ff00ccb9a03aafe2abc35dc312ce0dec6eb992515"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 44,
+          "step": 44,
+          "kind": 2,
+          "bytes": 9216,
+          "sha256": "135165843412fe8ccfe0716851e7839310fbbc7b93e3e13c281f40b1469e010c"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 22,
+          "tensor": 45,
+          "step": 45,
+          "kind": 4,
+          "bytes": 9216,
+          "sha256": "4f273e6fe7f6762f32cc99c9c291a90ea34643da6b5d493445c690250a0e4d6f"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 46,
+          "step": 46,
+          "kind": 6,
+          "bytes": 46800,
+          "sha256": "b7300d4efcc656b30d43f6c998b543e216da62c2f35152ab8123a619a347e810"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 47,
+          "step": 47,
+          "kind": 7,
+          "bytes": 11520,
+          "sha256": "700e4c97c43a669a82ca9218fc87ce8d9547c5daa2d2c011af53a98d51b06b11"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": 23,
+          "tensor": 48,
+          "step": 48,
+          "kind": 4,
+          "bytes": 720,
+          "sha256": "33ab8232d36c039bfcbcff20abc8c64aef84b5e834f783582b4efc27359a0165"
+        },
+        {
+          "status": "PASS_SHA256_EQUAL",
+          "layer": null,
+          "tensor": 49,
+          "step": 49,
+          "kind": 8,
+          "bytes": 3600,
+          "sha256": "6a683a0f27cf02310841cf071f6f6ca68f633cdceea9a49de6ac84aa7f917b3e"
+        }
+      ]
+    }
+  },
+  "convolution_hash_comparisons": 72,
+  "model_parameters_changed": false,
+  "warm_frame_ms": {
+    "max": 725,
+    "mean": 725.0,
+    "min": 725,
+    "samples": 7
+  },
+  "step_hash_comparisons": 150,
+  "status": "PASS_LINUX_24_LAYER_AND_PRODUCTION",
+  "production": [
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506899
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9681799
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7467009
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367511
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321750
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7405507
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28705904
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338685
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 390070
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7403997
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836748
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210270
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542701
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 283136
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3715152
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044526
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11931986
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 681214
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98775
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899159
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11931918
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2710919
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306642
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134604
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 749,
+      "shared_dma_input": false,
+      "frame": 1,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    },
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506870
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9681667
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7467087
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367321
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321921
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7406546
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28705904
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338681
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 389803
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7403642
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836405
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210084
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542942
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 283084
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3715139
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044362
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932200
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 681167
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98685
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899275
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932092
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2710837
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306667
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134467
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 725,
+      "shared_dma_input": false,
+      "frame": 2,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    },
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506710
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9681870
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7467076
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367551
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321775
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7405619
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28706033
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338776
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 389770
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7403815
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836484
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210209
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542670
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 283222
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3715391
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044540
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932247
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 681921
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98659
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899188
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932185
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2709289
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306660
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134323
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 725,
+      "shared_dma_input": false,
+      "frame": 3,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    },
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506755
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9682094
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7466979
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367541
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321733
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7405517
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28705844
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338829
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 389636
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7403838
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836503
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210142
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542655
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 283160
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3715248
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044506
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932254
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 680483
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98849
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899269
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932132
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2713082
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306700
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134404
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 725,
+      "shared_dma_input": false,
+      "frame": 4,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    },
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506872
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9682263
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7467086
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367128
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321810
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7405433
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28705738
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338648
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 389596
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7404035
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836745
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210000
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542862
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 282924
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3715090
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044514
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932111
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 680966
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98683
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899054
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932146
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2710051
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306658
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134852
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 725,
+      "shared_dma_input": false,
+      "frame": 5,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    },
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506820
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9681768
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7467151
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367644
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321763
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7405656
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28705864
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338751
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 389864
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7403472
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836486
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210027
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542789
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 283057
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3714973
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044368
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932102
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 681346
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98657
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899162
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932250
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2710679
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306643
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134744
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 725,
+      "shared_dma_input": false,
+      "frame": 6,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    },
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506775
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9682073
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7467053
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367497
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321599
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7405520
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28706004
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338678
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 389878
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7403976
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836506
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210102
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542765
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 283028
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3714965
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044532
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932089
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 680897
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98859
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899185
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11931944
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2710328
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306644
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134858
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 725,
+      "shared_dma_input": false,
+      "frame": 7,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    },
+    {
+      "cpu_lookup_cache": "cached_ram",
+      "pl_calls": 24,
+      "trace_enabled": false,
+      "layers": [
+        {
+          "layer": 0,
+          "skipped": 144,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 12506828
+        },
+        {
+          "layer": 1,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 9681879
+        },
+        {
+          "layer": 2,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 7467138
+        },
+        {
+          "layer": 3,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 123,
+          "cycles": 6367526
+        },
+        {
+          "layer": 4,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 6321371
+        },
+        {
+          "layer": 5,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 7405380
+        },
+        {
+          "layer": 6,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 59,
+          "cycles": 28706122
+        },
+        {
+          "layer": 7,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 2338852
+        },
+        {
+          "layer": 8,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 390071
+        },
+        {
+          "layer": 9,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7403892
+        },
+        {
+          "layer": 10,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 1836535
+        },
+        {
+          "layer": 11,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 7210157
+        },
+        {
+          "layer": 12,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 17542608
+        },
+        {
+          "layer": 13,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 283098
+        },
+        {
+          "layer": 14,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3715162
+        },
+        {
+          "layer": 15,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 3044527
+        },
+        {
+          "layer": 16,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932082
+        },
+        {
+          "layer": 17,
+          "skipped": 1792,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 681355
+        },
+        {
+          "layer": 18,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 98698
+        },
+        {
+          "layer": 19,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 899210
+        },
+        {
+          "layer": 20,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 11932040
+        },
+        {
+          "layer": 21,
+          "skipped": 7341,
+          "hp_idle": 1,
+          "options": 4,
+          "cycles": 2710566
+        },
+        {
+          "layer": 22,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 306778
+        },
+        {
+          "layer": 23,
+          "skipped": 0,
+          "hp_idle": 1,
+          "options": 57,
+          "cycles": 134901
+        }
+      ],
+      "prequantized_int8_input": false,
+      "pl_hz": 240000000,
+      "fclk_hz": 99999999,
+      "dma_bytes_used": 17066752,
+      "elapsed_ms": 725,
+      "shared_dma_input": false,
+      "frame": 8,
+      "streamed_input": false,
+      "status": "PASS_LINUX_PL_FRAME",
+      "clock_MHz": 240,
+      "cpu_lookup_cache_bytes": 9616
+    }
+  ],
+  "camera_tested_in_this_run": false,
+  "input_check": {
+    "input_contract": {
+      "quantization": {
+        "rounding": "nearest_even",
+        "zero_point": -128,
+        "scale": 0.003921568859368563,
+        "dtype": "int8"
+      },
+      "normalized_range": [
+        0.0,
+        1.0
+      ],
+      "bytes_per_element": 4,
+      "elements": 110592,
+      "layout": "CHW",
+      "shape": [
+        3,
+        192,
+        192
+      ],
+      "dtype": "float32_le"
+    },
+    "board_tested": false,
+    "status": "PASS_FLOAT32_INPUT_CONTRACT_ONLY",
+    "frames": {
+      "bird": {
+        "quantized_bytes": 110592,
+        "quantized_sha256": "44e29ecc95bbd76f9ba16e71042643bbe8864a87f028ce7baa17ed2746c79412",
+        "bytes": 442368,
+        "sha256": "e3b40a13985360b9aa152b3b12635d4cdf6ec2e2b47385730a4af04896b3a194"
+      },
+      "random": {
+        "quantized_bytes": 110592,
+        "quantized_sha256": "f1259e8282efb40ed916eec6899bdc447095c33767cdb743ecd9abd488d8721d",
+        "bytes": 442368,
+        "sha256": "769a1806c6b4f5b78aca82a0b4e9b11b13770ec728972c513bc8b0e471e84d48"
+      }
+    }
+  }
+}
